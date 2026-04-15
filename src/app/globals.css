@@ -1,26 +1,182 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-paper: #f2ede3;
+  --color-paper-2: #e8e1d1;
+  --color-ink: #141210;
+  --color-ink-soft: #3b332c;
+  --color-ink-mute: #7a6e60;
+  --color-rule: #d6ccb8;
+  --color-accent: #c14a28;
+  --color-accent-deep: #8a3118;
+  --color-whatsapp: #128c3f;
+
+  --font-serif-latin: var(--font-fraunces);
+  --font-serif-ar: var(--font-amiri);
+  --font-mono: var(--font-jetbrains);
+  --font-sans-ar: var(--font-ibm-ar);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: var(--color-paper);
+  --foreground: var(--color-ink);
+}
+
+html,
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
+
+html[dir="rtl"] body {
+  font-family: var(--font-serif-ar), "Amiri", serif;
+}
+
+html[dir="ltr"] body {
+  font-family: var(--font-serif-latin), Georgia, serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-feature-settings: "ss01", "ss02", "liga", "kern";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--color-ink);
+  color: var(--color-paper);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.text-pretty {
+  text-wrap: pretty;
+}
+
+/* grain overlay — subtle paper texture via radial noise */
+.paper-grain {
+  position: relative;
+}
+.paper-grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.08;
+  mix-blend-mode: multiply;
+  background-image:
+    radial-gradient(rgba(0, 0, 0, 0.9) 1px, transparent 1px),
+    radial-gradient(rgba(0, 0, 0, 0.6) 1px, transparent 1px);
+  background-size: 3px 3px, 7px 7px;
+  background-position: 0 0, 1px 2px;
+  z-index: 0;
+}
+
+/* hairline rules */
+.rule {
+  border-color: var(--color-rule);
+}
+
+/* link sweep underline */
+.link-sweep {
+  position: relative;
+  display: inline-block;
+}
+.link-sweep::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: var(--sweep-origin, left);
+  transition: transform 450ms cubic-bezier(0.2, 0.7, 0, 1);
+}
+html[dir="rtl"] .link-sweep::after {
+  --sweep-origin: right;
+}
+.link-sweep:hover::after,
+.link-sweep[data-active="true"]::after {
+  transform: scaleX(1);
+}
+
+/* marquee */
+@keyframes marquee-ltr {
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(-50%, 0, 0); }
+}
+@keyframes marquee-rtl {
+  from { transform: translate3d(-50%, 0, 0); }
+  to { transform: translate3d(0, 0, 0); }
+}
+.marquee-track {
+  animation: marquee-ltr 40s linear infinite;
+}
+html[dir="rtl"] .marquee-track {
+  animation-name: marquee-rtl;
+}
+
+/* fade-rise on first scroll into view */
+@media (prefers-reduced-motion: no-preference) {
+  .rise {
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity 900ms cubic-bezier(0.2, 0.7, 0, 1),
+      transform 900ms cubic-bezier(0.2, 0.7, 0, 1);
+  }
+  .rise.is-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* large display line treatment */
+.display-serif {
+  font-feature-settings: "ss01", "liga", "kern", "onum";
+  letter-spacing: -0.02em;
+  line-height: 0.95;
+}
+
+html[dir="rtl"] .display-serif {
+  letter-spacing: 0;
+  line-height: 1.15;
+}
+
+/* column numbers */
+.num-marker {
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-ink-mute);
+}
+
+.underline-offset-heavy {
+  text-underline-offset: 6px;
+  text-decoration-thickness: 1px;
+}
+
+/* subtle floating whatsapp dot */
+@keyframes pulse-dot {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.4); opacity: 0.4; }
+}
+.pulse-dot {
+  animation: pulse-dot 2.4s ease-in-out infinite;
+}
+
+/* remove default focus outline, add honest ink ring */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* quiet scrollbar */
+html {
+  scrollbar-color: var(--color-ink-mute) transparent;
 }
