@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { isLocale, waLink, CONTACT_EMAIL } from "@/lib/i18n";
+import { isLocale, waLink } from "@/lib/i18n";
 import { getDict } from "@/lib/dictionaries";
 import { Rise } from "@/components/rise";
 import { SectionRule } from "@/components/section-rule";
@@ -26,7 +26,7 @@ export default async function HomePage(props: PageProps<"/[locale]">) {
           >
             <span>{dict.home.eyebrow}</span>
             <span className="h-px flex-1 bg-rule" />
-            <span className="hidden md:inline">Cloud Valley · كلاود فالي</span>
+            <span className="hidden md:inline">Cloud Valley · وادي السحاب</span>
           </div>
 
           <div className="mt-12 grid grid-cols-1 gap-10 md:mt-20 md:grid-cols-12">
@@ -313,8 +313,8 @@ export default async function HomePage(props: PageProps<"/[locale]">) {
 
           <div className="mt-16 grid grid-cols-1 gap-px border border-paper/20 bg-paper/20 md:grid-cols-3">
             {[
-              dict.home.pricing.free,
-              dict.home.pricing.paid,
+              dict.home.pricing.basic,
+              dict.home.pricing.professional,
               dict.home.pricing.custom,
             ].map((p, i) => {
               const featured = i === 1;
@@ -428,7 +428,7 @@ export default async function HomePage(props: PageProps<"/[locale]">) {
               <a
                 href={waLink(
                   isAr
-                    ? "أهلاً كلاود فالي، أود البدء."
+                    ? "أهلاً وادي السحاب، أود البدء."
                     : "Hi Cloud Valley, I'd like to start.",
                 )}
                 target="_blank"
@@ -436,13 +436,6 @@ export default async function HomePage(props: PageProps<"/[locale]">) {
                 className="inline-flex items-center justify-between gap-4 border border-ink px-5 py-4 text-base transition-colors hover:bg-ink hover:text-paper"
               >
                 <span>{dict.home.ctaWhatsApp}</span>
-                <span aria-hidden className={isAr ? "rotate-180" : ""}>→</span>
-              </a>
-              <a
-                href={`mailto:${CONTACT_EMAIL}`}
-                className="inline-flex items-center justify-between gap-4 border border-ink/20 px-5 py-4 text-base text-ink-soft transition-colors hover:border-ink hover:text-ink"
-              >
-                <span>{dict.home.ctaEmail}</span>
                 <span aria-hidden className={isAr ? "rotate-180" : ""}>→</span>
               </a>
             </div>

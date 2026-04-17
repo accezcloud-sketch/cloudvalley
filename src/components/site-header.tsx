@@ -106,7 +106,7 @@ export function SiteHeader({ locale, dict }: Props) {
           <a
             href={waLink(
               isAr
-                ? "أهلًا، أود الاستفسار عن خدمات كلاود فالي."
+                ? "أهلًا، أود الاستفسار عن خدمات وادي السحاب."
                 : "Hi, I'd like to learn more about Cloud Valley.",
             )}
             target="_blank"
@@ -155,7 +155,7 @@ export function SiteHeader({ locale, dict }: Props) {
             <a
               href={waLink(
                 isAr
-                  ? "أهلًا، أود الاستفسار عن خدمات كلاود فالي."
+                  ? "أهلًا، أود الاستفسار عن خدمات وادي السحاب."
                   : "Hi, I'd like to learn more about Cloud Valley.",
               )}
               target="_blank"

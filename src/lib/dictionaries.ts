@@ -40,7 +40,7 @@ export type Dict = {
     pricingTitle: string;
     pricingLede: string;
     pricing: {
-      free: {
+      basic: {
         badge: string;
         name: string;
         price: string;
@@ -48,7 +48,7 @@ export type Dict = {
         features: string[];
         cta: string;
       };
-      paid: {
+      professional: {
         badge: string;
         name: string;
         price: string;
@@ -139,14 +139,14 @@ export type Dict = {
 
 const ar: Dict = {
   meta: {
-    title: "كلاود فالي — وكالة أتمتة الذكاء الاصطناعي",
+    title: "وادي السحاب — وكالة أتمتة الذكاء الاصطناعي",
     description:
-      "نستبدل المهام البشرية المتكررة بأنظمة ذكاء اصطناعي موثوقة. تصميم، سيو، محتوى، واتساب، وسائل تواصل، وعمليات.",
+      "نستبدل المهام البشرية المتكررة بأنظمة ذكاء اصطناعي موثوقة. تصميم، سيو، محتوى، ووسائل تواصل.",
   },
   brand: {
-    name: "كلاود فالي",
-    wordmark: "Cloud Valley — كلاود فالي",
-    tagline: "وكالة أتمتة للعالم العربي.",
+    name: "وادي السحاب",
+    wordmark: "Cloud Valley — وادي السحاب",
+    tagline: "وكالة أتمتة — نبني أنظمة لتستغني عن بناء فِرَق.",
   },
   nav: {
     home: "الرئيسية",
@@ -158,12 +158,12 @@ const ar: Dict = {
     cta: "تواصل على واتساب",
   },
   home: {
-    eyebrow: "العدد ٠١ — نيسان ٢٠٢٦",
+    eyebrow: "استوديو أتمتة",
     displayA: "نصنع",
     displayB: "أنظمةً",
     displayC: "بدل الموظفين.",
     lede:
-      "كلاود فالي وكالةُ أتمتةٍ للعالم العربي. نُصمّم أنظمة ذكاء اصطناعي تُنجز ما يفعله فريقٌ كامل — بسرعةٍ أعلى، وبتكلفةٍ أقل بستينَ بالمائة.",
+      "وادي السحاب وكالةُ أتمتة — نبني أنظمةً لتستغني عن بناء فِرَق. نُصمّم أنظمة ذكاء اصطناعي تُنجز ما يفعله فريقٌ كامل — بسرعةٍ أعلى، وبتكلفةٍ أقل بستينَ بالمائة.",
     primaryCta: "ابدأ على واتساب",
     secondaryCta: "شاهد الخدمات",
     marquee: [
@@ -171,9 +171,7 @@ const ar: Dict = {
       "تطبيقات",
       "تحسين محركات البحث",
       "صناعة المحتوى",
-      "أتمتة واتساب",
       "إدارة السوشيال ميديا",
-      "أتمتة العمليات",
       "ذكاء اصطناعي",
     ],
     manifestoNum: "٠١ — البيان",
@@ -207,32 +205,32 @@ const ar: Dict = {
     pricingNum: "٠٤ — الاشتراكات",
     pricingTitle: "تسعيرٌ صريح، بلا نجومٍ صغيرة.",
     pricingLede:
-      "جرِّب الخطةَ المجانية، ثم ارتقِ حين ترى النتائج. لا عقود طويلة، ولا رسومٌ خفيّة.",
+      "تسعيرٌ واضحٌ بلا عقودٍ طويلةٍ ولا رسومٍ خفيّة.",
     pricing: {
-      free: {
-        badge: "الخطة المجانية",
-        name: "البذرة",
-        price: "٠",
+      basic: {
+        badge: "الخطة الأساسية",
+        name: "الأساسية",
+        price: "٢٬٥٠٠",
         per: "ريال / شهريًا",
         features: [
-          "جلسة تشخيصٍ واحدةٌ لمدة ٤٥ دقيقة",
-          "خريطةٌ مكتوبةٌ لفرص الأتمتة في أعمالك",
-          "قالبُ واتساب تلقائيٌ جاهزٌ للاستخدام",
-          "دعمٌ عبر البريد لمدة أسبوع",
-        ],
-        cta: "احجز جلستك",
-      },
-      paid: {
-        badge: "الأكثر طلبًا",
-        name: "النمو",
-        price: "٢٬٤٠٠",
-        per: "ريال / شهريًا",
-        features: [
-          "تشغيلُ نظامٍ واحدٍ متكامل (واتساب، محتوى، أو سيو)",
-          "إدارةٌ كاملةٌ ومراقبةٌ يومية",
+          "صناعةُ محتوىً شهريٍّ بصوتِ علامتك",
+          "إدارةُ حسابِ سوشيال ميديا واحد",
           "تقريرٌ شهريٌّ بالنتائج والأرقام",
           "قناةٌ مباشرةٌ على واتساب مع الفريق",
-          "تحديثاتٌ ربعيةٌ بلا رسومٍ إضافية",
+        ],
+        cta: "اشترك الآن",
+      },
+      professional: {
+        badge: "الأكثر طلبًا",
+        name: "الاحترافية",
+        price: "٤٬٠٠٠",
+        per: "ريال / شهريًا",
+        features: [
+          "تصميمُ وإدارةُ الموقع الإلكتروني",
+          "تحسينُ محركات البحث (سيو)",
+          "صناعةُ محتوىً ونشرٌ تلقائيٌّ على حسابين",
+          "تقريرٌ شهريٌّ بالنتائج والأرقام",
+          "قناةٌ مباشرةٌ على واتساب مع الفريق",
         ],
         cta: "اشترك الآن",
       },
@@ -259,7 +257,7 @@ const ar: Dict = {
   },
   services: {
     eyebrow: "٠٢ — الخدمات",
-    title: "ستُّ خدمات. نظامٌ واحدٌ يعمل كفريقٍ كامل.",
+    title: "أربعُ خدمات. نظامٌ واحدٌ يعمل كفريقٍ كامل.",
     lede:
       "لا نبيعُ ساعاتٍ ولا أدوات. نُسلِّمُ نتائج: نظامٌ حيٌّ يعمل، ويُراقَب، ويُحسَّن شهريًا.",
     list: [
@@ -304,19 +302,6 @@ const ar: Dict = {
       },
       {
         num: "٠٤",
-        name: "أتمتة واتساب",
-        summary:
-          "مساعدٌ ذكيٌّ يردُّ، يحجز، يبيع، ويُصعِّد للبشر حين يجب. ٢٤ ساعة.",
-        bullets: [
-          "ردودٌ فوريةٌ بلهجتك أنت",
-          "تكاملٌ مع متجرك وجدولك",
-          "تصعيدٌ ذكيٌّ للحالات الحرجة",
-          "سجلٌّ كاملٌ قابلٌ للتدقيق",
-        ],
-        outcome: "زبائنُك لا ينتظرون. فريقُك يرتاح.",
-      },
-      {
-        num: "٠٥",
         name: "إدارة السوشيال ميديا",
         summary:
           "تخطيط، تصميم، نشر، ردٌّ على التعليقات. كلُّ ذلك بنظامٍ واحدٍ هادئ.",
@@ -327,19 +312,6 @@ const ar: Dict = {
           "جلساتُ تعاونٍ معك مرةً كلَّ أسبوعين",
         ],
         outcome: "حسابٌ يبدو وكأنَّ خلفه فريقًا من عشرة.",
-      },
-      {
-        num: "٠٦",
-        name: "أتمتة العمليات",
-        summary:
-          "الفواتير، الموارد البشرية، التقارير، البريد. كلُّ ما يُكرَّر يوميًا — دعه يُنجِز نفسه.",
-        bullets: [
-          "ربطُ أنظمتك الحالية بلا استبدال",
-          "تدفقاتٌ موثَّقةٌ بصريًا",
-          "إنذاراتٌ ذكيةٌ عند الشذوذ",
-          "توفيرٌ يُقاسُ بالساعات الشهرية",
-        ],
-        outcome: "وقتٌ يعود لما يستحقُّ اهتمامك.",
       },
     ],
   },
@@ -352,7 +324,7 @@ const ar: Dict = {
       {
         num: "٠١",
         kicker: "دليلٌ عملي",
-        title: "كيف يُوفِّر متجرٌ صغيرٌ في الرياض ١٢ ساعةً أسبوعيًا بمساعدِ واتساب.",
+        title: "كيف يُوفِّر متجرٌ صغيرٌ ١٢ ساعةً أسبوعيًا بمساعدِ واتساب.",
         excerpt:
           "قصّةٌ موثَّقةٌ لمتجر عطور، من أول محادثةٍ إلى أول شهرٍ من التشغيل. ما نجح، وما لم ينجح.",
         date: "١٠ نيسان ٢٠٢٦",
@@ -396,7 +368,7 @@ const ar: Dict = {
   },
   about: {
     eyebrow: "٠٤ — من نحن",
-    title: "كلاود فالي بدأت سؤالاً، ثم صارت وكالة.",
+    title: "وادي السحاب بدأت سؤالاً، ثم صارت وكالة.",
     lede:
       "بدأ ثلاثةٌ منّا من مهندسين وكُتّاب بسؤالٍ واحد: لماذا يُرهِقُ عملٌ بسيطٌ فرقًا بأكملها؟ الجواب صار شركة.",
     sections: [
@@ -404,7 +376,7 @@ const ar: Dict = {
         num: "٠١",
         heading: "البداية",
         body:
-          "في ٢٠٢٤ كنّا نعمل معًا في شركةِ تقنيةٍ كبرى. كنّا نرى شركاتٍ عائليةً عربيةً تدفعُ رواتبَ مرتفعةً لمهامٍ أصبحتْ أرخصَ بعشرين مرةً عبر الأتمتة. فأنشأنا كلاود فالي.",
+          "في ٢٠٢٤ كنّا نعمل معًا في شركةِ تقنيةٍ كبرى. كنّا نرى شركاتٍ عائليةً عربيةً تدفعُ رواتبَ مرتفعةً لمهامٍ أصبحتْ أرخصَ بعشرين مرةً عبر الأتمتة. فأنشأنا وادي السحاب.",
       },
       {
         num: "٠٢",
@@ -416,7 +388,7 @@ const ar: Dict = {
         num: "٠٣",
         heading: "الطريقة",
         body:
-          "لا نبيعُ خطةً لم نجرّبها. كلُّ نظامٍ نُسلِّمه، مُستخدمٌ أولاً داخل كلاود فالي نفسها. لا تجاربَ على عملائنا.",
+          "لا نبيعُ خطةً لم نجرّبها. كلُّ نظامٍ نُسلِّمه، مُستخدمٌ أولاً داخل وادي السحاب نفسها. لا تجاربَ على عملائنا.",
       },
       {
         num: "٠٤",
@@ -428,7 +400,7 @@ const ar: Dict = {
     team: {
       title: "الفريق",
       body:
-        "أربعةُ مهندسين، كاتبتان، ومصمِّمةٌ واحدة. نعملُ من بيروت والرياض والقاهرة، ونلتقي مرةً في الشهر وجهًا لوجه.",
+        "أربعةُ مهندسين، كاتبتان، ومصمِّمةٌ واحدة. نلتقي مرةً في الشهر وجهًا لوجه.",
     },
   },
   trust: {
@@ -472,19 +444,19 @@ const ar: Dict = {
         quote:
           "خلال شهرين، استبدلنا ثلاثةَ موظفين للدعم الفنيّ بنظامٍ واحد. الزبائنُ لم يلاحظوا الفرق. التكلفةُ انخفضتْ ٧٠٪.",
         author: "ليلى عبد الرحمن",
-        role: "مديرة العمليات، متجر «نوى» — الرياض",
+        role: "مديرة العمليات، متجر «نوى»",
       },
       {
         quote:
           "أوَّلُ وكالةٍ تشرحُ لي ما تفعلُهُ بكلماتٍ أفهمها. التقاريرُ الأسبوعيةُ وحدها تستحقُّ الاشتراك.",
         author: "كريم حداد",
-        role: "مؤسِّس، شركة «حَدَث» — بيروت",
+        role: "مؤسِّس، شركة «حَدَث»",
       },
       {
         quote:
-          "اشتركنا في الخطة المجانية، توقَّعتُها حيلة. خرجتُ بخريطةِ حلٍّ موثَّقةٍ استخدمتُها حتى بعد أن أجَّلتُ التعاقد.",
+          "اشتركنا في الخطة الأساسية، وخرجتُ بنتائج واضحةٍ من الشهر الأول.",
         author: "ريم الزهراني",
-        role: "مديرة تسويق — جدّة",
+        role: "مديرة تسويق",
       },
     ],
   },
@@ -506,31 +478,29 @@ const ar: Dict = {
           { label: "تصميم المواقع", href: "/services#01" },
           { label: "تحسين محركات البحث", href: "/services#02" },
           { label: "صناعة المحتوى", href: "/services#03" },
-          { label: "أتمتة واتساب", href: "/services#04" },
-          { label: "سوشيال ميديا", href: "/services#05" },
-          { label: "أتمتة العمليات", href: "/services#06" },
+          { label: "سوشيال ميديا", href: "/services#04" },
         ],
       },
     ],
     contact: "تواصل",
     whatsapp: "واتساب",
     email: "البريد الإلكتروني",
-    copyright: "© ٢٠٢٦ كلاود فالي. جميع الحقوق محفوظة.",
-    colophonLeft: "مصنوعٌ في بيروت والرياض والقاهرة.",
-    colophonRight: "محارفُ: أميري، فراونسِز، جيت‌براينز مونو.",
+    copyright: "© ٢٠٢٦ وادي السحاب. جميع الحقوق محفوظة.",
+    colophonLeft: "",
+    colophonRight: "",
   },
 };
 
 const en: Dict = {
   meta: {
-    title: "Cloud Valley — AI automation for the Arab world.",
+    title: "Cloud Valley — AI automation agency.",
     description:
-      "We replace repetitive human tasks with reliable AI systems. Design, SEO, content, WhatsApp, social, operations.",
+      "We replace repetitive human tasks with reliable AI systems. Design, SEO, content, and social media.",
   },
   brand: {
     name: "Cloud Valley",
-    wordmark: "Cloud Valley — كلاود فالي",
-    tagline: "An automation agency for the Arab world.",
+    wordmark: "Cloud Valley — وادي السحاب",
+    tagline: "An automation agency — we build systems so you don't need to build teams.",
   },
   nav: {
     home: "Home",
@@ -542,12 +512,12 @@ const en: Dict = {
     cta: "Start on WhatsApp",
   },
   home: {
-    eyebrow: "Issue 01 — April 2026",
+    eyebrow: "Automation studio",
     displayA: "We build",
     displayB: "systems",
     displayC: "not teams.",
     lede:
-      "Cloud Valley is an automation agency for the Arab world. We design AI systems that do what a full team does — faster, and at sixty percent less cost.",
+      "Cloud Valley is an automation agency — we build systems so you don't need to build teams. We design AI systems that do what a full team does — faster, and at sixty percent less cost.",
     primaryCta: "Start on WhatsApp",
     secondaryCta: "See services",
     marquee: [
@@ -555,9 +525,7 @@ const en: Dict = {
       "Applications",
       "Search optimization",
       "Content production",
-      "WhatsApp automation",
       "Social media",
-      "Operations automation",
       "Artificial intelligence",
     ],
     manifestoNum: "01 — Manifesto",
@@ -592,32 +560,32 @@ const en: Dict = {
     pricingNum: "04 — Plans",
     pricingTitle: "Honest pricing. No fine print.",
     pricingLede:
-      "Try the free plan. Move up when you see the results. No long contracts. No hidden fees.",
+      "Clear pricing. No long contracts. No hidden fees.",
     pricing: {
-      free: {
-        badge: "Free plan",
-        name: "Seed",
-        price: "0",
+      basic: {
+        badge: "Basic plan",
+        name: "Basic",
+        price: "2,500",
         per: "SAR / month",
         features: [
-          "One 45-minute diagnostic session",
-          "A written map of automation opportunities",
-          "A ready-to-use WhatsApp auto-reply template",
-          "Email support for one week",
-        ],
-        cta: "Book a session",
-      },
-      paid: {
-        badge: "Most popular",
-        name: "Growth",
-        price: "2,400",
-        per: "SAR / month",
-        features: [
-          "One integrated system (WhatsApp, content, or SEO)",
-          "Full management and daily monitoring",
+          "Monthly content generation in your brand voice",
+          "One social media account management",
           "A monthly report with results and numbers",
           "Direct WhatsApp channel with the team",
-          "Quarterly updates at no extra fee",
+        ],
+        cta: "Subscribe",
+      },
+      professional: {
+        badge: "Most popular",
+        name: "Professional",
+        price: "4,000",
+        per: "SAR / month",
+        features: [
+          "Website design and management",
+          "Search engine optimization (SEO)",
+          "Content creation and automatic posting to up to two social media accounts",
+          "A monthly report with results and numbers",
+          "Direct WhatsApp channel with the team",
         ],
         cta: "Subscribe",
       },
@@ -644,7 +612,7 @@ const en: Dict = {
   },
   services: {
     eyebrow: "02 — Services",
-    title: "Six services. One system that works like a full team.",
+    title: "Four services. One system that works like a full team.",
     lede:
       "We don't sell hours or tools. We deliver outcomes: a live system, monitored, improved monthly.",
     list: [
@@ -689,19 +657,6 @@ const en: Dict = {
       },
       {
         num: "04",
-        name: "WhatsApp automation",
-        summary:
-          "A smart assistant that replies, books, sells, and escalates to humans when it should. Around the clock.",
-        bullets: [
-          "Instant replies in your own tone",
-          "Integrates with your store and calendar",
-          "Smart escalation for sensitive cases",
-          "A fully auditable log",
-        ],
-        outcome: "Your customers don't wait. Your team exhales.",
-      },
-      {
-        num: "05",
         name: "Social media management",
         summary:
           "Planning, design, publishing, reply handling. One quiet system.",
@@ -712,19 +667,6 @@ const en: Dict = {
           "A working session with you every two weeks",
         ],
         outcome: "An account that looks like a team of ten stands behind it.",
-      },
-      {
-        num: "06",
-        name: "Operations automation",
-        summary:
-          "Invoicing, HR, reporting, inbox. The things that repeat every day — let them run themselves.",
-        bullets: [
-          "Connects to your existing stack — no rip-and-replace",
-          "Flows documented visually",
-          "Smart alerts on anomalies",
-          "Savings measured in monthly hours",
-        ],
-        outcome: "Time returned to the work that deserves you.",
       },
     ],
   },
@@ -738,7 +680,7 @@ const en: Dict = {
         num: "01",
         kicker: "Case study",
         title:
-          "How a small Riyadh shop saves 12 hours a week with a WhatsApp assistant.",
+          "How a small shop saves 12 hours a week with a WhatsApp assistant.",
         excerpt:
           "A documented story of a perfume shop, from first conversation to the first month of operation. What worked, what didn't.",
         date: "April 10, 2026",
@@ -817,7 +759,7 @@ const en: Dict = {
     team: {
       title: "The team",
       body:
-        "Four engineers, two writers, one designer. We work from Beirut, Riyadh, and Cairo, and meet in person once a month.",
+        "Four engineers, two writers, one designer. We meet in person once a month.",
     },
   },
   trust: {
@@ -860,19 +802,19 @@ const en: Dict = {
         quote:
           "In two months we replaced three support agents with one system. Our customers didn't notice the difference. Costs dropped by 70%.",
         author: "Layla Abdul-Rahman",
-        role: "Head of Operations, Nawa Perfumery — Riyadh",
+        role: "Head of Operations, Nawa Perfumery",
       },
       {
         quote:
           "The first agency that explained what they do in words I understood. The weekly reports alone are worth the subscription.",
         author: "Karim Haddad",
-        role: "Founder, Hadath — Beirut",
+        role: "Founder, Hadath",
       },
       {
         quote:
-          "We subscribed to the free plan expecting a trick. Walked away with a written map we used even after I delayed signing.",
+          "We subscribed to the basic plan and saw clear results from the first month.",
         author: "Reem Al-Zahrani",
-        role: "Marketing Director — Jeddah",
+        role: "Marketing Director",
       },
     ],
   },
@@ -894,9 +836,7 @@ const en: Dict = {
           { label: "Web design", href: "/services#01" },
           { label: "Search optimization", href: "/services#02" },
           { label: "Content", href: "/services#03" },
-          { label: "WhatsApp automation", href: "/services#04" },
-          { label: "Social media", href: "/services#05" },
-          { label: "Operations", href: "/services#06" },
+          { label: "Social media", href: "/services#04" },
         ],
       },
     ],
@@ -904,8 +844,8 @@ const en: Dict = {
     whatsapp: "WhatsApp",
     email: "Email",
     copyright: "© 2026 Cloud Valley. All rights reserved.",
-    colophonLeft: "Made in Beirut, Riyadh, and Cairo.",
-    colophonRight: "Set in Amiri, Fraunces, and JetBrains Mono.",
+    colophonLeft: "",
+    colophonRight: "",
   },
 };
 

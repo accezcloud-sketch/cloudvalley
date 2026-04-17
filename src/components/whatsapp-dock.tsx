@@ -21,7 +21,7 @@ export function WhatsAppDock({ locale, dict }: Props) {
     <a
       href={waLink(
         isAr
-          ? "أهلًا كلاود فالي، أود الاستفسار."
+          ? "أهلًا وادي السحاب، أود الاستفسار."
           : "Hi Cloud Valley, I have a question.",
       )}
       target="_blank"

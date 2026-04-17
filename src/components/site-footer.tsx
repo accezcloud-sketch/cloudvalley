@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Locale } from "@/lib/i18n";
 import type { Dict } from "@/lib/dictionaries";
-import { CONTACT_EMAIL, WHATSAPP_DISPLAY, waLink } from "@/lib/i18n";
+import { WHATSAPP_DISPLAY, waLink } from "@/lib/i18n";
 
 type Props = { locale: Locale; dict: Dict };
 
@@ -16,7 +16,7 @@ export function SiteFooter({ locale, dict }: Props) {
               className="text-[0.7rem] uppercase tracking-[0.2em] text-ink-mute"
               style={{ fontFamily: "var(--font-mono)" }}
             >
-              {isAr ? "كلاود فالي — ٢٠٢٦" : "Cloud Valley — 2026"}
+              {isAr ? "وادي السحاب — ٢٠٢٦" : "Cloud Valley — 2026"}
             </div>
             <p
               className="mt-6 max-w-md text-[2rem] leading-[1.15] text-ink md:text-[2.4rem]"
@@ -76,25 +76,15 @@ export function SiteFooter({ locale, dict }: Props) {
                   {dict.footer.whatsapp} · {WHATSAPP_DISPLAY}
                 </a>
               </li>
-              <li>
-                <a
-                  href={`mailto:${CONTACT_EMAIL}`}
-                  className="link-sweep text-[0.95rem] text-ink-soft hover:text-ink"
-                >
-                  {dict.footer.email} · {CONTACT_EMAIL}
-                </a>
-              </li>
             </ul>
           </div>
         </div>
 
         <div
-          className="mt-16 flex flex-col gap-2 border-t border-rule pt-6 text-[0.72rem] uppercase tracking-[0.18em] text-ink-mute md:flex-row md:items-center md:justify-between"
+          className="mt-16 border-t border-rule pt-6 text-center text-[0.72rem] uppercase tracking-[0.18em] text-ink-mute"
           style={{ fontFamily: "var(--font-mono)" }}
         >
           <span>{dict.footer.copyright}</span>
-          <span>{dict.footer.colophonLeft}</span>
-          <span>{dict.footer.colophonRight}</span>
         </div>
       </div>
     </footer>

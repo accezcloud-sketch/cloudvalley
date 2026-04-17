@@ -179,8 +179,8 @@ export default async function ServicesPage(
             }}
           >
             {isAr
-              ? "جرّب الخطة المجانية قبل الالتزام بشيء."
-              : "Try the free plan before committing to anything."}
+              ? "اطّلع على خططنا واختر ما يناسبك."
+              : "See our plans and choose what fits."}
           </h3>
           <Link
             href={`/${locale}#pricing`}
