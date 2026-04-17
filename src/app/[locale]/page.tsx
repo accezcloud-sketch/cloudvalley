@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { isLocale, waLink } from "@/lib/i18n";
+import { ContactForm } from "@/components/contact-form";
 import { getDict } from "@/lib/dictionaries";
 import { Rise } from "@/components/rise";
 import { SectionRule } from "@/components/section-rule";
@@ -396,49 +397,36 @@ export default async function HomePage(props: PageProps<"/[locale]">) {
         </div>
       </section>
 
-      {/* CONTACT CTA */}
-      <section className="mx-auto w-full max-w-[1440px] px-6 py-28 md:px-10 md:py-40">
+      {/* CONTACT FORM */}
+      <section id="contact" className="mx-auto w-full max-w-[1440px] px-6 py-28 md:px-10 md:py-40">
         <SectionRule label={dict.home.ctaNum} />
-        <div className="mt-10 grid grid-cols-1 gap-10 md:grid-cols-12">
-          <Rise
-            as="h2"
-            className="md:col-span-8 text-[clamp(2.5rem,8vw,7rem)] leading-[0.95]"
-            style={{
-              fontFamily: serifDisplay,
-              letterSpacing: isAr ? "0" : "-0.025em",
-            }}
-          >
-            {dict.home.ctaTitle}
-          </Rise>
-          <Rise
-            delay={120}
-            className="md:col-span-4 flex flex-col justify-end gap-8"
-          >
-            <p
-              className="text-[1.02rem] leading-[1.6] text-ink-soft"
+        <div className="mt-10 grid grid-cols-1 gap-12 md:grid-cols-12">
+          <div className="md:col-span-5">
+            <Rise
+              as="h2"
+              className="text-[clamp(2rem,5vw,4rem)] leading-[1.05]"
               style={{
-                fontFamily: isAr
-                  ? "var(--font-sans-ar)"
-                  : "var(--font-serif-latin)",
+                fontFamily: serifDisplay,
+                letterSpacing: isAr ? "0" : "-0.02em",
               }}
             >
-              {dict.home.ctaBody}
-            </p>
-            <div className="flex flex-col gap-3">
-              <a
-                href={waLink(
-                  isAr
-                    ? "أهلاً وادي السحاب، أود البدء."
-                    : "Hi Cloud Valley, I'd like to start.",
-                )}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center justify-between gap-4 border border-ink px-5 py-4 text-base transition-colors hover:bg-ink hover:text-paper"
+              {dict.home.ctaTitle}
+            </Rise>
+            <Rise delay={80}>
+              <p
+                className="mt-6 text-[1.02rem] leading-[1.6] text-ink-soft"
+                style={{
+                  fontFamily: isAr
+                    ? "var(--font-sans-ar)"
+                    : "var(--font-serif-latin)",
+                }}
               >
-                <span>{dict.home.ctaWhatsApp}</span>
-                <span aria-hidden className={isAr ? "rotate-180" : ""}>→</span>
-              </a>
-            </div>
+                {dict.home.ctaBody}
+              </p>
+            </Rise>
+          </div>
+          <Rise delay={150} className="md:col-span-7">
+            <ContactForm locale={locale} labels={dict.contact.form} />
           </Rise>
         </div>
       </section>

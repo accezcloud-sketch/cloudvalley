@@ -41,6 +41,7 @@ export function SiteHeader({ locale, dict }: Props) {
     { label: dict.nav.blog, href: `/${locale}/blog` },
     { label: dict.nav.about, href: `/${locale}/about` },
     { label: dict.nav.trust, href: `/${locale}/trust` },
+    { label: dict.nav.contact, href: `/${locale}/contact` },
   ];
 
   const isAr = locale === "ar";

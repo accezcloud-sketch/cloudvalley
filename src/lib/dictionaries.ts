@@ -16,6 +16,7 @@ export type Dict = {
     blog: string;
     about: string;
     trust: string;
+    contact: string;
     switchLang: string;
     cta: string;
   };
@@ -123,6 +124,27 @@ export type Dict = {
     };
     testimonials: { quote: string; author: string; role: string }[];
   };
+  contact: {
+    eyebrow: string;
+    title: string;
+    lede: string;
+    form: {
+      firstName: string;
+      lastName: string;
+      email: string;
+      company: string;
+      mobile: string;
+      city: string;
+      details: string;
+      submit: string;
+    };
+  };
+  thankYou: {
+    title: string;
+    heading: string;
+    body: string;
+    cta: string;
+  };
   footer: {
     columns: {
       heading: string;
@@ -154,6 +176,7 @@ const ar: Dict = {
     blog: "المجلة",
     about: "من نحن",
     trust: "لماذا نحن",
+    contact: "تواصل",
     switchLang: "EN",
     cta: "تواصل على واتساب",
   },
@@ -249,9 +272,9 @@ const ar: Dict = {
       },
     },
     ctaNum: "٠٥ — التواصل",
-    ctaTitle: "ابدأ بمحادثة.",
+    ctaTitle: "لنتحدّث.",
     ctaBody:
-      "لا نماذج طويلة، ولا مكالماتٌ باردة. أرسل لنا ما يُرهقك في عملك، ونعودُ إليك بخريطةِ حلٍّ مجانيةٍ خلال ٢٤ ساعة.",
+      "أرسل لنا تفاصيل مشروعك ونعود إليك خلال ٢٤ ساعة.",
     ctaWhatsApp: "تواصل على واتساب",
     ctaEmail: "راسلنا بالبريد",
   },
@@ -460,6 +483,27 @@ const ar: Dict = {
       },
     ],
   },
+  contact: {
+    eyebrow: "٠٥ — التواصل",
+    title: "تواصل معنا.",
+    lede: "أرسل لنا تفاصيل مشروعك ونعود إليك خلال ٢٤ ساعة.",
+    form: {
+      firstName: "الاسم الأول",
+      lastName: "اسم العائلة",
+      email: "البريد الإلكتروني",
+      company: "الشركة",
+      mobile: "الجوال",
+      city: "المدينة",
+      details: "تفاصيل المشروع",
+      submit: "إرسال",
+    },
+  },
+  thankYou: {
+    title: "شكرًا لك",
+    heading: "استلمنا رسالتك.",
+    body: "سنعود إليك خلال ٢٤ ساعة. شكرًا لثقتك بوادي السحاب.",
+    cta: "العودة للرئيسية",
+  },
   footer: {
     columns: [
       {
@@ -470,6 +514,7 @@ const ar: Dict = {
           { label: "المجلة", href: "/blog" },
           { label: "من نحن", href: "/about" },
           { label: "لماذا نحن", href: "/trust" },
+          { label: "تواصل", href: "/contact" },
         ],
       },
       {
@@ -508,6 +553,7 @@ const en: Dict = {
     blog: "Journal",
     about: "About",
     trust: "Why us",
+    contact: "Contact",
     switchLang: "ع",
     cta: "Start on WhatsApp",
   },
@@ -604,9 +650,9 @@ const en: Dict = {
       },
     },
     ctaNum: "05 — Contact",
-    ctaTitle: "Start with a conversation.",
+    ctaTitle: "Let's talk.",
     ctaBody:
-      "No long forms. No cold calls. Tell us what drains your week and we'll reply within 24 hours with a free, written solution map.",
+      "Send us your project details and we'll get back to you within 24 hours.",
     ctaWhatsApp: "Start on WhatsApp",
     ctaEmail: "Write us an email",
   },
@@ -818,6 +864,27 @@ const en: Dict = {
       },
     ],
   },
+  contact: {
+    eyebrow: "05 — Contact",
+    title: "Get in touch.",
+    lede: "Send us your project details and we'll get back to you within 24 hours.",
+    form: {
+      firstName: "First Name",
+      lastName: "Last Name",
+      email: "Work Email",
+      company: "Company",
+      mobile: "Mobile",
+      city: "City",
+      details: "Project Details",
+      submit: "Submit",
+    },
+  },
+  thankYou: {
+    title: "Thank you",
+    heading: "We received your message.",
+    body: "We'll get back to you within 24 hours. Thank you for trusting Cloud Valley.",
+    cta: "Back to home",
+  },
   footer: {
     columns: [
       {
@@ -828,6 +895,7 @@ const en: Dict = {
           { label: "Journal", href: "/blog" },
           { label: "About", href: "/about" },
           { label: "Why us", href: "/trust" },
+          { label: "Contact", href: "/contact" },
         ],
       },
       {
