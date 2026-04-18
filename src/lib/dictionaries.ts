@@ -88,8 +88,10 @@ export type Dict = {
     eyebrow: string;
     title: string;
     lede: string;
+    backLabel: string;
     posts: {
       num: string;
+      slug: string;
       kicker: string;
       title: string;
       excerpt: string;
@@ -343,42 +345,47 @@ const ar: Dict = {
     title: "مقالاتٌ عن الأتمتة، الأعمال، والذكاء الاصطناعي.",
     lede:
       "نكتبُ لمن يديرُ أعمالاً حقيقية، لا لمن يلاحقُ الضجيج. مقالاتٌ قصيرة، عملية، ومبنيةٌ على تجارب.",
+    backLabel: "← العودة للمجلة",
     posts: [
       {
         num: "٠١",
-        kicker: "دليلٌ عملي",
-        title: "كيف يُوفِّر متجرٌ صغيرٌ ١٢ ساعةً أسبوعيًا بمساعدِ واتساب.",
+        slug: "web-app-design",
+        kicker: "تصميم",
+        title: "موقعك ليس كتيّبًا — بل أفضلُ مندوبِ مبيعاتٍ لديك.",
         excerpt:
-          "قصّةٌ موثَّقةٌ لمتجر عطور، من أول محادثةٍ إلى أول شهرٍ من التشغيل. ما نجح، وما لم ينجح.",
-        date: "١٠ نيسان ٢٠٢٦",
-        readTime: "٧ دقائق",
+          "لماذا يخسرُ القالبُ الجاهزُ عملاءَك، وكيف يُحوِّل الموقعُ المخصّصُ الزوّارَ إلى إيرادٍ على مدارِ الساعة.",
+        date: "١٥ نيسان ٢٠٢٦",
+        readTime: "٨ دقائق",
       },
       {
         num: "٠٢",
-        kicker: "رأي",
-        title: "لماذا يفشل معظم مشاريع الذكاء الاصطناعي في العالم العربي.",
+        slug: "search-optimization-seo",
+        kicker: "سيو",
+        title: "تحسين محركات البحث للمواقع العربية: ما يُحرّك النتائج فعلاً.",
         excerpt:
-          "المشكلة ليست في النموذج ولا في البيانات، بل في ثقافةِ الإدارة. ملاحظاتٌ من ثلاث سنواتٍ في الميدان.",
-        date: "٢ نيسان ٢٠٢٦",
-        readTime: "٥ دقائق",
+          "من البحث عن الكلمات المفتاحية باللهجات المحلية إلى الأداء التقني — دليلٌ لمن يريد نتائج حقيقية في Google العربية.",
+        date: "١٠ نيسان ٢٠٢٦",
+        readTime: "١٠ دقائق",
       },
       {
         num: "٠٣",
-        kicker: "تقنية",
-        title: "ستّةٌ أخطاءٍ تُفسِدُ سيو المواقع العربية — وكيف تتلافاها.",
+        slug: "content-production",
+        kicker: "محتوى",
+        title: "محتوى يبيع دون أن يبيع — صناعةُ المحتوى بمساعدةِ الذكاء الاصطناعي.",
         excerpt:
-          "من اختيار الكلمات إلى التكويد، دليلٌ مختصرٌ لمن يريد موقعًا يظهر في Google العربية.",
-        date: "٢٥ آذار ٢٠٢٦",
+          "كيف تُنتج محتوًى عربيًا عالي الجودة باستمرار يبني الثقة ويجلب العملاء دون إرهاق فريقك.",
+        date: "٣ نيسان ٢٠٢٦",
         readTime: "٩ دقائق",
       },
       {
         num: "٠٤",
-        kicker: "حوار",
-        title: "حديثٌ مع مديرِ تسويقٍ اعتمد على الذكاء الاصطناعي وعاد.",
+        slug: "social-media-management",
+        kicker: "سوشيال ميديا",
+        title: "إدارة السوشيال ميديا كنظام، لا كمهمةٍ يومية.",
         excerpt:
-          "ليس كلُّ ما يلمعُ ذهب. رحلةٌ صادقةٌ مع مديرِ تسويقٍ عربيٍّ جرّب كلَّ شيءٍ ثم استقرّ.",
-        date: "١٨ آذار ٢٠٢٦",
-        readTime: "١١ دقيقة",
+          "كيف تُحوِّل الفوضى إلى عمليةٍ هادئةٍ قابلةٍ للتكرار تُدير حساباتك باحترافية دون استهلاك وقتك.",
+        date: "٢٥ آذار ٢٠٢٦",
+        readTime: "٨ دقائق",
       },
     ],
     subscribe: {
@@ -721,46 +728,51 @@ const en: Dict = {
     title: "Essays on automation, business, and AI.",
     lede:
       "We write for people running real businesses — not people chasing noise. Short, practical, built on what we saw in the field.",
+    backLabel: "\u2190 Back to Journal",
     posts: [
       {
         num: "01",
-        kicker: "Case study",
+        slug: "web-app-design",
+        kicker: "Design",
         title:
-          "How a small shop saves 12 hours a week with a WhatsApp assistant.",
+          "Your website is not a brochure — it is your best salesperson.",
         excerpt:
-          "A documented story of a perfume shop, from first conversation to the first month of operation. What worked, what didn't.",
-        date: "April 10, 2026",
-        readTime: "7 min",
+          "Why templates lose your customers, and how a custom-built site converts visitors into revenue around the clock.",
+        date: "April 15, 2026",
+        readTime: "8 min",
       },
       {
         num: "02",
-        kicker: "Opinion",
+        slug: "search-optimization-seo",
+        kicker: "SEO",
         title:
-          "Why most AI projects in the Arab world fail — and what fixes it.",
+          "SEO for Arabic websites: what actually moves the needle.",
         excerpt:
-          "The problem isn't the model or the data. It's management culture. Notes from three years in the field.",
-        date: "April 2, 2026",
-        readTime: "5 min",
+          "From keyword research in local dialects to technical performance — a guide for anyone who wants real results in Arabic Google.",
+        date: "April 10, 2026",
+        readTime: "10 min",
       },
       {
         num: "03",
-        kicker: "Technical",
+        slug: "content-production",
+        kicker: "Content",
         title:
-          "Six mistakes that ruin SEO for Arabic sites — and how to avoid them.",
+          "Content that sells without selling — AI-assisted content production.",
         excerpt:
-          "From keyword choice to markup, a short guide for anyone who wants their site to rank in Arabic Google.",
-        date: "March 25, 2026",
+          "How to produce consistent, high-quality Arabic content that builds trust and drives leads without burning out your team.",
+        date: "April 3, 2026",
         readTime: "9 min",
       },
       {
         num: "04",
-        kicker: "Conversation",
+        slug: "social-media-management",
+        kicker: "Social media",
         title:
-          "A talk with a marketing director who went all-in on AI — and pulled back.",
+          "Social media management as a system, not a daily hustle.",
         excerpt:
-          "Not everything that glitters is gold. An honest journey with an Arab marketing director who tried it all.",
-        date: "March 18, 2026",
-        readTime: "11 min",
+          "How to turn chaos into a calm, repeatable process that runs your accounts professionally without consuming your time.",
+        date: "March 25, 2026",
+        readTime: "8 min",
       },
     ],
     subscribe: {

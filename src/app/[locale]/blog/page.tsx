@@ -63,7 +63,7 @@ export default async function BlogPage(props: PageProps<"/[locale]/blog">) {
               className="group relative"
             >
               <a
-                href="#"
+                href={`/${locale}/blog/${post.slug}`}
                 className="grid grid-cols-1 gap-6 py-10 md:grid-cols-12 md:gap-10 md:py-14"
               >
                 <div className="md:col-span-2">
