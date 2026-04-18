@@ -175,7 +175,7 @@ const ar: Dict = {
   nav: {
     home: "الرئيسية",
     services: "الخدمات",
-    blog: "المجلة",
+    blog: "المدوّنة",
     about: "من نحن",
     trust: "لماذا نحن",
     contact: "تواصل",
@@ -193,11 +193,13 @@ const ar: Dict = {
     secondaryCta: "شاهد الخدمات",
     marquee: [
       "تصميم مواقع",
-      "تطبيقات",
+      "تطبيقات جوال",
       "تحسين محركات البحث",
       "صناعة المحتوى",
       "إدارة السوشيال ميديا",
-      "ذكاء اصطناعي",
+      "هوية تجارية",
+      "متاجر إلكترونية",
+      "تسويق إلكتروني",
     ],
     manifestoNum: "٠١ — البيان",
     manifestoTitle: "نُؤمن أن العمل الجيد لا يحتاج إلى فريقٍ ضخم.",
@@ -251,7 +253,7 @@ const ar: Dict = {
         price: "٤٬٠٠٠",
         per: "ريال / شهريًا",
         features: [
-          "تصميمُ وإدارةُ الموقع الإلكتروني",
+          "إدارةُ الموقع الإلكتروني",
           "تحسينُ محركات البحث (سيو)",
           "صناعةُ محتوىً ونشرٌ تلقائيٌّ على حسابين",
           "تقريرٌ شهريٌّ بالنتائج والأرقام",
@@ -282,15 +284,15 @@ const ar: Dict = {
   },
   services: {
     eyebrow: "٠٢ — الخدمات",
-    title: "أربعُ خدمات. نظامٌ واحدٌ يعمل كفريقٍ كامل.",
+    title: "ثمانِ خدمات. نظامٌ واحدٌ يعمل كفريقٍ كامل.",
     lede:
       "لا نبيعُ ساعاتٍ ولا أدوات. نُسلِّمُ نتائج: نظامٌ حيٌّ يعمل، ويُراقَب، ويُحسَّن شهريًا.",
     list: [
       {
         num: "٠١",
-        name: "تصميم المواقع والتطبيقات",
+        name: "تصميم المواقع",
         summary:
-          "واجهاتٌ هادئة، سريعةٌ على الجوال، مكتوبةٌ بعربيةٍ نظيفةٍ وإنجليزيةٍ صحيحة.",
+          "واجهاتٌ هادئة، مكتوبةٌ بعربيةٍ نظيفةٍ وإنجليزيةٍ صحيحة.",
         bullets: [
           "تصميمٌ مخصَّصٌ لا يستخدم قوالب",
           "دعمٌ كاملٌ للغة العربية والكتابة من اليمين",
@@ -338,6 +340,58 @@ const ar: Dict = {
         ],
         outcome: "حسابٌ يبدو وكأنَّ خلفه فريقًا من عشرة.",
       },
+      {
+        num: "٠٥",
+        name: "تصميم تطبيقات الجوال",
+        summary:
+          "تطبيقاتٌ سلسة على iOS وAndroid، مصمّمةٌ لتجربةِ المستخدم العربي أولاً.",
+        bullets: [
+          "تصميمُ واجهاتٍ بديهيةٍ تناسب السوق المحلي",
+          "دعمٌ كاملٌ للعربية والاتجاهين",
+          "تجربةٌ موحّدةٌ بين الجوال والموقع",
+          "اختبارٌ على أجهزةٍ حقيقيةٍ قبل الإطلاق",
+        ],
+        outcome: "تطبيقٌ يُحبُّه المستخدم من أول لمسة.",
+      },
+      {
+        num: "٠٦",
+        name: "تصميم الهوية التجارية",
+        summary:
+          "هويةٌ بصريةٌ متكاملةٌ تُميِّز علامتك وتبني ثقةً فورية.",
+        bullets: [
+          "شعارٌ وألوانٌ وطباعةٌ تعكس شخصية علامتك",
+          "دليلُ هويةٍ بصريةٍ شامل",
+          "تطبيقُ الهوية على جميع القنوات",
+          "تصميماتٌ تعمل بالعربية والإنجليزية بنفس القوة",
+        ],
+        outcome: "علامةٌ تُعرَف قبل أن تُقرأ.",
+      },
+      {
+        num: "٠٧",
+        name: "تصميم المتاجر الإلكترونية",
+        summary:
+          "متاجرٌ مبنيةٌ للبيع لا للعرض، بتجربةِ شراءٍ سهلةٍ وسريعة.",
+        bullets: [
+          "تصميمُ صفحاتِ منتجاتٍ تُحوِّل الزوّار لمشترين",
+          "تكاملٌ مع بوابات الدفع المحلية",
+          "تجربةُ سلّةٍ وخروجٍ مُحسَّنة للجوال",
+          "لوحةُ تحكّمٍ سهلةٌ لإدارة المنتجات والطلبات",
+        ],
+        outcome: "متجرٌ يبيع وأنت مشغولٌ بشيءٍ آخر.",
+      },
+      {
+        num: "٠٨",
+        name: "التسويق الإلكتروني",
+        summary:
+          "حملاتٌ مدروسةٌ على المنصات التي يتواجد فيها عملاؤك فعلاً.",
+        bullets: [
+          "إعلاناتٌ مدفوعةٌ على Google وMeta بميزانيةٍ مُحكَمة",
+          "حملاتُ بريدٍ إلكترونيٍّ تُبني علاقةً لا مجرّد مبيعات",
+          "تحليلُ البيانات واتخاذ قراراتٍ مبنيّةٍ على الأرقام",
+          "تقاريرُ أداءٍ شهريةٌ بلغةٍ واضحة",
+        ],
+        outcome: "كلُّ ريالٍ في الإعلان يعود بنتيجةٍ مقيسة.",
+      },
     ],
   },
   blog: {
@@ -345,7 +399,7 @@ const ar: Dict = {
     title: "مقالاتٌ عن الأتمتة، الأعمال، والذكاء الاصطناعي.",
     lede:
       "نكتبُ لمن يديرُ أعمالاً حقيقية، لا لمن يلاحقُ الضجيج. مقالاتٌ قصيرة، عملية، ومبنيةٌ على تجارب.",
-    backLabel: "← العودة للمجلة",
+    backLabel: "← العودة للمدوّنة",
     posts: [
       {
         num: "٠١",
@@ -557,7 +611,7 @@ const en: Dict = {
   nav: {
     home: "Home",
     services: "Services",
-    blog: "Journal",
+    blog: "Blog",
     about: "About",
     trust: "Why us",
     contact: "Contact",
@@ -575,11 +629,13 @@ const en: Dict = {
     secondaryCta: "See services",
     marquee: [
       "Web design",
-      "Applications",
+      "Mobile apps",
       "Search optimization",
       "Content production",
       "Social media",
-      "Artificial intelligence",
+      "Corporate identity",
+      "E-commerce",
+      "Electronic marketing",
     ],
     manifestoNum: "01 — Manifesto",
     manifestoTitle: "Good work does not require a large team.",
@@ -634,7 +690,7 @@ const en: Dict = {
         price: "4,000",
         per: "SAR / month",
         features: [
-          "Website design and management",
+          "Website management",
           "Search engine optimization (SEO)",
           "Content creation and automatic posting to up to two social media accounts",
           "A monthly report with results and numbers",
@@ -665,15 +721,15 @@ const en: Dict = {
   },
   services: {
     eyebrow: "02 — Services",
-    title: "Four services. One system that works like a full team.",
+    title: "Eight services. One system that works like a full team.",
     lede:
       "We don't sell hours or tools. We deliver outcomes: a live system, monitored, improved monthly.",
     list: [
       {
         num: "01",
-        name: "Web & app design",
+        name: "Web design",
         summary:
-          "Quiet interfaces, fast on mobile, written in clean Arabic and correct English.",
+          "Quiet interfaces, written in clean Arabic and correct English.",
         bullets: [
           "Custom design. No templates.",
           "Full Arabic and right-to-left support.",
@@ -721,6 +777,58 @@ const en: Dict = {
         ],
         outcome: "An account that looks like a team of ten stands behind it.",
       },
+      {
+        num: "05",
+        name: "Mobile application design",
+        summary:
+          "Smooth apps on iOS and Android, designed for the Arab user experience first.",
+        bullets: [
+          "Intuitive interfaces tailored to the local market",
+          "Full Arabic and bidirectional support",
+          "A consistent experience between mobile and web",
+          "Tested on real devices before launch",
+        ],
+        outcome: "An app users love from the first tap.",
+      },
+      {
+        num: "06",
+        name: "Corporate identity design",
+        summary:
+          "A complete visual identity that sets your brand apart and builds instant trust.",
+        bullets: [
+          "Logo, colors, and typography that reflect your brand personality",
+          "A comprehensive brand identity guide",
+          "Identity applied consistently across all channels",
+          "Designs that work equally well in Arabic and English",
+        ],
+        outcome: "A brand recognized before it is read.",
+      },
+      {
+        num: "07",
+        name: "E-commerce design",
+        summary:
+          "Stores built to sell, not just display — with a fast, frictionless buying experience.",
+        bullets: [
+          "Product pages designed to convert visitors into buyers",
+          "Integration with local payment gateways",
+          "Cart and checkout experience optimized for mobile",
+          "An easy dashboard to manage products and orders",
+        ],
+        outcome: "A store that sells while you are busy with something else.",
+      },
+      {
+        num: "08",
+        name: "Electronic marketing",
+        summary:
+          "Targeted campaigns on the platforms where your customers actually spend their time.",
+        bullets: [
+          "Paid ads on Google and Meta with controlled budgets",
+          "Email campaigns that build relationships, not just sales",
+          "Data analysis and decisions driven by real numbers",
+          "Monthly performance reports in plain language",
+        ],
+        outcome: "Every riyal spent on ads returns a measured result.",
+      },
     ],
   },
   blog: {
@@ -728,7 +836,7 @@ const en: Dict = {
     title: "Essays on automation, business, and AI.",
     lede:
       "We write for people running real businesses — not people chasing noise. Short, practical, built on what we saw in the field.",
-    backLabel: "\u2190 Back to Journal",
+    backLabel: "\u2190 Back to Blog",
     posts: [
       {
         num: "01",
