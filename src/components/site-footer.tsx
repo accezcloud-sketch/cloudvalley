@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Locale } from "@/lib/i18n";
 import type { Dict } from "@/lib/dictionaries";
-import { WHATSAPP_DISPLAY, waLink } from "@/lib/i18n";
+import { waLink } from "@/lib/i18n";
 
 type Props = { locale: Locale; dict: Dict };
 
@@ -73,7 +73,7 @@ export function SiteFooter({ locale, dict }: Props) {
                   rel="noreferrer"
                   className="link-sweep text-[0.95rem] text-ink-soft hover:text-ink"
                 >
-                  {dict.footer.whatsapp} · {WHATSAPP_DISPLAY}
+                  {dict.footer.whatsapp}
                 </a>
               </li>
             </ul>
