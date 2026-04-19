@@ -76,8 +76,11 @@ export type Dict = {
     eyebrow: string;
     title: string;
     lede: string;
+    backLabel: string;
+    detailLabel: string;
     list: {
       num: string;
+      slug: string;
       name: string;
       summary: string;
       bullets: string[];
@@ -287,9 +290,12 @@ const ar: Dict = {
     title: "ثمانِ خدمات. نظامٌ واحدٌ يعمل كفريقٍ كامل.",
     lede:
       "لا نبيعُ ساعاتٍ ولا أدوات. نُسلِّمُ نتائج: نظامٌ حيٌّ يعمل، ويُراقَب، ويُحسَّن شهريًا.",
+    backLabel: "← العودة إلى الخدمات",
+    detailLabel: "اقرأ التفاصيل",
     list: [
       {
         num: "٠١",
+        slug: "website-design",
         name: "تصميم المواقع",
         summary:
           "واجهاتٌ هادئة، مكتوبةٌ بعربيةٍ نظيفةٍ وإنجليزيةٍ صحيحة.",
@@ -303,6 +309,7 @@ const ar: Dict = {
       },
       {
         num: "٠٢",
+        slug: "search-engine-optimization",
         name: "تحسين محركات البحث",
         summary:
           "نُظهِر عملك لمن يبحث فعلاً، بكلماتٍ يستخدمها العرب لا قواميسٌ مترجمة.",
@@ -316,6 +323,7 @@ const ar: Dict = {
       },
       {
         num: "٠٣",
+        slug: "content-production",
         name: "صناعة المحتوى",
         summary:
           "مقالات، منشورات، فيديوهات قصيرة. يكتبُها الذكاء الاصطناعي ويُحرِّرها كاتبٌ بشري.",
@@ -329,6 +337,7 @@ const ar: Dict = {
       },
       {
         num: "٠٤",
+        slug: "social-media-management",
         name: "إدارة السوشيال ميديا",
         summary:
           "تخطيط، تصميم، نشر، ردٌّ على التعليقات. كلُّ ذلك بنظامٍ واحدٍ هادئ.",
@@ -342,6 +351,7 @@ const ar: Dict = {
       },
       {
         num: "٠٥",
+        slug: "mobile-app-design",
         name: "تصميم تطبيقات الجوال",
         summary:
           "تطبيقاتٌ سلسة على iOS وAndroid، مصمّمةٌ لتجربةِ المستخدم العربي أولاً.",
@@ -355,6 +365,7 @@ const ar: Dict = {
       },
       {
         num: "٠٦",
+        slug: "brand-identity",
         name: "تصميم الهوية التجارية",
         summary:
           "هويةٌ بصريةٌ متكاملةٌ تُميِّز علامتك وتبني ثقةً فورية.",
@@ -368,6 +379,7 @@ const ar: Dict = {
       },
       {
         num: "٠٧",
+        slug: "ecommerce-design",
         name: "تصميم المتاجر الإلكترونية",
         summary:
           "متاجرٌ مبنيةٌ للبيع لا للعرض، بتجربةِ شراءٍ سهلةٍ وسريعة.",
@@ -381,6 +393,7 @@ const ar: Dict = {
       },
       {
         num: "٠٨",
+        slug: "digital-marketing",
         name: "التسويق الإلكتروني",
         summary:
           "حملاتٌ مدروسةٌ على المنصات التي يتواجد فيها عملاؤك فعلاً.",
@@ -621,14 +634,14 @@ const ar: Dict = {
       {
         heading: "الخدمات",
         links: [
-          { label: "تصميم المواقع", href: "/services#01" },
-          { label: "تحسين محركات البحث", href: "/services#02" },
-          { label: "صناعة المحتوى", href: "/services#03" },
-          { label: "سوشيال ميديا", href: "/services#04" },
-          { label: "تطبيقات الجوال", href: "/services#05" },
-          { label: "الهوية التجارية", href: "/services#06" },
-          { label: "المتاجر الإلكترونية", href: "/services#07" },
-          { label: "التسويق الإلكتروني", href: "/services#08" },
+          { label: "تصميم المواقع", href: "/services/website-design" },
+          { label: "تحسين محركات البحث", href: "/services/search-engine-optimization" },
+          { label: "صناعة المحتوى", href: "/services/content-production" },
+          { label: "سوشيال ميديا", href: "/services/social-media-management" },
+          { label: "تطبيقات الجوال", href: "/services/mobile-app-design" },
+          { label: "الهوية التجارية", href: "/services/brand-identity" },
+          { label: "المتاجر الإلكترونية", href: "/services/ecommerce-design" },
+          { label: "التسويق الإلكتروني", href: "/services/digital-marketing" },
         ],
       },
     ],
@@ -768,9 +781,12 @@ const en: Dict = {
     title: "Eight services. One system that works like a full team.",
     lede:
       "We don't sell hours or tools. We deliver outcomes: a live system, monitored, improved monthly.",
+    backLabel: "\u2190 Back to Services",
+    detailLabel: "Read details",
     list: [
       {
         num: "01",
+        slug: "website-design",
         name: "Web design",
         summary:
           "Quiet interfaces, written in clean Arabic and correct English.",
@@ -784,6 +800,7 @@ const en: Dict = {
       },
       {
         num: "02",
+        slug: "search-engine-optimization",
         name: "Search optimization",
         summary:
           "We show your work to people actually searching, in words they use — not translated glossaries.",
@@ -797,6 +814,7 @@ const en: Dict = {
       },
       {
         num: "03",
+        slug: "content-production",
         name: "Content production",
         summary:
           "Articles, posts, short videos. Drafted by AI, edited by a human writer.",
@@ -810,6 +828,7 @@ const en: Dict = {
       },
       {
         num: "04",
+        slug: "social-media-management",
         name: "Social media management",
         summary:
           "Planning, design, publishing, reply handling. One quiet system.",
@@ -823,6 +842,7 @@ const en: Dict = {
       },
       {
         num: "05",
+        slug: "mobile-app-design",
         name: "Mobile application design",
         summary:
           "Smooth apps on iOS and Android, designed for the Arab user experience first.",
@@ -836,6 +856,7 @@ const en: Dict = {
       },
       {
         num: "06",
+        slug: "brand-identity",
         name: "Corporate identity design",
         summary:
           "A complete visual identity that sets your brand apart and builds instant trust.",
@@ -849,6 +870,7 @@ const en: Dict = {
       },
       {
         num: "07",
+        slug: "ecommerce-design",
         name: "E-commerce design",
         summary:
           "Stores built to sell, not just display — with a fast, frictionless buying experience.",
@@ -862,6 +884,7 @@ const en: Dict = {
       },
       {
         num: "08",
+        slug: "digital-marketing",
         name: "Electronic marketing",
         summary:
           "Targeted campaigns on the platforms where your customers actually spend their time.",
@@ -1109,14 +1132,14 @@ const en: Dict = {
       {
         heading: "Services",
         links: [
-          { label: "Web design", href: "/services#01" },
-          { label: "Search optimization", href: "/services#02" },
-          { label: "Content", href: "/services#03" },
-          { label: "Social media", href: "/services#04" },
-          { label: "Mobile apps", href: "/services#05" },
-          { label: "Corporate identity", href: "/services#06" },
-          { label: "E-commerce", href: "/services#07" },
-          { label: "Electronic marketing", href: "/services#08" },
+          { label: "Web design", href: "/services/website-design" },
+          { label: "Search optimization", href: "/services/search-engine-optimization" },
+          { label: "Content", href: "/services/content-production" },
+          { label: "Social media", href: "/services/social-media-management" },
+          { label: "Mobile apps", href: "/services/mobile-app-design" },
+          { label: "Corporate identity", href: "/services/brand-identity" },
+          { label: "E-commerce", href: "/services/ecommerce-design" },
+          { label: "Electronic marketing", href: "/services/digital-marketing" },
         ],
       },
     ],

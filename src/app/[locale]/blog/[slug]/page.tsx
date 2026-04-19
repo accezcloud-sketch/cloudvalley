@@ -46,6 +46,10 @@ export default async function BlogPostPage(
     : "var(--font-serif-latin)";
   const bodyFont = isAr ? "var(--font-sans-ar)" : "var(--font-serif-latin)";
 
+  const serviceEntry = dict.services.list.find(
+    (s) => s.num.replace(/[^\d]/g, "") === post.serviceNum,
+  );
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -148,7 +152,7 @@ export default async function BlogPostPage(
           <Rise delay={60}>
             <div className="mt-6 flex flex-wrap gap-4">
               <Link
-                href={`/${locale}/services#${post.serviceNum}`}
+                href={`/${locale}/services/${serviceEntry?.slug ?? post.serviceNum}`}
                 className="inline-flex items-center gap-2 border border-ink bg-ink px-6 py-3 text-[0.82rem] uppercase tracking-[0.15em] text-paper transition-colors hover:bg-accent hover:border-accent"
                 style={{ fontFamily: "var(--font-mono)" }}
               >

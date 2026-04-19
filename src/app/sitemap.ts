@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { locales } from "@/lib/i18n";
 import { getAllSlugs } from "@/lib/blog-data";
+import { getAllServiceSlugs } from "@/lib/service-data";
 
 const BASE_URL = "https://cloudvalley.co";
 
@@ -16,6 +17,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: new Date(),
         changeFrequency: page === "" ? "weekly" : "monthly",
         priority: page === "" ? 1.0 : 0.8,
+      });
+    }
+
+    for (const slug of getAllServiceSlugs()) {
+      entries.push({
+        url: `${BASE_URL}/${locale}/services/${slug}`,
+        lastModified: new Date(),
+        changeFrequency: "monthly",
+        priority: 0.8,
       });
     }
 

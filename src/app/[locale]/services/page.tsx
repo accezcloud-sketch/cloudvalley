@@ -161,6 +161,14 @@ export default async function ServicesPage(
                     </span>
                     <span aria-hidden className={isAr ? "rotate-180" : ""}>→</span>
                   </a>
+                  <Link
+                    href={`/${locale}/services/${s.slug}`}
+                    className="link-sweep inline-flex items-center gap-2 text-[0.8rem] uppercase tracking-[0.15em] text-ink-mute transition-colors hover:text-accent"
+                    style={{ fontFamily: "var(--font-mono)" }}
+                  >
+                    <span>{dict.services.detailLabel}</span>
+                    <span aria-hidden className={isAr ? "rotate-180" : ""}>→</span>
+                  </Link>
                 </div>
               </Rise>
             </div>
