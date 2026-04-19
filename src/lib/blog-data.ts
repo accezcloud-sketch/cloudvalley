@@ -399,6 +399,390 @@ const en: Record<string, BlogPostData> = {
       },
     ],
   },
+
+  "mobile-app-design": {
+    slug: "mobile-app-design",
+    description:
+      "Your customers live on their phones. A well-designed mobile app is not a luxury — it is the shortest path between your brand and a paying customer. Here is how to get it right for Arab markets.",
+    serviceNum: "05",
+    body: [
+      {
+        type: "heading",
+        text: "Your customers are already on mobile",
+      },
+      {
+        type: "paragraph",
+        text: "In the Arab world, mobile is not a secondary channel — it is the primary one. Saudi Arabia has one of the highest smartphone penetration rates on earth. Egypt, the UAE, and Jordan are not far behind. Your customers browse, compare, and buy on screens that fit in their palms. If your brand does not meet them there, a competitor will.",
+      },
+      {
+        type: "paragraph",
+        text: "Yet most businesses still treat mobile apps as a scaled-down version of their website. They shrink the same layout, cram the same navigation, and wonder why users uninstall within a week. A mobile app is not a smaller website. It is a different product with different rules.",
+      },
+      {
+        type: "heading",
+        text: "What makes a mobile app succeed in Arab markets",
+      },
+      {
+        type: "paragraph",
+        text: "The apps that win in this region share four traits:",
+      },
+      {
+        type: "list",
+        items: [
+          "Arabic-first design — not English interfaces with Arabic text patched in. Layouts built for right-to-left from the first wireframe, with typography that respects Arabic letterforms.",
+          "Speed on real networks — not just fast on Wi-Fi in a testing lab, but fast on a 4G connection in a crowded mall in Riyadh or Cairo. Every extra second of loading costs you users.",
+          "Intuitive navigation — Arab users expect certain patterns. Payment flows should integrate local gateways like Mada, STC Pay, or Fawry. Contact should lead to WhatsApp, not a web form.",
+          "Consistency with the web experience — your app and your website should feel like the same brand. Different does not mean disconnected.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Native, hybrid, or cross-platform?",
+      },
+      {
+        type: "paragraph",
+        text: "This is the first question every business asks, and the answer depends on what the app needs to do — not on what is trendy. Native apps offer the best performance and access to device features. Cross-platform frameworks like React Native or Flutter let you ship to iOS and Android from one codebase, cutting time and cost.",
+      },
+      {
+        type: "paragraph",
+        text: "For most service businesses, a well-built cross-platform app delivers ninety-five percent of native performance at sixty percent of the cost. We recommend native only when the app requires heavy use of device hardware — cameras, sensors, or complex animations.",
+      },
+      {
+        type: "quote",
+        text: "The best app is the one your customer actually uses. Technology choice should serve the user experience, not the other way around.",
+      },
+      {
+        type: "heading",
+        text: "The cost of a bad first impression",
+      },
+      {
+        type: "paragraph",
+        text: "App store competition is brutal. Users decide within the first thirty seconds whether to keep or delete an app. A slow launch screen, a confusing onboarding flow, or a single crash is enough to lose them permanently. And unlike a website, you cannot fix a bad app experience instantly — you need to push an update, wait for review, and hope users bother to download it.",
+      },
+      {
+        type: "paragraph",
+        text: "This is why we test on real devices before launch. Not emulators, not simulators — actual phones on actual networks in actual cities. If the app works in our lab but fails in a user's hand, we have not done our job.",
+      },
+      {
+        type: "heading",
+        text: "From design to the app store",
+      },
+      {
+        type: "paragraph",
+        text: "Our process starts with your user, not your feature list. We map the three to five core actions your customer needs to take, design the shortest path to each, and strip away everything else. The result is an app that feels simple — which is the hardest thing to build.",
+      },
+      {
+        type: "list",
+        items: [
+          "User research and journey mapping before a single pixel is drawn.",
+          "Wireframes and interactive prototypes you can test with real users.",
+          "Full Arabic and English support with bidirectional layouts.",
+          "App store optimization for both Apple App Store and Google Play.",
+          "Post-launch analytics to track usage patterns and improve.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "An app is a relationship, not a project",
+      },
+      {
+        type: "paragraph",
+        text: "Launching is not the finish line — it is the starting point. The best apps improve every month based on user behavior data. We do not hand over a finished product and walk away. We monitor, we iterate, and we help you turn usage data into product decisions.",
+      },
+      {
+        type: "paragraph",
+        text: "Your customers are already holding the device. The question is whether your brand is on it.",
+      },
+    ],
+  },
+
+  "corporate-identity-design": {
+    slug: "corporate-identity-design",
+    description:
+      "A strong corporate identity is not a logo — it is the visual language that makes your brand recognizable before a single word is read. Here is why Arab businesses need more than a template.",
+    serviceNum: "06",
+    body: [
+      {
+        type: "heading",
+        text: "A brand is recognized before it is read",
+      },
+      {
+        type: "paragraph",
+        text: "Think of the brands you trust most. You recognize them from a color, a shape, a feeling — before you read the name. That instant recognition is not an accident. It is the result of a carefully designed corporate identity: a system of visual elements that work together to tell your story without words.",
+      },
+      {
+        type: "paragraph",
+        text: "For Arab businesses, this matters even more. In a market where trust is built through relationships and reputation, your visual identity is often the first handshake. A polished, consistent brand signals professionalism. An inconsistent one signals the opposite — whether or not it reflects the quality of your actual work.",
+      },
+      {
+        type: "heading",
+        text: "What a corporate identity actually includes",
+      },
+      {
+        type: "paragraph",
+        text: "A logo is where most businesses start and stop. But a logo alone is like a name without a face. A complete corporate identity includes:",
+      },
+      {
+        type: "list",
+        items: [
+          "Logo system — primary mark, secondary versions, icon, and clear-space rules so the logo works on everything from a business card to a billboard.",
+          "Color palette — primary and secondary colors with exact codes for print, screen, and digital. Not just 'blue' — but which blue, at which contrast ratio, on which backgrounds.",
+          "Typography — typefaces for Arabic and English that carry the brand personality. A law firm and a coffee shop should not use the same fonts.",
+          "Visual patterns and photography style — the textures, shapes, and image treatment that make your content recognizable even without the logo.",
+          "Brand guidelines document — the rule book that ensures consistency whether your team, a freelancer, or an agency creates the next piece of content.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "The bilingual challenge",
+      },
+      {
+        type: "paragraph",
+        text: "Most corporate identity work is designed for Latin scripts. When an Arab business adopts these identities, the Arabic version feels like an afterthought — because it is. Arabic typography has its own rules, its own proportions, its own rhythm. A brand identity that looks beautiful in English but awkward in Arabic is only half a brand.",
+      },
+      {
+        type: "quote",
+        text: "The test of a bilingual brand identity is simple: does the Arabic version look designed, or does it look translated?",
+      },
+      {
+        type: "paragraph",
+        text: "We design both directions simultaneously. The Arabic and English versions are siblings, not a parent and a copy. They share DNA — colors, spatial relationships, energy — but each respects the conventions of its script.",
+      },
+      {
+        type: "heading",
+        text: "When to invest in identity",
+      },
+      {
+        type: "paragraph",
+        text: "Three moments when corporate identity investment has the highest return:",
+      },
+      {
+        type: "list",
+        items: [
+          "At launch — get it right from the start and avoid the expensive rebrand later. First impressions compound.",
+          "Before a growth phase — if you are about to hire, expand, or enter a new market, your brand needs to scale with you. A DIY logo will not survive a billboard.",
+          "When inconsistency is costing you — if your social media, website, packaging, and business cards all look like they belong to different companies, you are losing trust with every touchpoint.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Identity is a system, not a deliverable",
+      },
+      {
+        type: "paragraph",
+        text: "The value of a corporate identity is not in the files we hand over — it is in the system that ensures every piece of communication your brand produces looks intentional. A good identity makes decisions easier: your team knows which colors to use, which fonts to pick, how much space to leave around the logo. It reduces friction, speeds up content creation, and eliminates the 'does this look right?' question.",
+      },
+      {
+        type: "paragraph",
+        text: "Your brand should be recognized before it is read. If it is not, the identity is not doing its job.",
+      },
+    ],
+  },
+
+  "e-commerce-design": {
+    slug: "e-commerce-design",
+    description:
+      "An e-commerce store is not a catalog — it is a selling machine. From product pages to checkout, every pixel should move the visitor closer to a purchase. Here is how to design a store that actually converts.",
+    serviceNum: "07",
+    body: [
+      {
+        type: "heading",
+        text: "Most online stores are catalogs, not selling machines",
+      },
+      {
+        type: "paragraph",
+        text: "The majority of e-commerce sites in the Arab world make the same mistake: they list products. Here is the image, here is the price, here is the add-to-cart button. They treat the online store like a shelf in a physical shop — put the product there and hope someone picks it up.",
+      },
+      {
+        type: "paragraph",
+        text: "But online shopping does not work like that. There is no salesperson to answer questions, no ability to touch the product, no social pressure to buy. Every element on the page has to do the selling. And if the page does not actively persuade, the visitor leaves — usually within ten seconds.",
+      },
+      {
+        type: "heading",
+        text: "What a high-converting product page looks like",
+      },
+      {
+        type: "paragraph",
+        text: "The product page is where the sale happens or does not. A page that converts well does five things:",
+      },
+      {
+        type: "list",
+        items: [
+          "Answers the top three objections before the customer thinks of them — shipping time, return policy, and payment security should be visible, not buried in a footer link.",
+          "Shows the product in context — lifestyle images outperform plain white-background photos by a wide margin. Show the product being used, not just existing.",
+          "Uses urgency honestly — 'Only 3 left in stock' works when it is true. Fake scarcity destroys trust faster than it creates conversions.",
+          "Makes the price feel justified — anchor the price against value, not against cost. 'SAR 200 for a year of daily use' reframes a purchase differently than just 'SAR 200'.",
+          "Reduces friction at every step — every additional click between 'I want this' and 'I own this' loses a percentage of buyers.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "The checkout problem",
+      },
+      {
+        type: "paragraph",
+        text: "Cart abandonment in the Middle East runs above seventy percent. That means seven out of ten people who put something in their cart leave without paying. The reasons are predictable:",
+      },
+      {
+        type: "list",
+        items: [
+          "Surprise shipping costs revealed at checkout.",
+          "Forced account creation before purchase.",
+          "Missing local payment options — Mada, Apple Pay, Tamara, or cash on delivery.",
+          "A checkout flow that takes more than two minutes on mobile.",
+        ],
+      },
+      {
+        type: "quote",
+        text: "The best checkout is the one the customer barely notices. If they remember the process, it was too complicated.",
+      },
+      {
+        type: "heading",
+        text: "Mobile-first is not optional",
+      },
+      {
+        type: "paragraph",
+        text: "In Saudi Arabia, over seventy-five percent of online purchases happen on mobile devices. If your store's mobile experience is a squeezed version of the desktop layout, you are losing the majority of your revenue. Mobile-first means designing for the phone screen first and then adapting upward — not the other way around.",
+      },
+      {
+        type: "paragraph",
+        text: "Thumb zones, tap targets, swipe gestures, and one-handed navigation are not nice-to-haves. They are the difference between a store that sells and a store that frustrates.",
+      },
+      {
+        type: "heading",
+        text: "Integration matters",
+      },
+      {
+        type: "paragraph",
+        text: "A beautiful store that does not connect to your operations is just a pretty catalog. We build stores that integrate with:",
+      },
+      {
+        type: "list",
+        items: [
+          "Local payment gateways — Mada, STC Pay, Tamara, Tabby, Apple Pay, and cash on delivery.",
+          "Shipping providers — Aramex, SMSA, J&T, and same-day delivery services.",
+          "Inventory management — so your store never sells something you do not have.",
+          "WhatsApp — for order confirmations, shipping updates, and customer support.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "A store that runs itself",
+      },
+      {
+        type: "paragraph",
+        text: "The goal is not just to build a store — it is to build a system. A store with automated inventory alerts, abandoned cart recovery emails, and performance dashboards that tell you exactly which products sell, which pages convert, and where customers drop off.",
+      },
+      {
+        type: "paragraph",
+        text: "You should be making product decisions, not wrestling with your platform. The technology should disappear — and the sales should not.",
+      },
+    ],
+  },
+
+  "digital-marketing": {
+    slug: "digital-marketing",
+    description:
+      "Digital marketing is not about spending more — it is about spending smarter. From paid ads to email campaigns, here is how to build a marketing engine that delivers measurable returns for Arab businesses.",
+    serviceNum: "08",
+    body: [
+      {
+        type: "heading",
+        text: "The problem with most digital marketing",
+      },
+      {
+        type: "paragraph",
+        text: "Most businesses in the Arab world approach digital marketing the same way: run some Google Ads, boost a few Instagram posts, and hope for the best. When results are disappointing, they increase the budget. When results are still disappointing, they blame the platform.",
+      },
+      {
+        type: "paragraph",
+        text: "The platform is rarely the problem. The problem is strategy — or more precisely, the absence of one. Spending money on ads without a clear funnel, without proper tracking, and without a plan for what happens after the click is not marketing. It is gambling with a screen.",
+      },
+      {
+        type: "heading",
+        text: "What a marketing engine looks like",
+      },
+      {
+        type: "paragraph",
+        text: "Effective digital marketing is a system with four stages, and most businesses only invest in the first one:",
+      },
+      {
+        type: "list",
+        items: [
+          "Attract — paid ads, SEO, and social content bring the right people to your door. The keyword is 'right.' A thousand irrelevant clicks cost more than ten targeted ones.",
+          "Capture — landing pages, lead magnets, and forms convert visitors into contacts. If your ad sends people to your homepage, you are wasting most of your ad spend.",
+          "Nurture — email sequences, retargeting, and content keep your brand in mind until the prospect is ready to buy. Most purchases happen after five to seven touchpoints, not after the first click.",
+          "Convert — clear offers, limited-time incentives, and frictionless purchase flows turn prospects into customers.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Most businesses pour money into Stage 1 and ignore the rest. That is why their cost per acquisition never improves.",
+      },
+      {
+        type: "heading",
+        text: "Paid ads: Google vs. Meta vs. TikTok",
+      },
+      {
+        type: "paragraph",
+        text: "Each platform serves a different intent. Google Ads capture demand — people searching for what you sell right now. Meta (Facebook and Instagram) creates demand — showing your brand to people who match your ideal customer profile. TikTok builds awareness — reaching younger audiences with short-form content that feels native, not promotional.",
+      },
+      {
+        type: "quote",
+        text: "The right platform is the one where your customer is already looking. Not the one with the biggest audience — the one with the most relevant audience.",
+      },
+      {
+        type: "paragraph",
+        text: "We do not recommend running ads on every platform. We recommend running ads on the platforms where your specific audience spends time and shows purchase intent. For a B2B service company in Riyadh, that might be Google and LinkedIn. For a fashion brand targeting young women in the Gulf, that might be Instagram and TikTok. The budget follows the data, not the trend.",
+      },
+      {
+        type: "heading",
+        text: "Email is not dead — it is underused",
+      },
+      {
+        type: "paragraph",
+        text: "In the rush to social media, most Arab businesses abandoned email marketing. That is a mistake. Email remains the highest-ROI digital marketing channel — returning an average of thirty-six riyals for every riyal spent. The key is using email to build relationships, not to blast promotions.",
+      },
+      {
+        type: "list",
+        items: [
+          "Welcome sequences that introduce new subscribers to your brand story.",
+          "Educational content that positions you as an expert before you ask for the sale.",
+          "Abandoned cart recovery that brings back seventy percent of lost sales.",
+          "Post-purchase follow-ups that turn one-time buyers into repeat customers.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Measuring what matters",
+      },
+      {
+        type: "paragraph",
+        text: "Impressions, reach, and followers are vanity metrics. They make reports look good but do not pay salaries. The metrics that matter for a marketing engine are:",
+      },
+      {
+        type: "list",
+        items: [
+          "Cost per lead — how much you pay to get a qualified contact.",
+          "Cost per acquisition — how much you pay to get a paying customer.",
+          "Customer lifetime value — how much a customer is worth over time, not just on the first purchase.",
+          "Return on ad spend — for every riyal you put into ads, how many come back.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "We report on these numbers monthly, in plain language, with clear recommendations. No jargon, no vanity charts, no fifty-page decks that no one reads.",
+      },
+      {
+        type: "heading",
+        text: "Stop spending more. Start spending smarter.",
+      },
+      {
+        type: "paragraph",
+        text: "The businesses that win at digital marketing are not the ones with the biggest budgets. They are the ones with the best systems — clear funnels, proper tracking, continuous optimization, and the discipline to cut what does not work. Every riyal should have a job. If it does not, it should not be spent.",
+      },
+    ],
+  },
 };
 
 /* ------------------------------------------------------------------ */
@@ -784,6 +1168,390 @@ const ar: Record<string, BlogPostData> = {
       {
         type: "paragraph",
         text: "النتيجة حساب يبدو وكأن فريقًا من عشرة يقف خلفه — حتى لو كنّا نحن ونظام مبني بعناية.",
+      },
+    ],
+  },
+
+  "mobile-app-design": {
+    slug: "mobile-app-design",
+    description:
+      "عملاؤك يعيشون على هواتفهم. التطبيق المصمّم بعناية ليس ترفًا — بل أقصر مسافةٍ بين علامتك والعميل الذي يدفع. إليك كيف تصمّمه للسوق العربي.",
+    serviceNum: "05",
+    body: [
+      {
+        type: "heading",
+        text: "عملاؤك موجودون على الجوال بالفعل",
+      },
+      {
+        type: "paragraph",
+        text: "في العالم العربي، الجوال ليس قناة ثانوية — بل هو القناة الأولى. السعودية تمتلك واحدًا من أعلى معدلات انتشار الهواتف الذكية على وجه الأرض. مصر والإمارات والأردن ليست بعيدة. عملاؤك يتصفّحون ويقارنون ويشترون على شاشاتٍ تناسب راحة يدهم. إذا لم تلقَهم هناك، سيفعل منافسك.",
+      },
+      {
+        type: "paragraph",
+        text: "ومع ذلك، أغلب الشركات تتعامل مع تطبيقات الجوال كنسخة مصغّرة من موقعها. تُقلّص نفس التخطيط، تحشر نفس القوائم، وتتساءل لماذا يحذف المستخدمون التطبيق خلال أسبوع. تطبيق الجوال ليس موقعًا أصغر. هو منتج مختلف بقواعد مختلفة.",
+      },
+      {
+        type: "heading",
+        text: "ما يجعل تطبيق الجوال ناجحًا في الأسواق العربية",
+      },
+      {
+        type: "paragraph",
+        text: "التطبيقات الناجحة في هذه المنطقة تشترك في أربع سمات:",
+      },
+      {
+        type: "list",
+        items: [
+          "تصميم عربي أولاً — لا واجهات إنجليزية بنص عربي ملصق. تخطيطات مبنية من اليمين لليسار من أول إطار سلكي، بطباعة تحترم أشكال الحروف العربية.",
+          "سرعة على شبكات حقيقية — ليس فقط على الواي فاي في مختبر اختبار، بل على اتصال 4G في مول مزدحم في الرياض أو القاهرة. كل ثانية إضافية تكلّفك مستخدمين.",
+          "تنقّل بديهي — المستخدمون العرب يتوقعون أنماطًا معيّنة. تدفقات الدفع يجب أن تدمج البوابات المحلية مثل مدى وSTC Pay وفوري. التواصل يجب أن يقود لواتساب، لا لنموذج ويب.",
+          "اتساق مع تجربة الموقع — تطبيقك وموقعك يجب أن يشعرا كأنهما نفس العلامة. مختلف لا يعني منفصل.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "أصلي أم هجين أم متعدد المنصات؟",
+      },
+      {
+        type: "paragraph",
+        text: "هذا أول سؤال يطرحه كل صاحب عمل، والجواب يعتمد على ما يحتاج التطبيق فعله — لا على ما هو رائج. التطبيقات الأصلية تقدّم أفضل أداء ووصول لميزات الجهاز. أطر العمل متعددة المنصات مثل React Native أو Flutter تتيح لك الإطلاق على iOS وAndroid من قاعدة كود واحدة، مما يقلّل الوقت والتكلفة.",
+      },
+      {
+        type: "paragraph",
+        text: "لأغلب شركات الخدمات، تطبيق متعدد المنصات مبني جيدًا يقدّم خمسة وتسعين بالمئة من أداء التطبيق الأصلي بستين بالمئة من التكلفة. نوصي بالأصلي فقط عندما يتطلب التطبيق استخدامًا مكثفًا لعتاد الجهاز — كاميرات أو مستشعرات أو رسوم متحركة معقدة.",
+      },
+      {
+        type: "quote",
+        text: "أفضل تطبيق هو الذي يستخدمه عميلك فعلاً. اختيار التقنية يجب أن يخدم تجربة المستخدم، لا العكس.",
+      },
+      {
+        type: "heading",
+        text: "ثمن الانطباع الأول السيئ",
+      },
+      {
+        type: "paragraph",
+        text: "المنافسة في متاجر التطبيقات شرسة. المستخدمون يقرّرون خلال أول ثلاثين ثانية هل يحتفظون بالتطبيق أو يحذفونه. شاشة تحميل بطيئة، أو تدفق تسجيل مربك، أو تعطّل واحد يكفي لخسارتهم نهائيًا. وبخلاف الموقع، لا يمكنك إصلاح تجربة تطبيق سيئة فورًا — تحتاج لدفع تحديث والانتظار وتأمّل أن المستخدمين يُكلّفون أنفسهم تنزيله.",
+      },
+      {
+        type: "paragraph",
+        text: "لهذا نختبر على أجهزة حقيقية قبل الإطلاق. لا محاكيات ولا بيئات افتراضية — هواتف فعلية على شبكات فعلية في مدن فعلية.",
+      },
+      {
+        type: "heading",
+        text: "من التصميم إلى متجر التطبيقات",
+      },
+      {
+        type: "paragraph",
+        text: "عمليتنا تبدأ بمستخدمك، لا بقائمة الميزات. نرسم الثلاث إلى خمس إجراءات الأساسية التي يحتاج عميلك اتخاذها، نصمّم أقصر مسار لكل منها، ونزيل كل شيء آخر.",
+      },
+      {
+        type: "list",
+        items: [
+          "بحث مستخدمين ورسم رحلات قبل رسم أي بكسل.",
+          "إطارات سلكية ونماذج تفاعلية يمكنك اختبارها مع مستخدمين حقيقيين.",
+          "دعم كامل للعربية والإنجليزية بتخطيطات ثنائية الاتجاه.",
+          "تحسين متجر التطبيقات لكل من Apple App Store وGoogle Play.",
+          "تحليلات بعد الإطلاق لتتبّع أنماط الاستخدام والتحسين.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "التطبيق علاقة، لا مشروع",
+      },
+      {
+        type: "paragraph",
+        text: "الإطلاق ليس خط النهاية — بل نقطة البداية. أفضل التطبيقات تتحسّن كل شهر بناءً على بيانات سلوك المستخدمين. لا نُسلّم منتجًا نهائيًا ونمشي. نراقب ونكرّر ونساعدك في تحويل بيانات الاستخدام إلى قرارات منتج.",
+      },
+      {
+        type: "paragraph",
+        text: "عملاؤك يمسكون الجهاز بالفعل. السؤال هو هل علامتك موجودة عليه.",
+      },
+    ],
+  },
+
+  "corporate-identity-design": {
+    slug: "corporate-identity-design",
+    description:
+      "الهوية التجارية القوية ليست شعارًا — بل اللغة البصرية التي تجعل علامتك معروفة قبل أن تُقرأ كلمة واحدة. إليك لماذا تحتاج الشركات العربية أكثر من قالب.",
+    serviceNum: "06",
+    body: [
+      {
+        type: "heading",
+        text: "العلامة تُعرَف قبل أن تُقرأ",
+      },
+      {
+        type: "paragraph",
+        text: "فكّر في العلامات التي تثق بها أكثر. تعرفها من لون، من شكل، من إحساس — قبل أن تقرأ الاسم. هذا التعرّف الفوري ليس صدفة. هو نتيجة هوية تجارية مصمّمة بعناية: منظومة عناصر بصرية تعمل معًا لتروي قصتك بلا كلمات.",
+      },
+      {
+        type: "paragraph",
+        text: "للشركات العربية، هذا يهم أكثر. في سوق تُبنى فيه الثقة عبر العلاقات والسمعة، هويتك البصرية غالبًا هي المصافحة الأولى. علامة مصقولة ومتّسقة تُشير للاحترافية. وعلامة غير متّسقة تُشير للعكس — سواء عكست جودة عملك الفعلي أم لا.",
+      },
+      {
+        type: "heading",
+        text: "ما تتضمّنه الهوية التجارية فعلاً",
+      },
+      {
+        type: "paragraph",
+        text: "الشعار هو حيث تبدأ أغلب الشركات وتتوقف. لكن الشعار وحده كاسم بلا وجه. الهوية التجارية المتكاملة تشمل:",
+      },
+      {
+        type: "list",
+        items: [
+          "منظومة شعار — العلامة الأساسية، النسخ الثانوية، الأيقونة، وقواعد المسافات حتى يعمل الشعار على كل شيء من بطاقة أعمال إلى لوحة إعلانية.",
+          "لوحة ألوان — ألوان أساسية وثانوية بأكواد دقيقة للطباعة والشاشة والرقمي. ليس فقط 'أزرق' — بل أي أزرق، بأي نسبة تباين، على أي خلفيات.",
+          "طباعة — خطوط للعربية والإنجليزية تحمل شخصية العلامة. مكتب محاماة ومقهى لا يجب أن يستخدما نفس الخطوط.",
+          "أنماط بصرية وأسلوب تصوير — القوام والأشكال ومعالجة الصور التي تجعل محتواك معروفًا حتى بدون الشعار.",
+          "دليل الهوية البصرية — كتاب القواعد الذي يضمن الاتساق سواء أنشأ فريقك أو مستقل أو وكالة القطعة التالية من المحتوى.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "التحدي ثنائي اللغة",
+      },
+      {
+        type: "paragraph",
+        text: "أغلب أعمال الهوية التجارية مصمّمة للحروف اللاتينية. عندما تتبنّى شركة عربية هذه الهويات، تبدو النسخة العربية كفكرة لاحقة — لأنها كذلك. الطباعة العربية لها قواعدها ونسبها وإيقاعها. هوية تجارية تبدو جميلة بالإنجليزية لكن محرجة بالعربية هي نصف علامة فقط.",
+      },
+      {
+        type: "quote",
+        text: "اختبار الهوية ثنائية اللغة بسيط: هل تبدو النسخة العربية مصمَّمة، أم تبدو مترجَمة؟",
+      },
+      {
+        type: "paragraph",
+        text: "نصمّم الاتجاهين في وقت واحد. النسختان العربية والإنجليزية أختان، لا أم ونسخة. تشتركان في الحمض النووي — الألوان، العلاقات المكانية، الطاقة — لكن كل منهما تحترم تقاليد خطها.",
+      },
+      {
+        type: "heading",
+        text: "متى تستثمر في الهوية",
+      },
+      {
+        type: "paragraph",
+        text: "ثلاث لحظات يكون فيها الاستثمار في الهوية التجارية أعلى عائدًا:",
+      },
+      {
+        type: "list",
+        items: [
+          "عند الإطلاق — اضبطها من البداية وتجنّب إعادة البناء المكلفة لاحقًا. الانطباعات الأولى تتراكم.",
+          "قبل مرحلة نمو — إذا كنت على وشك التوظيف أو التوسّع أو دخول سوق جديد، علامتك تحتاج أن تكبر معك. شعار صنعته بنفسك لن ينجو على لوحة إعلانية.",
+          "عندما يكلّفك عدم الاتساق — إذا كانت حساباتك وموقعك وتغليفك وبطاقات أعمالك تبدو وكأنها لشركات مختلفة، فأنت تخسر ثقة مع كل نقطة تواصل.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "الهوية نظام، لا تسليم",
+      },
+      {
+        type: "paragraph",
+        text: "قيمة الهوية التجارية ليست في الملفات التي نسلّمها — بل في النظام الذي يضمن أن كل قطعة تواصل تنتجها علامتك تبدو مقصودة. الهوية الجيدة تسهّل القرارات: فريقك يعرف أي ألوان يستخدم، أي خطوط يختار، كم مسافة يترك حول الشعار. تقلّل الاحتكاك، تسرّع إنتاج المحتوى، وتلغي سؤال 'هل هذا يبدو صحيحًا؟'.",
+      },
+      {
+        type: "paragraph",
+        text: "علامتك يجب أن تُعرَف قبل أن تُقرأ. إذا لم تكن كذلك، فالهوية لا تؤدي عملها.",
+      },
+    ],
+  },
+
+  "e-commerce-design": {
+    slug: "e-commerce-design",
+    description:
+      "المتجر الإلكتروني ليس كتالوجًا — بل آلة بيع. من صفحات المنتجات إلى الدفع، كل بكسل يجب أن يقرّب الزائر من الشراء. إليك كيف تصمّم متجرًا يُحوِّل فعلاً.",
+    serviceNum: "07",
+    body: [
+      {
+        type: "heading",
+        text: "أغلب المتاجر الإلكترونية كتالوجات، لا آلات بيع",
+      },
+      {
+        type: "paragraph",
+        text: "الأغلبية الساحقة من مواقع التجارة الإلكترونية في العالم العربي ترتكب نفس الخطأ: تعرض المنتجات. هذه الصورة، هذا السعر، هذا زر الإضافة للسلة. يتعاملون مع المتجر الإلكتروني كرف في متجر فعلي — ضع المنتج هناك وتأمّل أن يلتقطه أحد.",
+      },
+      {
+        type: "paragraph",
+        text: "لكن التسوق الإلكتروني لا يعمل هكذا. لا يوجد بائع يجيب على الأسئلة، ولا إمكانية لمس المنتج، ولا ضغط اجتماعي للشراء. كل عنصر في الصفحة يجب أن يقوم بالبيع. وإذا لم تقنع الصفحة بفعالية، يغادر الزائر — عادةً خلال عشر ثوانٍ.",
+      },
+      {
+        type: "heading",
+        text: "كيف تبدو صفحة المنتج عالية التحويل",
+      },
+      {
+        type: "paragraph",
+        text: "صفحة المنتج هي حيث يحدث البيع أو لا يحدث. الصفحة التي تحوّل جيدًا تفعل خمسة أشياء:",
+      },
+      {
+        type: "list",
+        items: [
+          "تجيب على أهم ثلاثة اعتراضات قبل أن يفكر فيها العميل — وقت الشحن، سياسة الإرجاع، وأمان الدفع يجب أن تكون مرئية، لا مدفونة في رابط بالذيل.",
+          "تعرض المنتج في سياقه — صور أسلوب الحياة تتفوّق على صور الخلفية البيضاء بفارق كبير. اعرض المنتج وهو يُستخدم، لا وهو موجود فقط.",
+          "تستخدم الاستعجال بصدق — 'بقي ٣ فقط في المخزون' تعمل عندما تكون حقيقية. الندرة المزيّفة تدمّر الثقة أسرع مما تخلق تحويلات.",
+          "تجعل السعر يبدو مبرّرًا — اربط السعر بالقيمة، لا بالتكلفة. '٢٠٠ ريال لسنة كاملة من الاستخدام اليومي' تؤطّر الشراء بشكل مختلف عن '٢٠٠ ريال' فقط.",
+          "تقلّل الاحتكاك في كل خطوة — كل نقرة إضافية بين 'أريد هذا' و'أملكه' تخسر نسبة من المشترين.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "مشكلة الدفع",
+      },
+      {
+        type: "paragraph",
+        text: "التخلّي عن السلة في الشرق الأوسط يتجاوز سبعين بالمئة. هذا يعني أن سبعة من كل عشرة أشخاص يضعون شيئًا في السلة ويغادرون بدون دفع. الأسباب متوقعة:",
+      },
+      {
+        type: "list",
+        items: [
+          "تكاليف شحن مفاجئة تظهر عند الدفع.",
+          "إجبار على إنشاء حساب قبل الشراء.",
+          "غياب خيارات الدفع المحلية — مدى، Apple Pay، تمارا، أو الدفع عند الاستلام.",
+          "تدفّق دفع يستغرق أكثر من دقيقتين على الجوال.",
+        ],
+      },
+      {
+        type: "quote",
+        text: "أفضل عملية دفع هي التي بالكاد يلاحظها العميل. إذا تذكّر العملية، فهي معقّدة أكثر مما ينبغي.",
+      },
+      {
+        type: "heading",
+        text: "الجوال أولاً ليس اختياريًا",
+      },
+      {
+        type: "paragraph",
+        text: "في السعودية، أكثر من خمسة وسبعين بالمئة من المشتريات الإلكترونية تتم على أجهزة الجوال. إذا كانت تجربة متجرك على الجوال نسخة مضغوطة من تخطيط سطح المكتب، فأنت تخسر أغلبية إيرادك. الجوال أولاً يعني التصميم لشاشة الهاتف أولاً ثم التكيّف صعودًا — لا العكس.",
+      },
+      {
+        type: "paragraph",
+        text: "مناطق الإبهام، أهداف اللمس، حركات التمرير، والتنقل بيد واحدة ليست كماليات. هي الفرق بين متجر يبيع ومتجر يُحبط.",
+      },
+      {
+        type: "heading",
+        text: "التكامل مهم",
+      },
+      {
+        type: "paragraph",
+        text: "متجر جميل لا يتصل بعملياتك هو مجرد كتالوج جميل. نبني متاجر تتكامل مع:",
+      },
+      {
+        type: "list",
+        items: [
+          "بوابات الدفع المحلية — مدى، STC Pay، تمارا، تابي، Apple Pay، والدفع عند الاستلام.",
+          "شركات الشحن — أرامكس، SMSA، J&T، وخدمات التوصيل في نفس اليوم.",
+          "إدارة المخزون — حتى لا يبيع متجرك شيئًا ليس لديك.",
+          "واتساب — لتأكيدات الطلبات وتحديثات الشحن والدعم.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "متجر يُدير نفسه",
+      },
+      {
+        type: "paragraph",
+        text: "الهدف ليس بناء متجر فقط — بل بناء نظام. متجر بتنبيهات مخزون تلقائية، ورسائل استرداد سلة مهجورة، ولوحات أداء تخبرك بالضبط أي منتجات تبيع، وأي صفحات تحوّل، وأين ينسحب العملاء.",
+      },
+      {
+        type: "paragraph",
+        text: "يجب أن تتّخذ قرارات منتجات، لا تصارع منصّتك. التقنية يجب أن تختفي — والمبيعات لا.",
+      },
+    ],
+  },
+
+  "digital-marketing": {
+    slug: "digital-marketing",
+    description:
+      "التسويق الإلكتروني ليس عن إنفاق أكثر — بل عن إنفاق أذكى. من الإعلانات المدفوعة إلى حملات البريد الإلكتروني، إليك كيف تبني محرّك تسويق يقدّم عوائد مقيسة للشركات العربية.",
+    serviceNum: "08",
+    body: [
+      {
+        type: "heading",
+        text: "المشكلة مع أغلب التسويق الإلكتروني",
+      },
+      {
+        type: "paragraph",
+        text: "أغلب الشركات في العالم العربي تتعامل مع التسويق الإلكتروني بنفس الطريقة: تشغّل بعض إعلانات Google، تموّل بعض منشورات Instagram، وتأمل الأفضل. عندما تخيّب النتائج، تزيد الميزانية. وعندما تخيّب النتائج مرة أخرى، تلوم المنصة.",
+      },
+      {
+        type: "paragraph",
+        text: "المنصة نادرًا ما تكون المشكلة. المشكلة هي الاستراتيجية — أو بدقة أكثر، غيابها. إنفاق المال على إعلانات بدون قمع واضح، بدون تتبّع سليم، وبدون خطة لما يحدث بعد النقرة ليس تسويقًا. بل مقامرة بشاشة.",
+      },
+      {
+        type: "heading",
+        text: "كيف يبدو محرّك التسويق",
+      },
+      {
+        type: "paragraph",
+        text: "التسويق الإلكتروني الفعّال نظام من أربع مراحل، وأغلب الشركات تستثمر في الأولى فقط:",
+      },
+      {
+        type: "list",
+        items: [
+          "جذب — الإعلانات المدفوعة والسيو والمحتوى الاجتماعي يجلبون الأشخاص المناسبين لبابك. الكلمة المفتاحية هي 'المناسبين.' ألف نقرة غير ذات صلة تكلّف أكثر من عشر نقرات مستهدفة.",
+          "التقاط — صفحات الهبوط ومغناطيسات العملاء والنماذج تحوّل الزوار إلى جهات اتصال. إذا كان إعلانك يرسل الناس لصفحتك الرئيسية، فأنت تهدر أغلب إنفاقك الإعلاني.",
+          "رعاية — سلاسل البريد الإلكتروني وإعادة الاستهداف والمحتوى تبقي علامتك في الذهن حتى يكون العميل المحتمل مستعدًا للشراء. أغلب المشتريات تحدث بعد خمس إلى سبع نقاط تواصل، لا بعد النقرة الأولى.",
+          "تحويل — عروض واضحة، حوافز محدودة الوقت، وتدفقات شراء سلسة تحوّل العملاء المحتملين إلى عملاء فعليين.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "أغلب الشركات تضخّ المال في المرحلة الأولى وتتجاهل الباقي. لهذا تكلفة اكتسابهم لا تتحسّن أبدًا.",
+      },
+      {
+        type: "heading",
+        text: "الإعلانات المدفوعة: Google مقابل Meta مقابل TikTok",
+      },
+      {
+        type: "paragraph",
+        text: "كل منصة تخدم نية مختلفة. إعلانات Google تلتقط الطلب — أشخاص يبحثون عما تبيعه الآن. Meta (فيسبوك وإنستجرام) تخلق الطلب — تعرض علامتك لأشخاص يطابقون ملف عميلك المثالي. TikTok تبني الوعي — تصل لجماهير أصغر سنًا بمحتوى قصير يبدو طبيعيًا لا ترويجيًا.",
+      },
+      {
+        type: "quote",
+        text: "المنصة الصحيحة هي التي يتواجد فيها عميلك بالفعل. ليست التي فيها أكبر جمهور — بل التي فيها أكثر جمهور ملائم.",
+      },
+      {
+        type: "paragraph",
+        text: "لا نوصي بتشغيل إعلانات على كل منصة. نوصي بتشغيل إعلانات على المنصات التي يقضي فيها جمهورك المحدّد وقته ويُظهر نية شراء. لشركة خدمات B2B في الرياض، قد يكون ذلك Google وLinkedIn. لعلامة أزياء تستهدف شابات الخليج، قد يكون Instagram وTikTok. الميزانية تتبع البيانات، لا الموضة.",
+      },
+      {
+        type: "heading",
+        text: "البريد الإلكتروني لم يمت — بل غير مستغل",
+      },
+      {
+        type: "paragraph",
+        text: "في اندفاعهم نحو السوشيال ميديا، تخلّت أغلب الشركات العربية عن التسويق بالبريد الإلكتروني. هذا خطأ. البريد الإلكتروني يظل أعلى قناة تسويق رقمي من حيث العائد على الاستثمار — يعيد في المتوسط ستة وثلاثين ريالاً لكل ريال يُنفق. المفتاح هو استخدام البريد لبناء علاقات، لا لإرسال عروض ترويجية.",
+      },
+      {
+        type: "list",
+        items: [
+          "سلاسل ترحيب تعرّف المشتركين الجدد على قصة علامتك.",
+          "محتوى تعليمي يضعك كخبير قبل أن تطلب البيع.",
+          "استرداد السلة المهجورة الذي يعيد سبعين بالمئة من المبيعات الضائعة.",
+          "متابعات بعد الشراء تحوّل المشترين لمرة واحدة إلى عملاء متكرّرين.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "قياس ما يهم",
+      },
+      {
+        type: "paragraph",
+        text: "مرّات الظهور والوصول والمتابعون مقاييس شكلية. تجعل التقارير تبدو جيدة لكنها لا تدفع الرواتب. المقاييس المهمة لمحرّك التسويق هي:",
+      },
+      {
+        type: "list",
+        items: [
+          "تكلفة العميل المحتمل — كم تدفع للحصول على جهة اتصال مؤهّلة.",
+          "تكلفة الاكتساب — كم تدفع للحصول على عميل يدفع.",
+          "قيمة العميل مدى الحياة — كم يساوي العميل على المدى الطويل، لا فقط في أول شراء.",
+          "عائد الإنفاق الإعلاني — لكل ريال تضعه في الإعلانات، كم يعود.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "نُبلّغ عن هذه الأرقام شهريًا، بلغة واضحة، مع توصيات محدّدة. لا مصطلحات، لا رسوم بيانية شكلية، لا عروض من خمسين صفحة لا يقرأها أحد.",
+      },
+      {
+        type: "heading",
+        text: "توقّف عن إنفاق أكثر. ابدأ بإنفاق أذكى.",
+      },
+      {
+        type: "paragraph",
+        text: "الشركات التي تفوز بالتسويق الإلكتروني ليست تلك بأكبر الميزانيات. بل تلك بأفضل الأنظمة — قمع واضح، تتبّع سليم، تحسين مستمر، والانضباط لقطع ما لا يعمل. كل ريال يجب أن يكون له وظيفة. إذا لم يكن، فلا ينبغي إنفاقه.",
       },
     ],
   },

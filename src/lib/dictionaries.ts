@@ -441,6 +441,46 @@ const ar: Dict = {
         date: "٢٥ آذار ٢٠٢٦",
         readTime: "٨ دقائق",
       },
+      {
+        num: "٠٥",
+        slug: "mobile-app-design",
+        kicker: "تطبيقات",
+        title: "عملاؤك على هواتفهم — هل علامتك هناك؟",
+        excerpt:
+          "لماذا تطبيق الجوال ليس ترفًا، وكيف تصمّمه بالطريقة الصحيحة للسوق العربي.",
+        date: "١٨ آذار ٢٠٢٦",
+        readTime: "٩ دقائق",
+      },
+      {
+        num: "٠٦",
+        slug: "corporate-identity-design",
+        kicker: "هوية تجارية",
+        title: "علامتك تُعرَف قبل أن تُقرأ — أو لا تُعرَف أبدًا.",
+        excerpt:
+          "لماذا الشعار وحده لا يكفي، وكيف تبني هوية بصرية تعمل بالعربية والإنجليزية بنفس القوة.",
+        date: "١٠ آذار ٢٠٢٦",
+        readTime: "٨ دقائق",
+      },
+      {
+        num: "٠٧",
+        slug: "e-commerce-design",
+        kicker: "تجارة إلكترونية",
+        title: "متجرك الإلكتروني آلة بيع — أو كتالوج لا يُقرأ.",
+        excerpt:
+          "من صفحات المنتجات إلى الدفع، كيف تصمّم متجرًا يُحوِّل الزوار إلى مشترين في السوق العربي.",
+        date: "٣ آذار ٢٠٢٦",
+        readTime: "١٠ دقائق",
+      },
+      {
+        num: "٠٨",
+        slug: "digital-marketing",
+        kicker: "تسويق إلكتروني",
+        title: "توقّف عن إنفاق أكثر — وابدأ بإنفاق أذكى.",
+        excerpt:
+          "كيف تبني محرّك تسويق رقمي يقدّم عوائد مقيسة بدلاً من مقاييس شكلية لا تدفع الرواتب.",
+        date: "٢٥ شباط ٢٠٢٦",
+        readTime: "١١ دقيقة",
+      },
     ],
     subscribe: {
       title: "اشتركٌ في الرسالة الشهرية.",
@@ -885,6 +925,50 @@ const en: Dict = {
           "How to turn chaos into a calm, repeatable process that runs your accounts professionally without consuming your time.",
         date: "March 25, 2026",
         readTime: "8 min",
+      },
+      {
+        num: "05",
+        slug: "mobile-app-design",
+        kicker: "Mobile apps",
+        title:
+          "Your customers are on their phones — is your brand there?",
+        excerpt:
+          "Why a mobile app is not a luxury, and how to design it right for Arab markets.",
+        date: "March 18, 2026",
+        readTime: "9 min",
+      },
+      {
+        num: "06",
+        slug: "corporate-identity-design",
+        kicker: "Brand identity",
+        title:
+          "Your brand is recognized before it is read — or not at all.",
+        excerpt:
+          "Why a logo alone is not enough, and how to build a visual identity that works equally well in Arabic and English.",
+        date: "March 10, 2026",
+        readTime: "8 min",
+      },
+      {
+        num: "07",
+        slug: "e-commerce-design",
+        kicker: "E-commerce",
+        title:
+          "Your online store is a selling machine — or a catalog no one reads.",
+        excerpt:
+          "From product pages to checkout, how to design a store that converts visitors into buyers in the Arab market.",
+        date: "March 3, 2026",
+        readTime: "10 min",
+      },
+      {
+        num: "08",
+        slug: "digital-marketing",
+        kicker: "Digital marketing",
+        title:
+          "Stop spending more — start spending smarter.",
+        excerpt:
+          "How to build a digital marketing engine that delivers measured returns instead of vanity metrics that don't pay salaries.",
+        date: "February 25, 2026",
+        readTime: "11 min",
       },
     ],
     subscribe: {
