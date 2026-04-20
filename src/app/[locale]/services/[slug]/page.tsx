@@ -114,6 +114,20 @@ export default async function ServiceDetailPage(
               {service.tagline}
             </p>
           </Rise>
+
+          <Rise delay={120}>
+            <div
+              className="mt-6 inline-flex items-baseline gap-2 text-ink"
+              style={{ fontFamily: "var(--font-mono)" }}
+            >
+              <span className="text-[1.3rem] font-medium">
+                {isAr ? "٥٬٠٠٠" : "5,000"}
+              </span>
+              <span className="text-[0.8rem] uppercase tracking-[0.15em] text-ink-mute">
+                {isAr ? "ريال" : "SAR"}
+              </span>
+            </div>
+          </Rise>
         </header>
 
         <div className="max-w-3xl">

@@ -237,40 +237,45 @@ export default async function HomePage(props: PageProps<"/[locale]">) {
                 as="li"
                 key={s.num}
                 delay={i * 70}
-                className="group flex items-start gap-6 py-6"
+                className="group"
               >
-                <span
-                  className="w-10 flex-shrink-0 pt-1 text-[0.75rem] tracking-[0.18em] text-ink-mute"
-                  style={{ fontFamily: "var(--font-mono)" }}
+                <Link
+                  href={`/${locale}/services/${s.slug}`}
+                  className="flex items-start gap-6 py-6"
                 >
-                  {s.num}
-                </span>
-                <div className="flex-1">
-                  <h3
-                    className="text-xl leading-snug text-ink md:text-[1.6rem]"
-                    style={{ fontFamily: serifDisplay }}
+                  <span
+                    className="w-10 flex-shrink-0 pt-1 text-[0.75rem] tracking-[0.18em] text-ink-mute"
+                    style={{ fontFamily: "var(--font-mono)" }}
                   >
-                    {s.name}
-                  </h3>
-                  <p
-                    className="mt-1 text-[0.95rem] text-ink-mute"
-                    style={{
-                      fontFamily: isAr
-                        ? "var(--font-sans-ar)"
-                        : "var(--font-serif-latin)",
-                    }}
+                    {s.num}
+                  </span>
+                  <div className="flex-1">
+                    <h3
+                      className="text-xl leading-snug text-ink md:text-[1.6rem]"
+                      style={{ fontFamily: serifDisplay }}
+                    >
+                      {s.name}
+                    </h3>
+                    <p
+                      className="mt-1 text-[0.95rem] text-ink-mute"
+                      style={{
+                        fontFamily: isAr
+                          ? "var(--font-sans-ar)"
+                          : "var(--font-serif-latin)",
+                      }}
+                    >
+                      {s.summary}
+                    </p>
+                  </div>
+                  <span
+                    aria-hidden
+                    className={`pt-2 text-ink-mute transition-transform duration-300 group-hover:text-accent ${
+                      isAr ? "rotate-180 group-hover:-translate-x-1" : "group-hover:translate-x-1"
+                    }`}
                   >
-                    {s.summary}
-                  </p>
-                </div>
-                <span
-                  aria-hidden
-                  className={`pt-2 text-ink-mute transition-transform duration-300 group-hover:text-accent ${
-                    isAr ? "rotate-180 group-hover:-translate-x-1" : "group-hover:translate-x-1"
-                  }`}
-                >
-                  →
-                </span>
+                    →
+                  </span>
+                </Link>
               </Rise>
             ))}
           </ul>
