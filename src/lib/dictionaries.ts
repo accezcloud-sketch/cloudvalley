@@ -233,9 +233,9 @@ const ar: Dict = {
     servicesLede:
       "كلُّ خدمةٍ مصمَّمةٌ لتعمل وحدها أو ضمن منظومةٍ كاملة. نُوصي بالبدء بواحدةٍ ثم التوسّع.",
     pricingNum: "٠٤ — الباقات",
-    pricingTitle: "خدماتنا الأكثر طلبًا — في باقةٍ واحدة.",
+    pricingTitle: "الأكثر حجزًا معًا: سيو، محتوى، وسوشيال ميديا.",
     pricingLede:
-      "أكثر الخدمات حجزًا معًا: السيو، صناعة المحتوى، وإدارة السوشيال ميديا. جمعناها في باقاتٍ جاهزة بسعرٍ أفضل من حجز كلٍّ منها على حدة. بلا عقودٍ طويلة — ألغِ متى شئت.",
+      "جمعنا الخدمات التي يختارها عملاؤنا دائمًا في باقاتٍ جاهزة بسعرٍ أفضل. بلا عقودٍ طويلة — ألغِ متى شئت.",
     pricing: {
       basic: {
         badge: "محتوى + سوشيال",
@@ -724,9 +724,9 @@ const en: Dict = {
     servicesLede:
       "Each service works alone, or as part of a full stack. We usually recommend starting with one and expanding.",
     pricingNum: "04 — Packages",
-    pricingTitle: "Our most requested services — in one package.",
+    pricingTitle: "Most booked together: SEO, content, and social media.",
     pricingLede:
-      "Most booked together: SEO, content creation, and social media management. We bundled them into ready-made packages at a better price than booking each separately. No long contracts — cancel anytime.",
+      "We bundled the services our clients always choose together into ready-made packages at a better price. No long contracts — cancel anytime.",
     pricing: {
       basic: {
         badge: "Content + Social",
