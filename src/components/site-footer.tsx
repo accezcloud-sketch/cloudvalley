@@ -85,6 +85,8 @@ export function SiteFooter({ locale, dict }: Props) {
           style={{ fontFamily: "var(--font-mono)" }}
         >
           <span>{dict.footer.copyright}</span>
+          <span className="mx-2">·</span>
+          <span>{locale === "ar" ? "س.ت: ١٠١٠٦٣٧٨٤٥" : "CR: 1010637845"}</span>
         </div>
       </div>
     </footer>
