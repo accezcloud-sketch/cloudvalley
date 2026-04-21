@@ -235,7 +235,7 @@ const ar: Dict = {
     pricingNum: "٠٤ — الباقات",
     pricingTitle: "خدماتنا الأكثر طلبًا — في باقةٍ واحدة.",
     pricingLede:
-      "بدلاً من حجز كل خدمة على حدة، جمعنا الخدمات التي يحجزها عملاؤنا معًا في باقاتٍ جاهزة بسعرٍ أفضل. بلا عقودٍ طويلة — ألغِ متى شئت.",
+      "أكثر الخدمات حجزًا معًا: السيو، صناعة المحتوى، وإدارة السوشيال ميديا. جمعناها في باقاتٍ جاهزة بسعرٍ أفضل من حجز كلٍّ منها على حدة. بلا عقودٍ طويلة — ألغِ متى شئت.",
     pricing: {
       basic: {
         badge: "محتوى + سوشيال",
@@ -256,9 +256,9 @@ const ar: Dict = {
         price: "٤٬٠٠٠",
         per: "ريال / شهريًا",
         features: [
-          "إدارةُ الموقع الإلكتروني",
-          "تحسينُ محركات البحث (سيو)",
+          "إدارةُ الموقع الإلكتروني + تحسين محركات البحث",
           "صناعةُ محتوىً ونشرٌ تلقائيٌّ على حسابين",
+          "إدارةُ السوشيال ميديا بتقويمٍ أسبوعي",
           "تقريرٌ شهريٌّ بالنتائج والأرقام",
           "قناةٌ مباشرةٌ على واتساب مع الفريق",
         ],
@@ -270,8 +270,8 @@ const ar: Dict = {
         price: "حسب الطلب",
         per: "—",
         features: [
-          "كلُّ ما في الاحترافية + أنظمةٌ متعدّدة",
-          "تكاملٌ مع أنظمتك الداخلية",
+          "كلُّ ما في الاحترافية + أنظمةٌ متعدّدة متصلة",
+          "تكاملٌ مع أنظمتك الداخلية (CRM، ERP، إلخ)",
           "مديرُ حسابٍ مخصّص",
           "اتفاقيةُ مستوى خدمةٍ بالدقيقة",
         ],
@@ -726,7 +726,7 @@ const en: Dict = {
     pricingNum: "04 — Packages",
     pricingTitle: "Our most requested services — in one package.",
     pricingLede:
-      "Instead of booking each service separately, we bundled the services our clients book together into ready-made packages at a better price. No long contracts — cancel anytime.",
+      "Most booked together: SEO, content creation, and social media management. We bundled them into ready-made packages at a better price than booking each separately. No long contracts — cancel anytime.",
     pricing: {
       basic: {
         badge: "Content + Social",
@@ -747,9 +747,9 @@ const en: Dict = {
         price: "4,000",
         per: "SAR / month",
         features: [
-          "Website management",
-          "Search engine optimization (SEO)",
+          "Website management + search engine optimization",
           "Content creation and automatic posting to two accounts",
+          "Social media management with a weekly calendar",
           "A monthly report with results and numbers",
           "Direct WhatsApp channel with the team",
         ],
@@ -761,8 +761,8 @@ const en: Dict = {
         price: "Custom",
         per: "—",
         features: [
-          "Everything in Professional + multiple systems",
-          "Integration with your internal tools",
+          "Everything in Professional + multiple connected systems",
+          "Integration with your internal tools (CRM, ERP, etc.)",
           "Dedicated account manager",
           "SLA with per-minute response",
         ],
