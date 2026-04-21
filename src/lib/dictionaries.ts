@@ -233,12 +233,12 @@ const ar: Dict = {
     servicesLede:
       "كلُّ خدمةٍ مصمَّمةٌ لتعمل وحدها أو ضمن منظومةٍ كاملة. نُوصي بالبدء بواحدةٍ ثم التوسّع.",
     pricingNum: "٠٤ — الباقات",
-    pricingTitle: "باقاتٌ مصمَّمةٌ للنتائج، لا للتجربة.",
+    pricingTitle: "خدماتنا الأكثر طلبًا — في باقةٍ واحدة.",
     pricingLede:
-      "٨٠٪ من عملائنا يختارون الباقة الاحترافية. بلا عقودٍ طويلة — ألغِ متى شئت.",
+      "بدلاً من حجز كل خدمة على حدة، جمعنا الخدمات التي يحجزها عملاؤنا معًا في باقاتٍ جاهزة بسعرٍ أفضل. بلا عقودٍ طويلة — ألغِ متى شئت.",
     pricing: {
       basic: {
-        badge: "ابدأ من هنا",
+        badge: "محتوى + سوشيال",
         name: "الأساسية",
         price: "٢٬٥٠٠",
         per: "ريال / شهريًا",
@@ -251,21 +251,21 @@ const ar: Dict = {
         cta: "ابدأ الآن",
       },
       professional: {
-        badge: "🔥 الأكثر حجزًا",
+        badge: "🔥 ٤ خدمات في باقة واحدة",
         name: "الاحترافية",
         price: "٤٬٠٠٠",
         per: "ريال / شهريًا",
         features: [
-          "إدارةُ الموقع الإلكتروني + سيو",
+          "إدارةُ الموقع الإلكتروني",
+          "تحسينُ محركات البحث (سيو)",
           "صناعةُ محتوىً ونشرٌ تلقائيٌّ على حسابين",
-          "إدارةُ السوشيال ميديا بتقويمٍ أسبوعي",
           "تقريرٌ شهريٌّ بالنتائج والأرقام",
           "قناةٌ مباشرةٌ على واتساب مع الفريق",
         ],
         cta: "احجز مقعدك",
       },
       custom: {
-        badge: "للشركات الطموحة",
+        badge: "كل الخدمات + أنظمة مخصّصة",
         name: "المنظومة",
         price: "حسب الطلب",
         per: "—",
@@ -723,13 +723,13 @@ const en: Dict = {
     servicesTitle: "Eight services. One system.",
     servicesLede:
       "Each service works alone, or as part of a full stack. We usually recommend starting with one and expanding.",
-    pricingNum: "04 — Plans",
-    pricingTitle: "Plans built for results, not experiments.",
+    pricingNum: "04 — Packages",
+    pricingTitle: "Our most requested services — in one package.",
     pricingLede:
-      "80% of our clients choose the Professional plan. No long contracts — cancel anytime.",
+      "Instead of booking each service separately, we bundled the services our clients book together into ready-made packages at a better price. No long contracts — cancel anytime.",
     pricing: {
       basic: {
-        badge: "Start here",
+        badge: "Content + Social",
         name: "Basic",
         price: "2,500",
         per: "SAR / month",
@@ -742,21 +742,21 @@ const en: Dict = {
         cta: "Get started",
       },
       professional: {
-        badge: "🔥 Most booked",
+        badge: "🔥 4 services in one package",
         name: "Professional",
         price: "4,000",
         per: "SAR / month",
         features: [
-          "Website management + SEO",
+          "Website management",
+          "Search engine optimization (SEO)",
           "Content creation and automatic posting to two accounts",
-          "Social media management with a weekly calendar",
           "A monthly report with results and numbers",
           "Direct WhatsApp channel with the team",
         ],
         cta: "Book your spot",
       },
       custom: {
-        badge: "For ambitious teams",
+        badge: "All services + custom systems",
         name: "Ecosystem",
         price: "Custom",
         per: "—",
