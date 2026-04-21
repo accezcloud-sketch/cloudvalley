@@ -229,7 +229,7 @@ const ar: Dict = {
       },
     ],
     servicesNum: "٠٣ — الخدمات",
-    servicesTitle: "ستُّ خدماتٍ، نظامٌ واحد.",
+    servicesTitle: "ثمانِ خدمات، نظامٌ واحد.",
     servicesLede:
       "كلُّ خدمةٍ مصمَّمةٌ لتعمل وحدها أو ضمن منظومةٍ كاملة. نُوصي بالبدء بواحدةٍ ثم التوسّع.",
     pricingNum: "٠٤ — الباقات",
@@ -720,7 +720,7 @@ const en: Dict = {
       },
     ],
     servicesNum: "03 — Services",
-    servicesTitle: "Six services. One system.",
+    servicesTitle: "Eight services. One system.",
     servicesLede:
       "Each service works alone, or as part of a full stack. We usually recommend starting with one and expanding.",
     pricingNum: "04 — Plans",
