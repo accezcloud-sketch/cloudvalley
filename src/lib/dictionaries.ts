@@ -187,9 +187,9 @@ const ar: Dict = {
   },
   home: {
     eyebrow: "استوديو أتمتة",
-    displayA: "نصنع",
-    displayB: "أنظمةً",
-    displayC: "بدل الموظفين.",
+    displayA: "موظفك القادم",
+    displayB: "ليس شخصًا.",
+    displayC: "بل نظام.",
     lede:
       "وادي السحاب وكالةُ أتمتة — نبني أنظمةً لتستغني عن بناء فِرَق. نُصمّم أنظمة ذكاء اصطناعي تُنجز ما يفعله فريقٌ كامل — بسرعةٍ أعلى، وبتكلفةٍ أقل بستينَ بالمائة.",
     primaryCta: "ابدأ على واتساب",
@@ -677,9 +677,9 @@ const en: Dict = {
   },
   home: {
     eyebrow: "Automation studio",
-    displayA: "We build",
-    displayB: "systems",
-    displayC: "not teams.",
+    displayA: "Your next hire",
+    displayB: "isn't a person.",
+    displayC: "It's a system.",
     lede:
       "Cloud Valley is an automation agency — we build systems so you don't need to build teams. We design AI systems that do what a full team does — faster, and at sixty percent less cost.",
     primaryCta: "Start on WhatsApp",
