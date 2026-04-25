@@ -572,9 +572,9 @@ const ar: Dict = {
       },
     ],
     guarantee: {
-      title: "ضمانُ الثلاثين يومًا.",
+      title: "الجودةُ هي الضمان.",
       body:
-        "إذا لم تَرَ في أوَّل شهرٍ وفرًا مُوثَّقًا أو نتيجةً مقيسة، نُعيدُ ما دفعته كاملاً. لا أسئلة. لم يُطلبْ منّا ذلك حتى الآن، لكنّه مكتوب.",
+        "لا نُسلّم عملًا لا نفخر به. كلُّ تفصيلةٍ تُبنى بمعيارٍ نضع اسمنا عليه — لأنّنا فعلًا نفعل. إذا أقلقك شيء، فهو يُقلقنا أيضًا، ونعالجه حتى يصبح صحيحًا.",
     },
     testimonials: [
       {
@@ -1070,9 +1070,9 @@ const en: Dict = {
       },
     ],
     guarantee: {
-      title: "The 30-day guarantee.",
+      title: "Quality is the guarantee.",
       body:
-        "If in the first month you don't see a documented saving or a measured result, we return everything you paid. No questions. No one has asked yet — but it's in writing.",
+        "We don't ship work we're not proud of. Every detail is crafted to a standard we'd put our name on — because we do. If something concerns you, it concerns us, and we address it until it's right.",
     },
     testimonials: [
       {
