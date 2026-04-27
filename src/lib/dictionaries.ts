@@ -240,7 +240,7 @@ const ar: Dict = {
       basic: {
         badge: "محتوى + سوشيال",
         name: "الأساسية",
-        price: "٢٬٥٠٠",
+        price: "١٬٥٠٠",
         per: "ريال / شهريًا",
         features: [
           "صناعةُ محتوىً شهريٍّ بصوتِ علامتك",
@@ -253,7 +253,7 @@ const ar: Dict = {
       professional: {
         badge: "🔥 ٤ خدمات في باقة واحدة",
         name: "الاحترافية",
-        price: "٤٬٠٠٠",
+        price: "٣٬٠٠٠",
         per: "ريال / شهريًا",
         features: [
           "إدارةُ الموقع الإلكتروني + تحسين محركات البحث",
@@ -731,7 +731,7 @@ const en: Dict = {
       basic: {
         badge: "Content + Social",
         name: "Basic",
-        price: "2,500",
+        price: "1,500",
         per: "SAR / month",
         features: [
           "Monthly content generation in your brand voice",
@@ -744,7 +744,7 @@ const en: Dict = {
       professional: {
         badge: "🔥 4 services in one package",
         name: "Professional",
-        price: "4,000",
+        price: "3,000",
         per: "SAR / month",
         features: [
           "Website management + search engine optimization",
