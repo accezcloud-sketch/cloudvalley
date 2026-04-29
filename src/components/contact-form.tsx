@@ -49,7 +49,7 @@ export function ContactForm({ locale, labels }: Props) {
           id="recordType"
           value="0122M000001YhIDQA0"
         />
-        <input type="hidden" name="lead_source" value="Web" />
+        <input type="hidden" name="lead_source" value="Wady Cloud Website" />
 
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
           <label className="block">
