@@ -19,10 +19,8 @@ export async function generateMetadata(
   if (!isLocale(locale)) return {};
   const post = getBlogPost(locale, slug);
   if (!post) return {};
-  const dict = getDict(locale);
-  const listingPost = dict.blog.posts.find((p) => p.slug === slug);
   return {
-    title: listingPost?.title ?? post.slug,
+    title: post.title,
     description: post.description,
   };
 }
@@ -37,8 +35,6 @@ export default async function BlogPostPage(
   if (!post) notFound();
 
   const dict = getDict(locale);
-  const listingPost = dict.blog.posts.find((p) => p.slug === slug);
-  if (!listingPost) notFound();
 
   const isAr = locale === "ar";
   const serifDisplay = isAr
@@ -53,9 +49,9 @@ export default async function BlogPostPage(
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: listingPost.title,
+    headline: post.title,
     description: post.description,
-    datePublished: parseDateToISO(listingPost.date, isAr),
+    datePublished: post.isoDate,
     author: {
       "@type": "Organization",
       name: "Cloud Valley",
@@ -92,7 +88,7 @@ export default async function BlogPostPage(
 
         {/* Header */}
         <header className="pt-10 pb-10 md:pt-14 md:pb-14">
-          <SectionRule label={listingPost.kicker} />
+          <SectionRule label={post.kicker} />
 
           <Rise
             as="h1"
@@ -102,7 +98,7 @@ export default async function BlogPostPage(
               letterSpacing: isAr ? "0" : "-0.02em",
             }}
           >
-            {listingPost.title}
+            {post.title}
           </Rise>
 
           <Rise delay={80}>
@@ -110,9 +106,9 @@ export default async function BlogPostPage(
               className="mt-6 flex items-center gap-4 text-[0.72rem] uppercase tracking-[0.18em] text-ink-mute"
               style={{ fontFamily: "var(--font-mono)" }}
             >
-              <span>{listingPost.date}</span>
+              <span>{post.date}</span>
               <span className="h-px w-6 bg-rule" />
-              <span>{listingPost.readTime}</span>
+              <span>{post.readTime}</span>
             </div>
           </Rise>
         </header>
@@ -162,8 +158,8 @@ export default async function BlogPostPage(
               <a
                 href={waLink(
                   isAr
-                    ? `مرحبًا، أريد الاستفسار عن خدمة ${listingPost.kicker}`
-                    : `Hi, I'd like to ask about ${listingPost.kicker}`,
+                    ? `مرحبًا، أريد الاستفسار عن خدمة ${post.kicker}`
+                    : `Hi, I'd like to ask about ${post.kicker}`,
                 )}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -258,35 +254,4 @@ function renderSection(
         </blockquote>
       );
   }
-}
-
-function parseDateToISO(dateStr: string, isAr: boolean): string {
-  if (!isAr) {
-    const d = new Date(dateStr);
-    if (!isNaN(d.getTime())) return d.toISOString().split("T")[0];
-  }
-  // Fallback for Arabic dates — return a reasonable default
-  const arabicToEnglish: Record<string, string> = {
-    "٠": "0", "١": "1", "٢": "2", "٣": "3", "٤": "4",
-    "٥": "5", "٦": "6", "٧": "7", "٨": "8", "٩": "9",
-  };
-  const months: Record<string, string> = {
-    "كانون الثاني": "01", "شباط": "02", "آذار": "03", "نيسان": "04",
-    "أيار": "05", "حزيران": "06", "تموز": "07", "آب": "08",
-    "أيلول": "09", "تشرين الأول": "10", "تشرين الثاني": "11",
-    "كانون الأول": "12",
-  };
-  let normalized = dateStr;
-  for (const [ar, en] of Object.entries(arabicToEnglish)) {
-    normalized = normalized.replaceAll(ar, en);
-  }
-  for (const [arMonth, num] of Object.entries(months)) {
-    if (normalized.includes(arMonth)) {
-      const parts = normalized.replace(arMonth, "").trim().split(/\s+/);
-      const day = parts[0]?.padStart(2, "0");
-      const year = parts[1];
-      if (day && year) return `${year}-${num}-${day}`;
-    }
-  }
-  return "2026-04-01";
 }

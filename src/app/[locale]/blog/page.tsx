@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { isLocale } from "@/lib/i18n";
 import { getDict } from "@/lib/dictionaries";
+import { getBlogListing } from "@/lib/blog-data";
 import { Rise } from "@/components/rise";
 import { SectionRule } from "@/components/section-rule";
 import { SubscribeForm } from "@/components/subscribe-form";
@@ -15,6 +16,7 @@ export default async function BlogPage(props: PageProps<"/[locale]/blog">) {
   const { locale } = await props.params;
   if (!isLocale(locale)) notFound();
   const dict = getDict(locale);
+  const posts = getBlogListing(locale);
   const isAr = locale === "ar";
   const serifDisplay = isAr
     ? "var(--font-serif-ar)"
@@ -55,7 +57,7 @@ export default async function BlogPage(props: PageProps<"/[locale]/blog">) {
 
       <section className="border-t border-rule">
         <ol className="mx-auto w-full max-w-[1440px] divide-y divide-rule px-6 md:px-10">
-          {dict.blog.posts.map((post, i) => (
+          {posts.map((post, i) => (
             <Rise
               as="li"
               key={post.num}
