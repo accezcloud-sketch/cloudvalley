@@ -101,16 +101,31 @@ function parseBody(md: string): BlogSection[] {
   return sections;
 }
 
-function loadLocale(locale: Locale): Record<string, BlogPostData> {
-  const dir = path.join(CONTENT_ROOT, locale);
-  if (!fs.existsSync(dir)) return {};
-  const out: Record<string, BlogPostData> = {};
-  for (const file of fs.readdirSync(dir)) {
+// Splits a bilingual file body on the <!-- AR --> marker.
+// Returns [englishBody, arabicBody]. Falls back to full content for both if no marker.
+function splitBilingualBody(body: string): [string, string] {
+  const marker = "<!-- AR -->";
+  const idx = body.indexOf(marker);
+  if (idx === -1) return [body.trim(), body.trim()];
+  return [body.slice(0, idx).trim(), body.slice(idx + marker.length).trim()];
+}
+
+function loadAll(): Record<Locale, Record<string, BlogPostData>> {
+  const result: Record<Locale, Record<string, BlogPostData>> = {
+    en: {},
+    ar: {},
+  };
+
+  if (!fs.existsSync(CONTENT_ROOT)) return result;
+
+  for (const file of fs.readdirSync(CONTENT_ROOT)) {
     if (!file.endsWith(".md")) continue;
     const slug = file.replace(/\.md$/, "");
-    const raw = fs.readFileSync(path.join(dir, file), "utf-8");
+    const raw = fs.readFileSync(path.join(CONTENT_ROOT, file), "utf-8");
     const { meta, body } = parseFrontmatter(raw);
-    out[slug] = {
+    const [enBody, arBody] = splitBilingualBody(body);
+
+    result.en[slug] = {
       slug,
       num: meta.num ?? "",
       kicker: meta.kicker ?? "",
@@ -121,16 +136,28 @@ function loadLocale(locale: Locale): Record<string, BlogPostData> {
       readTime: meta.readTime ?? "",
       description: meta.description ?? "",
       serviceNum: meta.serviceNum ?? "",
-      body: parseBody(body),
+      body: parseBody(enBody),
+    };
+
+    result.ar[slug] = {
+      slug,
+      num: meta.numAr ?? meta.num ?? "",
+      kicker: meta.kickerAr ?? meta.kicker ?? "",
+      title: meta.titleAr ?? meta.title ?? "",
+      excerpt: meta.excerptAr ?? meta.excerpt ?? "",
+      date: meta.dateAr ?? meta.date ?? "",
+      isoDate: meta.isoDate ?? "",
+      readTime: meta.readTimeAr ?? meta.readTime ?? "",
+      description: meta.descriptionAr ?? meta.description ?? "",
+      serviceNum: meta.serviceNum ?? "",
+      body: parseBody(arBody),
     };
   }
-  return out;
+
+  return result;
 }
 
-const data: Record<Locale, Record<string, BlogPostData>> = {
-  en: loadLocale("en"),
-  ar: loadLocale("ar"),
-};
+const data = loadAll();
 
 const slugs = Array.from(
   new Set([...Object.keys(data.en), ...Object.keys(data.ar)]),
