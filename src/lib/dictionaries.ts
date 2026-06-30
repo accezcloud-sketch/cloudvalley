@@ -135,6 +135,13 @@ export type Dict = {
       submit: string;
     };
   };
+  privacy: {
+    eyebrow: string;
+    title: string;
+    lede: string;
+    updated: string;
+    sections: { num: string; heading: string; body: string[] }[];
+  };
   thankYou: {
     title: string;
     heading: string;
@@ -520,6 +527,108 @@ const ar: Dict = {
       submit: "إرسال",
     },
   },
+  privacy: {
+    eyebrow: "٠٦ — الخصوصية",
+    title: "سياسة الخصوصية.",
+    lede:
+      "نحترم خصوصيتك ونتعامل مع بياناتك بالعناية ذاتها التي نضعها في عملنا. تشرح هذه الصفحة ما نجمعه فعلًا، ولماذا، وكيف نحميه.",
+    updated: "آخر تحديث: ٣٠ حزيران ٢٠٢٦",
+    sections: [
+      {
+        num: "٠١",
+        heading: "من نحن",
+        body: [
+          "وادي السحاب وكالةُ أتمتةٍ وخدماتٍ رقمية، مسجّلةٌ بالسجل التجاري رقم ١٠١٠٦٣٧٨٤٥. نقدّم خدمات تصميم المواقع، وتحسين محركات البحث، وصناعة المحتوى، وإدارة السوشيال ميديا، وتصميم تطبيقات الجوال، والهوية التجارية، والمتاجر الإلكترونية، والتسويق الإلكتروني.",
+          "تُوضّح هذه السياسة كيف نتعامل مع بياناتك الشخصية وفقًا لنظام حماية البيانات الشخصية في المملكة العربية السعودية. باستخدامك لموقعنا أو تواصلك معنا، فإنك توافق على الممارسات الموضّحة هنا.",
+        ],
+      },
+      {
+        num: "٠٢",
+        heading: "المعلومات التي نجمعها",
+        body: [
+          "المعلومات التي تقدّمها عبر نموذج التواصل: الاسم الأول، اسم العائلة، البريد الإلكتروني، رقم الجوال، اسم الشركة، المدينة، وتفاصيل مشروعك.",
+          "بريدك الإلكتروني عند اشتراكك في رسالتنا الشهرية.",
+          "بيانات تُجمع تلقائيًا عند تصفّحك للموقع: عنوان IP، نوع المتصفّح والجهاز، والصفحات التي تزورها — عبر ملفّات تعريف الارتباط وأدوات التحليل.",
+        ],
+      },
+      {
+        num: "٠٣",
+        heading: "كيف نستخدم معلوماتك",
+        body: [
+          "للردّ على استفساراتك وإعداد عروض الأسعار وتقديم الخدمات التي تطلبها.",
+          "للتواصل معك بشأن مشروعك عبر البريد الإلكتروني أو واتساب الأعمال.",
+          "لإرسال رسالتنا الشهرية إن اشتركتَ فيها — ويمكنك إلغاء الاشتراك في أي وقت.",
+          "لتحسين موقعنا وفهم كيفية استخدام الزوّار له.",
+        ],
+      },
+      {
+        num: "٠٤",
+        heading: "بيانات العملاء أثناء تقديم الخدمات",
+        body: [
+          "عند تنفيذنا لخدمةٍ مثل إدارة السوشيال ميديا أو الحملات الإعلانية أو إدارة موقعك أو متجرك، قد تمنحنا صلاحية الوصول إلى حساباتك أو منصّاتك أو محتواك.",
+          "نستخدم هذا الوصول حصريًا لتقديم الخدمة المتّفق عليها، ونحافظ على سرّية بياناتك، ولا نشاركها مع أي طرفٍ خارج نطاق العمل.",
+          "تبقى ملكيّة هذه الحسابات والبيانات لك بالكامل، ونُعيدها أو نحذف صلاحيات وصولنا عند انتهاء التعاون أو بناءً على طلبك.",
+        ],
+      },
+      {
+        num: "٠٥",
+        heading: "ملفّات تعريف الارتباط والتحليلات",
+        body: [
+          "نستخدم ملفّات تعريف الارتباط (Cookies) وأدوات تحليلٍ لتشغيل الموقع وتذكّر تفضيلاتك وقياس الأداء.",
+          "يمكنك ضبط متصفّحك لرفض ملفّات تعريف الارتباط، لكن قد لا تعمل بعض أجزاء الموقع بشكلٍ كامل عندئذٍ.",
+        ],
+      },
+      {
+        num: "٠٦",
+        heading: "مشاركة المعلومات والإفصاح عنها",
+        body: [
+          "نحن لا نبيع بياناتك الشخصية ولا نؤجّرها لأي طرف.",
+          "قد نشارك بياناتٍ محدودةً مع مزوّدي خدماتٍ موثوقين نعتمد عليهم في تشغيل أعمالنا — مثل الاستضافة، وأدوات التحليل، ومنصّات الإعلان (مثل Google وMeta)، وخدمات البريد — وذلك ضمن حدود ما يلزم لأداء عملهم فقط.",
+          "قد نُفصح عن المعلومات إذا اقتضى القانون ذلك أو لحماية حقوقنا.",
+        ],
+      },
+      {
+        num: "٠٧",
+        heading: "الاحتفاظ بالبيانات",
+        body: [
+          "نحتفظ بمعلوماتك طالما كان ذلك ضروريًا لتقديم خدماتنا أو لتحقيق الأغراض الموضّحة في هذه السياسة، أو طالما يقتضي القانون ذلك.",
+          "عند انتفاء الحاجة إليها، نحذف بياناتك أو نجعلها مجهولة الهوية بشكلٍ آمن.",
+        ],
+      },
+      {
+        num: "٠٨",
+        heading: "أمان البيانات",
+        body: [
+          "نطبّق تدابير تقنية وتنظيمية مناسبة لحماية بياناتك من الوصول غير المصرّح به أو الفقد أو سوء الاستخدام.",
+          "ومع ذلك، لا توجد طريقة نقلٍ أو تخزينٍ إلكترونيٍّ آمنة بنسبة مئة بالمئة، ولا يمكننا ضمان الأمان المطلق.",
+        ],
+      },
+      {
+        num: "٠٩",
+        heading: "حقوقك",
+        body: [
+          "لك الحق في الوصول إلى بياناتك الشخصية وتصحيحها أو طلب حذفها.",
+          "لك الحق في الاعتراض على معالجة بياناتك أو سحب موافقتك في أي وقت.",
+          "لممارسة أيٍّ من هذه الحقوق، تواصل معنا عبر بيانات الاتصال في نهاية هذه الصفحة.",
+        ],
+      },
+      {
+        num: "١٠",
+        heading: "التعديلات على هذه السياسة",
+        body: [
+          "قد نُحدّث سياسة الخصوصية هذه من وقتٍ لآخر. سننشر أي تغييرات على هذه الصفحة مع تحديث تاريخ «آخر تحديث» أعلاه.",
+          "استمرارك في استخدام الموقع بعد نشر التغييرات يعني موافقتك على السياسة المُحدّثة.",
+        ],
+      },
+      {
+        num: "١١",
+        heading: "تواصل معنا",
+        body: [
+          "إذا كان لديك أي سؤال حول سياسة الخصوصية هذه أو حول بياناتك، تواصل معنا عبر البريد contact@wady.cloud أو عبر واتساب الأعمال.",
+        ],
+      },
+    ],
+  },
   thankYou: {
     title: "شكرًا لك",
     heading: "استلمنا رسالتك.",
@@ -537,6 +646,7 @@ const ar: Dict = {
           { label: "من نحن", href: "/about" },
           { label: "لماذا نحن", href: "/trust" },
           { label: "تواصل", href: "/contact" },
+          { label: "سياسة الخصوصية", href: "/privacy" },
         ],
       },
       {
@@ -927,6 +1037,108 @@ const en: Dict = {
       submit: "Submit",
     },
   },
+  privacy: {
+    eyebrow: "06 — Privacy",
+    title: "Privacy policy.",
+    lede:
+      "We respect your privacy and handle your data with the same care we put into our work. This page explains what we actually collect, why, and how we protect it.",
+    updated: "Last updated: June 30, 2026",
+    sections: [
+      {
+        num: "01",
+        heading: "Who we are",
+        body: [
+          "Cloud Valley is an automation and digital services agency, registered under commercial registration number 1010637845. We provide web design, search engine optimization, content production, social media management, mobile app design, brand identity, e-commerce, and electronic marketing.",
+          "This policy explains how we handle your personal data in line with Saudi Arabia's Personal Data Protection Law (PDPL). By using our website or contacting us, you agree to the practices described here.",
+        ],
+      },
+      {
+        num: "02",
+        heading: "Information we collect",
+        body: [
+          "Information you provide through our contact form: first name, last name, email, mobile number, company name, city, and your project details.",
+          "Your email address when you subscribe to our monthly letter.",
+          "Information collected automatically as you browse: IP address, browser and device type, and pages visited — gathered through cookies and analytics tools.",
+        ],
+      },
+      {
+        num: "03",
+        heading: "How we use your information",
+        body: [
+          "To respond to your inquiries, prepare quotes, and deliver the services you request.",
+          "To communicate with you about your project via email or Business WhatsApp.",
+          "To send our monthly letter if you subscribed — you can unsubscribe at any time.",
+          "To improve our website and understand how visitors use it.",
+        ],
+      },
+      {
+        num: "04",
+        heading: "Client data while delivering services",
+        body: [
+          "When we deliver a service such as social media management, ad campaigns, or running your website or store, you may grant us access to your accounts, platforms, or content.",
+          "We use that access solely to deliver the agreed service, keep your data confidential, and never share it outside the scope of the work.",
+          "Ownership of those accounts and data remains entirely yours. We hand them back or remove our access when the engagement ends or whenever you ask.",
+        ],
+      },
+      {
+        num: "05",
+        heading: "Cookies and analytics",
+        body: [
+          "We use cookies and analytics tools to run the site, remember your preferences, and measure performance.",
+          "You can set your browser to refuse cookies, but some parts of the site may not function fully if you do.",
+        ],
+      },
+      {
+        num: "06",
+        heading: "Sharing and disclosure",
+        body: [
+          "We do not sell or rent your personal data to anyone.",
+          "We may share limited data with trusted service providers we rely on to run our business — such as hosting, analytics, advertising platforms (e.g. Google and Meta), and email services — limited to what they need to perform their work.",
+          "We may disclose information where required by law, or to protect our rights.",
+        ],
+      },
+      {
+        num: "07",
+        heading: "Data retention",
+        body: [
+          "We keep your information for as long as necessary to deliver our services, fulfil the purposes described in this policy, or as required by law.",
+          "When it is no longer needed, we securely delete or anonymize your data.",
+        ],
+      },
+      {
+        num: "08",
+        heading: "Data security",
+        body: [
+          "We apply appropriate technical and organizational measures to protect your data against unauthorized access, loss, or misuse.",
+          "However, no method of electronic transmission or storage is one hundred percent secure, and we cannot guarantee absolute security.",
+        ],
+      },
+      {
+        num: "09",
+        heading: "Your rights",
+        body: [
+          "You have the right to access, correct, or request deletion of your personal data.",
+          "You have the right to object to the processing of your data or to withdraw your consent at any time.",
+          "To exercise any of these rights, contact us using the details at the end of this page.",
+        ],
+      },
+      {
+        num: "10",
+        heading: "Changes to this policy",
+        body: [
+          "We may update this privacy policy from time to time. Any changes will be posted on this page with an updated “Last updated” date above.",
+          "Your continued use of the site after changes are posted means you accept the updated policy.",
+        ],
+      },
+      {
+        num: "11",
+        heading: "Contact us",
+        body: [
+          "If you have any questions about this privacy policy or your data, contact us at contact@wady.cloud or through Business WhatsApp.",
+        ],
+      },
+    ],
+  },
   thankYou: {
     title: "Thank you",
     heading: "We received your message.",
@@ -944,6 +1156,7 @@ const en: Dict = {
           { label: "About", href: "/about" },
           { label: "Why us", href: "/trust" },
           { label: "Contact", href: "/contact" },
+          { label: "Privacy Policy", href: "/privacy" },
         ],
       },
       {
