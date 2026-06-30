@@ -142,6 +142,13 @@ export type Dict = {
     updated: string;
     sections: { num: string; heading: string; body: string[] }[];
   };
+  terms: {
+    eyebrow: string;
+    title: string;
+    lede: string;
+    updated: string;
+    sections: { num: string; heading: string; body: string[] }[];
+  };
   thankYou: {
     title: string;
     heading: string;
@@ -629,6 +636,129 @@ const ar: Dict = {
       },
     ],
   },
+  terms: {
+    eyebrow: "٠٧ — الشروط",
+    title: "شروط الخدمة.",
+    lede:
+      "تُحدّد هذه الشروط القواعد المنظِّمة لاستخدامك موقعنا وخدماتنا. اقرأها بعنايةٍ قبل التعاقد معنا.",
+    updated: "آخر تحديث: ٣٠ حزيران ٢٠٢٦",
+    sections: [
+      {
+        num: "٠١",
+        heading: "الموافقة على الشروط",
+        body: [
+          "تُحدّد شروط الخدمة هذه القواعد المنظِّمة لاستخدامك موقع وادي السحاب وخدماتنا. باستخدامك للموقع أو التعاقد معنا، فإنك توافق على هذه الشروط بالكامل. إن لم توافق عليها، فنرجو عدم استخدام الموقع أو خدماتنا.",
+          "وادي السحاب وكالةُ أتمتةٍ وخدماتٍ رقمية مسجّلة بالسجل التجاري رقم ١٠١٠٦٣٧٨٤٥.",
+        ],
+      },
+      {
+        num: "٠٢",
+        heading: "خدماتنا",
+        body: [
+          "نقدّم خدمات تصميم المواقع، وتحسين محركات البحث، وصناعة المحتوى، وإدارة السوشيال ميديا، وتصميم تطبيقات الجوال، والهوية التجارية، والمتاجر الإلكترونية، والتسويق الإلكتروني.",
+          "يُتّفق على نطاق كل خدمة ومخرجاتها كتابةً قبل بدء العمل، عبر عرض سعرٍ أو اتفاقية.",
+        ],
+      },
+      {
+        num: "٠٣",
+        heading: "الباقات والتسعير",
+        body: [
+          "نوفّر باقاتٍ شهرية وخدماتٍ مخصّصة. الأسعار المعروضة بالريال السعودي وقد تتغيّر، لكن أي تغيير لا يسري على اشتراكٍ قائمٍ إلا بإشعارٍ مسبق.",
+        ],
+      },
+      {
+        num: "٠٤",
+        heading: "الدفع",
+        body: [
+          "تُسدَّد الرسوم الشهرية مقدّمًا في بداية كل دورة، ويبدأ العمل بعد تأكيد الدفع الأول.",
+          "التأخّر في السداد قد يؤدي إلى إيقاف الخدمة مؤقتًا حتى تسوية المستحقّات.",
+        ],
+      },
+      {
+        num: "٠٥",
+        heading: "مسؤوليات العميل",
+        body: [
+          "تزويدنا بالمعلومات والمحتوى والصلاحيات اللازمة لتنفيذ الخدمة في الوقت المناسب.",
+          "مراجعة المخرجات وتقديم ملاحظاتك ضمن المدّة المتّفق عليها؛ فالتأخّر في الموافقة قد يؤخّر التسليم.",
+          "ضمان أنّ ما تزوّدنا به من محتوى أو علاماتٍ تجارية لا ينتهك حقوق أي طرفٍ آخر.",
+        ],
+      },
+      {
+        num: "٠٦",
+        heading: "الملكية الفكرية",
+        body: [
+          "بعد سداد المستحقّات كاملةً، تؤول إليك ملكية المخرجات النهائية التي أنشأناها لك.",
+          "نحتفظ بحقّ عرض الأعمال المنجَزة ضمن معرض أعمالنا وموادّنا التسويقية، ما لم تطلب خلاف ذلك كتابةً.",
+          "تبقى الأدوات والأطر والمعرفة العامة التي نستخدمها في عملنا ملكًا لنا.",
+        ],
+      },
+      {
+        num: "٠٧",
+        heading: "المراجعات والاعتماد",
+        body: [
+          "يشمل كل عملٍ عددًا متّفقًا عليه من جولات المراجعة. الطلبات الإضافية خارج النطاق المتّفق عليه قد تترتّب عليها رسومٌ إضافية.",
+        ],
+      },
+      {
+        num: "٠٨",
+        heading: "السرّية",
+        body: [
+          "نتعامل مع معلوماتك وبيانات أعمالك بسرّيةٍ تامّة، ولا نُفصح عنها لأي طرفٍ خارج نطاق تنفيذ الخدمة.",
+        ],
+      },
+      {
+        num: "٠٩",
+        heading: "الضمانات وإخلاء المسؤولية",
+        body: [
+          "نلتزم بتقديم عملٍ بمعيار جودةٍ عالٍ نضع اسمنا عليه. ومع ذلك، لا نضمن نتائج أعمالٍ محدّدة مثل ترتيبٍ معيّن في محركات البحث أو حجم مبيعاتٍ بعينه، لأنها تعتمد على عوامل خارجة عن سيطرتنا.",
+          "تُقدَّم الخدمات «كما هي» دون ضماناتٍ ضمنيةٍ تتجاوز ما نصّت عليه هذه الشروط.",
+        ],
+      },
+      {
+        num: "١٠",
+        heading: "حدود المسؤولية",
+        body: [
+          "إلى الحد الذي يجيزه النظام، لا تتجاوز مسؤوليتنا الإجمالية تجاهك قيمة المبالغ التي دفعتها لنا خلال الأشهر الثلاثة السابقة للحدث المسبّب للمطالبة.",
+          "لا نتحمّل مسؤولية أي أضرارٍ غير مباشرةٍ أو تبعية.",
+        ],
+      },
+      {
+        num: "١١",
+        heading: "منصّات الأطراف الثالثة",
+        body: [
+          "قد تعتمد بعض خدماتنا على منصّاتٍ خارجية (مثل Google وMeta ومزوّدي الاستضافة). نحن لا نتحكّم في هذه المنصّات ولا نتحمّل مسؤولية تغييراتٍ في سياساتها أو أسعارها أو توافرها.",
+        ],
+      },
+      {
+        num: "١٢",
+        heading: "الإنهاء",
+        body: [
+          "يحقّ لأيٍّ من الطرفين إنهاء التعاون بإشعار. عند الإنهاء، نُسلّمك ما أُنجز ونزيل صلاحيات وصولنا إلى أنظمتك.",
+        ],
+      },
+      {
+        num: "١٣",
+        heading: "القانون الواجب التطبيق",
+        body: [
+          "تخضع هذه الشروط لأنظمة المملكة العربية السعودية، وتُحلّ أي نزاعاتٍ تنشأ عنها وفقًا لها.",
+        ],
+      },
+      {
+        num: "١٤",
+        heading: "التعديلات على الشروط",
+        body: [
+          "قد نُحدّث هذه الشروط من وقتٍ لآخر. تُنشر التغييرات على هذه الصفحة مع تحديث تاريخ «آخر تحديث» أعلاه، واستمرارك في استخدام خدماتنا يعني موافقتك على النسخة المُحدّثة.",
+        ],
+      },
+      {
+        num: "١٥",
+        heading: "تواصل معنا",
+        body: [
+          "لأي استفسارٍ حول هذه الشروط، تواصل معنا عبر البريد contact@wady.cloud أو عبر واتساب الأعمال.",
+        ],
+      },
+    ],
+  },
   thankYou: {
     title: "شكرًا لك",
     heading: "استلمنا رسالتك.",
@@ -647,6 +777,7 @@ const ar: Dict = {
           { label: "لماذا نحن", href: "/trust" },
           { label: "تواصل", href: "/contact" },
           { label: "سياسة الخصوصية", href: "/privacy" },
+          { label: "شروط الخدمة", href: "/terms" },
         ],
       },
       {
@@ -1139,6 +1270,129 @@ const en: Dict = {
       },
     ],
   },
+  terms: {
+    eyebrow: "07 — Terms",
+    title: "Terms of service.",
+    lede:
+      "These terms set the rules that govern your use of our website and services. Please read them carefully before engaging us.",
+    updated: "Last updated: June 30, 2026",
+    sections: [
+      {
+        num: "01",
+        heading: "Acceptance of terms",
+        body: [
+          "These terms of service set the rules that govern your use of the Cloud Valley website and our services. By using the site or engaging us, you agree to these terms in full. If you do not agree, please do not use the site or our services.",
+          "Cloud Valley is an automation and digital services agency, registered under commercial registration number 1010637845.",
+        ],
+      },
+      {
+        num: "02",
+        heading: "Our services",
+        body: [
+          "We provide web design, search engine optimization, content production, social media management, mobile app design, brand identity, e-commerce, and electronic marketing.",
+          "The scope and deliverables of each service are agreed in writing — through a quote or agreement — before work begins.",
+        ],
+      },
+      {
+        num: "03",
+        heading: "Packages and pricing",
+        body: [
+          "We offer monthly packages and custom services. Listed prices are in Saudi Riyals (SAR) and may change, but no change applies to an active subscription without prior notice.",
+        ],
+      },
+      {
+        num: "04",
+        heading: "Payment",
+        body: [
+          "Monthly fees are paid in advance at the start of each cycle, and work begins after the first payment is confirmed.",
+          "Late payment may result in a temporary suspension of service until outstanding amounts are settled.",
+        ],
+      },
+      {
+        num: "05",
+        heading: "Client responsibilities",
+        body: [
+          "Providing the information, content, and access we need to deliver the service in a timely manner.",
+          "Reviewing deliverables and giving feedback within the agreed timeframe — delays in approval may delay delivery.",
+          "Ensuring that any content or trademarks you provide do not infringe the rights of others.",
+        ],
+      },
+      {
+        num: "06",
+        heading: "Intellectual property and ownership",
+        body: [
+          "Once fees are paid in full, ownership of the final deliverables we created for you transfers to you.",
+          "We retain the right to showcase completed work in our portfolio and marketing materials, unless you request otherwise in writing.",
+          "The tools, frameworks, and general know-how we use in our work remain ours.",
+        ],
+      },
+      {
+        num: "07",
+        heading: "Revisions and approvals",
+        body: [
+          "Each engagement includes an agreed number of revision rounds. Additional requests outside the agreed scope may incur extra fees.",
+        ],
+      },
+      {
+        num: "08",
+        heading: "Confidentiality",
+        body: [
+          "We treat your information and business data as strictly confidential and do not disclose it to anyone outside the scope of delivering the service.",
+        ],
+      },
+      {
+        num: "09",
+        heading: "Warranties and disclaimer",
+        body: [
+          "We commit to delivering work to a high quality standard we'd put our name on. However, we do not guarantee specific business outcomes — such as a particular search ranking or sales volume — as these depend on factors beyond our control.",
+          "Services are provided “as is”, without implied warranties beyond what these terms state.",
+        ],
+      },
+      {
+        num: "10",
+        heading: "Limitation of liability",
+        body: [
+          "To the extent permitted by law, our total liability to you will not exceed the amounts you paid us in the three months preceding the event giving rise to the claim.",
+          "We are not liable for any indirect or consequential damages.",
+        ],
+      },
+      {
+        num: "11",
+        heading: "Third-party platforms",
+        body: [
+          "Some of our services rely on external platforms (such as Google, Meta, and hosting providers). We do not control these platforms and are not responsible for changes to their policies, pricing, or availability.",
+        ],
+      },
+      {
+        num: "12",
+        heading: "Termination",
+        body: [
+          "Either party may end the engagement with notice. On termination, we hand over completed work and remove our access to your systems.",
+        ],
+      },
+      {
+        num: "13",
+        heading: "Governing law",
+        body: [
+          "These terms are governed by the laws of the Kingdom of Saudi Arabia, and any disputes arising from them are resolved accordingly.",
+        ],
+      },
+      {
+        num: "14",
+        heading: "Changes to these terms",
+        body: [
+          "We may update these terms from time to time. Changes are posted on this page with an updated “Last updated” date above, and your continued use of our services means you accept the updated version.",
+        ],
+      },
+      {
+        num: "15",
+        heading: "Contact us",
+        body: [
+          "For any questions about these terms, contact us at contact@wady.cloud or through Business WhatsApp.",
+        ],
+      },
+    ],
+  },
   thankYou: {
     title: "Thank you",
     heading: "We received your message.",
@@ -1157,6 +1411,7 @@ const en: Dict = {
           { label: "Why us", href: "/trust" },
           { label: "Contact", href: "/contact" },
           { label: "Privacy Policy", href: "/privacy" },
+          { label: "Terms of Service", href: "/terms" },
         ],
       },
       {
