@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import type { Locale } from "@/lib/i18n";
@@ -57,22 +58,24 @@ export function SiteHeader({ locale, dict }: Props) {
       <div className="mx-auto flex w-full max-w-[1440px] items-center justify-between px-6 py-4 md:px-10 md:py-5">
         <Link
           href={`/${locale}`}
-          className="group flex items-baseline gap-3 text-ink"
+          className="group flex items-center gap-2.5 text-ink transition-opacity hover:opacity-80"
           aria-label={dict.brand.name}
         >
+          <Image
+            src="/wady-logo.png"
+            alt={`${dict.brand.name} logo`}
+            width={40}
+            height={26}
+            priority
+            className="h-6 w-auto md:h-7"
+          />
           <span
-            className={`text-xl leading-none tracking-tight md:text-[1.35rem] ${
+            className={`text-lg leading-none tracking-tight md:text-xl ${
               isAr ? "font-normal" : "italic"
             }`}
             style={{ fontFamily: "var(--font-serif-latin)" }}
           >
             Cloud Valley
-          </span>
-          <span
-            className="hidden text-[0.7rem] uppercase tracking-[0.18em] text-ink-mute md:inline"
-            style={{ fontFamily: "var(--font-mono)" }}
-          >
-            — est. 2024
           </span>
         </Link>
 

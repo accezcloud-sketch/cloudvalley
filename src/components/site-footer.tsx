@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Locale } from "@/lib/i18n";
 import type { Dict } from "@/lib/dictionaries";
 import { waLink } from "@/lib/i18n";
@@ -12,12 +13,27 @@ export function SiteFooter({ locale, dict }: Props) {
       <div className="mx-auto w-full max-w-[1440px] px-6 py-16 md:px-10">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-12">
           <div className="md:col-span-5">
-            <div
-              className="text-[0.7rem] uppercase tracking-[0.2em] text-ink-mute"
-              style={{ fontFamily: "var(--font-mono)" }}
+            <Link
+              href={`/${locale}`}
+              aria-label={dict.brand.name}
+              className="group inline-flex w-fit items-center gap-2.5 text-ink transition-opacity hover:opacity-80"
             >
-              {isAr ? "وادي السحاب — ٢٠٢٦" : "Cloud Valley — 2026"}
-            </div>
+              <Image
+                src="/wady-logo.png"
+                alt={`${dict.brand.name} logo`}
+                width={40}
+                height={26}
+                className="h-6 w-auto md:h-7"
+              />
+              <span
+                className={`text-lg leading-none tracking-tight md:text-xl ${
+                  isAr ? "font-normal" : "italic"
+                }`}
+                style={{ fontFamily: "var(--font-serif-latin)" }}
+              >
+                Cloud Valley
+              </span>
+            </Link>
             <p
               className="mt-6 max-w-md text-[2rem] leading-[1.15] text-ink md:text-[2.4rem]"
               style={{
