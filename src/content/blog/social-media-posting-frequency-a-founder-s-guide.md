@@ -6,14 +6,14 @@ excerptAr: "اكتشف الجدول الزمني الأمثل للنشر على 
 description: "Unlock the secret to consistent social media success for your Saudi business. Learn how often to post on platforms like Instagram and Twitter to connect with your audience and drive growth."
 descriptionAr: "دليلك الشامل لتحديد وتيرة النشر المثلى على منصات التواصل الاجتماعي في السعودية والخليج، مع التركيز على جودة المحتوى وفهم الجمهور لتحقيق أفضل النتائج."
 num: 04
-numAr: ŸŸ
+numAr: ٠٤
 kicker: "Social media"
-kickerAr: "ÿ≥Ÿàÿ¥ŸäÿßŸÑ ŸÖŸäÿØŸäÿß"
+kickerAr: "سوشيال ميديا"
 date: "July 22, 2026"
-dateAr: "ŸŸ ÿ™ŸÖŸàÿ≤ ŸŸŸŸ"
+dateAr: "٢٢ تموز ٢٠٢٦"
 isoDate: 2026-07-22
 readTime: "7 min"
-readTimeAr: "£ ÿØŸÇÿßÿ¶ŸÇ"
+readTimeAr: "٧ دقائق"
 serviceNum: 04
 ---
 
