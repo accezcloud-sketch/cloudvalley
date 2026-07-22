@@ -10,6 +10,8 @@ export function dirOf(locale: Locale): "rtl" | "ltr" {
   return locale === "ar" ? "rtl" : "ltr";
 }
 
+export const SITE_URL = "https://www.wady.cloud";
+
 export const WHATSAPP_NUMBER = "18444603371";
 export const WHATSAPP_DISPLAY = "+1 (844) 460-3371";
 export const CONTACT_EMAIL = "contact@wady.cloud";

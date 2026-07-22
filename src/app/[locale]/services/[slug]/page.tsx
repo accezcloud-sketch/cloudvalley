@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { locales, isLocale, waLink } from "@/lib/i18n";
+import { locales, isLocale, waLink, SITE_URL } from "@/lib/i18n";
 import { getDict } from "@/lib/dictionaries";
 import { getServicePage, getAllServiceSlugs } from "@/lib/service-data";
 import { Rise } from "@/components/rise";
@@ -26,7 +26,7 @@ export async function generateMetadata(
     description: service.tagline,
     openGraph: { type: "website" },
     alternates: {
-      canonical: `https://cloudvalley.co/${locale}/services/${slug}`,
+      canonical: `${SITE_URL}/${locale}/services/${slug}`,
     },
   };
 }
@@ -58,14 +58,14 @@ export default async function ServiceDetailPage(
     provider: {
       "@type": "Organization",
       name: isAr ? "وادي السحاب" : "Cloud Valley",
-      url: "https://cloudvalley.co",
+      url: SITE_URL,
     },
     serviceType: listing.name,
     areaServed: {
       "@type": "Place",
       name: isAr ? "الوطن العربي" : "Arab World",
     },
-    url: `https://cloudvalley.co/${locale}/services/${slug}`,
+    url: `${SITE_URL}/${locale}/services/${slug}`,
   };
 
   return (

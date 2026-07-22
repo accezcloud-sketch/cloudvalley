@@ -1,9 +1,9 @@
 import type { MetadataRoute } from "next";
-import { locales } from "@/lib/i18n";
-import { getAllSlugs } from "@/lib/blog-data";
+import { locales, SITE_URL } from "@/lib/i18n";
+import { getAllBlogPosts } from "@/lib/blog-data";
 import { getAllServiceSlugs } from "@/lib/service-data";
 
-const BASE_URL = "https://cloudvalley.co";
+const BASE_URL = SITE_URL;
 
 const staticPages = ["", "/services", "/blog", "/about", "/trust", "/contact"];
 
@@ -29,10 +29,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       });
     }
 
-    for (const slug of getAllSlugs()) {
+    for (const post of getAllBlogPosts(locale)) {
+      const published = new Date(post.isoDate);
       entries.push({
-        url: `${BASE_URL}/${locale}/blog/${slug}`,
-        lastModified: new Date(),
+        url: `${BASE_URL}/${locale}/blog/${post.slug}`,
+        lastModified: Number.isNaN(published.getTime()) ? new Date() : published,
         changeFrequency: "monthly",
         priority: 0.7,
       });

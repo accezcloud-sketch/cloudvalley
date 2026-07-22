@@ -60,7 +60,7 @@ export default async function BlogPage(props: PageProps<"/[locale]/blog">) {
           {posts.map((post, i) => (
             <Rise
               as="li"
-              key={post.num}
+              key={post.slug}
               delay={i * 70}
               className="group relative"
             >

@@ -171,8 +171,11 @@ export function getBlogPost(
 }
 
 export function getAllBlogPosts(locale: Locale): BlogPostData[] {
-  return Object.values(data[locale] ?? {}).sort((a, b) =>
-    a.num.localeCompare(b.num),
+  return Object.values(data[locale] ?? {}).sort(
+    (a, b) =>
+      b.isoDate.localeCompare(a.isoDate) ||
+      a.num.localeCompare(b.num) ||
+      a.slug.localeCompare(b.slug),
   );
 }
 

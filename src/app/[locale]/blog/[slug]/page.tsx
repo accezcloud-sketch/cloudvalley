@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { locales, isLocale, waLink } from "@/lib/i18n";
+import { locales, isLocale, waLink, SITE_URL } from "@/lib/i18n";
 import { getDict } from "@/lib/dictionaries";
 import { getBlogPost, getAllSlugs, type BlogSection } from "@/lib/blog-data";
 import { Rise } from "@/components/rise";
@@ -22,6 +22,13 @@ export async function generateMetadata(
   return {
     title: post.title,
     description: post.description,
+    alternates: {
+      canonical: `${SITE_URL}/${locale}/blog/${slug}`,
+      languages: {
+        en: `${SITE_URL}/en/blog/${slug}`,
+        ar: `${SITE_URL}/ar/blog/${slug}`,
+      },
+    },
   };
 }
 
@@ -55,12 +62,12 @@ export default async function BlogPostPage(
     author: {
       "@type": "Organization",
       name: "Cloud Valley",
-      url: "https://cloudvalley.co",
+      url: SITE_URL,
     },
     publisher: {
       "@type": "Organization",
       name: "Cloud Valley",
-      url: "https://cloudvalley.co",
+      url: SITE_URL,
     },
     inLanguage: isAr ? "ar" : "en",
   };
