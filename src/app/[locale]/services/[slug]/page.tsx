@@ -1,10 +1,18 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { locales, isLocale, waLink, SITE_URL } from "@/lib/i18n";
+import { locales, isLocale, waLink } from "@/lib/i18n";
 import { getDict } from "@/lib/dictionaries";
 import { getServicePage, getAllServiceSlugs } from "@/lib/service-data";
 import { Rise } from "@/components/rise";
 import { SectionRule } from "@/components/section-rule";
+import { JsonLd } from "@/components/json-ld";
+import {
+  pageMetadata,
+  urlFor,
+  graph,
+  breadcrumbSchema,
+  ORG_ID,
+} from "@/lib/seo";
 
 export async function generateStaticParams() {
   return locales.flatMap((locale) =>
@@ -21,14 +29,14 @@ export async function generateMetadata(
   if (!service) return {};
   const dict = getDict(locale);
   const listing = dict.services.list.find((s) => s.slug === slug);
-  return {
+  // These 16 pages had a canonical but no hreflang at all, so the ar and en
+  // versions of each service were competing as unrelated near-duplicates.
+  return pageMetadata({
+    locale,
+    path: `/services/${slug}`,
     title: listing?.name,
     description: service.tagline,
-    openGraph: { type: "website" },
-    alternates: {
-      canonical: `${SITE_URL}/${locale}/services/${slug}`,
-    },
-  };
+  });
 }
 
 export default async function ServiceDetailPage(
@@ -50,35 +58,43 @@ export default async function ServiceDetailPage(
     : "var(--font-serif-latin)";
   const bodyFont = isAr ? "var(--font-sans-ar)" : "var(--font-serif-latin)";
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    name: listing.name,
-    description: service.tagline,
-    provider: {
-      "@type": "Organization",
-      name: isAr ? "وادي السحاب" : "Cloud Valley",
-      url: SITE_URL,
+  const url = urlFor(locale, `/services/${slug}`);
+
+  // The provider is now a reference to the single Organization node declared
+  // on the home page instead of a second, thinner copy of it.
+  // No FAQPage markup for the FAQ block below: Google retired FAQ rich results
+  // on 7 May 2026, so it would render nothing. The content stays for readers.
+  const jsonLd = graph(
+    {
+      "@type": "Service",
+      "@id": `${url}#service`,
+      name: listing.name,
+      description: service.tagline,
+      provider: { "@id": ORG_ID },
+      serviceType: listing.name,
+      areaServed: {
+        "@type": "Place",
+        name: isAr ? "الوطن العربي" : "Arab World",
+      },
+      inLanguage: locale,
+      url,
     },
-    serviceType: listing.name,
-    areaServed: {
-      "@type": "Place",
-      name: isAr ? "الوطن العربي" : "Arab World",
-    },
-    url: `${SITE_URL}/${locale}/services/${slug}`,
-  };
+    breadcrumbSchema([
+      { name: dict.nav.home, url: urlFor(locale) },
+      // nav labels, not page titles — services.title is a full sentence.
+      { name: dict.nav.services, url: urlFor(locale, "/services") },
+      { name: listing.name, url },
+    ]),
+  );
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <JsonLd data={jsonLd} />
 
       <article className="mx-auto w-full max-w-[1440px] px-6 md:px-10">
         {/* Back link */}
         <nav className="pt-10 md:pt-16">
-          <Rise>
+          <Rise eager>
             <Link
               href={`/${locale}/services`}
               className="link-sweep inline-block text-[0.8rem] uppercase tracking-[0.18em] text-ink-mute transition-colors hover:text-accent"
@@ -96,6 +112,7 @@ export default async function ServiceDetailPage(
           />
 
           <Rise
+            eager
             as="h1"
             className="mt-10 max-w-4xl text-[clamp(2rem,5vw,3.5rem)] leading-[1.08]"
             style={{
@@ -106,7 +123,7 @@ export default async function ServiceDetailPage(
             {listing.name}
           </Rise>
 
-          <Rise delay={80}>
+          <Rise eager delay={80}>
             <p
               className="mt-6 max-w-3xl text-[1.15rem] leading-[1.55] text-ink-soft"
               style={{ fontFamily: bodyFont }}

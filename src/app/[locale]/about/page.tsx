@@ -3,11 +3,20 @@ import { isLocale, waLink } from "@/lib/i18n";
 import { getDict } from "@/lib/dictionaries";
 import { Rise } from "@/components/rise";
 import { SectionRule } from "@/components/section-rule";
+import { pageMetadata } from "@/lib/seo";
 
 export async function generateMetadata(props: PageProps<"/[locale]/about">) {
   const { locale } = await props.params;
   if (!isLocale(locale)) return {};
-  return { title: getDict(locale).about.title };
+  const dict = getDict(locale);
+  // `description` was missing, so this page shared the site-wide one with
+  // every other page; the about lede is the page's own summary.
+  return pageMetadata({
+    locale,
+    path: "/about",
+    title: dict.about.title,
+    description: dict.about.lede,
+  });
 }
 
 export default async function AboutPage(props: PageProps<"/[locale]/about">) {
@@ -25,6 +34,7 @@ export default async function AboutPage(props: PageProps<"/[locale]/about">) {
         <SectionRule label={dict.about.eyebrow} />
         <div className="mt-10 grid grid-cols-1 gap-10 md:grid-cols-12">
           <Rise
+            eager
             as="h1"
             className="md:col-span-9 text-[clamp(2.3rem,6vw,5.5rem)] leading-[1.02]"
             style={{
@@ -34,7 +44,7 @@ export default async function AboutPage(props: PageProps<"/[locale]/about">) {
           >
             {dict.about.title}
           </Rise>
-          <Rise delay={100} className="md:col-span-3 md:pt-6">
+          <Rise eager delay={100} className="md:col-span-3 md:pt-6">
             <p
               className="text-[1.05rem] leading-[1.6] text-ink-soft"
               style={{

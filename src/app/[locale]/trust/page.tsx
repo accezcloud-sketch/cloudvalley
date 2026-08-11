@@ -3,11 +3,18 @@ import { isLocale, waLink } from "@/lib/i18n";
 import { getDict } from "@/lib/dictionaries";
 import { Rise } from "@/components/rise";
 import { SectionRule } from "@/components/section-rule";
+import { pageMetadata } from "@/lib/seo";
 
 export async function generateMetadata(props: PageProps<"/[locale]/trust">) {
   const { locale } = await props.params;
   if (!isLocale(locale)) return {};
-  return { title: getDict(locale).trust.title };
+  const dict = getDict(locale);
+  return pageMetadata({
+    locale,
+    path: "/trust",
+    title: dict.trust.title,
+    description: dict.trust.lede,
+  });
 }
 
 export default async function TrustPage(props: PageProps<"/[locale]/trust">) {
@@ -25,6 +32,7 @@ export default async function TrustPage(props: PageProps<"/[locale]/trust">) {
         <SectionRule label={dict.trust.eyebrow} />
         <div className="mt-10 grid grid-cols-1 gap-10 md:grid-cols-12">
           <Rise
+            eager
             as="h1"
             className="md:col-span-9 text-[clamp(2.5rem,7vw,6rem)] leading-[0.98]"
             style={{
@@ -34,7 +42,7 @@ export default async function TrustPage(props: PageProps<"/[locale]/trust">) {
           >
             {dict.trust.title}
           </Rise>
-          <Rise delay={100} className="md:col-span-3 flex items-end">
+          <Rise eager delay={100} className="md:col-span-3 flex items-end">
             <p
               className="text-[1.05rem] leading-[1.6] text-ink-soft"
               style={{

@@ -132,6 +132,24 @@ html[dir="rtl"] .marquee-track {
     opacity: 1;
     transform: translateY(0);
   }
+
+  /* Same entrance for above-the-fold blocks, but driven by CSS so it starts on
+     the first painted frame. .rise above stays invisible until hydration adds
+     .is-in, which made the LCP element wait for the JS bundle. */
+  .rise-eager {
+    animation: rise-in 900ms cubic-bezier(0.2, 0.7, 0, 1) both;
+  }
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* large display line treatment */

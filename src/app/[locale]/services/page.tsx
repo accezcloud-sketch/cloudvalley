@@ -4,11 +4,18 @@ import { isLocale, waLink } from "@/lib/i18n";
 import { getDict } from "@/lib/dictionaries";
 import { Rise } from "@/components/rise";
 import { SectionRule } from "@/components/section-rule";
+import { pageMetadata } from "@/lib/seo";
 
 export async function generateMetadata(props: PageProps<"/[locale]/services">) {
   const { locale } = await props.params;
   if (!isLocale(locale)) return {};
-  return { title: getDict(locale).services.title };
+  const dict = getDict(locale);
+  return pageMetadata({
+    locale,
+    path: "/services",
+    title: dict.services.title,
+    description: dict.services.lede,
+  });
 }
 
 export default async function ServicesPage(
@@ -29,6 +36,7 @@ export default async function ServicesPage(
         <SectionRule label={dict.services.eyebrow} />
         <div className="mt-10 grid grid-cols-1 gap-8 md:grid-cols-12">
           <Rise
+            eager
             as="h1"
             className="md:col-span-8 text-[clamp(2.5rem,7vw,6rem)] leading-[1.02]"
             style={{
@@ -39,6 +47,7 @@ export default async function ServicesPage(
             {dict.services.title}
           </Rise>
           <Rise
+            eager
             delay={100}
             className="md:col-span-4 flex items-end"
           >

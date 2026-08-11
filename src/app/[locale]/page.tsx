@@ -5,6 +5,21 @@ import { ContactForm } from "@/components/contact-form";
 import { getDict } from "@/lib/dictionaries";
 import { Rise } from "@/components/rise";
 import { SectionRule } from "@/components/section-rule";
+import { JsonLd } from "@/components/json-ld";
+import {
+  pageMetadata,
+  graph,
+  organizationSchema,
+  webSiteSchema,
+} from "@/lib/seo";
+
+// The home page exported no metadata at all, so it inherited the layout's and
+// shipped with no canonical and no hreflang.
+export async function generateMetadata(props: PageProps<"/[locale]">) {
+  const { locale } = await props.params;
+  if (!isLocale(locale)) return {};
+  return pageMetadata({ locale });
+}
 
 export default async function HomePage(props: PageProps<"/[locale]">) {
   const { locale } = await props.params;
@@ -18,6 +33,12 @@ export default async function HomePage(props: PageProps<"/[locale]">) {
 
   return (
     <>
+      {/* Organization + WebSite live on the home page only; other pages point
+          at them by @id rather than repeating the whole node. */}
+      <JsonLd
+        data={graph(organizationSchema(locale), webSiteSchema(locale))}
+      />
+
       {/* HERO */}
       <section className="relative overflow-hidden border-b border-rule">
         <div className="mx-auto w-full max-w-[1440px] px-6 pt-12 pb-20 md:px-10 md:pt-20 md:pb-28">
@@ -35,19 +56,26 @@ export default async function HomePage(props: PageProps<"/[locale]">) {
               className="display-serif col-span-1 text-[clamp(3rem,11vw,10rem)] md:col-span-9"
               style={{ fontFamily: serifDisplay }}
             >
-              <Rise as="span" className="block">
+              {/* eager: this h1 is the LCP element — it must not wait for JS. */}
+              <Rise as="span" eager className="block">
                 {dict.home.displayA}
               </Rise>
-              <Rise as="span" delay={120} className="block italic text-accent">
+              <Rise
+                as="span"
+                eager
+                delay={120}
+                className="block italic text-accent"
+              >
                 {dict.home.displayB}
               </Rise>
-              <Rise as="span" delay={240} className="block">
+              <Rise as="span" eager delay={240} className="block">
                 {dict.home.displayC}
               </Rise>
             </h1>
 
             <Rise
               as="div"
+              eager
               delay={400}
               className="col-span-1 flex flex-col justify-end gap-8 md:col-span-3"
             >

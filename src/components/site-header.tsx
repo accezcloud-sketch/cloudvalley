@@ -24,6 +24,7 @@ export function SiteHeader({ locale, dict }: Props) {
 
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+  const [menuPath, setMenuPath] = useState(pathname);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8);
@@ -32,9 +33,13 @@ export function SiteHeader({ locale, dict }: Props) {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  useEffect(() => {
+  // Close the mobile menu when the route changes. Adjusting state during
+  // render rather than in an effect: the effect version fired a second render
+  // pass after paint and was the only lint error in the project.
+  if (menuPath !== pathname) {
+    setMenuPath(pathname);
     setOpen(false);
-  }, [pathname]);
+  }
 
   const nav = [
     { label: dict.nav.home, href: `/${locale}` },

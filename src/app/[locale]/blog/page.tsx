@@ -5,11 +5,18 @@ import { getBlogListing } from "@/lib/blog-data";
 import { Rise } from "@/components/rise";
 import { SectionRule } from "@/components/section-rule";
 import { SubscribeForm } from "@/components/subscribe-form";
+import { pageMetadata } from "@/lib/seo";
 
 export async function generateMetadata(props: PageProps<"/[locale]/blog">) {
   const { locale } = await props.params;
   if (!isLocale(locale)) return {};
-  return { title: getDict(locale).blog.title };
+  const dict = getDict(locale);
+  return pageMetadata({
+    locale,
+    path: "/blog",
+    title: dict.blog.title,
+    description: dict.blog.lede,
+  });
 }
 
 export default async function BlogPage(props: PageProps<"/[locale]/blog">) {
@@ -28,6 +35,7 @@ export default async function BlogPage(props: PageProps<"/[locale]/blog">) {
         <SectionRule label={dict.blog.eyebrow} />
         <div className="mt-10 grid grid-cols-1 gap-8 md:grid-cols-12">
           <Rise
+            eager
             as="h1"
             className="md:col-span-8 text-[clamp(2.5rem,7vw,6rem)] leading-[1.02]"
             style={{
@@ -38,6 +46,7 @@ export default async function BlogPage(props: PageProps<"/[locale]/blog">) {
             {dict.blog.title}
           </Rise>
           <Rise
+            eager
             delay={100}
             className="md:col-span-4 flex items-end"
           >

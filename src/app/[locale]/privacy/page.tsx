@@ -3,11 +3,18 @@ import { isLocale, waLink } from "@/lib/i18n";
 import { getDict } from "@/lib/dictionaries";
 import { Rise } from "@/components/rise";
 import { SectionRule } from "@/components/section-rule";
+import { pageMetadata } from "@/lib/seo";
 
 export async function generateMetadata(props: PageProps<"/[locale]/privacy">) {
   const { locale } = await props.params;
   if (!isLocale(locale)) return {};
-  return { title: getDict(locale).privacy.title };
+  const dict = getDict(locale);
+  return pageMetadata({
+    locale,
+    path: "/privacy",
+    title: dict.privacy.title,
+    description: dict.privacy.lede,
+  });
 }
 
 export default async function PrivacyPage(props: PageProps<"/[locale]/privacy">) {
@@ -29,6 +36,7 @@ export default async function PrivacyPage(props: PageProps<"/[locale]/privacy">)
         <SectionRule label={dict.privacy.eyebrow} />
         <div className="mt-10 grid grid-cols-1 gap-10 md:grid-cols-12">
           <Rise
+            eager
             as="h1"
             className="md:col-span-8 text-[clamp(2.5rem,7vw,6rem)] leading-[0.98]"
             style={{
@@ -38,7 +46,7 @@ export default async function PrivacyPage(props: PageProps<"/[locale]/privacy">)
           >
             {dict.privacy.title}
           </Rise>
-          <Rise delay={100} className="md:col-span-4 flex flex-col justify-end gap-4">
+          <Rise eager delay={100} className="md:col-span-4 flex flex-col justify-end gap-4">
             <p
               className="text-[1.05rem] leading-[1.6] text-ink-soft"
               style={{ fontFamily: bodyFont }}

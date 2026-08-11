@@ -4,11 +4,18 @@ import { getDict } from "@/lib/dictionaries";
 import { Rise } from "@/components/rise";
 import { SectionRule } from "@/components/section-rule";
 import { ContactForm } from "@/components/contact-form";
+import { pageMetadata } from "@/lib/seo";
 
 export async function generateMetadata(props: PageProps<"/[locale]/contact">) {
   const { locale } = await props.params;
   if (!isLocale(locale)) return {};
-  return { title: getDict(locale).contact.title };
+  const dict = getDict(locale);
+  return pageMetadata({
+    locale,
+    path: "/contact",
+    title: dict.contact.title,
+    description: dict.contact.lede,
+  });
 }
 
 export default async function ContactPage(
@@ -28,6 +35,7 @@ export default async function ContactPage(
       <div className="mt-10 grid grid-cols-1 gap-12 md:grid-cols-12">
         <div className="md:col-span-5">
           <Rise
+            eager
             as="h1"
             className="text-[clamp(2.5rem,7vw,6rem)] leading-[1.02]"
             style={{
@@ -37,7 +45,7 @@ export default async function ContactPage(
           >
             {dict.contact.title}
           </Rise>
-          <Rise delay={100}>
+          <Rise eager delay={100}>
             <p
               className="mt-6 text-[1.02rem] leading-[1.6] text-ink-soft"
               style={{

@@ -2,8 +2,15 @@ import type { Metadata } from "next";
 import { Amiri, Fraunces, JetBrains_Mono, IBM_Plex_Sans_Arabic } from "next/font/google";
 import { notFound } from "next/navigation";
 import "../globals.css";
-import { locales, isLocale, dirOf } from "@/lib/i18n";
+import { locales, isLocale, dirOf, SITE_URL, type Locale } from "@/lib/i18n";
 import { getDict } from "@/lib/dictionaries";
+import {
+  OG_LOCALE,
+  BRAND_IMAGE,
+  BRAND_IMAGE_WIDTH,
+  BRAND_IMAGE_HEIGHT,
+  urlFor,
+} from "@/lib/seo";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { WhatsAppDock } from "@/components/whatsapp-dock";
@@ -46,10 +53,41 @@ export async function generateMetadata(
   const { locale } = await props.params;
   if (!isLocale(locale)) return {};
   const dict = getDict(locale);
+  const other: Locale = locale === "ar" ? "en" : "ar";
   return {
+    // Lets every page below use relative URLs in metadata and stops Next
+    // resolving og:image against localhost at build time.
+    metadataBase: new URL(SITE_URL),
     title: { default: dict.meta.title, template: `%s — ${dict.brand.name}` },
     description: dict.meta.description,
-    icons: { icon: "/favicon.ico" },
+    // NOTE: no `alternates` here on purpose. Next inherits layout metadata into
+    // every child page, so a canonical set here would tell Google that all
+    // ~70 pages are duplicates of one URL. Canonicals live on the pages.
+    openGraph: {
+      type: "website",
+      siteName: dict.brand.name,
+      title: dict.meta.title,
+      description: dict.meta.description,
+      url: urlFor(locale),
+      locale: OG_LOCALE[locale],
+      alternateLocale: OG_LOCALE[other],
+      images: [
+        {
+          url: BRAND_IMAGE,
+          width: BRAND_IMAGE_WIDTH,
+          height: BRAND_IMAGE_HEIGHT,
+          alt: dict.brand.wordmark,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: dict.meta.title,
+      description: dict.meta.description,
+      images: [BRAND_IMAGE],
+    },
+    // src/app/favicon.ico and src/app/icon.png are picked up by convention;
+    // declaring them again here only produced a duplicate <link rel="icon">.
   };
 }
 

@@ -1,10 +1,19 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { locales, isLocale, waLink, SITE_URL } from "@/lib/i18n";
+import { locales, isLocale, waLink } from "@/lib/i18n";
 import { getDict } from "@/lib/dictionaries";
 import { getBlogPost, getAllSlugs, type BlogSection } from "@/lib/blog-data";
 import { Rise } from "@/components/rise";
 import { SectionRule } from "@/components/section-rule";
+import { JsonLd } from "@/components/json-ld";
+import {
+  pageMetadata,
+  urlFor,
+  graph,
+  breadcrumbSchema,
+  ORG_ID,
+  BRAND_IMAGE,
+} from "@/lib/seo";
 
 export async function generateStaticParams() {
   return locales.flatMap((locale) =>
@@ -19,17 +28,15 @@ export async function generateMetadata(
   if (!isLocale(locale)) return {};
   const post = getBlogPost(locale, slug);
   if (!post) return {};
-  return {
+  // The hreflang pair was already here but had no x-default, which is enough
+  // for Google to discard the whole cluster. pageMetadata adds it.
+  return pageMetadata({
+    locale,
+    path: `/blog/${slug}`,
     title: post.title,
     description: post.description,
-    alternates: {
-      canonical: `${SITE_URL}/${locale}/blog/${slug}`,
-      languages: {
-        en: `${SITE_URL}/en/blog/${slug}`,
-        ar: `${SITE_URL}/ar/blog/${slug}`,
-      },
-    },
-  };
+    article: { publishedTime: post.isoDate },
+  });
 }
 
 export default async function BlogPostPage(
@@ -53,36 +60,43 @@ export default async function BlogPostPage(
     (s) => s.num.replace(/[^\d]/g, "") === post.serviceNum,
   );
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: post.title,
-    description: post.description,
-    datePublished: post.isoDate,
-    author: {
-      "@type": "Organization",
-      name: "Cloud Valley",
-      url: SITE_URL,
+  const url = urlFor(locale, `/blog/${slug}`);
+
+  // BlogPosting rather than bare Article, plus mainEntityOfPage/image/
+  // dateModified, which Google's Article guidance asks for. author stays an
+  // Organization because this project records no human author anywhere.
+  const jsonLd = graph(
+    {
+      "@type": "BlogPosting",
+      "@id": `${url}#article`,
+      mainEntityOfPage: { "@type": "WebPage", "@id": url },
+      url,
+      headline: post.title,
+      description: post.description,
+      datePublished: post.isoDate,
+      dateModified: post.isoDate,
+      image: BRAND_IMAGE,
+      author: { "@id": ORG_ID },
+      publisher: { "@id": ORG_ID },
+      inLanguage: locale,
+      isPartOf: { "@type": "Blog", "@id": `${urlFor(locale, "/blog")}#blog` },
     },
-    publisher: {
-      "@type": "Organization",
-      name: "Cloud Valley",
-      url: SITE_URL,
-    },
-    inLanguage: isAr ? "ar" : "en",
-  };
+    breadcrumbSchema([
+      { name: dict.nav.home, url: urlFor(locale) },
+      // nav labels, not page titles — blog.title is a full sentence.
+      { name: dict.nav.blog, url: urlFor(locale, "/blog") },
+      { name: post.title, url },
+    ]),
+  );
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <JsonLd data={jsonLd} />
 
       <article className="mx-auto w-full max-w-[1440px] px-6 md:px-10">
         {/* Back link */}
         <nav className="pt-10 md:pt-16">
-          <Rise>
+          <Rise eager>
             <Link
               href={`/${locale}/blog`}
               className="link-sweep inline-block text-[0.8rem] uppercase tracking-[0.18em] text-ink-mute transition-colors hover:text-accent"
@@ -98,6 +112,7 @@ export default async function BlogPostPage(
           <SectionRule label={post.kicker} />
 
           <Rise
+            eager
             as="h1"
             className="mt-10 max-w-4xl text-[clamp(2rem,5vw,3.5rem)] leading-[1.08]"
             style={{
@@ -108,7 +123,7 @@ export default async function BlogPostPage(
             {post.title}
           </Rise>
 
-          <Rise delay={80}>
+          <Rise eager delay={80}>
             <div
               className="mt-6 flex items-center gap-4 text-[0.72rem] uppercase tracking-[0.18em] text-ink-mute"
               style={{ fontFamily: "var(--font-mono)" }}
@@ -121,7 +136,7 @@ export default async function BlogPostPage(
         </header>
 
         {/* Lead paragraph */}
-        <Rise delay={120}>
+        <Rise eager delay={120}>
           <p
             className="max-w-3xl border-t border-rule pt-10 text-[1.15rem] leading-[1.65] text-ink-soft"
             style={{ fontFamily: bodyFont }}

@@ -14,12 +14,30 @@ type Props = React.HTMLAttributes<HTMLDivElement> & {
     | "h3"
     | "figure";
   delay?: number;
+  /**
+   * Use on anything above the fold.
+   *
+   * The default .rise treatment sits at opacity 0 until hydration runs and an
+   * IntersectionObserver adds .is-in — which means the LCP element (the h1 on
+   * every page) is not painted until the JS bundle has downloaded, parsed and
+   * hydrated. `eager` plays the identical entrance as a plain CSS animation
+   * that starts on the first frame instead, with no JavaScript involved.
+   */
+  eager?: boolean;
 };
 
-export function Rise({ as = "div", delay = 0, className = "", ...rest }: Props) {
+export function Rise({
+  as = "div",
+  delay = 0,
+  eager = false,
+  className = "",
+  style,
+  ...rest
+}: Props) {
   const ref = useRef<HTMLElement | null>(null);
 
   useEffect(() => {
+    if (eager) return;
     const node = ref.current;
     if (!node) return;
     if (typeof IntersectionObserver === "undefined") {
@@ -41,13 +59,16 @@ export function Rise({ as = "div", delay = 0, className = "", ...rest }: Props) 
     );
     io.observe(node);
     return () => io.disconnect();
-  }, [delay]);
+  }, [delay, eager]);
 
   const Tag = as as React.ElementType;
   return (
     <Tag
       ref={ref as unknown as React.Ref<HTMLElement>}
-      className={`rise ${className}`}
+      className={`${eager ? "rise-eager" : "rise"} ${className}`}
+      style={
+        eager && delay ? { ...style, animationDelay: `${delay}ms` } : style
+      }
       {...rest}
     />
   );
