@@ -5,6 +5,7 @@ import { getDict } from "@/lib/dictionaries";
 import { Rise } from "@/components/rise";
 import { SectionRule } from "@/components/section-rule";
 import { pageMetadata } from "@/lib/seo";
+import { industryNav } from "@/lib/industry-data";
 
 export async function generateMetadata(props: PageProps<"/[locale]/services">) {
   const { locale } = await props.params;
@@ -46,11 +47,7 @@ export default async function ServicesPage(
           >
             {dict.services.title}
           </Rise>
-          <Rise
-            eager
-            delay={100}
-            className="md:col-span-4 flex items-end"
-          >
+          <Rise eager delay={100} className="md:col-span-4 flex items-end">
             <p
               className="text-[1.02rem] leading-[1.6] text-ink-soft"
               style={{
@@ -165,10 +162,13 @@ export default async function ServicesPage(
                     rel="noreferrer"
                     className="inline-flex items-center justify-between gap-2 border border-ink px-4 py-3 text-sm transition-colors hover:bg-ink hover:text-paper"
                   >
-                    <span>
-                      {isAr ? "تحدّث معنا" : "Discuss this service"}
+                    <span>{isAr ? "تحدّث معنا" : "Discuss this service"}</span>
+                    <span
+                      aria-hidden
+                      className={`inline-block ${isAr ? "rotate-180" : ""}`}
+                    >
+                      →
                     </span>
-                    <span aria-hidden className={`inline-block ${isAr ? "rotate-180" : ""}`}>→</span>
                   </a>
                   <Link
                     href={`/${locale}/services/${s.slug}`}
@@ -176,7 +176,12 @@ export default async function ServicesPage(
                     style={{ fontFamily: "var(--font-mono)" }}
                   >
                     <span>{dict.services.detailLabel}</span>
-                    <span aria-hidden className={`inline-block ${isAr ? "rotate-180" : ""}`}>→</span>
+                    <span
+                      aria-hidden
+                      className={`inline-block ${isAr ? "rotate-180" : ""}`}
+                    >
+                      →
+                    </span>
                   </Link>
                 </div>
               </Rise>
@@ -184,6 +189,38 @@ export default async function ServicesPage(
           </article>
         ))}
       </div>
+
+      {/* By industry: the sector pages (clinics, retail, restaurants). */}
+      <section className="mx-auto w-full max-w-[1440px] border-t border-rule px-6 pt-20 md:px-10 md:pt-28">
+        <h2
+          className="text-[clamp(1.6rem,3.5vw,2.6rem)] leading-[1.1]"
+          style={{
+            fontFamily: serifDisplay,
+            letterSpacing: isAr ? "0" : "-0.02em",
+          }}
+        >
+          {isAr ? "حلول حسب القطاع" : "Solutions by industry"}
+        </h2>
+        <ul className="mt-8 grid grid-cols-1 gap-px border border-rule bg-rule md:grid-cols-3">
+          {industryNav(locale).map((ind) => (
+            <li key={ind.slug} className="bg-paper">
+              <Link
+                href={`/${locale}/industries/${ind.slug}`}
+                className="group flex items-center justify-between gap-4 p-6 text-[1.15rem] text-ink transition-colors hover:text-accent"
+                style={{ fontFamily: serifDisplay }}
+              >
+                {ind.name}
+                <span
+                  aria-hidden
+                  className={`inline-block ${isAr ? "rotate-180" : ""}`}
+                >
+                  →
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
 
       {/* Footer CTA */}
       <section className="mx-auto w-full max-w-[1440px] px-6 py-24 md:px-10 md:py-32">
@@ -204,7 +241,12 @@ export default async function ServicesPage(
             className="md:col-span-4 inline-flex items-center justify-between gap-2 border border-ink px-5 py-4 text-base hover:bg-ink hover:text-paper transition-colors"
           >
             <span>{isAr ? "شاهد الاشتراكات" : "See the plans"}</span>
-            <span aria-hidden className={`inline-block ${isAr ? "rotate-180" : ""}`}>→</span>
+            <span
+              aria-hidden
+              className={`inline-block ${isAr ? "rotate-180" : ""}`}
+            >
+              →
+            </span>
           </Link>
         </div>
       </section>
