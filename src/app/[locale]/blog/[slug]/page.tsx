@@ -7,6 +7,7 @@ import {
   getBlogPost,
   getAllSlugs,
   getRelatedPosts,
+  formatDate,
   type BlogSection,
 } from "@/lib/blog-data";
 import { ArticleList } from "@/components/article-list";
@@ -84,10 +85,7 @@ export default async function BlogPostPage(props: {
   const updated = post.isoUpdated ? new Date(post.isoUpdated) : null;
   const updatedLabel =
     updated && !Number.isNaN(updated.getTime())
-      ? `${isAr ? "آخر تحديث" : "Updated"} ${new Intl.DateTimeFormat(
-          isAr ? "ar-SA-u-ca-gregory-nu-arab" : "en-US",
-          { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" },
-        ).format(updated)}`
+      ? `${isAr ? "آخر تحديث" : "Updated"} ${formatDate(post.isoUpdated, locale)}`
       : null;
 
   // Section headings, for the "On this page" list in the side panel. Ids are

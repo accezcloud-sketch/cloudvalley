@@ -163,6 +163,18 @@ export function readingTime(sections: BlogSection[], locale: Locale): string {
   return minutes <= 10 ? `${n} دقائق` : `${n} دقيقة`;
 }
 
+// Display dates are worked out from isoDate, so they are always consistent
+// and Arabic uses the month names Saudi readers expect (يوليو, not تموز). The
+// hand-typed date/dateAr frontmatter fields are only a fallback.
+export function formatDate(iso: string, locale: Locale): string {
+  const d = new Date(iso);
+  if (!iso || Number.isNaN(d.getTime())) return "";
+  return new Intl.DateTimeFormat(
+    locale === "ar" ? "ar-SA-u-ca-gregory-nu-arab" : "en-US",
+    { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" },
+  ).format(d);
+}
+
 // Splits a bilingual file body on the <!-- AR --> marker.
 // Returns [englishBody, arabicBody]. Falls back to full content for both if no marker.
 function splitBilingualBody(body: string): [string, string] {
@@ -193,7 +205,7 @@ function loadAll(): Record<Locale, Record<string, BlogPostData>> {
       kicker: meta.kicker ?? "",
       title: meta.title ?? "",
       excerpt: meta.excerpt ?? "",
-      date: meta.date ?? "",
+      date: formatDate(meta.isoDate ?? "", "en") || (meta.date ?? ""),
       isoDate: meta.isoDate ?? "",
       isoUpdated: meta.updated ?? "",
       readTime: "",
@@ -209,7 +221,9 @@ function loadAll(): Record<Locale, Record<string, BlogPostData>> {
       kicker: meta.kickerAr ?? meta.kicker ?? "",
       title: meta.titleAr ?? meta.title ?? "",
       excerpt: meta.excerptAr ?? meta.excerpt ?? "",
-      date: meta.dateAr ?? meta.date ?? "",
+      date:
+        formatDate(meta.isoDate ?? "", "ar") ||
+        (meta.dateAr ?? meta.date ?? ""),
       isoDate: meta.isoDate ?? "",
       isoUpdated: meta.updated ?? "",
       readTime: "",
