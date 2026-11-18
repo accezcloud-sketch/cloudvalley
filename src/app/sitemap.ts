@@ -2,7 +2,6 @@ import type { MetadataRoute } from "next";
 import { locales } from "@/lib/i18n";
 import { getAllBlogPosts } from "@/lib/blog-data";
 import { getAllServiceSlugs } from "@/lib/service-data";
-import { getAllIndustrySlugs } from "@/lib/industry-data";
 import { urlFor, sitemapLanguagesFor } from "@/lib/seo";
 
 // /thank-you is deliberately absent: it is noindex and only reachable after a
@@ -49,13 +48,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       entries.push({
         url: urlFor(locale, `/services/${slug}`),
         alternates: { languages: sitemapLanguagesFor(`/services/${slug}`) },
-      });
-    }
-
-    for (const slug of getAllIndustrySlugs()) {
-      entries.push({
-        url: urlFor(locale, `/industries/${slug}`),
-        alternates: { languages: sitemapLanguagesFor(`/industries/${slug}`) },
       });
     }
 

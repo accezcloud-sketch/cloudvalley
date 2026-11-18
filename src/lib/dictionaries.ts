@@ -768,14 +768,6 @@ const ar: Dict = {
           { label: "التسويق الإلكتروني", href: "/services/digital-marketing" },
         ],
       },
-      {
-        heading: "القطاعات",
-        links: [
-          { label: "العيادات", href: "/industries/clinics" },
-          { label: "المحلات والمتاجر", href: "/industries/retail" },
-          { label: "المطاعم والمقاهي", href: "/industries/restaurants" },
-        ],
-      },
     ],
     contact: "تواصل",
     whatsapp: "واتساب الأعمال",
@@ -1374,14 +1366,6 @@ const en: Dict = {
           { label: "Corporate identity", href: "/services/brand-identity" },
           { label: "E-commerce", href: "/services/ecommerce-design" },
           { label: "Digital marketing", href: "/services/digital-marketing" },
-        ],
-      },
-      {
-        heading: "Industries",
-        links: [
-          { label: "Clinics", href: "/industries/clinics" },
-          { label: "Shops and online stores", href: "/industries/retail" },
-          { label: "Restaurants and cafés", href: "/industries/restaurants" },
         ],
       },
     ],
