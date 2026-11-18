@@ -149,7 +149,11 @@ export function pageMetadata({
   return {
     ...(title ? { title } : {}),
     ...(description ? { description } : {}),
-    alternates: alternatesFor(locale, path),
+    alternates: {
+      ...alternatesFor(locale, path),
+      // Feed autodiscovery: every page advertises its own language's feed.
+      types: { "application/rss+xml": urlFor(locale, "/feed.xml") },
+    },
     openGraph: {
       ...(article
         ? { type: "article" as const, publishedTime: article.publishedTime }
