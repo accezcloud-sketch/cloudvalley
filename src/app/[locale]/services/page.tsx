@@ -172,7 +172,7 @@ export default async function ServicesPage(
                   </a>
                   <Link
                     href={`/${locale}/services/${s.slug}`}
-                    className="link-sweep inline-flex items-center gap-2 text-[0.8rem] uppercase tracking-[0.15em] text-ink-mute transition-colors hover:text-accent"
+                    className="link-sweep inline-flex items-center gap-2 text-[0.9rem] text-ink-mute transition-colors hover:text-accent"
                     style={{ fontFamily: "var(--font-mono)" }}
                   >
                     <span>{dict.services.detailLabel}</span>

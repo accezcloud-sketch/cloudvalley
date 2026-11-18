@@ -107,7 +107,7 @@ export default async function BlogPostPage(
           <Rise eager>
             <Link
               href={`/${locale}/blog`}
-              className="link-sweep inline-block text-[0.8rem] uppercase tracking-[0.18em] text-ink-mute transition-colors hover:text-accent"
+              className="link-sweep inline-block text-[0.9rem] text-ink-mute transition-colors hover:text-accent"
               style={{ fontFamily: "var(--font-mono)" }}
             >
               {dict.blog.backLabel}
@@ -191,7 +191,7 @@ export default async function BlogPostPage(
               {serviceEntry && (
                 <Link
                   href={`/${locale}/services/${serviceEntry.slug}`}
-                  className="inline-flex items-center gap-2 border border-ink bg-ink px-6 py-3 text-[0.82rem] uppercase tracking-[0.15em] text-paper transition-colors hover:bg-accent hover:border-accent"
+                  className="inline-flex items-center gap-2 border border-ink bg-ink px-6 py-3 text-[0.9rem] text-paper transition-colors hover:bg-accent hover:border-accent"
                   style={{ fontFamily: "var(--font-mono)" }}
                 >
                   {isAr ? "تفاصيل الخدمة" : "Service details"}
@@ -206,7 +206,7 @@ export default async function BlogPostPage(
                 )}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 border border-ink px-6 py-3 text-[0.82rem] uppercase tracking-[0.15em] text-ink transition-colors hover:bg-ink hover:text-paper"
+                className="inline-flex items-center gap-2 border border-ink px-6 py-3 text-[0.9rem] text-ink transition-colors hover:bg-ink hover:text-paper"
                 style={{ fontFamily: "var(--font-mono)" }}
               >
                 <span className="relative flex h-2 w-2">

@@ -929,7 +929,7 @@ const en: Dict = {
     title: "Eight services. One system that works like a full team.",
     lede:
       "We don't sell hours or tools. We deliver outcomes: a live system, monitored, improved monthly.",
-    backLabel: "\u2190 Back to Services",
+    backLabel: "\u2190 Back to services",
     detailLabel: "Read details",
     list: [
       {
@@ -1051,7 +1051,7 @@ const en: Dict = {
     title: "Essays on automation, business, and AI.",
     lede:
       "We write for people running real businesses — not people chasing noise. Short, practical, built on what we saw in the field.",
-    backLabel: "\u2190 Back to Blog",
+    backLabel: "\u2190 Back to blog",
     subscribe: {
       title: "Subscribe to the monthly letter.",
       body:
@@ -1158,13 +1158,13 @@ const en: Dict = {
     title: "Get in touch.",
     lede: "Send us your project details and we'll get back to you within 24 hours.",
     form: {
-      firstName: "First Name",
-      lastName: "Last Name",
-      email: "Work Email",
+      firstName: "First name",
+      lastName: "Last name",
+      email: "Work email",
       company: "Company",
       mobile: "Mobile",
       city: "City",
-      details: "Project Details",
+      details: "Project details",
       submit: "Submit",
     },
   },

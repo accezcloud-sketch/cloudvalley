@@ -50,7 +50,7 @@ export function ContactForm({ locale, labels }: Props) {
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
           <label className="block">
             <span
-              className="text-[0.72rem] uppercase tracking-[0.2em] text-ink-mute"
+              className="text-[0.85rem] text-ink-mute"
               style={{ fontFamily: "var(--font-mono)" }}
             >
               {labels.firstName}
@@ -67,7 +67,7 @@ export function ContactForm({ locale, labels }: Props) {
 
           <label className="block">
             <span
-              className="text-[0.72rem] uppercase tracking-[0.2em] text-ink-mute"
+              className="text-[0.85rem] text-ink-mute"
               style={{ fontFamily: "var(--font-mono)" }}
             >
               {labels.lastName}
@@ -84,7 +84,7 @@ export function ContactForm({ locale, labels }: Props) {
 
           <label className="block">
             <span
-              className="text-[0.72rem] uppercase tracking-[0.2em] text-ink-mute"
+              className="text-[0.85rem] text-ink-mute"
               style={{ fontFamily: "var(--font-mono)" }}
             >
               {labels.email}
@@ -102,7 +102,7 @@ export function ContactForm({ locale, labels }: Props) {
 
           <label className="block">
             <span
-              className="text-[0.72rem] uppercase tracking-[0.2em] text-ink-mute"
+              className="text-[0.85rem] text-ink-mute"
               style={{ fontFamily: "var(--font-mono)" }}
             >
               {labels.company}
@@ -119,7 +119,7 @@ export function ContactForm({ locale, labels }: Props) {
 
           <label className="block">
             <span
-              className="text-[0.72rem] uppercase tracking-[0.2em] text-ink-mute"
+              className="text-[0.85rem] text-ink-mute"
               style={{ fontFamily: "var(--font-mono)" }}
             >
               {labels.mobile}
@@ -136,7 +136,7 @@ export function ContactForm({ locale, labels }: Props) {
 
           <label className="block">
             <span
-              className="text-[0.72rem] uppercase tracking-[0.2em] text-ink-mute"
+              className="text-[0.85rem] text-ink-mute"
               style={{ fontFamily: "var(--font-mono)" }}
             >
               {labels.city}
@@ -154,7 +154,7 @@ export function ContactForm({ locale, labels }: Props) {
 
         <label className="block">
           <span
-            className="text-[0.72rem] uppercase tracking-[0.2em] text-ink-mute"
+            className="text-[0.85rem] text-ink-mute"
             style={{ fontFamily: "var(--font-mono)" }}
           >
             {labels.details}
