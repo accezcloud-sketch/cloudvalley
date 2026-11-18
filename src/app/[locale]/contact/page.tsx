@@ -14,7 +14,7 @@ export async function generateMetadata(props: PageProps<"/[locale]/contact">) {
   return pageMetadata({
     locale,
     path: "/contact",
-    title: dict.contact.title,
+    title: dict.seoTitles.contact,
     description: dict.contact.lede,
   });
 }

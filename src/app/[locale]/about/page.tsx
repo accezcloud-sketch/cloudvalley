@@ -14,7 +14,7 @@ export async function generateMetadata(props: PageProps<"/[locale]/about">) {
   return pageMetadata({
     locale,
     path: "/about",
-    title: dict.about.title,
+    title: dict.seoTitles.about,
     description: dict.about.lede,
   });
 }

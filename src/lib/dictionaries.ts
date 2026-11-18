@@ -5,6 +5,19 @@ export type Dict = {
     title: string;
     description: string;
   };
+  /**
+   * Titles shown in Google and the browser tab (owner decision D11): the
+   * words people search for first. On-page headlines stay as written.
+   */
+  seoTitles: {
+    services: string;
+    blog: string;
+    about: string;
+    trust: string;
+    contact: string;
+    /** By service slug. */
+    service: Record<string, string>;
+  };
   brand: {
     name: string;
     wordmark: string;
@@ -169,8 +182,25 @@ export type Dict = {
 };
 
 const ar: Dict = {
+  seoTitles: {
+    services: "خدمات تقنية ورقمية في السعودية",
+    blog: "المدونة: المواقع والسيو والسوشيال ميديا والتسويق",
+    about: "من نحن",
+    trust: "لماذا تختارنا",
+    contact: "تواصل معنا",
+    service: {
+      "website-design": "تصميم المواقع في السعودية",
+      "search-engine-optimization": "تحسين محركات البحث (سيو) في السعودية",
+      "content-production": "صناعة المحتوى بالعربية والإنجليزية",
+      "social-media-management": "إدارة السوشيال ميديا في السعودية",
+      "mobile-app-design": "تصميم تطبيقات الجوال في السعودية",
+      "brand-identity": "تصميم الهوية التجارية في السعودية",
+      "ecommerce-design": "تصميم المتاجر الإلكترونية في السعودية",
+      "digital-marketing": "التسويق الإلكتروني في السعودية",
+    },
+  },
   meta: {
-    title: "وادي السحاب | وكالة أتمتة الذكاء الاصطناعي",
+    title: "حلول تقنية وتصميم مواقع وتسويق رقمي في السعودية | وادي السحاب",
     description:
       "نستبدل المهام البشرية المتكررة بأنظمة ذكاء اصطناعي موثوقة. تصميم، سيو، محتوى، ووسائل تواصل.",
   },
@@ -798,8 +828,25 @@ const ar: Dict = {
 };
 
 const en: Dict = {
+  seoTitles: {
+    services: "IT and digital services in Saudi Arabia",
+    blog: "Blog: websites, SEO, social media and marketing",
+    about: "About us",
+    trust: "Why choose us",
+    contact: "Contact us",
+    service: {
+      "website-design": "Website design in Saudi Arabia",
+      "search-engine-optimization": "SEO services in Saudi Arabia",
+      "content-production": "Content production in Arabic and English",
+      "social-media-management": "Social media management in Saudi Arabia",
+      "mobile-app-design": "Mobile app design in Saudi Arabia",
+      "brand-identity": "Brand identity design in Saudi Arabia",
+      "ecommerce-design": "E-commerce store design in Saudi Arabia",
+      "digital-marketing": "Digital marketing in Saudi Arabia",
+    },
+  },
   meta: {
-    title: "Cloud Valley | AI automation agency",
+    title: "IT solutions, websites and digital marketing in Saudi Arabia | Cloud Valley",
     description:
       "We replace repetitive human tasks with reliable AI systems. Design, SEO, content, and social media.",
   },
@@ -837,7 +884,7 @@ const en: Dict = {
       "Social media",
       "Corporate identity",
       "E-commerce",
-      "Electronic marketing",
+      "Digital marketing",
     ],
     manifestoNum: "01 · Manifesto",
     manifestoTitle: "Good work does not require a large team.",
@@ -1029,7 +1076,7 @@ const en: Dict = {
       {
         num: "08",
         slug: "digital-marketing",
-        name: "Electronic marketing",
+        name: "Digital marketing",
         summary:
           "Targeted campaigns on the platforms where your customers actually spend their time.",
         bullets: [
@@ -1168,7 +1215,7 @@ const en: Dict = {
         num: "01",
         heading: "Who we are",
         body: [
-          "Cloud Valley is an automation and digital services agency, registered under commercial registration number 1010637845. We provide web design, search engine optimization, content production, social media management, mobile app design, brand identity, e-commerce, and electronic marketing.",
+          "Cloud Valley is an automation and digital services agency, registered under commercial registration number 1010637845. We provide web design, search engine optimization, content production, social media management, mobile app design, brand identity, e-commerce, and digital marketing.",
           "This policy explains how we handle your personal data in line with Saudi Arabia's Personal Data Protection Law (PDPL). By using our website or contacting us, you agree to the practices described here.",
         ],
       },
@@ -1276,7 +1323,7 @@ const en: Dict = {
         num: "02",
         heading: "Our services",
         body: [
-          "We provide web design, search engine optimization, content production, social media management, mobile app design, brand identity, e-commerce, and electronic marketing.",
+          "We provide web design, search engine optimization, content production, social media management, mobile app design, brand identity, e-commerce, and digital marketing.",
           "The scope and deliverables of each service are agreed in writing, through a quote or agreement, before work begins.",
         ],
       },
@@ -1412,7 +1459,7 @@ const en: Dict = {
           { label: "Mobile apps", href: "/services/mobile-app-design" },
           { label: "Corporate identity", href: "/services/brand-identity" },
           { label: "E-commerce", href: "/services/ecommerce-design" },
-          { label: "Electronic marketing", href: "/services/digital-marketing" },
+          { label: "Digital marketing", href: "/services/digital-marketing" },
         ],
       },
     ],

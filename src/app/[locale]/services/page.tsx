@@ -13,7 +13,7 @@ export async function generateMetadata(props: PageProps<"/[locale]/services">) {
   return pageMetadata({
     locale,
     path: "/services",
-    title: dict.services.title,
+    title: dict.seoTitles.services,
     description: dict.services.lede,
   });
 }

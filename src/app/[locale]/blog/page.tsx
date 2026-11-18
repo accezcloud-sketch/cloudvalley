@@ -15,7 +15,7 @@ export async function generateMetadata(props: PageProps<"/[locale]/blog">) {
   return pageMetadata({
     locale,
     path: "/blog",
-    title: dict.blog.title,
+    title: dict.seoTitles.blog,
     description: dict.blog.lede,
   });
 }

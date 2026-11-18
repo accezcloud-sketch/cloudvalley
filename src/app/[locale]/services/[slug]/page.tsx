@@ -37,7 +37,7 @@ export async function generateMetadata(props: {
   return pageMetadata({
     locale,
     path: `/services/${slug}`,
-    title: listing?.name,
+    title: dict.seoTitles.service[slug] ?? listing?.name,
     description: service.tagline,
   });
 }

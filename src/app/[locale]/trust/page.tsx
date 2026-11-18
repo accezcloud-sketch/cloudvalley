@@ -12,7 +12,7 @@ export async function generateMetadata(props: PageProps<"/[locale]/trust">) {
   return pageMetadata({
     locale,
     path: "/trust",
-    title: dict.trust.title,
+    title: dict.seoTitles.trust,
     description: dict.trust.lede,
   });
 }

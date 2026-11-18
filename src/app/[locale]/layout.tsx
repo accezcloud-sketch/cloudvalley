@@ -79,7 +79,7 @@ export async function generateMetadata(
     ...(process.env.NEXT_PUBLIC_GSC_VERIFICATION
       ? { verification: { google: process.env.NEXT_PUBLIC_GSC_VERIFICATION } }
       : {}),
-    title: { default: dict.meta.title, template: `%s — ${dict.brand.name}` },
+    title: { default: dict.meta.title, template: `%s | ${dict.brand.name}` },
     description: dict.meta.description,
     // NOTE: no `alternates` here on purpose. Next inherits layout metadata into
     // every child page, so a canonical set here would tell Google that all
