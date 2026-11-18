@@ -68,6 +68,8 @@ export const websiteId = (locale: Locale) => `${urlFor(locale)}#website`;
  * Organization node. Every value here is taken from this site's own content:
  * brand names from the dictionaries, email + WhatsApp from lib/i18n, the
  * commercial-registration number and Saudi jurisdiction from the terms page.
+ * The legal entity name and street address are not published yet, so they
+ * are left out rather than guessed.
  * `sameAs` is deliberately absent — this project publishes no social profiles.
  */
 export function organizationSchema(locale: Locale) {
@@ -94,8 +96,8 @@ export function organizationSchema(locale: Locale) {
       addressCountry: "SA",
     },
     areaServed: {
-      "@type": "Place",
-      name: isAr ? "الوطن العربي" : "Arab World",
+      "@type": "Country",
+      name: isAr ? "المملكة العربية السعودية" : "Saudi Arabia",
     },
     identifier: {
       "@type": "PropertyValue",
@@ -108,6 +110,19 @@ export function organizationSchema(locale: Locale) {
       email: CONTACT_EMAIL,
       telephone: `+${WHATSAPP_NUMBER}`,
       availableLanguage: ["ar", "en"],
+      // Working days shown on the site (owner decision D4). No hours are
+      // published, so only the days are given.
+      hoursAvailable: {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+        ],
+      },
     },
   };
 }

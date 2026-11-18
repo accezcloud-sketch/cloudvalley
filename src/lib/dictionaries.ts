@@ -199,12 +199,12 @@ const ar: Dict = {
   meta: {
     title: "حلول تقنية وتصميم مواقع وتسويق رقمي في السعودية | وادي السحاب",
     description:
-      "نستبدل المهام البشرية المتكررة بأنظمة ذكاء اصطناعي موثوقة. تصميم، سيو، محتوى، ووسائل تواصل.",
+      "حلول تقنية للأعمال في السعودية: تصميم مواقع وتطبيقات ومتاجر إلكترونية، سيو، صناعة محتوى، إدارة سوشيال ميديا، وتسويق رقمي.",
   },
   brand: {
     name: "وادي السحاب",
     wordmark: "Cloud Valley | وادي السحاب",
-    tagline: "وكالة أتمتة تبني أنظمة لتستغني عن بناء فِرَق.",
+    tagline: "حلول تقنية وتصميم مواقع وتسويق رقمي للأعمال في السعودية.",
   },
   nav: {
     home: "الرئيسية",
@@ -219,12 +219,12 @@ const ar: Dict = {
     cta: "تواصل على واتساب",
   },
   home: {
-    eyebrow: "استوديو أتمتة",
-    displayA: "موظفك القادم",
-    displayB: "ليس شخصًا.",
-    displayC: "بل نظام.",
+    eyebrow: "حلول تقنية · السعودية",
+    displayA: "مواقع.",
+    displayB: "أنظمة.",
+    displayC: "نمو.",
     lede:
-      "وادي السحاب وكالةُ أتمتة تبني أنظمةً لتستغني عن بناء فِرَق. نُصمّم أنظمة ذكاء اصطناعي تُنجز ما يفعله فريقٌ كامل، بسرعةٍ أعلى.",
+      "وادي السحاب شركة حلول تقنية في السعودية. نصمّم المواقع والتطبيقات والمتاجر الإلكترونية، ونتولّى السيو والمحتوى والتسويق الرقمي، ونبني الأنظمة التي تربطها معًا، ليعمل عملك على منظومةٍ واحدةٍ متقنة.",
     primaryCta: "ابدأ على واتساب",
     secondaryCta: "شاهد الخدمات",
     marquee: [
@@ -238,10 +238,10 @@ const ar: Dict = {
       "تسويق إلكتروني",
     ],
     manifestoNum: "٠١ · البيان",
-    manifestoTitle: "نُؤمن أن العمل الجيد لا يحتاج إلى فريقٍ ضخم.",
+    manifestoTitle: "التقنية يجب أن تُخفّف العمل، لا أن تُثقله.",
     manifestoBody: [
-      "في كل شركةٍ عربيةٍ اليوم، يقضي موظفون ساعاتٍ طويلةً في مهامٍ متكررة: ردٌّ على الرسائل، جدولة المواعيد، كتابة المنشورات، مراجعة التقارير. هذه أعمالٌ يستطيع الذكاء الاصطناعي إنجازها الآن، وبدقةٍ أعلى.",
-      "مهمّتنا ليست بيع أدواتٍ لامعة، بل أن نتركك مع أنظمةٍ تعمل بصمتٍ ودون أن تحتاج إليها. نُسلّم العمل جاهزًا، موثّقًا، ومربوطًا بأعمالك اليومية.",
+      "كثيرٌ من الشركات تعمل بموقعٍ لا يُحدَّث، وحساباتٍ تُدار يدويًا، وأدواتٍ لا يتحدث بعضها مع بعض. كلُّ قطعةٍ منها تستهلك وقتًا، ولا تجلب عملاءً وحدها.",
+      "نحن نبني المنظومة كاملةً ونديرها: الموقع، والظهور في البحث، والمحتوى، والأنظمة التي خلفها، مع الأتمتة والذكاء الاصطناعي حيث يوفّران وقتًا فعلًا. نُسلّم العمل جاهزًا، موثّقًا، وملكًا لك.",
     ],
     servicesNum: "٠٢ · الخدمات",
     servicesTitle: "ثمانِ خدمات، نظامٌ واحد.",
@@ -422,14 +422,14 @@ const ar: Dict = {
   },
   blog: {
     eyebrow: "٠٣ · المجلة",
-    title: "مقالاتٌ عن الأتمتة، الأعمال، والذكاء الاصطناعي.",
+    title: "مقالاتٌ عن المواقع، والبحث، والسوشيال ميديا، والتسويق.",
     lede:
       "نكتبُ لمن يديرُ أعمالاً حقيقية، لا لمن يلاحقُ الضجيج. مقالاتٌ قصيرة، عملية، ومبنيةٌ على تجارب.",
     backLabel: "← العودة للمدوّنة",
   },
   about: {
     eyebrow: "٠٤ · من نحن",
-    title: "وادي السحاب بدأت سؤالاً، ثم صارت وكالة.",
+    title: "وادي السحاب بدأت سؤالاً، ثم صارت شركة.",
     lede:
       "بدأ ثلاثةٌ منّا من مهندسين وكُتّاب بسؤالٍ واحد: لماذا يُرهِقُ عملٌ بسيطٌ فرقًا بأكملها؟ الجواب صار شركة.",
     sections: [
@@ -437,7 +437,7 @@ const ar: Dict = {
         num: "٠١",
         heading: "البداية",
         body:
-          "في ٢٠٢٤ كنّا نعمل معًا في شركةِ تقنيةٍ كبرى. كنّا نرى شركاتٍ عائليةً عربيةً تدفعُ رواتبَ مرتفعةً لمهامٍ تستطيع الأتمتة إنجازها بتكلفةٍ أقل بكثير. فأنشأنا وادي السحاب.",
+          "في ٢٠٢٤ كنّا نعمل معًا في شركةِ تقنيةٍ كبرى. كنّا نرى شركاتٍ عائليةً عربيةً تتعامل مع مواقع وحساباتٍ وأدواتٍ متفرّقة، وتدفع كثيرًا لأعمالٍ تُنجزها التقنية المناسبة بشكلٍ أفضل. فأنشأنا وادي السحاب.",
       },
       {
         num: "٠٢",
@@ -800,12 +800,12 @@ const en: Dict = {
   meta: {
     title: "IT solutions, websites and digital marketing in Saudi Arabia | Cloud Valley",
     description:
-      "We replace repetitive human tasks with reliable AI systems. Design, SEO, content, and social media.",
+      "IT solutions for businesses in Saudi Arabia: websites, apps and online stores, SEO, content, social media and digital marketing.",
   },
   brand: {
     name: "Cloud Valley",
     wordmark: "Cloud Valley | وادي السحاب",
-    tagline: "An automation agency that builds systems so you don't need to build teams.",
+    tagline: "IT solutions, websites and digital marketing for businesses in Saudi Arabia.",
   },
   nav: {
     home: "Home",
@@ -820,12 +820,12 @@ const en: Dict = {
     cta: "Start on WhatsApp",
   },
   home: {
-    eyebrow: "Automation studio",
-    displayA: "Your next hire",
-    displayB: "isn't a person.",
-    displayC: "It's a system.",
+    eyebrow: "IT solutions · Saudi Arabia",
+    displayA: "Websites.",
+    displayB: "Systems.",
+    displayC: "Growth.",
     lede:
-      "Cloud Valley is an automation agency that builds systems so you don't need to build teams. We design AI systems that do what a full team does, only faster.",
+      "Cloud Valley is an IT solutions company in Saudi Arabia. We design websites, apps and online stores, run SEO, content and digital marketing, and build the systems that connect them, so your business runs on one well-built setup.",
     primaryCta: "Start on WhatsApp",
     secondaryCta: "See services",
     marquee: [
@@ -839,10 +839,10 @@ const en: Dict = {
       "Digital marketing",
     ],
     manifestoNum: "01 · Manifesto",
-    manifestoTitle: "Good work does not require a large team.",
+    manifestoTitle: "Technology should make work lighter, not heavier.",
     manifestoBody: [
-      "In every Arab company today, employees spend long hours on repetitive tasks: answering messages, scheduling, drafting posts, reviewing reports. Work that AI can now do, and often do better.",
-      "Our job is not to sell shiny tools. Our job is to leave you with systems that run quietly, without needing you. We deliver finished work: documented, handed over, wired into your business.",
+      "Many businesses run on a website nobody updates, social accounts handled by hand, and tools that don't talk to each other. Each piece takes time, and none of it brings in customers on its own.",
+      "We build and run the whole setup: the website, the search presence, the content and the systems behind them, with automation and AI where they genuinely save time. We deliver finished work: documented, handed over, and yours.",
     ],
     servicesNum: "02 · Services",
     servicesTitle: "Eight services. One system.",
@@ -1023,14 +1023,14 @@ const en: Dict = {
   },
   blog: {
     eyebrow: "03 · Journal",
-    title: "Essays on automation, business, and AI.",
+    title: "Articles on websites, search, social media and marketing.",
     lede:
       "We write for people running real businesses, not people chasing noise. Short, practical, built on what we saw in the field.",
     backLabel: "\u2190 Back to blog",
   },
   about: {
     eyebrow: "04 · About",
-    title: "Cloud Valley started as a question. It became an agency.",
+    title: "Cloud Valley started as a question. It became a company.",
     lede:
       "Three of us, engineers and writers, began with a single question: why does simple work exhaust whole teams? The answer turned into a company.",
     sections: [
@@ -1038,7 +1038,7 @@ const en: Dict = {
         num: "01",
         heading: "Beginning",
         body:
-          "In 2024 we worked together at a large tech company. We watched Arab family businesses pay high salaries for work that automation could now do for far less. So we started Cloud Valley.",
+          "In 2024 we worked together at a large tech company. We watched Arab family businesses juggle scattered websites, accounts and tools, and pay a lot for work the right technology does better. So we started Cloud Valley.",
       },
       {
         num: "02",

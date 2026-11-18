@@ -1,6 +1,6 @@
-# Cloud Valley (وادي السحاب) — www.wady.cloud
+# Cloud Valley (وادي السحاب): www.wady.cloud
 
-Bilingual marketing site for the Cloud Valley agency: Arabic (default, right-to-left) at `/ar` and English at `/en`. Next.js App Router, Tailwind CSS 4, every page prerendered as static HTML, hosted on Vercel.
+Bilingual site for Cloud Valley, an IT solutions, websites and digital marketing company in Saudi Arabia: English (default) at `/en` and Arabic (right-to-left) at `/ar`. Next.js App Router, Tailwind CSS 4, every page prerendered as static HTML, hosted on Vercel.
 
 Read [`SEO-GEO.md`](SEO-GEO.md) before changing metadata, routing or blog content.
 
