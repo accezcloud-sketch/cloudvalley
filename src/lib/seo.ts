@@ -147,7 +147,9 @@ export function pageMetadata({
   const dict = getDict(locale);
   const other: Locale = locale === "ar" ? "en" : "ar";
   return {
-    ...(title ? { title } : {}),
+    // Titles shown in Google and the browser tab never end in a full stop,
+    // even when the on-page heading (a sentence) does.
+    ...(title ? { title: title.replace(/\.\s*$/, "") } : {}),
     ...(description ? { description } : {}),
     alternates: {
       ...alternatesFor(locale, path),

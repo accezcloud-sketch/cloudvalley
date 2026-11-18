@@ -65,7 +65,7 @@ export async function GET(
     "  <channel>",
     // Same "<page title> — <brand>" shape the layout's title template gives
     // the blog index page.
-    `    <title>${esc(`${dict.blog.title} — ${dict.brand.name}`)}</title>`,
+    `    <title>${esc(`${dict.blog.title.replace(/\.\s*$/, "")} — ${dict.brand.name}`)}</title>`,
     `    <link>${esc(blogUrl)}</link>`,
     `    <description>${esc(dict.blog.lede)}</description>`,
     `    <language>${locale}</language>`,

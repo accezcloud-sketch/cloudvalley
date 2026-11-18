@@ -283,7 +283,7 @@ const ar: Dict = {
       },
     },
     ctaNum: "٠٥ — التواصل",
-    ctaTitle: "لنتحدّث.",
+    ctaTitle: "لنتحدّث",
     ctaBody:
       "أرسل لنا تفاصيل مشروعك ونعود إليك خلال ٢٤ ساعة.",
     ctaWhatsApp: "تواصل على واتساب",
@@ -470,31 +470,31 @@ const ar: Dict = {
     pillars: [
       {
         num: "٠١",
-        title: "تسعيرٌ صريح.",
+        title: "تسعيرٌ صريح",
         body:
           "لا رسومٌ خفيّة، ولا ساعاتُ عملٍ مفاجئة. ما تراه في عرض السعر هو ما تدفعه.",
       },
       {
         num: "٠٢",
-        title: "ملكيّتك الكاملة.",
+        title: "ملكيّتك الكاملة",
         body:
           "كلُّ شيءٍ نبنيه يعود لك. الكودُ، البياناتُ، الحسابات. لو أنهينا غدًا، يبقى النظامُ يعمل.",
       },
       {
         num: "٠٣",
-        title: "تقاريرٌ أسبوعية.",
+        title: "تقاريرٌ أسبوعية",
         body:
           "كلَّ اثنين، تصلُك وثيقةٌ واحدةٌ مختصرة: ما أُنجزَ، ما الخطوةُ التالية، أين المشكلات.",
       },
       {
         num: "٠٤",
-        title: "ضمانُ الرد في ٤ ساعات.",
+        title: "ضمانُ الرد في ٤ ساعات",
         body:
           "خلال ساعات العمل، تصلك إجابةٌ من إنسانٍ حقيقيٍّ خلال أربع ساعات. مكتوبةٌ في العقد.",
       },
     ],
     guarantee: {
-      title: "الجودةُ هي الضمان.",
+      title: "الجودةُ هي الضمان",
       body:
         "لا نُسلّم عملًا لا نفخر به. كلُّ تفصيلةٍ تُبنى بمعيارٍ نضع اسمنا عليه — لأنّنا فعلًا نفعل. إذا أقلقك شيء، فهو يُقلقنا أيضًا، ونعالجه حتى يصبح صحيحًا.",
     },
@@ -521,7 +521,7 @@ const ar: Dict = {
   },
   contact: {
     eyebrow: "٠٥ — التواصل",
-    title: "تواصل معنا.",
+    title: "تواصل معنا",
     lede: "أرسل لنا تفاصيل مشروعك ونعود إليك خلال ٢٤ ساعة.",
     form: {
       firstName: "الاسم الأول",
@@ -536,7 +536,7 @@ const ar: Dict = {
   },
   privacy: {
     eyebrow: "٠٦ — الخصوصية",
-    title: "سياسة الخصوصية.",
+    title: "سياسة الخصوصية",
     lede:
       "نحترم خصوصيتك ونتعامل مع بياناتك بالعناية ذاتها التي نضعها في عملنا. تشرح هذه الصفحة ما نجمعه فعلًا، ولماذا، وكيف نحميه.",
     updated: "آخر تحديث: ٣٠ حزيران ٢٠٢٦",
@@ -638,7 +638,7 @@ const ar: Dict = {
   },
   terms: {
     eyebrow: "٠٧ — الشروط",
-    title: "شروط الخدمة.",
+    title: "شروط الخدمة",
     lede:
       "تُحدّد هذه الشروط القواعد المنظِّمة لاستخدامك موقعنا وخدماتنا. اقرأها بعنايةٍ قبل التعاقد معنا.",
     updated: "آخر تحديث: ٣٠ حزيران ٢٠٢٦",
@@ -805,7 +805,7 @@ const ar: Dict = {
 
 const en: Dict = {
   meta: {
-    title: "Cloud Valley — AI automation agency.",
+    title: "Cloud Valley — AI automation agency",
     description:
       "We replace repetitive human tasks with reliable AI systems. Design, SEO, content, and social media.",
   },
@@ -918,7 +918,7 @@ const en: Dict = {
       },
     },
     ctaNum: "05 — Contact",
-    ctaTitle: "Let's talk.",
+    ctaTitle: "Let's talk",
     ctaBody:
       "Send us your project details and we'll get back to you within 24 hours.",
     ctaWhatsApp: "Start on WhatsApp",
@@ -1104,31 +1104,31 @@ const en: Dict = {
     pillars: [
       {
         num: "01",
-        title: "Transparent pricing.",
+        title: "Transparent pricing",
         body:
           "No hidden fees, no surprise hours. The number on the quote is the number you pay.",
       },
       {
         num: "02",
-        title: "Your full ownership.",
+        title: "Your full ownership",
         body:
           "Everything we build belongs to you. The code, the data, the accounts. If we ended tomorrow, the system would keep running.",
       },
       {
         num: "03",
-        title: "Weekly reports.",
+        title: "Weekly reports",
         body:
           "Every Monday, one short document arrives: what shipped, what's next, where the problems are.",
       },
       {
         num: "04",
-        title: "A four-hour reply guarantee.",
+        title: "A four-hour reply guarantee",
         body:
           "During business hours, a human reply arrives within four hours. It's written into the contract.",
       },
     ],
     guarantee: {
-      title: "Quality is the guarantee.",
+      title: "Quality is the guarantee",
       body:
         "We don't ship work we're not proud of. Every detail is crafted to a standard we'd put our name on — because we do. If something concerns you, it concerns us, and we address it until it's right.",
     },
@@ -1155,7 +1155,7 @@ const en: Dict = {
   },
   contact: {
     eyebrow: "05 — Contact",
-    title: "Get in touch.",
+    title: "Get in touch",
     lede: "Send us your project details and we'll get back to you within 24 hours.",
     form: {
       firstName: "First name",
@@ -1170,7 +1170,7 @@ const en: Dict = {
   },
   privacy: {
     eyebrow: "06 — Privacy",
-    title: "Privacy policy.",
+    title: "Privacy policy",
     lede:
       "We respect your privacy and handle your data with the same care we put into our work. This page explains what we actually collect, why, and how we protect it.",
     updated: "Last updated: June 30, 2026",
@@ -1272,7 +1272,7 @@ const en: Dict = {
   },
   terms: {
     eyebrow: "07 — Terms",
-    title: "Terms of service.",
+    title: "Terms of service",
     lede:
       "These terms set the rules that govern your use of our website and services. Please read them carefully before engaging us.",
     updated: "Last updated: June 30, 2026",
