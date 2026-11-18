@@ -50,6 +50,15 @@ export const BRAND_IMAGE = `${SITE_URL}/wady-logo1.png`;
 export const BRAND_IMAGE_WIDTH = 2600;
 export const BRAND_IMAGE_HEIGHT = 1139;
 
+/** Default share image for pages without their own (src/app/og-default.png). */
+export const SHARE_IMAGE = `${SITE_URL}/og-default.png`;
+export const SHARE_IMAGE_WIDTH = 1200;
+export const SHARE_IMAGE_HEIGHT = 630;
+
+/** An article's cover / share image (src/app/[locale]/blog/[slug]/cover). */
+export const coverUrl = (locale: Locale, slug: string) =>
+  urlFor(locale, `/blog/${slug}/cover`);
+
 /** Stable @id values so Article/Service can point at one Organization node. */
 export const ORG_ID = `${SITE_URL}/#organization`;
 /** One WebSite node per locale — they have different URLs and inLanguage. */
@@ -125,6 +134,8 @@ type PageMetaInput = {
   description?: string;
   /** Blog posts pass "article" plus the publish date. */
   article?: { publishedTime: string };
+  /** Page-specific share image; defaults to the site share image. */
+  image?: { url: string; alt: string };
 };
 
 /**
@@ -143,8 +154,10 @@ export function pageMetadata({
   title,
   description,
   article,
+  image,
 }: PageMetaInput): Metadata {
   const dict = getDict(locale);
+  const shareImage = image ?? { url: SHARE_IMAGE, alt: dict.brand.wordmark };
   const other: Locale = locale === "ar" ? "en" : "ar";
   return {
     // Titles shown in Google and the browser tab never end in a full stop,
@@ -166,16 +179,16 @@ export function pageMetadata({
       alternateLocale: OG_LOCALE[other],
       images: [
         {
-          url: BRAND_IMAGE,
-          width: BRAND_IMAGE_WIDTH,
-          height: BRAND_IMAGE_HEIGHT,
-          alt: dict.brand.wordmark,
+          url: shareImage.url,
+          width: SHARE_IMAGE_WIDTH,
+          height: SHARE_IMAGE_HEIGHT,
+          alt: shareImage.alt,
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      images: [BRAND_IMAGE],
+      images: [{ url: shareImage.url, alt: shareImage.alt }],
     },
   };
 }

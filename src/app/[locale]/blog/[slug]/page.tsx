@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { locales, isLocale, waLink } from "@/lib/i18n";
 import { getDict } from "@/lib/dictionaries";
@@ -10,6 +11,7 @@ import {
 } from "@/lib/blog-data";
 import { ArticleList } from "@/components/article-list";
 import { serviceSlugForNum } from "@/lib/service-map";
+import { coverAlt, COVER_WIDTH, COVER_HEIGHT } from "@/lib/cover-art";
 import { Rise } from "@/components/rise";
 import { SectionRule } from "@/components/section-rule";
 import { JsonLd } from "@/components/json-ld";
@@ -19,7 +21,7 @@ import {
   graph,
   breadcrumbSchema,
   ORG_ID,
-  BRAND_IMAGE,
+  coverUrl,
 } from "@/lib/seo";
 
 export async function generateStaticParams() {
@@ -43,6 +45,10 @@ export async function generateMetadata(props: {
     title: post.title,
     description: post.description,
     article: { publishedTime: post.isoDate },
+    image: {
+      url: coverUrl(locale, slug),
+      alt: coverAlt(post.serviceNum, locale),
+    },
   });
 }
 
@@ -89,7 +95,7 @@ export default async function BlogPostPage(props: {
       description: post.description,
       datePublished: post.isoDate,
       dateModified: post.isoDate,
-      image: BRAND_IMAGE,
+      image: coverUrl(locale, slug),
       author: { "@id": ORG_ID },
       publisher: { "@id": ORG_ID },
       inLanguage: locale,
@@ -153,6 +159,16 @@ export default async function BlogPostPage(props: {
             phones and tablets keep one column. */}
         <div className="lg:grid lg:grid-cols-12 lg:gap-16">
           <div className="lg:col-span-8">
+            {/* Cover: topic illustration drawn in code, also the share image. */}
+            <Image
+              src={`/${locale}/blog/${slug}/cover`}
+              alt={coverAlt(post.serviceNum, locale)}
+              width={COVER_WIDTH}
+              height={COVER_HEIGHT}
+              preload
+              sizes="(min-width: 1440px) 860px, (min-width: 1024px) 60vw, 100vw"
+              className="mb-10 h-auto w-full border border-rule"
+            />
             {/* Lead paragraph */}
             <Rise eager delay={120}>
               <p

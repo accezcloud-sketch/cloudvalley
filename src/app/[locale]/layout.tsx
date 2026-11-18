@@ -6,9 +6,9 @@ import { locales, isLocale, dirOf, SITE_URL, type Locale } from "@/lib/i18n";
 import { getDict } from "@/lib/dictionaries";
 import {
   OG_LOCALE,
-  BRAND_IMAGE,
-  BRAND_IMAGE_WIDTH,
-  BRAND_IMAGE_HEIGHT,
+  SHARE_IMAGE,
+  SHARE_IMAGE_WIDTH,
+  SHARE_IMAGE_HEIGHT,
   urlFor,
 } from "@/lib/seo";
 import { SiteHeader } from "@/components/site-header";
@@ -73,9 +73,9 @@ export async function generateMetadata(
       alternateLocale: OG_LOCALE[other],
       images: [
         {
-          url: BRAND_IMAGE,
-          width: BRAND_IMAGE_WIDTH,
-          height: BRAND_IMAGE_HEIGHT,
+          url: SHARE_IMAGE,
+          width: SHARE_IMAGE_WIDTH,
+          height: SHARE_IMAGE_HEIGHT,
           alt: dict.brand.wordmark,
         },
       ],
@@ -84,7 +84,7 @@ export async function generateMetadata(
       card: "summary_large_image",
       title: dict.meta.title,
       description: dict.meta.description,
-      images: [BRAND_IMAGE],
+      images: [SHARE_IMAGE],
     },
     // src/app/favicon.ico and src/app/icon.png are picked up by convention;
     // declaring them again here only produced a duplicate <link rel="icon">.

@@ -16,6 +16,8 @@ export type BlogListing = {
   excerpt: string;
   date: string;
   readTime: string;
+  /** Service "01".."08"; picks the cover illustration. */
+  serviceNum: string;
 };
 
 export type BlogPostData = BlogListing & {
@@ -125,7 +127,10 @@ function toArabicDigits(n: number): string {
 }
 
 export function readingTime(sections: BlogSection[], locale: Locale): string {
-  const minutes = Math.max(1, Math.ceil(countWords(sections) / WORDS_PER_MINUTE));
+  const minutes = Math.max(
+    1,
+    Math.ceil(countWords(sections) / WORDS_PER_MINUTE),
+  );
   if (locale === "en") return `${minutes} min`;
   // Arabic counting: 1 دقيقة واحدة, 2 دقيقتان, 3-10 دقائق, 11+ دقيقة.
   if (minutes === 1) return "دقيقة واحدة";
@@ -227,6 +232,7 @@ export function getBlogListing(locale: Locale): BlogListing[] {
     excerpt: p.excerpt,
     date: p.date,
     readTime: p.readTime,
+    serviceNum: p.serviceNum,
   }));
 }
 
@@ -242,7 +248,11 @@ export function getRelatedPosts(
   const current = getBlogPost(locale, slug);
   if (!current) return [];
   return getBlogListing(locale)
-    .filter((p) => p.slug !== slug && getBlogPost(locale, p.slug)?.serviceNum === current.serviceNum)
+    .filter(
+      (p) =>
+        p.slug !== slug &&
+        getBlogPost(locale, p.slug)?.serviceNum === current.serviceNum,
+    )
     .slice(0, limit);
 }
 

@@ -71,7 +71,7 @@ export function SiteHeader({ locale, dict }: Props) {
             alt={`${dict.brand.name} logo`}
             width={40}
             height={26}
-            priority
+            preload
             className="h-6 w-auto md:h-7"
           />
           <span

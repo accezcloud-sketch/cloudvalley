@@ -1,4 +1,6 @@
 import { notFound } from "next/navigation";
+import Image from "next/image";
+import { coverAlt, COVER_WIDTH, COVER_HEIGHT } from "@/lib/cover-art";
 import { isLocale } from "@/lib/i18n";
 import { getDict } from "@/lib/dictionaries";
 import { getBlogListing } from "@/lib/blog-data";
@@ -45,11 +47,7 @@ export default async function BlogPage(props: PageProps<"/[locale]/blog">) {
           >
             {dict.blog.title}
           </Rise>
-          <Rise
-            eager
-            delay={100}
-            className="md:col-span-4 flex items-end"
-          >
+          <Rise eager delay={100} className="md:col-span-4 flex items-end">
             <p
               className="text-[1.02rem] leading-[1.6] text-ink-soft"
               style={{
@@ -77,28 +75,38 @@ export default async function BlogPage(props: PageProps<"/[locale]/blog">) {
                 href={`/${locale}/blog/${post.slug}`}
                 className="grid grid-cols-1 gap-6 py-10 md:grid-cols-12 md:gap-10 md:py-14"
               >
-                {/* The service number (01-08) used to sit here and read like
-                    an article number; six cards showed "04". Topic only. */}
-                <div className="md:col-span-2">
+                {/* Cover thumbnail: the article's topic illustration. */}
+                <Image
+                  src={`/${locale}/blog/${post.slug}/cover`}
+                  alt={coverAlt(post.serviceNum, locale)}
+                  width={COVER_WIDTH}
+                  height={COVER_HEIGHT}
+                  sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw"
+                  className="h-auto w-full border border-rule md:col-span-4 lg:col-span-3"
+                />
+
+                <div className="md:col-span-8 lg:col-span-6">
+                  {/* Topic label only: the service number (01-08) that used to
+                      sit here read like an article number. */}
                   <div
                     className="text-[0.85rem] text-accent"
                     style={{ fontFamily: "var(--font-mono)" }}
                   >
                     {post.kicker}
                   </div>
+
+                  <h2
+                    className="mt-3 text-[clamp(1.6rem,3.4vw,2.6rem)] leading-[1.12] transition-colors group-hover:text-accent"
+                    style={{
+                      fontFamily: serifDisplay,
+                      letterSpacing: isAr ? "0" : "-0.015em",
+                    }}
+                  >
+                    {post.title}
+                  </h2>
                 </div>
 
-                <h2
-                  className="md:col-span-7 text-[clamp(1.6rem,3.4vw,2.6rem)] leading-[1.12] transition-colors group-hover:text-accent"
-                  style={{
-                    fontFamily: serifDisplay,
-                    letterSpacing: isAr ? "0" : "-0.015em",
-                  }}
-                >
-                  {post.title}
-                </h2>
-
-                <div className="md:col-span-3 flex flex-col gap-4">
+                <div className="flex flex-col gap-4 md:col-span-8 md:col-start-5 lg:col-span-3 lg:col-start-auto">
                   <p
                     className="text-[0.95rem] leading-[1.55] text-ink-soft"
                     style={{
