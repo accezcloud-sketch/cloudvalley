@@ -123,7 +123,7 @@ export default async function TermsPage(props: PageProps<"/[locale]/terms">) {
             href={waLink(
               isAr
                 ? "أهلًا، لديّ سؤال حول شروط الخدمة."
-                : "Hi — I have a question about your terms of service.",
+                : "Hi, I have a question about your terms of service.",
             )}
             target="_blank"
             rel="noreferrer"

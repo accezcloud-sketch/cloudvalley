@@ -94,12 +94,12 @@ function parseBody(md: string): BlogSection[] {
       }
       const lines = raw.map((l) => l.replace(/^>\s?/, "").trim());
       const last = lines[lines.length - 1] ?? "";
-      const isCite = lines.length > 1 && /^[—–\-]\s*/.test(last);
+      const isCite = lines.length > 1 && /^[\u2014\u2013\-]\s*/.test(last);
       if (isCite) {
         sections.push({
           type: "quote",
           text: lines.slice(0, -1).join(" "),
-          cite: last.replace(/^[—–\-]\s*/, ""),
+          cite: last.replace(/^[\u2014\u2013\-]\s*/, ""),
         });
       } else {
         sections.push({ type: "quote", text: lines.join(" ") });

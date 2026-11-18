@@ -117,7 +117,7 @@ export default async function AboutPage(props: PageProps<"/[locale]/about">) {
               className="text-[0.72rem] uppercase tracking-[0.2em] text-paper/60"
               style={{ fontFamily: "var(--font-mono)" }}
             >
-              {isAr ? "الفريق — ٠٥" : "The team — 05"}
+              {isAr ? "الفريق · ٠٥" : "The team · 05"}
             </div>
             <h3
               className="mt-6 text-[clamp(2rem,5vw,4rem)] leading-[1.05]"

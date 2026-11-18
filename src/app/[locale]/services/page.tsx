@@ -81,7 +81,7 @@ export default async function ServicesPage(
                     className="text-[0.72rem] uppercase tracking-[0.2em] text-ink-mute"
                     style={{ fontFamily: "var(--font-mono)" }}
                   >
-                    {s.num} — {isAr ? "الخدمة" : "Service"}
+                    {s.num} · {isAr ? "الخدمة" : "Service"}
                   </div>
                   <h2
                     className="mt-6 text-[clamp(2.2rem,5vw,4rem)] leading-[1.04]"

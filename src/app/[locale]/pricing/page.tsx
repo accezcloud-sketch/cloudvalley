@@ -110,12 +110,14 @@ export default async function PricingPage(
                     >
                       {p.price}
                     </span>
-                    <span
-                      className="text-xs tracking-[0.18em] opacity-75"
-                      style={{ fontFamily: "var(--font-mono)" }}
-                    >
-                      {p.per}
-                    </span>
+                    {p.per && (
+                      <span
+                        className="text-xs tracking-[0.18em] opacity-75"
+                        style={{ fontFamily: "var(--font-mono)" }}
+                      >
+                        {p.per}
+                      </span>
+                    )}
                   </div>
                   <ul
                     className="mt-10 space-y-3 text-[0.95rem] leading-[1.55]"

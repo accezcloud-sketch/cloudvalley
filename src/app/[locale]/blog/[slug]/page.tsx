@@ -408,11 +408,9 @@ function renderSection(
               style={{ fontFamily: bodyFont }}
             >
               <span
-                className="mt-[0.35em] shrink-0 text-[0.7rem] text-accent"
-                style={{ fontFamily: "var(--font-mono)" }}
-              >
-                &mdash;
-              </span>
+                aria-hidden
+                className="mt-[0.8em] h-px w-3 shrink-0 bg-current text-accent"
+              />
               <span>{item}</span>
             </li>
           ))}

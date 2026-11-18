@@ -27,11 +27,11 @@ export type ServicePageData = {
 const ar: Record<string, ServicePageData> = {
   "website-design": {
     slug: "website-design",
-    tagline: "موقعك هو أول موظفٍ يقابل عميلك — والأخير الذي ينساه.",
+    tagline: "موقعك هو أول موظفٍ يقابل عميلك، والأخير الذي ينساه.",
     problem:
-      "صاحب العمل يدفع لمصمّم قالبًا جاهزًا، يحصل على موقع يشبه ألف موقع آخر. النص العربي مكسور، الجوال بطيء، والزائر يغادر قبل أن يفهم ماذا تبيع. ثم يصرف آلاف الريالات على إعلانات Google تقود لصفحة لا تُقنع أحدًا. المشكلة ليست في الإعلان — بل في الوجهة.",
+      "صاحب العمل يدفع لمصمّم قالبًا جاهزًا، يحصل على موقع يشبه ألف موقع آخر. النص العربي مكسور، الجوال بطيء، والزائر يغادر قبل أن يفهم ماذا تبيع. ثم يصرف آلاف الريالات على إعلانات Google تقود لصفحة لا تُقنع أحدًا. المشكلة ليست في الإعلان، بل في الوجهة.",
     deliverables: [
-      "تصميم واجهات مخصّصة من الصفر — لا قوالب ولا سحب وإفلات.",
+      "تصميم واجهات مخصّصة من الصفر: لا قوالب ولا سحب وإفلات.",
       "بناء تخطيط عربي صحيح من اليمين لليسار مع خطوط مصمّمة للحروف العربية.",
       "تهيئة بنية الموقع لمحركات البحث من أول سطر كود.",
       "تحسين سرعة التحميل لتقل عن ثانيتين على شبكات الجوال.",
@@ -40,7 +40,7 @@ const ar: Record<string, ServicePageData> = {
     differentiators: [
       {
         label: "عربية أولاً، لا ترجمة لاحقة",
-        body: "نصمّم التخطيط العربي أولاً ثم نكيّفه للإنجليزية — لا العكس. هذا يعني أن العميل العربي يرى موقعًا صُنع له، لا موقعًا تُرجم إليه.",
+        body: "نصمّم التخطيط العربي أولاً ثم نكيّفه للإنجليزية، لا العكس. هذا يعني أن العميل العربي يرى موقعًا صُنع له، لا موقعًا تُرجم إليه.",
       },
       {
         label: "كود تملكه أنت بالكامل",
@@ -63,23 +63,23 @@ const ar: Record<string, ServicePageData> = {
       },
       {
         question: "ماذا يحدث إذا لم يعجبني التصميم؟",
-        answer: "نقدّم جولتين من المراجعات مشمولتين في السعر. إذا لم نتفق بعد الجولتين، نعود لنقطة الاتفاق الأخيرة ونعمل من هناك. لم يحدث هذا بعد — لأننا نبدأ بالمحتوى والهيكل قبل البكسلات.",
+        answer: "نقدّم جولتين من المراجعات مشمولتين في السعر. إذا لم نتفق بعد الجولتين، نعود لنقطة الاتفاق الأخيرة ونعمل من هناك. لم يحدث هذا بعد، لأننا نبدأ بالمحتوى والهيكل قبل البكسلات.",
       },
       {
         question: "هل يشمل السعر الاستضافة والدومين؟",
-        answer: "الدومين والاستضافة يُسجّلان باسمك وتدفعهما مباشرةً — عادةً بين ثلاثمئة وخمسمئة ريال سنويًا. هذا يضمن ملكيتك الكاملة. نساعد في الإعداد لكن الحساب لك.",
+        answer: "الدومين والاستضافة يُسجّلان باسمك وتدفعهما مباشرةً، عادةً بين ثلاثمئة وخمسمئة ريال سنويًا. هذا يضمن ملكيتك الكاملة. نساعد في الإعداد لكن الحساب لك.",
       },
     ],
   },
 
   "search-engine-optimization": {
     slug: "search-engine-optimization",
-    tagline: "نُظهر عملك لمن يبحث عنه فعلاً — بكلماته هو، لا بكلماتك أنت.",
+    tagline: "نُظهر عملك لمن يبحث عنه فعلاً، بكلماته هو لا بكلماتك أنت.",
     problem:
       "صاحب العمل يدفع لوكالة سيو تُرسل تقريرًا شهريًا مليئًا بمصطلحات لا يفهمها. الترتيب لا يتحرّك. الكلمات المفتاحية مترجمة من الإنجليزية بفصحى لا يكتبها أحد في محرك البحث. بعد ستة أشهر، لا شيء تغيّر سوى رصيد الحساب البنكي.",
     deliverables: [
       "تدقيق تقني شامل للموقع مع خطة إصلاح مُرقّمة بالأولوية.",
-      "بحث كلمات مفتاحية باللهجات المحلية العربية — لا ترجمة قاموسية.",
+      "بحث كلمات مفتاحية باللهجات المحلية العربية، لا ترجمة قاموسية.",
       "تحسين بنية الصفحات والبيانات المنظمة (Schema) لكل صفحة.",
       "بناء محتوى مرتكز على نية البحث الفعلية للمستخدم العربي.",
       "تقرير شهري بلغة واضحة: ما تحسّن، ما لم يتحسّن، والخطوة التالية.",
@@ -87,7 +87,7 @@ const ar: Record<string, ServicePageData> = {
     differentiators: [
       {
         label: "نبدأ من واتساب عملائك",
-        body: "أول شيء نفعله هو تدقيق محادثات عملائك الحقيقية — واتساب، تذاكر الدعم، تعليقات السوشيال. هذه هي الكلمات المفتاحية الحقيقية، لا ما تقوله أداة أمريكية.",
+        body: "أول شيء نفعله هو تدقيق محادثات عملائك الحقيقية: واتساب، تذاكر الدعم، تعليقات السوشيال. هذه هي الكلمات المفتاحية الحقيقية، لا ما تقوله أداة أمريكية.",
       },
       {
         label: "التقنية قبل المحتوى",
@@ -102,7 +102,7 @@ const ar: Record<string, ServicePageData> = {
     faq: [
       {
         question: "متى أبدأ أرى نتائج من السيو؟",
-        answer: "التحسينات التقنية تظهر عادةً في غضون أسبوعين إلى أربعة أسابيع. نتائج المحتوى والترتيب تحتاج عادةً من تسعين إلى مئة وثمانين يومًا. السيو استثمار تراكمي — الشهر السادس يكون أفضل بكثير من الأول.",
+        answer: "التحسينات التقنية تظهر عادةً في غضون أسبوعين إلى أربعة أسابيع. نتائج المحتوى والترتيب تحتاج عادةً من تسعين إلى مئة وثمانين يومًا. السيو استثمار تراكمي: الشهر السادس يكون أفضل بكثير من الأول.",
       },
       {
         question: "هل تضمنون الصفحة الأولى في Google؟",
@@ -124,7 +124,7 @@ const ar: Record<string, ServicePageData> = {
       "إعداد خطة محتوى شهرية مرتبطة بأهداف العمل والمواسم.",
       "كتابة مسوّدات أولى بالذكاء الاصطناعي ثم تحرير بشري كامل.",
       "تصميم مرئي موحّد لكل قطعة محتوى عبر جميع القنوات.",
-      "جدولة ونشر تلقائي — أنت توافق، نحن ننشر.",
+      "جدولة ونشر تلقائي: أنت توافق، نحن ننشر.",
       "تحليل أداء المحتوى شهريًا وتعديل الخطة بناءً على البيانات.",
     ],
     differentiators: [
@@ -134,11 +134,11 @@ const ar: Record<string, ServicePageData> = {
       },
       {
         label: "عربية راقية لا آلية مُفتعلة",
-        body: "نعرف الفرق بين الفصحى الجامدة والعربية الحيّة. نكتب بمستوى لغوي يناسب جمهورك — ليس رسميًا أكثر مما ينبغي، وليس عاميًا أكثر مما يليق.",
+        body: "نعرف الفرق بين الفصحى الجامدة والعربية الحيّة. نكتب بمستوى لغوي يناسب جمهورك: ليس رسميًا أكثر مما ينبغي، وليس عاميًا أكثر مما يليق.",
       },
       {
         label: "المحتوى مرتبط بنتيجة عمل",
-        body: "لا نقيس النجاح بالإعجابات. كل مقال ومنشور له هدف مرتبط بمرحلة في رحلة المشتري — وعي، اهتمام، أو قرار شراء.",
+        body: "لا نقيس النجاح بالإعجابات. كل مقال ومنشور له هدف مرتبط بمرحلة في رحلة المشتري: وعي، اهتمام، أو قرار شراء.",
       },
     ],
     outcome: "محتوى ينشره جمهورُك لا تدفعُ لنشره.",
@@ -149,7 +149,7 @@ const ar: Record<string, ServicePageData> = {
       },
       {
         question: "هل تكتبون بالعربية والإنجليزية؟",
-        answer: "نعم. نكتب كل قطعة بالعربية أولاً ثم نكتب نسخة إنجليزية مستقلة — ليست ترجمة حرفية. كل نسخة مصمّمة لجمهورها.",
+        answer: "نعم. نكتب كل قطعة بالعربية أولاً ثم نكتب نسخة إنجليزية مستقلة، ليست ترجمة حرفية. كل نسخة مصمّمة لجمهورها.",
       },
       {
         question: "من يملك المحتوى بعد النشر؟",
@@ -169,7 +169,7 @@ const ar: Record<string, ServicePageData> = {
       "صاحب العمل يدير الحسابات بنفسه ليلاً بعد يوم عمل طويل. ينشر بحماس أسبوعين ثم تصمت الحسابات شهرًا. يستأجر متدرّبًا فيحصل على منشورات عشوائية بلا خطة. الخوارزمية تنسى الحساب، والعملاء المحتملون يرون علامة تبدو مهجورة.",
     deliverables: [
       "إعداد تقويم محتوى مرئي أسبوعي يُراجَع ويُعتمَد قبل النشر.",
-      "تصميم محتوى مخصّص لكل منصة — لا إعادة تحجيم لنفس الصورة.",
+      "تصميم محتوى مخصّص لكل منصة، لا إعادة تحجيم لنفس الصورة.",
       "إعداد ردود تلقائية ذكية على الأسئلة المتكرّرة.",
       "تحليل أداء شهري بمقاييس مرتبطة بالإيراد لا بالإعجابات.",
       "جلسة تنسيق كل أسبوعين لمواءمة المحتوى مع خططك القادمة.",
@@ -181,7 +181,7 @@ const ar: Record<string, ServicePageData> = {
       },
       {
         label: "أتمتة ما يُمكن، بشر حيث يهم",
-        body: "الجدولة والردود المتكرّرة والتقارير مؤتمتة. صوت العلامة والتفاعل الحقيقي والأزمات يتولاها بشر. العميل لا يشعر بالفرق — يشعر بالسرعة.",
+        body: "الجدولة والردود المتكرّرة والتقارير مؤتمتة. صوت العلامة والتفاعل الحقيقي والأزمات يتولاها بشر. العميل لا يشعر بالفرق، بل يشعر بالسرعة.",
       },
       {
         label: "نقيس التفاعل الحقيقي لا المتابعين",
@@ -207,7 +207,7 @@ const ar: Record<string, ServicePageData> = {
 
   "mobile-app-design": {
     slug: "mobile-app-design",
-    tagline: "تطبيقٌ يُحبّه المستخدم من أول لمسة — لا من أول تحديث.",
+    tagline: "تطبيقٌ يُحبّه المستخدم من أول لمسة، لا من أول تحديث.",
     problem:
       "صاحب العمل يطلب تطبيقًا من شركة تطوير فيحصل على نسخة مصغّرة من الموقع بأزرار أكبر. التطبيق بطيء على شبكات الجوال الحقيقية، التصميم العربي مكسور، والمستخدمون يحذفونه قبل أن يكملوا التسجيل. ألف تحميل وعشرة مستخدمين نشطين.",
     deliverables: [
@@ -220,7 +220,7 @@ const ar: Record<string, ServicePageData> = {
     differentiators: [
       {
         label: "نصمّم للإبهام، لا للماوس",
-        body: "مناطق اللمس، حركات التمرير، والتنقّل بيد واحدة ليست تفاصيل — هي الأساس. نصمّم لطريقة استخدام الناس الحقيقية، لا لما يبدو جميلاً في العرض.",
+        body: "مناطق اللمس، حركات التمرير، والتنقّل بيد واحدة ليست تفاصيل، بل هي الأساس. نصمّم لطريقة استخدام الناس الحقيقية، لا لما يبدو جميلاً في العرض.",
       },
       {
         label: "اختبار على أجهزة حقيقية لا محاكيات",
@@ -235,7 +235,7 @@ const ar: Record<string, ServicePageData> = {
     faq: [
       {
         question: "هل تبنون التطبيق أم تصمّمونه فقط؟",
-        answer: "نتولّى التصميم الكامل — بحث المستخدمين، الإطارات السلكية، واجهات المستخدم، والنموذج التفاعلي. البرمجة يمكن أن نتولاها داخليًا أو نعمل مع فريق التطوير لديك. نوضّح هذا في جلسة الاكتشاف.",
+        answer: "نتولّى التصميم الكامل: بحث المستخدمين، الإطارات السلكية، واجهات المستخدم، والنموذج التفاعلي. البرمجة يمكن أن نتولاها داخليًا أو نعمل مع فريق التطوير لديك. نوضّح هذا في جلسة الاكتشاف.",
       },
       {
         question: "كم يستغرق تصميم تطبيق جوال؟",
@@ -250,9 +250,9 @@ const ar: Record<string, ServicePageData> = {
 
   "brand-identity": {
     slug: "brand-identity",
-    tagline: "هويةٌ بصرية تُعرَف قبل أن تُقرأ — بالعربية والإنجليزية.",
+    tagline: "هويةٌ بصرية تُعرَف قبل أن تُقرأ، بالعربية والإنجليزية.",
     problem:
-      "صاحب العمل يطلب شعارًا من مستقل على الإنترنت. يحصل على ملف PNG وبالتوفيق. لا ألوان محدّدة، لا خطوط، لا دليل استخدام. بعد سنة، حساب الإنستجرام يبدو مختلفًا عن الموقع، والموقع يبدو مختلفًا عن بطاقات الأعمال. العلامة لا تُعرَف — تُخمَّن.",
+      "صاحب العمل يطلب شعارًا من مستقل على الإنترنت. يحصل على ملف PNG وبالتوفيق. لا ألوان محدّدة، لا خطوط، لا دليل استخدام. بعد سنة، حساب الإنستجرام يبدو مختلفًا عن الموقع، والموقع يبدو مختلفًا عن بطاقات الأعمال. العلامة لا تُعرَف، بل تُخمَّن.",
     deliverables: [
       "تصميم شعار بنسخ متعدّدة (أساسي، ثانوي، أيقونة) مع قواعد مسافات.",
       "تحديد لوحة ألوان بأكواد دقيقة للطباعة والشاشة والرقمي.",
@@ -263,7 +263,7 @@ const ar: Record<string, ServicePageData> = {
     differentiators: [
       {
         label: "نصمّم الاتجاهين معًا",
-        body: "النسخة العربية والإنجليزية أختان لا أم ونسخة. نصمّمهما في وقت واحد حتى تعمل كل منهما بقوة متساوية — لا ترجمة بصرية.",
+        body: "النسخة العربية والإنجليزية أختان لا أم ونسخة. نصمّمهما في وقت واحد حتى تعمل كل منهما بقوة متساوية، دون ترجمة بصرية.",
       },
       {
         label: "نظام لا ملف",
@@ -293,9 +293,9 @@ const ar: Record<string, ServicePageData> = {
 
   "ecommerce-design": {
     slug: "ecommerce-design",
-    tagline: "متجرٌ إلكتروني مبني للبيع — لا للعرض.",
+    tagline: "متجرٌ إلكتروني مبني للبيع، لا للعرض.",
     problem:
-      "صاحب المتجر يفتح موقعًا على منصة جاهزة، يضيف المنتجات، وينتظر. سبعة من كل عشرة زوار يضعون شيئًا في السلة ثم يغادرون. الشحن مفاجأة عند الدفع. بوابات الدفع المحلية غير مدعومة. تجربة الجوال بطيئة ومربكة. المتجر موجود — لكنه لا يبيع.",
+      "صاحب المتجر يفتح موقعًا على منصة جاهزة، يضيف المنتجات، وينتظر. سبعة من كل عشرة زوار يضعون شيئًا في السلة ثم يغادرون. الشحن مفاجأة عند الدفع. بوابات الدفع المحلية غير مدعومة. تجربة الجوال بطيئة ومربكة. المتجر موجود، لكنه لا يبيع.",
     deliverables: [
       "تصميم صفحات منتجات مُحسَّنة للتحويل مع صور سياقية وإجابات على الاعتراضات.",
       "بناء تجربة سلة وخروج سلسة ومُحسّنة للجوال.",
@@ -306,11 +306,11 @@ const ar: Record<string, ServicePageData> = {
     differentiators: [
       {
         label: "مصمّم للسوق السعودي والخليجي",
-        body: "ندمج بوابات الدفع والشحن التي يثق بها عميلك المحلي. مدى ليست خيارًا إضافيًا — هي الخيار الأول.",
+        body: "ندمج بوابات الدفع والشحن التي يثق بها عميلك المحلي. مدى ليست خيارًا إضافيًا، بل هي الخيار الأول.",
       },
       {
         label: "كل بكسل يخدم البيع",
-        body: "لا نصمّم صفحات جميلة ونأمل أن تبيع. نبني كل عنصر لتقليل الاحتكاك وزيادة التحويل — من ترتيب الصور إلى موضع زر الشراء.",
+        body: "لا نصمّم صفحات جميلة ونأمل أن تبيع. نبني كل عنصر لتقليل الاحتكاك وزيادة التحويل، من ترتيب الصور إلى موضع زر الشراء.",
       },
       {
         label: "استرداد السلة المهجورة مدمج",
@@ -336,7 +336,7 @@ const ar: Record<string, ServicePageData> = {
 
   "digital-marketing": {
     slug: "digital-marketing",
-    tagline: "كلُّ ريالٍ في إعلانك يعود بنتيجةٍ مقيسة — أو لا يُنفق.",
+    tagline: "كلُّ ريالٍ في إعلانك يعود بنتيجةٍ مقيسة، أو لا يُنفق.",
     problem:
       "صاحب العمل يشغّل إعلانات Google ويموّل منشورات إنستجرام بدون قمع واضح. الزائر يصل للصفحة الرئيسية ويضيع. لا تتبّع سليم، لا صفحات هبوط مخصّصة، ولا خطة لما يحدث بعد النقرة. الميزانية تتبخّر والتقرير مليء بأرقام لا تعني شيئًا.",
     deliverables: [
@@ -349,7 +349,7 @@ const ar: Record<string, ServicePageData> = {
     differentiators: [
       {
         label: "قمع كامل لا إعلان وحيد",
-        body: "لا نشغّل إعلانًا بدون صفحة هبوط مخصّصة وتسلسل متابعة. الإعلان وحده لا يبيع — النظام الكامل يبيع.",
+        body: "لا نشغّل إعلانًا بدون صفحة هبوط مخصّصة وتسلسل متابعة. الإعلان وحده لا يبيع، بل يبيع النظام الكامل.",
       },
       {
         label: "ميزانية تتبع البيانات لا الحدس",
@@ -357,7 +357,7 @@ const ar: Record<string, ServicePageData> = {
       },
       {
         label: "نُبلّغ بالعملاء لا بالنقرات",
-        body: "تقريرنا يبدأ بعدد العملاء الجدد وتكلفة كل واحد. النقرات ومرّات الظهور في الملحق — لا في العنوان.",
+        body: "تقريرنا يبدأ بعدد العملاء الجدد وتكلفة كل واحد. النقرات ومرّات الظهور في الملحق، لا في العنوان.",
       },
     ],
     outcome: "كلُّ ريالٍ في الإعلان يعود بنتيجةٍ مقيسة.",
@@ -376,7 +376,7 @@ const ar: Record<string, ServicePageData> = {
       },
       {
         question: "على أي منصات تعلنون؟",
-        answer: "Google Ads، Meta (فيسبوك وإنستجرام)، TikTok Ads، وSnapchat Ads. نختار المنصات بناءً على جمهورك المحدّد — لا نُشغّل إعلانات على كل منصة لأن ذلك يُبعثر الميزانية.",
+        answer: "Google Ads، Meta (فيسبوك وإنستجرام)، TikTok Ads، وSnapchat Ads. نختار المنصات بناءً على جمهورك المحدّد. لا نُشغّل إعلانات على كل منصة لأن ذلك يُبعثر الميزانية.",
       },
     ],
   },
@@ -389,11 +389,11 @@ const ar: Record<string, ServicePageData> = {
 const en: Record<string, ServicePageData> = {
   "website-design": {
     slug: "website-design",
-    tagline: "Your website is the first employee your customer meets — and the last one they forget.",
+    tagline: "Your website is the first employee your customer meets, and the last one they forget.",
     problem:
-      "The business owner pays a designer for a template, gets a site that looks like a thousand others. The Arabic text is broken, the mobile experience is slow, and the visitor leaves before understanding what you sell. Then thousands of riyals go to Google Ads that lead to a page that convinces no one. The problem is not the ad — it is the destination.",
+      "The business owner pays a designer for a template, gets a site that looks like a thousand others. The Arabic text is broken, the mobile experience is slow, and the visitor leaves before understanding what you sell. Then thousands of riyals go to Google Ads that lead to a page that convinces no one. The problem is not the ad; it is the destination.",
     deliverables: [
-      "Design custom interfaces from scratch — no templates, no drag-and-drop.",
+      "Design custom interfaces from scratch: no templates, no drag-and-drop.",
       "Build a proper Arabic right-to-left layout with typefaces designed for Arabic letterforms.",
       "Structure the site for search engines from the first line of code.",
       "Optimize loading speed to under two seconds on mobile networks.",
@@ -402,7 +402,7 @@ const en: Record<string, ServicePageData> = {
     differentiators: [
       {
         label: "Arabic-first, not translated later",
-        body: "We design the Arabic layout first and adapt it for English — not the other way around. This means your Arab customer sees a site built for them, not translated at them.",
+        body: "We design the Arabic layout first and adapt it for English, not the other way around. This means your Arab customer sees a site built for them, not translated at them.",
       },
       {
         label: "Code you fully own",
@@ -425,23 +425,23 @@ const en: Record<string, ServicePageData> = {
       },
       {
         question: "What if I don't like the design?",
-        answer: "Two rounds of revisions are included in the price. If we still disagree after two rounds, we return to the last agreed point and work from there. This hasn't happened yet — because we start with content and structure before pixels.",
+        answer: "Two rounds of revisions are included in the price. If we still disagree after two rounds, we return to the last agreed point and work from there. This hasn't happened yet, because we start with content and structure before pixels.",
       },
       {
         question: "Does the price include hosting and domain?",
-        answer: "Domain and hosting are registered in your name and paid by you directly — typically three hundred to five hundred riyals per year. This ensures full ownership. We help with setup but the account is yours.",
+        answer: "Domain and hosting are registered in your name and paid by you directly, typically three hundred to five hundred riyals per year. This ensures full ownership. We help with setup but the account is yours.",
       },
     ],
   },
 
   "search-engine-optimization": {
     slug: "search-engine-optimization",
-    tagline: "We show your work to the people actually searching for it — in their words, not yours.",
+    tagline: "We show your work to the people actually searching for it, in their words, not yours.",
     problem:
       "The business owner pays an SEO agency that sends a monthly report full of jargon they don't understand. Rankings don't move. The keywords are translated from English into formal Arabic that nobody types into a search engine. After six months, nothing has changed except the bank balance.",
     deliverables: [
       "Run a comprehensive technical audit with a prioritized fix plan.",
-      "Research keywords in local Arabic dialects — not dictionary translations.",
+      "Research keywords in local Arabic dialects, not dictionary translations.",
       "Optimize page structure and Schema markup for every page.",
       "Build content anchored to the actual search intent of Arab users.",
       "Deliver a monthly report in plain language: what improved, what didn't, and the next step.",
@@ -449,7 +449,7 @@ const en: Record<string, ServicePageData> = {
     differentiators: [
       {
         label: "We start from your customers' WhatsApp",
-        body: "The first thing we do is audit your real customer conversations — WhatsApp, support tickets, social comments. Those are the real keywords, not what an American tool suggests.",
+        body: "The first thing we do is audit your real customer conversations: WhatsApp, support tickets, social comments. Those are the real keywords, not what an American tool suggests.",
       },
       {
         label: "Technical fixes before content",
@@ -464,7 +464,7 @@ const en: Record<string, ServicePageData> = {
     faq: [
       {
         question: "When will I start seeing SEO results?",
-        answer: "Technical improvements typically show within two to four weeks. Content and ranking results usually take ninety to one hundred eighty days. SEO is a compounding investment — month six is significantly better than month one.",
+        answer: "Technical improvements typically show within two to four weeks. Content and ranking results usually take ninety to one hundred eighty days. SEO is a compounding investment: month six is significantly better than month one.",
       },
       {
         question: "Do you guarantee first page on Google?",
@@ -486,7 +486,7 @@ const en: Record<string, ServicePageData> = {
       "Build a monthly content plan tied to business goals and seasonal patterns.",
       "Draft with AI, then fully edit with a human writer.",
       "Create unified visual design for every content piece across all channels.",
-      "Schedule and publish automatically — you approve, we handle the rest.",
+      "Schedule and publish automatically: you approve, we handle the rest.",
       "Analyze content performance monthly and adjust the plan based on data.",
     ],
     differentiators: [
@@ -496,14 +496,14 @@ const en: Record<string, ServicePageData> = {
       },
       {
         label: "Elegant Arabic, not stiff machine text",
-        body: "We know the difference between rigid formal Arabic and living Arabic. We write at the register that fits your audience — not more formal than necessary, not more casual than appropriate.",
+        body: "We know the difference between rigid formal Arabic and living Arabic. We write at the register that fits your audience: not more formal than necessary, not more casual than appropriate.",
       },
       {
         label: "Content tied to business outcomes",
-        body: "We don't measure success by likes. Every article and post has a goal tied to a stage in the buyer journey — awareness, interest, or purchase decision.",
+        body: "We don't measure success by likes. Every article and post has a goal tied to a stage in the buyer journey: awareness, interest, or purchase decision.",
       },
     ],
-    outcome: "Content your audience shares — not promoted.",
+    outcome: "Content your audience shares, not promoted.",
     faq: [
       {
         question: "How many content pieces do you produce per month?",
@@ -511,7 +511,7 @@ const en: Record<string, ServicePageData> = {
       },
       {
         question: "Do you write in both Arabic and English?",
-        answer: "Yes. We write every piece in Arabic first, then write an independent English version — not a literal translation. Each version is crafted for its audience.",
+        answer: "Yes. We write every piece in Arabic first, then write an independent English version, not a literal translation. Each version is crafted for its audience.",
       },
       {
         question: "Who owns the content after publishing?",
@@ -526,12 +526,12 @@ const en: Record<string, ServicePageData> = {
 
   "social-media-management": {
     slug: "social-media-management",
-    tagline: "Your accounts run on a system — not on enthusiasm that fades after two weeks.",
+    tagline: "Your accounts run on a system, not on enthusiasm that fades after two weeks.",
     problem:
       "The business owner manages accounts at night after a long workday. Posts enthusiastically for two weeks, then the accounts go silent for a month. Hires an intern who posts randomly with no plan. The algorithm forgets the account, and potential customers see a brand that looks abandoned.",
     deliverables: [
       "Build a weekly visual content calendar, reviewed and approved before publishing.",
-      "Design content tailored to each platform — not the same image resized.",
+      "Design content tailored to each platform, not the same image resized.",
       "Set up smart auto-replies for frequently asked questions.",
       "Deliver monthly performance analysis with metrics tied to revenue, not likes.",
       "Run a bi-weekly alignment session to sync content with your upcoming plans.",
@@ -543,7 +543,7 @@ const en: Record<string, ServicePageData> = {
       },
       {
         label: "Automate what can be, human where it matters",
-        body: "Scheduling, recurring replies, and reports are automated. Brand voice, real engagement, and crisis response are handled by humans. The customer doesn't feel the difference — they feel the speed.",
+        body: "Scheduling, recurring replies, and reports are automated. Brand voice, real engagement, and crisis response are handled by humans. The customer doesn't feel the difference; they feel the speed.",
       },
       {
         label: "We measure real engagement, not followers",
@@ -562,14 +562,14 @@ const en: Record<string, ServicePageData> = {
       },
       {
         question: "What if I receive a negative comment or a crisis?",
-        answer: "We have an escalation protocol: standard negative comments get a reply within one hour using a pre-agreed tone. Real crises — we notify you immediately and draft the response together before publishing.",
+        answer: "We have an escalation protocol: standard negative comments get a reply within one hour using a pre-agreed tone. In real crises, we notify you immediately and draft the response together before publishing.",
       },
     ],
   },
 
   "mobile-app-design": {
     slug: "mobile-app-design",
-    tagline: "An app users love from the first tap — not the first update.",
+    tagline: "An app users love from the first tap, not the first update.",
     problem:
       "The business owner orders an app from a dev shop and gets a shrunken version of their website with bigger buttons. The app is slow on real mobile networks, the Arabic design is broken, and users uninstall before finishing registration. A thousand downloads and ten active users.",
     deliverables: [
@@ -582,7 +582,7 @@ const en: Record<string, ServicePageData> = {
     differentiators: [
       {
         label: "Designed for thumbs, not mice",
-        body: "Touch zones, swipe gestures, and one-handed navigation are not details — they are the foundation. We design for how people actually use their phones, not for what looks good in a presentation.",
+        body: "Touch zones, swipe gestures, and one-handed navigation are not details; they are the foundation. We design for how people actually use their phones, not for what looks good in a presentation.",
       },
       {
         label: "Tested on real devices, not emulators",
@@ -597,7 +597,7 @@ const en: Record<string, ServicePageData> = {
     faq: [
       {
         question: "Do you build the app or just design it?",
-        answer: "We handle the full design — user research, wireframes, UI, and interactive prototype. Development can be done in-house by us or with your dev team. We clarify this in the discovery session.",
+        answer: "We handle the full design: user research, wireframes, UI, and interactive prototype. Development can be done in-house by us or with your dev team. We clarify this in the discovery session.",
       },
       {
         question: "How long does mobile app design take?",
@@ -612,9 +612,9 @@ const en: Record<string, ServicePageData> = {
 
   "brand-identity": {
     slug: "brand-identity",
-    tagline: "A visual identity recognized before it is read — in Arabic and English.",
+    tagline: "A visual identity recognized before it is read, in Arabic and English.",
     problem:
-      "The business owner orders a logo from a freelancer online. Gets a PNG file and good luck. No defined colors, no fonts, no usage guide. A year later, the Instagram account looks different from the website, and the website looks different from the business cards. The brand isn't recognized — it's guessed.",
+      "The business owner orders a logo from a freelancer online. Gets a PNG file and good luck. No defined colors, no fonts, no usage guide. A year later, the Instagram account looks different from the website, and the website looks different from the business cards. The brand isn't recognized; it's guessed.",
     deliverables: [
       "Design a logo with multiple versions (primary, secondary, icon) and clear-space rules.",
       "Define a color palette with exact codes for print, screen, and digital.",
@@ -625,7 +625,7 @@ const en: Record<string, ServicePageData> = {
     differentiators: [
       {
         label: "We design both directions simultaneously",
-        body: "The Arabic and English versions are siblings, not a parent and copy. We design them at the same time so each works with equal strength — no visual translation.",
+        body: "The Arabic and English versions are siblings, not a parent and copy. We design them at the same time so each works with equal strength, with no visual translation.",
       },
       {
         label: "A system, not a file",
@@ -655,9 +655,9 @@ const en: Record<string, ServicePageData> = {
 
   "ecommerce-design": {
     slug: "ecommerce-design",
-    tagline: "An online store built to sell — not to display.",
+    tagline: "An online store built to sell, not to display.",
     problem:
-      "The store owner opens a site on a ready-made platform, adds products, and waits. Seven out of ten visitors add something to the cart then leave. Shipping costs are a surprise at checkout. Local payment gateways aren't supported. The mobile experience is slow and confusing. The store exists — but it doesn't sell.",
+      "The store owner opens a site on a ready-made platform, adds products, and waits. Seven out of ten visitors add something to the cart then leave. Shipping costs are a surprise at checkout. Local payment gateways aren't supported. The mobile experience is slow and confusing. The store exists, but it doesn't sell.",
     deliverables: [
       "Design product pages optimized for conversion with contextual images and objection handling.",
       "Build a smooth, mobile-optimized cart and checkout experience.",
@@ -668,11 +668,11 @@ const en: Record<string, ServicePageData> = {
     differentiators: [
       {
         label: "Designed for the Saudi and Gulf market",
-        body: "We integrate the payment and shipping options your local customer trusts. Mada is not an add-on — it is the default.",
+        body: "We integrate the payment and shipping options your local customer trusts. Mada is not an add-on; it is the default.",
       },
       {
         label: "Every pixel serves the sale",
-        body: "We don't design beautiful pages and hope they sell. We build every element to reduce friction and increase conversion — from image order to buy-button placement.",
+        body: "We don't design beautiful pages and hope they sell. We build every element to reduce friction and increase conversion, from image order to buy-button placement.",
       },
       {
         label: "Abandoned cart recovery built in",
@@ -698,7 +698,7 @@ const en: Record<string, ServicePageData> = {
 
   "digital-marketing": {
     slug: "digital-marketing",
-    tagline: "Every riyal in your ads returns a measured result — or it doesn't get spent.",
+    tagline: "Every riyal in your ads returns a measured result, or it doesn't get spent.",
     problem:
       "The business owner runs Google Ads and boosts Instagram posts without a clear funnel. The visitor lands on the homepage and gets lost. No proper tracking, no dedicated landing pages, and no plan for what happens after the click. The budget evaporates and the report is full of numbers that mean nothing.",
     deliverables: [
@@ -711,7 +711,7 @@ const en: Record<string, ServicePageData> = {
     differentiators: [
       {
         label: "A full funnel, not a lone ad",
-        body: "We don't run an ad without a dedicated landing page and a follow-up sequence. An ad alone doesn't sell — the complete system does.",
+        body: "We don't run an ad without a dedicated landing page and a follow-up sequence. An ad alone doesn't sell; the complete system does.",
       },
       {
         label: "Budget follows data, not instinct",
@@ -719,7 +719,7 @@ const en: Record<string, ServicePageData> = {
       },
       {
         label: "We report on customers, not clicks",
-        body: "Our report starts with the number of new customers and the cost of each one. Clicks and impressions are in the appendix — not the headline.",
+        body: "Our report starts with the number of new customers and the cost of each one. Clicks and impressions are in the appendix, not the headline.",
       },
     ],
     outcome: "Every riyal spent on ads returns a measured result.",
@@ -738,7 +738,7 @@ const en: Record<string, ServicePageData> = {
       },
       {
         question: "Which platforms do you advertise on?",
-        answer: "Google Ads, Meta (Facebook and Instagram), TikTok Ads, and Snapchat Ads. We choose platforms based on your specific audience — we don't run ads on every platform because that scatters the budget.",
+        answer: "Google Ads, Meta (Facebook and Instagram), TikTok Ads, and Snapchat Ads. We choose platforms based on your specific audience. We don't run ads on every platform because that scatters the budget.",
       },
     ],
   },

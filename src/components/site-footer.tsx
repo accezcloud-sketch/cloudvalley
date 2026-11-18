@@ -44,7 +44,7 @@ export function SiteFooter({ locale, dict }: Props) {
               }}
             >
               {isAr
-                ? "العمل الجيّد لا يحتاج فريقًا ضخمًا — يحتاج نظامًا صامتًا."
+                ? "العمل الجيّد لا يحتاج فريقًا ضخمًا، بل يحتاج نظامًا صامتًا."
                 : "Good work needs a quiet system, not a large team."}
             </p>
           </div>

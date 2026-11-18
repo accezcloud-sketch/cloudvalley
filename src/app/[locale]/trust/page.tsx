@@ -145,7 +145,7 @@ export default async function TrustPage(props: PageProps<"/[locale]/trust">) {
       {/* Testimonials */}
       <section className="mx-auto w-full max-w-[1440px] px-6 py-24 md:px-10 md:py-32">
         <SectionRule
-          label={isAr ? "٠٣ — شهادات" : "03 — Testimonials"}
+          label={isAr ? "٠٣ · شهادات" : "03 · Testimonials"}
         />
         <div className="mt-12 grid grid-cols-1 gap-12 md:grid-cols-3 md:gap-10">
           {dict.trust.testimonials.map((t, i) => (
@@ -212,7 +212,7 @@ export default async function TrustPage(props: PageProps<"/[locale]/trust">) {
             href={waLink(
               isAr
                 ? "أهلًا، قرأتُ صفحة الثقة وأود البدء."
-                : "Hi — I read your trust page and want to start.",
+                : "Hi, I read your trust page and want to start.",
             )}
             target="_blank"
             rel="noreferrer"

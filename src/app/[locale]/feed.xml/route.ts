@@ -63,9 +63,8 @@ export async function GET(
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
     "  <channel>",
-    // Same "<page title> — <brand>" shape the layout's title template gives
-    // the blog index page.
-    `    <title>${esc(`${dict.blog.title.replace(/\.\s*$/, "")} — ${dict.brand.name}`)}</title>`,
+    // "<page title> | <brand>": the owner's title shape for the blog index.
+    `    <title>${esc(`${dict.blog.title.replace(/\.\s*$/, "")} | ${dict.brand.name}`)}</title>`,
     `    <link>${esc(blogUrl)}</link>`,
     `    <description>${esc(dict.blog.lede)}</description>`,
     `    <language>${locale}</language>`,

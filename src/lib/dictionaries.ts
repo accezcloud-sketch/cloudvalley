@@ -170,14 +170,14 @@ export type Dict = {
 
 const ar: Dict = {
   meta: {
-    title: "وادي السحاب — وكالة أتمتة الذكاء الاصطناعي",
+    title: "وادي السحاب | وكالة أتمتة الذكاء الاصطناعي",
     description:
       "نستبدل المهام البشرية المتكررة بأنظمة ذكاء اصطناعي موثوقة. تصميم، سيو، محتوى، ووسائل تواصل.",
   },
   brand: {
     name: "وادي السحاب",
-    wordmark: "Cloud Valley — وادي السحاب",
-    tagline: "وكالة أتمتة — نبني أنظمة لتستغني عن بناء فِرَق.",
+    wordmark: "Cloud Valley | وادي السحاب",
+    tagline: "وكالة أتمتة تبني أنظمة لتستغني عن بناء فِرَق.",
   },
   nav: {
     home: "الرئيسية",
@@ -197,7 +197,7 @@ const ar: Dict = {
     displayB: "ليس شخصًا.",
     displayC: "بل نظام.",
     lede:
-      "وادي السحاب وكالةُ أتمتة — نبني أنظمةً لتستغني عن بناء فِرَق. نُصمّم أنظمة ذكاء اصطناعي تُنجز ما يفعله فريقٌ كامل — بسرعةٍ أعلى، وبتكلفةٍ أقل بستينَ بالمائة.",
+      "وادي السحاب وكالةُ أتمتة تبني أنظمةً لتستغني عن بناء فِرَق. نُصمّم أنظمة ذكاء اصطناعي تُنجز ما يفعله فريقٌ كامل، بسرعةٍ أعلى وبتكلفةٍ أقل بستينَ بالمائة.",
     primaryCta: "ابدأ على واتساب",
     secondaryCta: "شاهد الخدمات",
     marquee: [
@@ -210,13 +210,13 @@ const ar: Dict = {
       "متاجر إلكترونية",
       "تسويق إلكتروني",
     ],
-    manifestoNum: "٠١ — البيان",
+    manifestoNum: "٠١ · البيان",
     manifestoTitle: "نُؤمن أن العمل الجيد لا يحتاج إلى فريقٍ ضخم.",
     manifestoBody: [
       "في كل شركةٍ عربيةٍ اليوم، يقضي موظفون ساعاتٍ طويلةً في مهامٍ متكررة: ردٌّ على الرسائل، جدولة المواعيد، كتابة المنشورات، مراجعة التقارير. هذه أعمالٌ يستطيع الذكاء الاصطناعي إنجازها الآن، وبدقةٍ أعلى.",
       "مهمّتنا ليست بيع أدواتٍ لامعة، بل أن نتركك مع أنظمةٍ تعمل بصمتٍ ودون أن تحتاج إليها. نُسلّم العمل جاهزًا، موثّقًا، ومربوطًا بأعمالك اليومية.",
     ],
-    statsTitle: "٠٢ — الأرقام",
+    statsTitle: "٠٢ · الأرقام",
     stats: [
       {
         value: "٦٠٪",
@@ -234,14 +234,14 @@ const ar: Dict = {
         caption: "متوسط الوقت من التوقيع إلى تشغيل أول نظامٍ حيّ.",
       },
     ],
-    servicesNum: "٠٣ — الخدمات",
+    servicesNum: "٠٣ · الخدمات",
     servicesTitle: "ثمانِ خدمات، نظامٌ واحد.",
     servicesLede:
       "كلُّ خدمةٍ مصمَّمةٌ لتعمل وحدها أو ضمن منظومةٍ كاملة. نُوصي بالبدء بواحدةٍ ثم التوسّع.",
-    pricingNum: "٠٤ — الباقات",
-    pricingTitle: "سيو، محتوى، وسوشيال ميديا — الثلاثية التي لا يحجزها عملاؤنا منفردة.",
+    pricingNum: "٠٤ · الباقات",
+    pricingTitle: "سيو، محتوى، وسوشيال ميديا: الثلاثية التي لا يحجزها عملاؤنا منفردة.",
     pricingLede:
-      "جمعنا الخدمات التي يختارها عملاؤنا دائمًا في باقاتٍ جاهزة بسعرٍ أفضل. بلا عقودٍ طويلة — ألغِ متى شئت.",
+      "جمعنا الخدمات التي يختارها عملاؤنا دائمًا في باقاتٍ جاهزة بسعرٍ أفضل. بلا عقودٍ طويلة. ألغِ متى شئت.",
     pricing: {
       basic: {
         badge: "محتوى + سوشيال",
@@ -273,7 +273,7 @@ const ar: Dict = {
         badge: "كل الخدمات + أنظمة مخصّصة",
         name: "المنظومة",
         price: "حسب الطلب",
-        per: "—",
+        per: "",
         features: [
           "كلُّ ما في الاحترافية + أنظمةٌ متعدّدة متصلة",
           "تكاملٌ مع أنظمتك الداخلية (CRM، ERP، إلخ)",
@@ -283,7 +283,7 @@ const ar: Dict = {
         cta: "تحدّث معنا",
       },
     },
-    ctaNum: "٠٥ — التواصل",
+    ctaNum: "٠٥ · التواصل",
     ctaTitle: "لنتحدّث",
     ctaBody:
       "أرسل لنا تفاصيل مشروعك ونعود إليك خلال ٢٤ ساعة.",
@@ -291,7 +291,7 @@ const ar: Dict = {
     ctaEmail: "راسلنا بالبريد",
   },
   services: {
-    eyebrow: "٠٢ — الخدمات",
+    eyebrow: "٠٢ · الخدمات",
     title: "ثمانِ خدمات. نظامٌ واحدٌ يعمل كفريقٍ كامل.",
     lede:
       "لا نبيعُ ساعاتٍ ولا أدوات. نُسلِّمُ نتائج: نظامٌ حيٌّ يعمل، ويُراقَب، ويُحسَّن شهريًا.",
@@ -413,14 +413,14 @@ const ar: Dict = {
     ],
   },
   blog: {
-    eyebrow: "٠٣ — المجلة",
+    eyebrow: "٠٣ · المجلة",
     title: "مقالاتٌ عن الأتمتة، الأعمال، والذكاء الاصطناعي.",
     lede:
       "نكتبُ لمن يديرُ أعمالاً حقيقية، لا لمن يلاحقُ الضجيج. مقالاتٌ قصيرة، عملية، ومبنيةٌ على تجارب.",
     backLabel: "← العودة للمدوّنة",
   },
   about: {
-    eyebrow: "٠٤ — من نحن",
+    eyebrow: "٠٤ · من نحن",
     title: "وادي السحاب بدأت سؤالاً، ثم صارت وكالة.",
     lede:
       "بدأ ثلاثةٌ منّا من مهندسين وكُتّاب بسؤالٍ واحد: لماذا يُرهِقُ عملٌ بسيطٌ فرقًا بأكملها؟ الجواب صار شركة.",
@@ -457,7 +457,7 @@ const ar: Dict = {
     },
   },
   trust: {
-    eyebrow: "٠٥ — لماذا نحن",
+    eyebrow: "٠٥ · لماذا نحن",
     title: "الثقةُ تُبنى بالتفاصيل، لا بالشعارات.",
     lede:
       "أربعةُ مبادئ نلتزمُ بها مع كل عميل، مكتوبةٌ هنا قبل أن نُطلَبَ بها.",
@@ -490,7 +490,7 @@ const ar: Dict = {
     guarantee: {
       title: "الجودةُ هي الضمان",
       body:
-        "لا نُسلّم عملًا لا نفخر به. كلُّ تفصيلةٍ تُبنى بمعيارٍ نضع اسمنا عليه — لأنّنا فعلًا نفعل. إذا أقلقك شيء، فهو يُقلقنا أيضًا، ونعالجه حتى يصبح صحيحًا.",
+        "لا نُسلّم عملًا لا نفخر به. كلُّ تفصيلةٍ تُبنى بمعيارٍ نضع اسمنا عليه، لأنّنا فعلًا نفعل. إذا أقلقك شيء، فهو يُقلقنا أيضًا، ونعالجه حتى يصبح صحيحًا.",
     },
     testimonials: [
       {
@@ -514,7 +514,7 @@ const ar: Dict = {
     ],
   },
   contact: {
-    eyebrow: "٠٥ — التواصل",
+    eyebrow: "٠٥ · التواصل",
     title: "تواصل معنا",
     lede: "أرسل لنا تفاصيل مشروعك ونعود إليك خلال ٢٤ ساعة.",
     form: {
@@ -529,7 +529,7 @@ const ar: Dict = {
     },
   },
   privacy: {
-    eyebrow: "٠٦ — الخصوصية",
+    eyebrow: "٠٦ · الخصوصية",
     title: "سياسة الخصوصية",
     lede:
       "نحترم خصوصيتك ونتعامل مع بياناتك بالعناية ذاتها التي نضعها في عملنا. تشرح هذه الصفحة ما نجمعه فعلًا، ولماذا، وكيف نحميه.",
@@ -548,7 +548,7 @@ const ar: Dict = {
         heading: "المعلومات التي نجمعها",
         body: [
           "المعلومات التي تقدّمها عبر نموذج التواصل: الاسم الأول، اسم العائلة، البريد الإلكتروني، رقم الجوال، اسم الشركة، المدينة، وتفاصيل مشروعك.",
-          "بيانات تُجمع تلقائيًا عند تصفّحك للموقع: عنوان IP، نوع المتصفّح والجهاز، والصفحات التي تزورها — عبر ملفّات تعريف الارتباط وأدوات التحليل.",
+          "بيانات تُجمع تلقائيًا عبر ملفّات تعريف الارتباط وأدوات التحليل عند تصفّحك للموقع: عنوان IP، نوع المتصفّح والجهاز، والصفحات التي تزورها.",
         ],
       },
       {
@@ -582,7 +582,7 @@ const ar: Dict = {
         heading: "مشاركة المعلومات والإفصاح عنها",
         body: [
           "نحن لا نبيع بياناتك الشخصية ولا نؤجّرها لأي طرف.",
-          "قد نشارك بياناتٍ محدودةً مع مزوّدي خدماتٍ موثوقين نعتمد عليهم في تشغيل أعمالنا — مثل الاستضافة، وأدوات التحليل، ومنصّات الإعلان (مثل Google وMeta)، وخدمات البريد — وذلك ضمن حدود ما يلزم لأداء عملهم فقط.",
+          "قد نشارك بياناتٍ محدودةً مع مزوّدي خدماتٍ موثوقين نعتمد عليهم في تشغيل أعمالنا، مثل الاستضافة وأدوات التحليل ومنصّات الإعلان (مثل Google وMeta) وخدمات البريد، وذلك ضمن حدود ما يلزم لأداء عملهم فقط.",
           "قد نُفصح عن المعلومات إذا اقتضى القانون ذلك أو لحماية حقوقنا.",
         ],
       },
@@ -629,7 +629,7 @@ const ar: Dict = {
     ],
   },
   terms: {
-    eyebrow: "٠٧ — الشروط",
+    eyebrow: "٠٧ · الشروط",
     title: "شروط الخدمة",
     lede:
       "تُحدّد هذه الشروط القواعد المنظِّمة لاستخدامك موقعنا وخدماتنا. اقرأها بعنايةٍ قبل التعاقد معنا.",
@@ -799,14 +799,14 @@ const ar: Dict = {
 
 const en: Dict = {
   meta: {
-    title: "Cloud Valley — AI automation agency",
+    title: "Cloud Valley | AI automation agency",
     description:
       "We replace repetitive human tasks with reliable AI systems. Design, SEO, content, and social media.",
   },
   brand: {
     name: "Cloud Valley",
-    wordmark: "Cloud Valley — وادي السحاب",
-    tagline: "An automation agency — we build systems so you don't need to build teams.",
+    wordmark: "Cloud Valley | وادي السحاب",
+    tagline: "An automation agency that builds systems so you don't need to build teams.",
   },
   nav: {
     home: "Home",
@@ -826,7 +826,7 @@ const en: Dict = {
     displayB: "isn't a person.",
     displayC: "It's a system.",
     lede:
-      "Cloud Valley is an automation agency — we build systems so you don't need to build teams. We design AI systems that do what a full team does — faster, and at sixty percent less cost.",
+      "Cloud Valley is an automation agency that builds systems so you don't need to build teams. We design AI systems that do what a full team does, faster and at sixty percent less cost.",
     primaryCta: "Start on WhatsApp",
     secondaryCta: "See services",
     marquee: [
@@ -839,13 +839,13 @@ const en: Dict = {
       "E-commerce",
       "Electronic marketing",
     ],
-    manifestoNum: "01 — Manifesto",
+    manifestoNum: "01 · Manifesto",
     manifestoTitle: "Good work does not require a large team.",
     manifestoBody: [
-      "In every Arab company today, employees spend long hours on repetitive tasks: answering messages, scheduling, drafting posts, reviewing reports. Work that AI can now do — and often, do better.",
-      "Our job is not to sell shiny tools. Our job is to leave you with systems that run quietly, without needing you. We deliver finished work — documented, handed over, wired into your business.",
+      "In every Arab company today, employees spend long hours on repetitive tasks: answering messages, scheduling, drafting posts, reviewing reports. Work that AI can now do, and often do better.",
+      "Our job is not to sell shiny tools. Our job is to leave you with systems that run quietly, without needing you. We deliver finished work: documented, handed over, wired into your business.",
     ],
-    statsTitle: "02 — Numbers",
+    statsTitle: "02 · Numbers",
     stats: [
       {
         value: "60%",
@@ -864,14 +864,14 @@ const en: Dict = {
         caption: "Average time from contract to the first live system.",
       },
     ],
-    servicesNum: "03 — Services",
+    servicesNum: "03 · Services",
     servicesTitle: "Eight services. One system.",
     servicesLede:
       "Each service works alone, or as part of a full stack. We usually recommend starting with one and expanding.",
-    pricingNum: "04 — Packages",
-    pricingTitle: "SEO, content, and social media — the combo our clients never book apart.",
+    pricingNum: "04 · Packages",
+    pricingTitle: "SEO, content, and social media: the combo our clients never book apart.",
     pricingLede:
-      "We bundled the services our clients always choose together into ready-made packages at a better price. No long contracts — cancel anytime.",
+      "We bundled the services our clients always choose together into ready-made packages at a better price. No long contracts. Cancel anytime.",
     pricing: {
       basic: {
         badge: "Content + Social",
@@ -903,7 +903,7 @@ const en: Dict = {
         badge: "All services + custom systems",
         name: "Ecosystem",
         price: "Custom",
-        per: "—",
+        per: "",
         features: [
           "Everything in Professional + multiple connected systems",
           "Integration with your internal tools (CRM, ERP, etc.)",
@@ -913,7 +913,7 @@ const en: Dict = {
         cta: "Talk to us",
       },
     },
-    ctaNum: "05 — Contact",
+    ctaNum: "05 · Contact",
     ctaTitle: "Let's talk",
     ctaBody:
       "Send us your project details and we'll get back to you within 24 hours.",
@@ -921,7 +921,7 @@ const en: Dict = {
     ctaEmail: "Write us an email",
   },
   services: {
-    eyebrow: "02 — Services",
+    eyebrow: "02 · Services",
     title: "Eight services. One system that works like a full team.",
     lede:
       "We don't sell hours or tools. We deliver outcomes: a live system, monitored, improved monthly.",
@@ -947,12 +947,12 @@ const en: Dict = {
         slug: "search-engine-optimization",
         name: "Search optimization",
         summary:
-          "We show your work to people actually searching, in words they use — not translated glossaries.",
+          "We show your work to people actually searching, in words they use, not translated glossaries.",
         bullets: [
           "Keyword research in local dialects",
           "Technical performance and page speed",
           "Content built around search intent",
-          "Clear reports — no jargon",
+          "Clear reports, no jargon",
         ],
         outcome: "Organic growth that is measured, not claimed.",
       },
@@ -964,11 +964,11 @@ const en: Dict = {
           "Articles, posts, short videos. Drafted by AI, edited by a human writer.",
         bullets: [
           "A monthly content plan in your voice",
-          "Elegant Arabic — not stiff, not machine-translated",
+          "Elegant Arabic, not stiff or machine-translated",
           "Unified visual design across channels",
           "Automated publishing and scheduling",
         ],
-        outcome: "Content your audience shares — not promoted.",
+        outcome: "Content your audience shares, not promoted.",
       },
       {
         num: "04",
@@ -1017,7 +1017,7 @@ const en: Dict = {
         slug: "ecommerce-design",
         name: "E-commerce design",
         summary:
-          "Stores built to sell, not just display — with a fast, frictionless buying experience.",
+          "Stores built to sell, not just display, with a fast and frictionless buying experience.",
         bullets: [
           "Product pages designed to convert visitors into buyers",
           "Integration with local payment gateways",
@@ -1043,17 +1043,17 @@ const en: Dict = {
     ],
   },
   blog: {
-    eyebrow: "03 — Journal",
+    eyebrow: "03 · Journal",
     title: "Essays on automation, business, and AI.",
     lede:
-      "We write for people running real businesses — not people chasing noise. Short, practical, built on what we saw in the field.",
+      "We write for people running real businesses, not people chasing noise. Short, practical, built on what we saw in the field.",
     backLabel: "\u2190 Back to blog",
   },
   about: {
-    eyebrow: "04 — About",
+    eyebrow: "04 · About",
     title: "Cloud Valley started as a question. It became an agency.",
     lede:
-      "Three of us — engineers and writers — began with a single question: why does simple work exhaust whole teams? The answer turned into a company.",
+      "Three of us, engineers and writers, began with a single question: why does simple work exhaust whole teams? The answer turned into a company.",
     sections: [
       {
         num: "01",
@@ -1065,7 +1065,7 @@ const en: Dict = {
         num: "02",
         heading: "Principle",
         body:
-          "We believe AI is not a replacement for people. It is a replacement for the dull tasks that drain them. We free up time — we do not replace humans.",
+          "We believe AI is not a replacement for people. It is a replacement for the dull tasks that drain them. We free up time; we do not replace humans.",
       },
       {
         num: "03",
@@ -1077,7 +1077,7 @@ const en: Dict = {
         num: "04",
         heading: "Limits",
         body:
-          "We take on one new client per week. Not because we couldn't do more — rushing ruins good work.",
+          "We take on one new client per week. Not because we couldn't do more, but because rushing ruins good work.",
       },
     ],
     team: {
@@ -1087,7 +1087,7 @@ const en: Dict = {
     },
   },
   trust: {
-    eyebrow: "05 — Why us",
+    eyebrow: "05 · Why us",
     title: "Trust is built in the details, not the slogans.",
     lede: "Four commitments, written here before they are asked for.",
     pillars: [
@@ -1119,7 +1119,7 @@ const en: Dict = {
     guarantee: {
       title: "Quality is the guarantee",
       body:
-        "We don't ship work we're not proud of. Every detail is crafted to a standard we'd put our name on — because we do. If something concerns you, it concerns us, and we address it until it's right.",
+        "We don't ship work we're not proud of. Every detail is crafted to a standard we'd put our name on, because we do. If something concerns you, it concerns us, and we address it until it's right.",
     },
     testimonials: [
       {
@@ -1143,7 +1143,7 @@ const en: Dict = {
     ],
   },
   contact: {
-    eyebrow: "05 — Contact",
+    eyebrow: "05 · Contact",
     title: "Get in touch",
     lede: "Send us your project details and we'll get back to you within 24 hours.",
     form: {
@@ -1158,7 +1158,7 @@ const en: Dict = {
     },
   },
   privacy: {
-    eyebrow: "06 — Privacy",
+    eyebrow: "06 · Privacy",
     title: "Privacy policy",
     lede:
       "We respect your privacy and handle your data with the same care we put into our work. This page explains what we actually collect, why, and how we protect it.",
@@ -1177,7 +1177,7 @@ const en: Dict = {
         heading: "Information we collect",
         body: [
           "Information you provide through our contact form: first name, last name, email, mobile number, company name, city, and your project details.",
-          "Information collected automatically as you browse: IP address, browser and device type, and pages visited — gathered through cookies and analytics tools.",
+          "Information collected automatically through cookies and analytics tools as you browse: IP address, browser and device type, and pages visited.",
         ],
       },
       {
@@ -1211,7 +1211,7 @@ const en: Dict = {
         heading: "Sharing and disclosure",
         body: [
           "We do not sell or rent your personal data to anyone.",
-          "We may share limited data with trusted service providers we rely on to run our business — such as hosting, analytics, advertising platforms (e.g. Google and Meta), and email services — limited to what they need to perform their work.",
+          "We may share limited data with trusted service providers we rely on to run our business, such as hosting, analytics, advertising platforms (e.g. Google and Meta) and email services, limited to what they need to perform their work.",
           "We may disclose information where required by law, or to protect our rights.",
         ],
       },
@@ -1258,7 +1258,7 @@ const en: Dict = {
     ],
   },
   terms: {
-    eyebrow: "07 — Terms",
+    eyebrow: "07 · Terms",
     title: "Terms of service",
     lede:
       "These terms set the rules that govern your use of our website and services. Please read them carefully before engaging us.",
@@ -1277,7 +1277,7 @@ const en: Dict = {
         heading: "Our services",
         body: [
           "We provide web design, search engine optimization, content production, social media management, mobile app design, brand identity, e-commerce, and electronic marketing.",
-          "The scope and deliverables of each service are agreed in writing — through a quote or agreement — before work begins.",
+          "The scope and deliverables of each service are agreed in writing, through a quote or agreement, before work begins.",
         ],
       },
       {
@@ -1300,7 +1300,7 @@ const en: Dict = {
         heading: "Client responsibilities",
         body: [
           "Providing the information, content, and access we need to deliver the service in a timely manner.",
-          "Reviewing deliverables and giving feedback within the agreed timeframe — delays in approval may delay delivery.",
+          "Reviewing deliverables and giving feedback within the agreed timeframe; delays in approval may delay delivery.",
           "Ensuring that any content or trademarks you provide do not infringe the rights of others.",
         ],
       },
@@ -1331,7 +1331,7 @@ const en: Dict = {
         num: "09",
         heading: "Warranties and disclaimer",
         body: [
-          "We commit to delivering work to a high quality standard we'd put our name on. However, we do not guarantee specific business outcomes — such as a particular search ranking or sales volume — as these depend on factors beyond our control.",
+          "We commit to delivering work to a high quality standard we'd put our name on. However, we do not guarantee specific business outcomes, such as a particular search ranking or sales volume, as these depend on factors beyond our control.",
           "Services are provided “as is”, without implied warranties beyond what these terms state.",
         ],
       },

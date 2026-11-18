@@ -123,7 +123,7 @@ export default async function PrivacyPage(props: PageProps<"/[locale]/privacy">)
             href={waLink(
               isAr
                 ? "أهلًا، لديّ سؤال حول سياسة الخصوصية."
-                : "Hi — I have a question about your privacy policy.",
+                : "Hi, I have a question about your privacy policy.",
             )}
             target="_blank"
             rel="noreferrer"

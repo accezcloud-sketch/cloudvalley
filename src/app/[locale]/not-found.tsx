@@ -8,7 +8,7 @@ import { usePathname } from "next/navigation";
 // address under /ar or /en that does not exist.
 const copy = {
   ar: {
-    label: "٤٠٤ — الصفحة غير موجودة",
+    label: "٤٠٤ · الصفحة غير موجودة",
     title: "هذه الصفحة غير موجودة.",
     body: "ربما تغيّر الرابط أو كُتب بشكلٍ خاطئ. هذه صفحات قد تفيدك:",
     links: [
@@ -18,7 +18,7 @@ const copy = {
     ],
   },
   en: {
-    label: "404 — Page not found",
+    label: "404 · Page not found",
     title: "This page does not exist.",
     body: "The link may have changed or been mistyped. These pages may help:",
     links: [
