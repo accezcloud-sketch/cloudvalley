@@ -21,13 +21,13 @@ serviceNum: 04
 
 Every business owner who has tried to manage their own social media knows the cycle: you post enthusiastically for two weeks, reply to every comment, experiment with stories and reels. Then a project deadline hits, a client escalates, and the accounts go dark. When you return three weeks later, the algorithm has forgotten you exist.
 
-Social media management is a full-time discipline. Treating it as something the intern handles between other tasks is why most business accounts look abandoned by March.
+[Social media management](/en/services/social-media-management) is a full-time discipline. Treating it as something the intern handles between other tasks is why most business accounts look abandoned by March.
 
 ## What professional management looks like
 
 The difference between an amateur social media presence and a professional one is not creativity; it is consistency and systems. Professional management means:
 
-- A visual content calendar published every week, reviewed and approved before anything goes live.
+- [A visual content calendar](/en/blog/your-social-media-content-plan-that-works) published every week, reviewed and approved before anything goes live.
 - Content designed specifically for each platform, not the same image resized four times.
 - Auto-replies for common questions so customers are never left waiting.
 - Monthly performance analysis with clear metrics: reach, engagement, click-throughs, and actual leads generated.
@@ -43,7 +43,7 @@ Business owners often think managing social media saves money. Let us run the nu
 
 People worry that automation means robotic replies and soulless content. It does not have to. The parts we automate are the parts that should be automated: scheduling, recurring replies to FAQs, performance tracking, and report generation.
 
-The parts that stay human are the parts that matter: brand voice, creative direction, community engagement, and crisis response. A customer who sends a genuine complaint needs a human reply. A customer who asks about your working hours can get an instant, accurate auto-reply, and they prefer it that way.
+The parts that stay human are the parts that matter: brand voice, creative direction, community engagement, and crisis response. A customer who sends [a genuine complaint](/en/blog/turning-frowns-upside-down-online) needs a human reply. A customer who asks about your working hours can get an instant, accurate auto-reply, and they prefer it that way.
 
 ## Measuring what matters
 
@@ -68,13 +68,13 @@ The result is an account that looks like a team of ten stands behind it, even wh
 
 كل صاحب عمل جرّب إدارة حساباته بنفسه يعرف الدورة: تنشر بحماس لأسبوعين، ترد على كل تعليق، تجرّب الستوريز والريلز. ثم يأتي موعد تسليم مشروع، يتصاعد عميل، وتصمت الحسابات. عندما تعود بعد ثلاثة أسابيع، تكون الخوارزمية قد نسيت وجودك.
 
-إدارة السوشيال ميديا تخصّص بدوام كامل. التعامل معها كمهمة يتولاها المتدرّب بين أعماله الأخرى هو السبب في أن أغلب حسابات الشركات تبدو مهجورة بحلول مارس.
+[إدارة السوشيال ميديا](/ar/services/social-media-management) تخصّص بدوام كامل. التعامل معها كمهمة يتولاها المتدرّب بين أعماله الأخرى هو السبب في أن أغلب حسابات الشركات تبدو مهجورة بحلول مارس.
 
 ## كيف تبدو الإدارة الاحترافية
 
 الفرق بين حضور سوشيال ميديا هاوٍ وآخر احترافي ليس الإبداع، بل الاتساق والأنظمة. الإدارة الاحترافية تعني:
 
-- تقويم محتوى مرئي يُنشر كل أسبوع، يُراجَع ويُعتمَد قبل أن يظهر أي شيء.
+- [تقويم محتوى مرئي](/ar/blog/your-social-media-content-plan-that-works) يُنشر كل أسبوع، يُراجَع ويُعتمَد قبل أن يظهر أي شيء.
 - محتوى مصمَّم خصيصًا لكل منصة، لا نفس الصورة مُعاد تحجيمها أربع مرات.
 - ردود تلقائية على الأسئلة المتكرّرة حتى لا ينتظر العملاء أبدًا.
 - تحليل أداء شهري بمقاييس واضحة: الوصول، التفاعل، النقرات، والعملاء الفعليين المُولَّدين.
@@ -90,7 +90,7 @@ The result is an account that looks like a team of ten stands behind it, even wh
 
 الناس يقلقون أن الأتمتة تعني ردودًا آلية ومحتوى بلا روح. ليست كذلك بالضرورة. الأجزاء التي نؤتمتها هي التي يجب أن تُؤتمت: الجدولة، الردود المتكرّرة على الأسئلة الشائعة، تتبّع الأداء، وإنشاء التقارير.
 
-الأجزاء التي تبقى بشرية هي التي تهم: صوت العلامة، التوجيه الإبداعي، التفاعل مع المجتمع، والتعامل مع الأزمات. العميل الذي يُرسل شكوى حقيقية يحتاج ردًا بشريًا. العميل الذي يسأل عن ساعات العمل يمكنه الحصول على رد تلقائي فوري ودقيق، ويُفضّله.
+الأجزاء التي تبقى بشرية هي التي تهم: صوت العلامة، التوجيه الإبداعي، التفاعل مع المجتمع، والتعامل مع الأزمات. العميل الذي يُرسل [شكوى حقيقية](/ar/blog/turning-frowns-upside-down-online) يحتاج ردًا بشريًا. العميل الذي يسأل عن ساعات العمل يمكنه الحصول على رد تلقائي فوري ودقيق، ويُفضّله.
 
 ## قياس ما يهم
 

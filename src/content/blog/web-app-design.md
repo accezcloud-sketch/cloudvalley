@@ -21,11 +21,11 @@ serviceNum: 01
 
 Most business owners in the Arab world treat their website like a digital business card: a logo, a phone number, and a generic stock photo. They spend thousands on rent, signage, and employee salaries, but hand their online presence to a template that looks like every other template on the internet.
 
-Here is the problem with that approach: a template does not understand your customer. It does not speak their language. Literally. Arabic typography is an afterthought in ninety percent of website templates. Text runs left-to-right in places it should not. Fonts render poorly. The mobile experience is broken. And every visitor who bounces is a lead you paid for but never captured.
+Here is the problem with that approach: [a template does not understand your customer](/en/blog/custom-vs-template-websites-the-right-choice). It does not speak their language. Literally. Arabic typography is an afterthought in ninety percent of website templates. Text runs left-to-right in places it should not. Fonts render poorly. The mobile experience is broken. And every visitor who bounces is a lead you paid for but never captured.
 
 ## What a custom-built site actually delivers
 
-A properly designed website does three things a template cannot:
+[A properly designed website](/en/services/website-design) does three things a template cannot:
 
 - It loads in under two seconds on a mobile connection in Riyadh, Jeddah, or Cairo, because performance is not optional, it is revenue.
 - It speaks fluent Arabic with correct right-to-left layout, proper line heights, and typefaces designed for Arabic letterforms, not Latin fonts with Arabic characters bolted on.
@@ -35,7 +35,7 @@ These are not luxury features. They are the baseline for a site that converts. E
 
 ## The real cost of a cheap website
 
-We see this pattern repeatedly: a business launches with a cheap template, then spends twelve months wondering why their Google Ads traffic does not convert. The answer is almost always the landing experience. Visitors arrive, see a generic page that does not speak to them, and leave.
+We see this pattern repeatedly: a business launches with a cheap template, then spends twelve months wondering why their Google Ads traffic does not convert. The answer is almost always [the landing experience](/en/blog/homepage-vs-landing-page-your-digital-strategy). Visitors arrive, see a generic page that does not speak to them, and leave.
 
 > A website that costs five thousand riyals but converts at one percent will outperform a website that costs five hundred riyals and converts at zero point one percent, every single month, compounding.
 
@@ -62,11 +62,11 @@ A good website is not an expense. It is your quietest, most reliable employee: t
 
 أغلب أصحاب الأعمال في العالم العربي يتعاملون مع موقعهم الإلكتروني كبطاقة أعمال رقمية: شعار، ورقم هاتف، وصورة عامة من الإنترنت. يُنفقون آلاف الريالات على الإيجار واللوحات الإعلانية ورواتب الموظفين، لكنهم يُسلّمون حضورهم الرقمي لقالبٍ جاهزٍ يشبه كلَّ قالبٍ آخر.
 
-المشكلة أن القالب لا يفهم عميلك. لا يتحدث لغته. حرفيًا. الخط العربي فكرة ثانوية في تسعين بالمئة من القوالب. النصوص تسير من اليسار لليمين في أماكن لا ينبغي لها ذلك. الخطوط تظهر بشكل سيئ. تجربة الجوال معطّلة. وكل زائرٍ يغادر هو عميلٌ محتمل دفعتَ ثمنه ولم تحصل عليه.
+المشكلة أن [القالب لا يفهم عميلك](/ar/blog/custom-vs-template-websites-the-right-choice). لا يتحدث لغته. حرفيًا. الخط العربي فكرة ثانوية في تسعين بالمئة من القوالب. النصوص تسير من اليسار لليمين في أماكن لا ينبغي لها ذلك. الخطوط تظهر بشكل سيئ. تجربة الجوال معطّلة. وكل زائرٍ يغادر هو عميلٌ محتمل دفعتَ ثمنه ولم تحصل عليه.
 
 ## ما يقدّمه الموقع المخصّص فعلاً
 
-الموقع المصمَّم بعناية يفعل ثلاثة أشياء لا يستطيعها أي قالب:
+[الموقع المصمَّم بعناية](/ar/services/website-design) يفعل ثلاثة أشياء لا يستطيعها أي قالب:
 
 - يُحمَّل في أقل من ثانيتين على شبكة جوال في الرياض أو جدة أو القاهرة، لأن السرعة ليست ترفًا، بل إيراد.
 - يتحدث عربيةً سليمة بتخطيط صحيح من اليمين لليسار، وارتفاعات أسطر مناسبة، وخطوط مصمَّمة للحروف العربية، لا خطوط لاتينية أُلصقت بها أحرف عربية.
@@ -76,7 +76,7 @@ A good website is not an expense. It is your quietest, most reliable employee: t
 
 ## التكلفة الحقيقية للموقع الرخيص
 
-نرى هذا النمط باستمرار: ينطلق مشروعٌ بقالب رخيص، ثم يقضي اثني عشر شهرًا يتساءل لماذا لا يتحوّل زوار إعلانات Google إلى عملاء. الجواب دائمًا تقريبًا هو تجربة الهبوط. يصل الزائر، يرى صفحة عامّة لا تخاطبه، فيغادر.
+نرى هذا النمط باستمرار: ينطلق مشروعٌ بقالب رخيص، ثم يقضي اثني عشر شهرًا يتساءل لماذا لا يتحوّل زوار إعلانات Google إلى عملاء. الجواب دائمًا تقريبًا هو [تجربة الهبوط](/ar/blog/homepage-vs-landing-page-your-digital-strategy). يصل الزائر، يرى صفحة عامّة لا تخاطبه، فيغادر.
 
 > موقعٌ بخمسة آلاف ريال يحوّل واحدًا بالمئة سيتفوّق كل شهر على موقعٍ بخمسمئة ريال يحوّل واحدًا من الألف، والفرق يتراكم.
 

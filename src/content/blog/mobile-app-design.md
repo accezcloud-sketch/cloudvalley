@@ -21,7 +21,7 @@ serviceNum: 05
 
 In the Arab world, mobile is not a secondary channel; it is the primary one. Saudi Arabia has one of the highest smartphone penetration rates on earth. Egypt, the UAE, and Jordan are not far behind. Your customers browse, compare, and buy on screens that fit in their palms. If your brand does not meet them there, a competitor will.
 
-Yet most businesses still treat mobile apps as a scaled-down version of their website. They shrink the same layout, cram the same navigation, and wonder why users uninstall within a week. A mobile app is not a smaller website. It is a different product with different rules.
+Yet most businesses still treat mobile apps as a scaled-down version of their website. They shrink the same layout, cram the same navigation, and wonder why users uninstall within a week. [A mobile app is not a smaller website](/en/blog/app-or-mobile-site-what-s-your-digital-edge). It is a different product with different rules.
 
 ## What makes a mobile app succeed in Arab markets
 
@@ -29,14 +29,14 @@ The apps that win in this region share four traits:
 
 - Arabic-first design: not English interfaces with Arabic text patched in. Layouts built for right-to-left from the first wireframe, with typography that respects Arabic letterforms.
 - Speed on real networks: not just fast on Wi-Fi in a testing lab, but fast on a 4G connection in a crowded mall in Riyadh or Cairo. Every extra second of loading costs you users.
-- Intuitive navigation: Arab users expect certain patterns. Payment flows should integrate local gateways like Mada, STC Pay, or Fawry. Contact should lead to WhatsApp, not a web form.
+- Intuitive navigation: Arab users expect certain patterns. [Payment flows](/en/blog/master-your-checkout-payments) should integrate local gateways like Mada, STC Pay, or Fawry. Contact should lead to WhatsApp, not a web form.
 - Consistency with the web experience: your app and your website should feel like the same brand. Different does not mean disconnected.
 
 ## Native, hybrid, or cross-platform?
 
 This is the first question every business asks, and the answer depends on what the app needs to do, not on what is trendy. Native apps offer the best performance and access to device features. Cross-platform frameworks like React Native or Flutter let you ship to iOS and Android from one codebase, cutting time and cost.
 
-For most service businesses, a well-built cross-platform app delivers ninety-five percent of native performance at sixty percent of the cost. We recommend native only when the app requires heavy use of device hardware: cameras, sensors, or complex animations.
+For most service businesses, [a well-built cross-platform app](/en/services/mobile-app-design) delivers ninety-five percent of native performance at sixty percent of the cost. We recommend native only when the app requires heavy use of device hardware: cameras, sensors, or complex animations.
 
 > The best app is the one your customer actually uses. Technology choice should serve the user experience, not the other way around.
 
@@ -68,7 +68,7 @@ Your customers are already holding the device. The question is whether your bran
 
 في العالم العربي، الجوال ليس قناة ثانوية، بل هو القناة الأولى. السعودية تمتلك واحدًا من أعلى معدلات انتشار الهواتف الذكية على وجه الأرض. مصر والإمارات والأردن ليست بعيدة. عملاؤك يتصفّحون ويقارنون ويشترون على شاشاتٍ تناسب راحة يدهم. إذا لم تلقَهم هناك، سيفعل منافسك.
 
-ومع ذلك، أغلب الشركات تتعامل مع تطبيقات الجوال كنسخة مصغّرة من موقعها. تُقلّص نفس التخطيط، تحشر نفس القوائم، وتتساءل لماذا يحذف المستخدمون التطبيق خلال أسبوع. تطبيق الجوال ليس موقعًا أصغر. هو منتج مختلف بقواعد مختلفة.
+ومع ذلك، أغلب الشركات تتعامل مع تطبيقات الجوال كنسخة مصغّرة من موقعها. تُقلّص نفس التخطيط، تحشر نفس القوائم، وتتساءل لماذا يحذف المستخدمون التطبيق خلال أسبوع. [تطبيق الجوال ليس موقعًا أصغر](/ar/blog/app-or-mobile-site-what-s-your-digital-edge). هو منتج مختلف بقواعد مختلفة.
 
 ## ما يجعل تطبيق الجوال ناجحًا في الأسواق العربية
 
@@ -76,14 +76,14 @@ Your customers are already holding the device. The question is whether your bran
 
 - تصميم عربي أولاً: لا واجهات إنجليزية بنص عربي ملصق. تخطيطات مبنية من اليمين لليسار من أول إطار سلكي، بطباعة تحترم أشكال الحروف العربية.
 - سرعة على شبكات حقيقية: ليس فقط على الواي فاي في مختبر اختبار، بل على اتصال 4G في مول مزدحم في الرياض أو القاهرة. كل ثانية إضافية تكلّفك مستخدمين.
-- تنقّل بديهي: المستخدمون العرب يتوقعون أنماطًا معيّنة. تدفقات الدفع يجب أن تدمج البوابات المحلية مثل مدى وSTC Pay وفوري. التواصل يجب أن يقود لواتساب، لا لنموذج ويب.
+- تنقّل بديهي: المستخدمون العرب يتوقعون أنماطًا معيّنة. [تدفقات الدفع](/ar/blog/master-your-checkout-payments) يجب أن تدمج البوابات المحلية مثل مدى وSTC Pay وفوري. التواصل يجب أن يقود لواتساب، لا لنموذج ويب.
 - اتساق مع تجربة الموقع: تطبيقك وموقعك يجب أن يشعرا كأنهما نفس العلامة. مختلف لا يعني منفصل.
 
 ## أصلي أم هجين أم متعدد المنصات؟
 
 هذا أول سؤال يطرحه كل صاحب عمل، والجواب يعتمد على ما يحتاج التطبيق فعله، لا على ما هو رائج. التطبيقات الأصلية تقدّم أفضل أداء ووصول لميزات الجهاز. أطر العمل متعددة المنصات مثل React Native أو Flutter تتيح لك الإطلاق على iOS وAndroid من قاعدة كود واحدة، مما يقلّل الوقت والتكلفة.
 
-لأغلب شركات الخدمات، تطبيق متعدد المنصات مبني جيدًا يقدّم خمسة وتسعين بالمئة من أداء التطبيق الأصلي بستين بالمئة من التكلفة. نوصي بالأصلي فقط عندما يتطلب التطبيق استخدامًا مكثفًا لعتاد الجهاز: كاميرات أو مستشعرات أو رسوم متحركة معقدة.
+لأغلب شركات الخدمات، [تطبيق متعدد المنصات مبني جيدًا](/ar/services/mobile-app-design) يقدّم خمسة وتسعين بالمئة من أداء التطبيق الأصلي بستين بالمئة من التكلفة. نوصي بالأصلي فقط عندما يتطلب التطبيق استخدامًا مكثفًا لعتاد الجهاز: كاميرات أو مستشعرات أو رسوم متحركة معقدة.
 
 > أفضل تطبيق هو الذي يستخدمه عميلك فعلاً. اختيار التقنية يجب أن يخدم تجربة المستخدم، لا العكس.
 

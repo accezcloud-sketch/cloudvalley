@@ -25,7 +25,7 @@ Arabic search is structurally different. A single root word can generate dozens 
 
 ## The six mistakes we see most often
 
-- Translating English keywords into formal Arabic instead of researching what people actually type.
+- Translating English keywords into formal Arabic instead of [researching what people actually type](/en/blog/keyword-research-your-traffic-engine).
 - Ignoring dialect variations: a term that ranks in UAE Arabic may be invisible in Egyptian Arabic.
 - Neglecting technical SEO: slow pages, missing structured data, broken mobile layouts.
 - Publishing thin content to hit a keyword count instead of writing something genuinely useful.
@@ -38,7 +38,7 @@ The starting point is not a keyword tool; it is a conversation. What does your c
 
 > The best Arabic keywords are the ones your customer service team hears on WhatsApp every day. Start there.
 
-We start every SEO engagement by auditing the client's WhatsApp conversations, support tickets, and social media comments. These real-world phrases become the foundation of the keyword strategy, not a translated glossary from an English competitor.
+We start [every SEO engagement](/en/services/search-engine-optimization) by auditing the client's WhatsApp conversations, support tickets, and social media comments. These real-world phrases become the foundation of the keyword strategy, not a translated glossary from an English competitor.
 
 ## Technical performance is not optional
 
@@ -49,7 +49,7 @@ Google's Core Web Vitals are the same regardless of language. A page that takes 
 - Incorrect hreflang tags that confuse Google about which version to show.
 - Missing structured data because most schema markup tools default to English.
 
-Fixing these technical issues often delivers more ranking improvement in the first month than any amount of content creation.
+[Fixing these technical issues](/en/blog/technical-seo-the-engine-under-your-website) often delivers more ranking improvement in the first month than any amount of content creation.
 
 ## Content that ranks and converts
 
@@ -73,7 +73,7 @@ For Arab businesses competing in markets where most competitors have not investe
 
 ## الأخطاء الستة التي نراها أكثر من غيرها
 
-- ترجمة الكلمات المفتاحية الإنجليزية إلى عربية فصحى بدلاً من البحث عمّا يكتبه الناس فعلاً.
+- ترجمة الكلمات المفتاحية الإنجليزية إلى عربية فصحى بدلاً من [البحث عمّا يكتبه الناس فعلاً](/ar/blog/keyword-research-your-traffic-engine).
 - تجاهل تنوّع اللهجات: مصطلح يتصدّر في عربية الإمارات قد يكون غير مرئي في العربية المصرية.
 - إهمال السيو التقني: صفحات بطيئة، بيانات منظمة مفقودة، تخطيط جوال معطّل.
 - نشر محتوى سطحي لاستهداف عدد كلمات بدلاً من كتابة شيء مفيد حقًا.
@@ -86,7 +86,7 @@ For Arab businesses competing in markets where most competitors have not investe
 
 > أفضل الكلمات المفتاحية العربية هي تلك التي يسمعها فريق خدمة العملاء على واتساب كل يوم. ابدأ من هناك.
 
-نبدأ كل مشروع سيو بتدقيق محادثات واتساب العميل، وتذاكر الدعم، وتعليقات السوشيال ميديا. هذه العبارات الواقعية تصبح أساس استراتيجية الكلمات المفتاحية، لا قاموسًا مترجمًا من منافس إنجليزي.
+نبدأ [كل مشروع سيو](/ar/services/search-engine-optimization) بتدقيق محادثات واتساب العميل، وتذاكر الدعم، وتعليقات السوشيال ميديا. هذه العبارات الواقعية تصبح أساس استراتيجية الكلمات المفتاحية، لا قاموسًا مترجمًا من منافس إنجليزي.
 
 ## الأداء التقني ليس اختياريًا
 
@@ -97,7 +97,7 @@ For Arab businesses competing in markets where most competitors have not investe
 - وسوم hreflang خاطئة تُربك Google حول النسخة التي يجب عرضها.
 - بيانات منظمة مفقودة لأن أغلب أدوات Schema تعمل بالإنجليزية افتراضيًا.
 
-إصلاح هذه المشكلات التقنية غالبًا يُحقّق تحسّنًا في الترتيب في الشهر الأول أكثر من أي كمية من إنتاج المحتوى.
+[إصلاح هذه المشكلات التقنية](/ar/blog/technical-seo-the-engine-under-your-website) غالبًا يُحقّق تحسّنًا في الترتيب في الشهر الأول أكثر من أي كمية من إنتاج المحتوى.
 
 ## محتوى يتصدّر ويُحوِّل
 

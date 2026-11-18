@@ -22,7 +22,7 @@ serviceNum: 08
 > Essential steps include using strong passwords, regular software updates, and secure hosting, with proactive monitoring costing as little as a few hundred SAR monthly.
 > A secure website builds customer confidence, safeguarding your brand reputation and ensuring business continuity in a competitive market.
 
-In the Kingdom of Saudi Arabia and across the Gulf, your business's digital storefront is often the first point of contact for customers. Whether you’re selling through an e-commerce platform or showcasing your services with a sleek website, ensuring its security is paramount. Neglecting this can lead to significant financial losses, damage to your brand reputation, and a loss of customer trust, which can be incredibly difficult to regain.
+In the Kingdom of Saudi Arabia and across the Gulf, your business's digital storefront is often the first point of contact for customers. Whether you’re selling through an e-commerce platform or showcasing your services with [a sleek website](/en/services/website-design), ensuring its security is paramount. Neglecting this can lead to significant financial losses, damage to your brand reputation, and a loss of customer trust, which can be incredibly difficult to regain.
 
 ## Why Website Security Matters for Gulf Businesses
 
@@ -34,11 +34,11 @@ You don't need to be a cybersecurity expert to implement foundational security. 
 
 - Strong, Unique Passwords: This might seem basic, but it's the first line of defense. Use a combination of uppercase and lowercase letters, numbers, and symbols for all your website and hosting accounts. Avoid using easily guessable information like birthdates or company names. Consider using a password manager to generate and store complex passwords.
 
-- Regular Software Updates: Keep your website's content management system (CMS), like WordPress, Joomla, or custom platforms, and all its plugins and themes up to date. Developers regularly release patches to fix security vulnerabilities. Outdated software is like leaving your digital doors wide open. This applies to your mobile apps as well, ensuring they are patched against the latest threats.
+- Regular Software Updates: Keep your website's content management system (CMS), like WordPress, Joomla, or custom platforms, and all its plugins and themes up to date. Developers regularly release patches to fix security vulnerabilities. [Outdated software](/en/blog/is-your-website-outdated-10-red-flags) is like leaving your digital doors wide open. This applies to your mobile apps as well, ensuring they are patched against the latest threats.
 
 - Secure Hosting: Choose a reputable web hosting provider that offers robust security features. Look for providers that offer features like SSL certificates (which encrypt data transmitted between your website and visitors), regular backups, and firewalls. For businesses in Saudi Arabia, consider providers with local data centers for faster speeds and compliance with local data regulations.
 
-- SSL Certificates: An SSL certificate is non-negotiable. It encrypts the connection between your website and your users, indicated by "https" and a padlock icon in the browser bar. This is crucial for protecting sensitive data, especially for e-commerce sites handling payments. Many hosting plans include basic SSL, but advanced options offer stronger encryption.
+- SSL Certificates: An SSL certificate is non-negotiable. It encrypts the connection between your website and your users, indicated by "https" and a padlock icon in the browser bar. This is crucial for protecting sensitive data, especially for [e-commerce sites handling payments](/en/blog/master-your-checkout-payments). Many hosting plans include basic SSL, but advanced options offer stronger encryption.
 
 - Regular Backups: Implement a schedule for regular, automated backups of your entire website, including files and databases. Store these backups in a secure, off-site location. If the worst happens, a recent backup can save you countless hours of work and potential data loss.
 
@@ -68,7 +68,7 @@ Yes, robust website security is affordable for small businesses. Basic measures 
 تشمل الخطوات الأساسية استخدام كلمات مرور قوية، وتحديثات منتظمة للبرامج، واستضافة آمنة، مع تكلفة مراقبة استباقية تبدأ من بضع مئات من الريالات شهريًا.
 الموقع الآمن يبني ثقة العملاء، ويحمي سمعة علامتك التجارية، ويضمن استمرارية الأعمال في سوق تنافسي.
 
-في المملكة العربية السعودية وعبر منطقة الخليج، غالبًا ما يكون واجهة أعمالك الرقمية هي نقطة الاتصال الأولى للعملاء. سواء كنت تبيع عبر منصة تجارة إلكترونية أو تعرض خدماتك بموقع أنيق، فإن ضمان أمانه أمر بالغ الأهمية. إهمال هذا الجانب يمكن أن يؤدي إلى خسائر مالية فادحة، وتضرر سمعة علامتك التجارية، وفقدان ثقة العملاء، والتي قد يكون من الصعب للغاية استعادتها.
+في المملكة العربية السعودية وعبر منطقة الخليج، غالبًا ما يكون واجهة أعمالك الرقمية هي نقطة الاتصال الأولى للعملاء. سواء كنت تبيع عبر منصة تجارة إلكترونية أو تعرض خدماتك [بموقع أنيق](/ar/services/website-design)، فإن ضمان أمانه أمر بالغ الأهمية. إهمال هذا الجانب يمكن أن يؤدي إلى خسائر مالية فادحة، وتضرر سمعة علامتك التجارية، وفقدان ثقة العملاء، والتي قد يكون من الصعب للغاية استعادتها.
 
 ## لماذا أمن المواقع مهم لشركات الخليج
 
@@ -80,11 +80,11 @@ Yes, robust website security is affordable for small businesses. Basic measures 
 
 - كلمات مرور قوية وفريدة: قد يبدو هذا بديهياً، ولكنه خط الدفاع الأول. استخدم مزيجاً من الأحرف الكبيرة والصغيرة والأرقام والرموز لجميع حسابات موقعك الإلكتروني واستضافتك. تجنب استخدام معلومات سهلة التخمين مثل تواريخ الميلاد أو أسماء الشركات. فكر في استخدام مدير كلمات المرور لإنشاء كلمات مرور معقدة وتخزينها.
 
-- تحديثات البرامج المنتظمة: حافظ على تحديث نظام إدارة المحتوى (CMS) الخاص بموقعك الإلكتروني، مثل ووردبريس أو جوملا أو المنصات المخصصة، وجميع الإضافات والقوالب الخاصة به. يصدر المطورون بانتظام تحديثات لإصلاح الثغرات الأمنية. البرامج القديمة تشبه ترك أبوابك الرقمية مفتوحة على مصراعيها. ينطبق هذا أيضاً على تطبيقات هاتفك المحمول، مع ضمان تحديثها ضد أحدث التهديدات.
+- تحديثات البرامج المنتظمة: حافظ على تحديث نظام إدارة المحتوى (CMS) الخاص بموقعك الإلكتروني، مثل ووردبريس أو جوملا أو المنصات المخصصة، وجميع الإضافات والقوالب الخاصة به. يصدر المطورون بانتظام تحديثات لإصلاح الثغرات الأمنية. [البرامج القديمة](/ar/blog/is-your-website-outdated-10-red-flags) تشبه ترك أبوابك الرقمية مفتوحة على مصراعيها. ينطبق هذا أيضاً على تطبيقات هاتفك المحمول، مع ضمان تحديثها ضد أحدث التهديدات.
 
 - استضافة آمنة: اختر مزود استضافة ويب ذا سمعة طيبة يقدم ميزات أمنية قوية. ابحث عن مزودين يقدمون ميزات مثل شهادات SSL (التي تقوم بتشفير البيانات المنقولة بين موقعك الإلكتروني والزوار)، ونسخ احتياطي منتظم، وجدران حماية. بالنسبة للشركات في المملكة العربية السعودية، ضع في اعتبارك المزودين الذين لديهم مراكز بيانات محلية لسرعة أكبر والامتثال للوائح البيانات المحلية.
 
-- شهادات SSL: شهادة SSL غير قابلة للتفاوض. إنها تشفر الاتصال بين موقعك الإلكتروني ومستخدميك، ويشار إليها بالرمز "https" وأيقونة قفل في شريط المتصفح. هذا أمر بالغ الأهمية لحماية البيانات الحساسة، خاصة لمواقع التجارة الإلكترونية التي تتعامل مع المدفوعات. تتضمن العديد من خطط الاستضافة شهادات SSL أساسية، لكن الخيارات المتقدمة توفر تشفيراً أقوى.
+- شهادات SSL: شهادة SSL غير قابلة للتفاوض. إنها تشفر الاتصال بين موقعك الإلكتروني ومستخدميك، ويشار إليها بالرمز "https" وأيقونة قفل في شريط المتصفح. هذا أمر بالغ الأهمية لحماية البيانات الحساسة، خاصة ل[مواقع التجارة الإلكترونية التي تتعامل مع المدفوعات](/ar/blog/master-your-checkout-payments). تتضمن العديد من خطط الاستضافة شهادات SSL أساسية، لكن الخيارات المتقدمة توفر تشفيراً أقوى.
 
 - نسخ احتياطي منتظم: قم بجدولة نسخ احتياطي منتظم وآلي لموقعك الإلكتروني بالكامل، بما في ذلك الملفات وقواعد البيانات. قم بتخزين هذه النسخ الاحتياطية في موقع آمن وخارج موقعك. في حال وقوع الأسوأ، يمكن لنسخة احتياطية حديثة أن توفر عليك ساعات لا حصر لها من العمل وفقدان محتمل للبيانات.
 

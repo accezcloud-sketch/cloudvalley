@@ -17,7 +17,7 @@ readTimeAr: "٧ دقائق"
 serviceNum: 02
 ---
 
-In today's competitive digital landscape, simply having a website isn't enough. To truly connect with your audience across Saudi Arabia and the wider Gulf region, your business needs to be found when potential customers search online. This is where on-page Search Engine Optimization (SEO) becomes critical. It’s the process of optimizing elements on your website itself to improve its ranking in search engine results. Think of it as making your digital storefront as welcoming and discoverable as possible to both search engines like Google and your valuable customers, whether they’re in Riyadh, Dubai, or Jeddah.
+In today's competitive digital landscape, simply having a website isn't enough. To truly connect with your audience across Saudi Arabia and the wider Gulf region, your business needs to be found when potential customers search online. This is where [on-page Search Engine Optimization (SEO)](/en/services/search-engine-optimization) becomes critical. It’s the process of optimizing elements on your website itself to improve its ranking in search engine results. Think of it as making your digital storefront as welcoming and discoverable as possible to both search engines like Google and your valuable customers, whether they’re in Riyadh, Dubai, or Jeddah.
 
 ## Understanding On-Page SEO: Your Digital Foundation
 
@@ -30,7 +30,7 @@ Here's a practical, step-by-step checklist to ensure your website is optimized f
 ## Keyword Research: Speak Your Customer's Language
 
 Every successful SEO strategy starts with understanding what your audience is searching for.
-- Identify your target keywords: What terms would a potential customer in Saudi Arabia use to find your products or services? Use tools to discover high-volume, relevant keywords. Consider variations in Arabic, as many users may search in their native language.
+- Identify your [target keywords](/en/blog/keyword-research-your-traffic-engine): What terms would a potential customer in Saudi Arabia use to find your products or services? Use tools to discover high-volume, relevant keywords. Consider variations in Arabic, as many users may search in their native language.
 - Analyze competitor keywords: See what terms your successful competitors are ranking for.
 - Focus on long-tail keywords: These are longer, more specific phrases that often indicate higher purchase intent. For example, instead of just "web design," consider "affordable web design services Riyadh for small businesses."
 
@@ -43,7 +43,7 @@ Your content is your primary tool for attracting and engaging visitors.
 
 ## On-Page Technical Elements: The Backbone of Discoverability
 
-Beyond content, technical aspects play a crucial role.
+Beyond content, [technical aspects](/en/blog/technical-seo-the-engine-under-your-website) play a crucial role.
 - Image optimization: Use descriptive file names and alt text for all your images. This helps search engines understand image content and improves accessibility. For instance, an image of a local landmark used in a tourism website should be named `riyadh-landmark-tourism.jpg` with alt text "Iconic landmark in Riyadh for tourism."
 - Internal linking: Link relevant pages within your website. This helps distribute "link equity" and guides users and search engine crawlers to important content. For example, link from a blog post about "e-commerce trends in Saudi Arabia" to your e-commerce design services page.
 - URL structure: Keep your URLs short, descriptive, and keyword-rich. A clean URL like `wady.cloud/services/seo` is better than `wady.cloud/page?id=123`.
@@ -61,7 +61,7 @@ By systematically working through this on-page SEO checklist, your business can 
 
 ## فهم تحسين محركات البحث داخل الصفحة (On-Page SEO): أساسك الرقمي
 
-في المشهد الرقمي التنافسي اليوم، مجرد وجود موقع إلكتروني لم يعد كافيًا. للتواصل حقًا مع جمهورك في جميع أنحاء المملكة العربية السعودية ومنطقة الخليج الأوسع، تحتاج شركتك إلى الظهور عندما يبحث العملاء المحتملون عبر الإنترنت. هنا يصبح تحسين محركات البحث داخل الصفحة (On-Page SEO) أمرًا بالغ الأهمية. إنها عملية تحسين العناصر الموجودة على موقعك الإلكتروني نفسه لتعزيز ترتيبه في نتائج محركات البحث. فكر في الأمر على أنه جعل واجهتك الرقمية جذابة وقابلة للاكتشاف قدر الإمكان لمحركات البحث مثل جوجل وعملائك الكرام، سواء كانوا في الرياض، دبي، أو جدة.
+في المشهد الرقمي التنافسي اليوم، مجرد وجود موقع إلكتروني لم يعد كافيًا. للتواصل حقًا مع جمهورك في جميع أنحاء المملكة العربية السعودية ومنطقة الخليج الأوسع، تحتاج شركتك إلى الظهور عندما يبحث العملاء المحتملون عبر الإنترنت. هنا يصبح [تحسين محركات البحث داخل الصفحة (On-Page SEO)](/ar/services/search-engine-optimization) أمرًا بالغ الأهمية. إنها عملية تحسين العناصر الموجودة على موقعك الإلكتروني نفسه لتعزيز ترتيبه في نتائج محركات البحث. فكر في الأمر على أنه جعل واجهتك الرقمية جذابة وقابلة للاكتشاف قدر الإمكان لمحركات البحث مثل جوجل وعملائك الكرام، سواء كانوا في الرياض، دبي، أو جدة.
 
 يركز تحسين محركات البحث داخل الصفحة على ما يمكنك التحكم فيه مباشرة على صفحات موقعك الإلكتروني. يتعلق الأمر بضمان فهم محركات البحث لمحتوى صفحاتك وأهميتها لاستعلامات المستخدمين. هذا لا يعتمد على الحيل، بل على تواصل واضح وتجربة مستخدم ممتازة. بالنسبة للشركات في المملكة العربية السعودية، هذا يعني فهم عادات البحث للجمهور الناطق باللغة العربية وتكييف جهودك وفقًا لذلك. استراتيجية تحسين محركات البحث داخل الصفحة القوية هي حجر الزاوية لأي حملة تسويق رقمي ناجحة، مما يضمن أنه عندما يبحث شخص ما عن "أفضل منصة تجارة إلكترونية في السعودية" أو "وكالة تسويق رقمي بالرياض"، فإن شركتك تبرز.
 
@@ -72,7 +72,7 @@ By systematically working through this on-page SEO checklist, your business can 
 ## بحث الكلمات المفتاحية: تحدث بلغة عميلك
 
 تبدأ كل استراتيجية ناجحة لتحسين محركات البحث بفهم ما يبحث عنه جمهورك.
-- حدد الكلمات المفتاحية المستهدفة: ما هي المصطلحات التي قد يستخدمها العميل المحتمل في المملكة العربية السعودية للعثور على منتجاتك أو خدماتك؟ استخدم الأدوات لاكتشاف الكلمات المفتاحية ذات الحجم الكبير وذات الصلة. ضع في اعتبارك الاختلافات باللغة العربية، حيث قد يبحث العديد من المستخدمين بلغتهم الأم.
+- حدد [الكلمات المفتاحية المستهدفة](/ar/blog/keyword-research-your-traffic-engine): ما هي المصطلحات التي قد يستخدمها العميل المحتمل في المملكة العربية السعودية للعثور على منتجاتك أو خدماتك؟ استخدم الأدوات لاكتشاف الكلمات المفتاحية ذات الحجم الكبير وذات الصلة. ضع في اعتبارك الاختلافات باللغة العربية، حيث قد يبحث العديد من المستخدمين بلغتهم الأم.
 - تحليل الكلمات المفتاحية للمنافسين: انظر إلى المصطلحات التي تحتل منافسوك الناجحون مرتبة فيها.
 - ركز على الكلمات المفتاحية الطويلة (Long-tail keywords): هذه عبارة عن عبارات أطول وأكثر تحديدًا تشير غالبًا إلى نية شراء أعلى. على سبيل المثال، بدلًا من مجرد "تصميم ويب"، فكر في "خدمات تصميم ويب بأسعار معقولة في الرياض للشركات الصغيرة".
 
@@ -85,7 +85,7 @@ By systematically working through this on-page SEO checklist, your business can 
 
 ## العناصر التقنية داخل الصفحة: العمود الفقري للاكتشاف
 
-بالإضافة إلى المحتوى، تلعب الجوانب التقنية دورًا حاسمًا.
+بالإضافة إلى المحتوى، تلعب [الجوانب التقنية](/ar/blog/technical-seo-the-engine-under-your-website) دورًا حاسمًا.
 - تحسين الصور: استخدم أسماء ملفات وأوصاف نصية بديلة (alt text) وصفية لجميع صورك. هذا يساعد محركات البحث على فهم محتوى الصور ويحسن إمكانية الوصول. على سبيل المثال، صورة لمعلم محلي مستخدمة في موقع سياحي يجب تسميتها `riyadh-landmark-tourism.jpg` مع نص بديل "معلم أيقوني في الرياض للسياحة".
 - الربط الداخلي: اربط الصفحات ذات الصلة داخل موقعك. هذا يساعد على توزيع "قيمة الروابط" ويوجه المستخدمين وزواحف محركات البحث إلى المحتوى المهم. على سبيل المثال، اربط من منشور مدونة حول "اتجاهات التجارة الإلكترونية في المملكة العربية السعودية" بصفحة خدمات تصميم التجارة الإلكترونية الخاصة بك.
 - بنية عناوين URL: اجعل عناوين URL الخاصة بك قصيرة، وصفية، وغنية بالكلمات المفتاحية. عنوان URL نظيف مثل `wady.cloud/services/seo` أفضل من `wady.cloud/page?id=123`.

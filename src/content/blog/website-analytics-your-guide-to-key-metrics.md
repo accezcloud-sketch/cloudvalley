@@ -32,10 +32,10 @@ Before diving into dashboards, ask yourself: What do I want my website to achiev
 
 Don't try to track everything. Focus on a few key performance indicators (KPIs) that directly align with your objectives.
 
-- Traffic Sources: Where are your visitors coming from? Understanding this helps you allocate your digital marketing budget effectively. Are they finding you through Google searches (organic traffic), social media posts, paid ads, or direct visits? For businesses targeting the GCC, knowing if your Arabic-language content is driving traffic from specific countries like the UAE or Kuwait is vital.
+- Traffic Sources: Where are your visitors coming from? Understanding this helps you allocate your [digital marketing budget](/en/services/digital-marketing) effectively. Are they finding you through Google searches (organic traffic), social media posts, paid ads, or direct visits? For businesses targeting the GCC, knowing if your Arabic-language content is driving traffic from specific countries like the UAE or Kuwait is vital.
 - Bounce Rate: This tells you the percentage of visitors who leave your site after viewing only one page. A high bounce rate can indicate that your landing pages aren't relevant to the user's search intent or that the user experience is poor.
 - Time on Page/Site: How long are visitors spending on your site and on specific pages? Longer durations generally suggest that users find your content engaging and valuable.
-- Conversion Rate: This is perhaps the most critical metric for many businesses. It measures the percentage of visitors who complete a desired action, such as making a purchase, filling out a form, or signing up for a newsletter. A strong conversion rate means your website is effectively turning visitors into customers.
+- [Conversion Rate](/en/blog/boost-sales-with-cro-explained): This is perhaps the most critical metric for many businesses. It measures the percentage of visitors who complete a desired action, such as making a purchase, filling out a form, or signing up for a newsletter. A strong conversion rate means your website is effectively turning visitors into customers.
 - New vs. Returning Visitors: Are you attracting new audiences, or are you successfully bringing people back? A healthy mix is usually ideal.
 
 ## Understanding Your Audience
@@ -52,7 +52,7 @@ The real power of analytics lies in using the data to make informed decisions.
 
 - If you see a high bounce rate on a specific landing page, investigate why. Is the content misleading? Is the page slow to load? Is it not what the user expected from the search result?
 - If your traffic from social media is high but conversions are low, perhaps your calls to action on social platforms aren't strong enough, or the landing page isn't optimized for social visitors.
-- If you notice a significant portion of your audience coming from organic Google searches for specific keywords related to your services in Jeddah, consider doubling down on your SEO efforts for those terms.
+- If you notice a significant portion of your audience coming from organic Google searches for specific keywords related to your services in Jeddah, consider doubling down on [your SEO efforts](/en/blog/is-your-seo-paying-off-check-these-metrics) for those terms.
 
 ## Tools and Resources
 
@@ -86,10 +86,10 @@ For most businesses in Saudi Arabia and the Gulf, Google Analytics is the primar
 
 لا تحاول تتبع كل شيء. ركز على عدد قليل من مؤشرات الأداء الرئيسية (KPIs) التي تتماشى مباشرة مع أهدافك.
 
-- مصادر الزيارات: من أين يأتي زوارك؟ فهم هذا يساعدك على تخصيص ميزانية التسويق الرقمي الخاصة بك بفعالية. هل يجدونك عبر عمليات بحث جوجل (زيارات عضوية)، أو منشورات وسائل التواصل الاجتماعي، أو الإعلانات المدفوعة، أو الزيارات المباشرة؟ بالنسبة للأعمال التجارية التي تستهدف دول مجلس التعاون الخليجي، من الضروري معرفة ما إذا كان محتواك باللغة العربية يجلب الزيارات من دول محددة مثل الإمارات أو الكويت.
+- مصادر الزيارات: من أين يأتي زوارك؟ فهم هذا يساعدك على تخصيص [ميزانية التسويق الرقمي](/ar/services/digital-marketing) الخاصة بك بفعالية. هل يجدونك عبر عمليات بحث جوجل (زيارات عضوية)، أو منشورات وسائل التواصل الاجتماعي، أو الإعلانات المدفوعة، أو الزيارات المباشرة؟ بالنسبة للأعمال التجارية التي تستهدف دول مجلس التعاون الخليجي، من الضروري معرفة ما إذا كان محتواك باللغة العربية يجلب الزيارات من دول محددة مثل الإمارات أو الكويت.
 - معدل الارتداد (Bounce Rate): هذا يخبرك بنسبة الزوار الذين يغادرون موقعك بعد عرض صفحة واحدة فقط. يمكن أن يشير معدل الارتداد المرتفع إلى أن صفحات الهبوط الخاصة بك ليست ذات صلة بنيّة بحث المستخدم أو أن تجربة المستخدم سيئة.
 - الوقت في الصفحة/الموقع: كم من الوقت يقضي الزوار على موقعك وعلى صفحات محددة؟ تشير المدد الأطول بشكل عام إلى أن المستخدمين يجدون محتواك جذابًا وقيمًا.
-- معدل التحويل (Conversion Rate): ربما يكون هذا هو المقياس الأكثر أهمية للعديد من الأعمال التجارية. إنه يقيس نسبة الزوار الذين يكملون إجراءً مرغوبًا فيه، مثل إجراء عملية شراء، أو ملء نموذج، أو الاشتراك في نشرة إخبارية. يشير معدل التحويل القوي إلى أن موقعك الإلكتروني يحول الزوار بفعالية إلى عملاء.
+- [معدل التحويل (Conversion Rate)](/ar/blog/boost-sales-with-cro-explained): ربما يكون هذا هو المقياس الأكثر أهمية للعديد من الأعمال التجارية. إنه يقيس نسبة الزوار الذين يكملون إجراءً مرغوبًا فيه، مثل إجراء عملية شراء، أو ملء نموذج، أو الاشتراك في نشرة إخبارية. يشير معدل التحويل القوي إلى أن موقعك الإلكتروني يحول الزوار بفعالية إلى عملاء.
 - الزوار الجدد مقابل الزوار العائدون: هل تجذب جماهير جديدة، أم أنك تنجح في إعادة الأشخاص؟ عادة ما يكون المزيج الصحي متوازنًا هو المثالي.
 
 ## فهم جمهورك
@@ -106,7 +106,7 @@ For most businesses in Saudi Arabia and the Gulf, Google Analytics is the primar
 
 - إذا رأيت معدل ارتداد مرتفعًا على صفحة هبوط معينة، فابحث عن السبب. هل المحتوى مضلل؟ هل الصفحة بطيئة التحميل؟ هل هي ليست ما توقعه المستخدم من نتيجة البحث؟
 - إذا كانت زياراتك من وسائل التواصل الاجتماعي عالية ولكن التحويلات منخفضة، فربما تكون عبارات الحث على اتخاذ إجراء (calls to action) على منصات التواصل الاجتماعي ليست قوية بما يكفي، أو أن صفحة الهبوط ليست محسّنة لزوار وسائل التواصل الاجتماعي.
-- إذا لاحظت أن جزءًا كبيرًا من جمهورك يأتي من عمليات بحث Google العضوية عن كلمات رئيسية محددة تتعلق بخدماتك في جدة، ففكر في مضاعفة جهود تحسين محركات البحث (SEO) لتلك المصطلحات.
+- إذا لاحظت أن جزءًا كبيرًا من جمهورك يأتي من عمليات بحث Google العضوية عن كلمات رئيسية محددة تتعلق بخدماتك في جدة، ففكر في مضاعفة [جهود تحسين محركات البحث (SEO)](/ar/blog/is-your-seo-paying-off-check-these-metrics) لتلك المصطلحات.
 
 ## الأدوات والموارد
 

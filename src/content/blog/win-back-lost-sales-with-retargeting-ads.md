@@ -36,9 +36,9 @@ For businesses operating in Saudi Arabia and the wider Gulf region, capturing an
 
 The success of retargeting hinges on a well-defined strategy. It's not just about showing ads; it’s about showing the right ads to the right people at the right time.
 
-First, identify your audience segments. You can retarget all website visitors, or you can segment them based on their behavior. For example, you might want to retarget users who abandoned their shopping carts with ads featuring the exact items they left behind, perhaps with a small discount. Alternatively, you could target users who viewed specific product categories with ads showcasing related items. For an e-commerce store, this segmentation is fundamental.
+First, identify your audience segments. You can retarget all website visitors, or you can segment them based on their behavior. For example, you might want to retarget [users who abandoned their shopping carts](/en/blog/stop-cart-abandonment-for-more-sales) with ads featuring the exact items they left behind, perhaps with a small discount. Alternatively, you could target users who viewed specific product categories with ads showcasing related items. For an e-commerce store, this segmentation is fundamental.
 
-Next, choose your platforms. Google Ads (Display Network) and social media platforms like Facebook and Instagram are excellent choices for retargeting. Given the high engagement with these platforms in Saudi Arabia, they offer vast reach. Consider the language your audience prefers; running ads in Arabic is often essential for maximum impact.
+Next, choose your platforms. [Google Ads (Display Network)](/en/blog/google-ads-vs-social-media-ads-where-to-start) and social media platforms like Facebook and Instagram are excellent choices for retargeting. Given the high engagement with these platforms in Saudi Arabia, they offer vast reach. Consider the language your audience prefers; running ads in Arabic is often essential for maximum impact.
 
 Finally, craft compelling ad creatives and offers. Your ads should be visually appealing and clearly communicate the value proposition. Consider offering incentives like free shipping, a first-purchase discount (e.g., 10% off), or a limited-time promotion to encourage immediate action.
 
@@ -53,7 +53,7 @@ Retargeting isn't a one-size-fits-all solution. It can be tailored to meet vario
 
 ## Measuring Success and Optimizing Your Campaigns
 
-Like all digital marketing efforts, retargeting campaigns require constant monitoring and optimization. Track key metrics such as click-through rates (CTR), conversion rates, cost per acquisition (CPA), and return on ad spend (ROAS). Analyze which ad creatives and audience segments are performing best. Don't be afraid to A/B test different ad copy, images, and offers.
+Like all [digital marketing efforts](/en/services/digital-marketing), retargeting campaigns require constant monitoring and optimization. Track key metrics such as click-through rates (CTR), conversion rates, cost per acquisition (CPA), and return on ad spend (ROAS). Analyze which ad creatives and audience segments are performing best. Don't be afraid to A/B test different ad copy, images, and offers.
 
 A common mistake is to retarget users for too long or too aggressively. This can lead to ad fatigue and annoyance. Set reasonable campaign durations, perhaps 15-30 days for most retargeting efforts, and consider adjusting bid strategies based on performance. For example, if a specific product category is converting well, allocate more budget to retargeting those visitors.
 
@@ -89,9 +89,9 @@ It’s advisable to retarget visitors for a period of 15 to 30 days, as extended
 
 يعتمد نجاح إعادة الاستهداف على استراتيجية محددة جيدًا. لا يتعلق الأمر فقط بعرض الإعلانات؛ بل يتعلق بعرض الإعلانات الصحيحة للأشخاص المناسبين في الوقت المناسب.
 
-أولاً، حدد شرائح جمهورك. يمكنك إعادة استهداف جميع زوار الموقع، أو يمكنك تقسيمهم بناءً على سلوكهم. على سبيل المثال، قد ترغب في إعادة استهداف المستخدمين الذين تخلوا عن سلات التسوق الخاصة بهم بإعلانات تعرض العناصر الدقيقة التي تركوها، ربما بخصم صغير. بدلاً من ذلك، يمكنك استهداف المستخدمين الذين شاهدوا فئات منتجات معينة بإعلانات تعرض عناصر ذات صلة. بالنسبة لمتجر تجارة إلكترونية، يعد هذا التقسيم أساسيًا.
+أولاً، حدد شرائح جمهورك. يمكنك إعادة استهداف جميع زوار الموقع، أو يمكنك تقسيمهم بناءً على سلوكهم. على سبيل المثال، قد ترغب في إعادة استهداف [المستخدمين الذين تخلوا عن سلات التسوق الخاصة بهم](/ar/blog/stop-cart-abandonment-for-more-sales) بإعلانات تعرض العناصر الدقيقة التي تركوها، ربما بخصم صغير. بدلاً من ذلك، يمكنك استهداف المستخدمين الذين شاهدوا فئات منتجات معينة بإعلانات تعرض عناصر ذات صلة. بالنسبة لمتجر تجارة إلكترونية، يعد هذا التقسيم أساسيًا.
 
-بعد ذلك، اختر منصاتك. إعلانات جوجل (شبكة العرض) ومنصات التواصل الاجتماعي مثل فيسبوك وإنستغرام خيارات ممتازة لإعادة الاستهداف. نظرًا لارتفاع التفاعل مع هذه المنصات في المملكة العربية السعودية، فإنها توفر نطاقًا واسعًا. ضع في اعتبارك اللغة التي يفضلها جمهورك؛ غالبًا ما يكون تشغيل الإعلانات باللغة العربية ضروريًا لتحقيق أقصى تأثير.
+بعد ذلك، اختر منصاتك. [إعلانات جوجل (شبكة العرض)](/ar/blog/google-ads-vs-social-media-ads-where-to-start) ومنصات التواصل الاجتماعي مثل فيسبوك وإنستغرام خيارات ممتازة لإعادة الاستهداف. نظرًا لارتفاع التفاعل مع هذه المنصات في المملكة العربية السعودية، فإنها توفر نطاقًا واسعًا. ضع في اعتبارك اللغة التي يفضلها جمهورك؛ غالبًا ما يكون تشغيل الإعلانات باللغة العربية ضروريًا لتحقيق أقصى تأثير.
 
 أخيرًا، قم بصياغة إعلانات جذابة وعروض مقنعة. يجب أن تكون إعلاناتك جذابة بصريًا وأن توضح بوضوح عرض القيمة. ضع في اعتبارك تقديم حوافز مثل الشحن المجاني، أو خصم الشراء الأول (على سبيل المثال، خصم 10٪)، أو عرض لفترة محدودة لتشجيع الإجراء الفوري.
 
@@ -106,7 +106,7 @@ It’s advisable to retarget visitors for a period of 15 to 30 days, as extended
 
 ## قياس النجاح وتحسين حملاتك
 
-مثل جميع جهود التسويق الرقمي، تتطلب حملات إعادة الاستهداف مراقبة وتحسينًا مستمرين. تتبع المقاييس الرئيسية مثل معدلات النقر إلى الظهور (CTR)، ومعدلات التحويل، وتكلفة الاكتساب (CPA)، وعائد الإنفاق الإعلاني (ROAS). قم بتحليل أي إعلانات وشرائح جمهور تحقق أفضل أداء. لا تخف من اختبار A/B لنسخ إعلانات وصور وعروض مختلفة.
+مثل جميع [جهود التسويق الرقمي](/ar/services/digital-marketing)، تتطلب حملات إعادة الاستهداف مراقبة وتحسينًا مستمرين. تتبع المقاييس الرئيسية مثل معدلات النقر إلى الظهور (CTR)، ومعدلات التحويل، وتكلفة الاكتساب (CPA)، وعائد الإنفاق الإعلاني (ROAS). قم بتحليل أي إعلانات وشرائح جمهور تحقق أفضل أداء. لا تخف من اختبار A/B لنسخ إعلانات وصور وعروض مختلفة.
 
 خطأ شائع هو إعادة استهداف المستخدمين لفترة طويلة جدًا أو بقوة مفرطة. يمكن أن يؤدي هذا إلى إرهاق إعلاني وانزعاج. حدد مدد حملات معقولة، ربما 15-30 يومًا لمعظم جهود إعادة الاستهداف، وفكر في تعديل استراتيجيات عروض الأسعار بناءً على الأداء. على سبيل المثال، إذا كانت فئة منتج معينة تحقق تحويلات جيدة، فخصص المزيد من الميزانية لإعادة استهداف هؤلاء الزوار.
 
