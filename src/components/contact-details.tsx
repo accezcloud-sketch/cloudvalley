@@ -14,18 +14,23 @@ export function ContactDetails({ locale, dict, className = "" }: Props) {
   const font = isAr ? "var(--font-sans-ar)" : "var(--font-serif-latin)";
   const link = "link-sweep text-[0.95rem] text-ink-soft hover:text-ink";
   return (
-    <ul className={`space-y-2 ${className}`} style={{ fontFamily: font }}>
+    <ul className={`space-y-3 ${className}`} style={{ fontFamily: font }}>
       <li>
+        <span className="block text-[0.8rem] text-ink-mute">
+          {dict.footer.whatsapp}
+        </span>
         <a href={waLink()} target="_blank" rel="noreferrer" className={link}>
-          {dict.footer.whatsapp}:{" "}
           <span dir="ltr" className="whitespace-nowrap">
             {WHATSAPP_DISPLAY}
           </span>
         </a>
       </li>
       <li>
-        <a href={`mailto:${CONTACT_EMAIL}`} className={link}>
-          {dict.footer.email}: <span dir="ltr">{CONTACT_EMAIL}</span>
+        <span className="block text-[0.8rem] text-ink-mute">
+          {dict.footer.email}
+        </span>
+        <a href={`mailto:${CONTACT_EMAIL}`} className={`${link} break-all`}>
+          <span dir="ltr">{CONTACT_EMAIL}</span>
         </a>
       </li>
       <li className="text-[0.95rem] text-ink-mute">{dict.footer.hours}</li>
