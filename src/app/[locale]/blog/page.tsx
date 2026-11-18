@@ -77,15 +77,11 @@ export default async function BlogPage(props: PageProps<"/[locale]/blog">) {
                 href={`/${locale}/blog/${post.slug}`}
                 className="grid grid-cols-1 gap-6 py-10 md:grid-cols-12 md:gap-10 md:py-14"
               >
+                {/* The service number (01-08) used to sit here and read like
+                    an article number; six cards showed "04". Topic only. */}
                 <div className="md:col-span-2">
                   <div
-                    className="text-[0.72rem] uppercase tracking-[0.2em] text-ink-mute"
-                    style={{ fontFamily: "var(--font-mono)" }}
-                  >
-                    {post.num}
-                  </div>
-                  <div
-                    className="mt-3 text-[0.85rem] text-accent"
+                    className="text-[0.85rem] text-accent"
                     style={{ fontFamily: "var(--font-mono)" }}
                   >
                     {post.kicker}
