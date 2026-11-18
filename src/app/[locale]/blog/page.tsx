@@ -4,7 +4,9 @@ import { coverAlt, COVER_WIDTH, COVER_HEIGHT } from "@/lib/cover-art";
 import { isLocale } from "@/lib/i18n";
 import { getDict } from "@/lib/dictionaries";
 import { getBlogListing } from "@/lib/blog-data";
+import { getTopics } from "@/lib/blog-topics";
 import { Rise } from "@/components/rise";
+import { TopicLinks } from "@/components/topic-links";
 import { SectionRule } from "@/components/section-rule";
 import { pageMetadata } from "@/lib/seo";
 
@@ -59,6 +61,12 @@ export default async function BlogPage(props: PageProps<"/[locale]/blog">) {
             </p>
           </Rise>
         </div>
+        <TopicLinks
+          locale={locale}
+          label={isAr ? "تصفّح حسب الموضوع" : "Browse by topic"}
+          topics={getTopics(locale)}
+          className="mt-12 md:mt-16"
+        />
       </section>
 
       <section className="border-t border-rule">

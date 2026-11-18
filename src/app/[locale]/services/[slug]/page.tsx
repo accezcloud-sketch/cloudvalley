@@ -9,6 +9,7 @@ import { JsonLd } from "@/components/json-ld";
 import { ArticleList } from "@/components/article-list";
 import { getPostsForService } from "@/lib/blog-data";
 import { serviceNumForSlug } from "@/lib/service-map";
+import { topicPath } from "@/lib/blog-topics";
 import {
   pageMetadata,
   urlFor,
@@ -296,8 +297,10 @@ export default async function ServiceDetailPage(props: {
                   serviceNumForSlug(slug) ?? "",
                 )}
                 more={{
-                  label: isAr ? "كل المقالات" : "All articles",
-                  href: `/${locale}/blog`,
+                  label: isAr
+                    ? "كل المقالات في هذا الموضوع"
+                    : "All articles on this topic",
+                  href: `/${locale}${topicPath(slug)}`,
                 }}
               />
             </div>
