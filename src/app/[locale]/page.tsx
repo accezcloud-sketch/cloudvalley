@@ -100,7 +100,7 @@ export default async function HomePage(props: PageProps<"/[locale]">) {
                 >
                   <span
                     aria-hidden
-                    className="h-1.5 w-1.5 rounded-full bg-whatsapp pulse-dot"
+                    className="h-1.5 w-1.5 rounded-full bg-whatsapp"
                   />
                   {dict.home.primaryCta}
                 </a>

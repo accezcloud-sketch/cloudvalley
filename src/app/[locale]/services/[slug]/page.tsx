@@ -323,7 +323,6 @@ export default async function ServiceDetailPage(
                 style={{ fontFamily: "var(--font-mono)" }}
               >
                 <span className="relative flex h-2 w-2">
-                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[var(--color-whatsapp)] opacity-75" />
                   <span className="relative inline-flex h-2 w-2 rounded-full bg-[var(--color-whatsapp)]" />
                 </span>
                 {isAr ? "واتساب" : "WhatsApp"}

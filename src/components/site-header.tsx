@@ -123,7 +123,7 @@ export function SiteHeader({ locale, dict }: Props) {
             className="hidden items-center gap-2 rounded-full bg-ink px-4 py-2 text-[0.85rem] text-paper transition-colors hover:bg-accent lg:inline-flex"
           >
             <span
-              className="h-1.5 w-1.5 rounded-full bg-whatsapp pulse-dot"
+              className="h-1.5 w-1.5 rounded-full bg-whatsapp"
               aria-hidden
             />
             {dict.nav.cta}

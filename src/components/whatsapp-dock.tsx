@@ -26,7 +26,7 @@ export function WhatsAppDock({ locale, dict }: Props) {
       )}
       target="_blank"
       rel="noreferrer"
-      className={`fixed z-50 flex items-center gap-3 rounded-full border border-ink/10 bg-ink px-5 py-3 text-paper shadow-[0_12px_40px_-12px_rgba(20,18,16,0.6)] transition-all duration-500 hover:bg-accent ${
+      className={`fixed z-50 flex items-center gap-3 rounded-full border border-ink/10 bg-ink px-5 py-3 text-paper shadow-[0_12px_40px_-12px_rgba(20,18,16,0.6)] transition-[opacity,transform,background-color] duration-200 hover:bg-accent ${
         visible
           ? "translate-y-0 opacity-100"
           : "translate-y-4 pointer-events-none opacity-0"
@@ -46,7 +46,7 @@ export function WhatsAppDock({ locale, dict }: Props) {
       <span className="text-sm">{dict.nav.cta}</span>
       <span
         aria-hidden
-        className="h-1.5 w-1.5 rounded-full bg-whatsapp pulse-dot"
+        className="h-1.5 w-1.5 rounded-full bg-whatsapp"
       />
     </a>
   );
