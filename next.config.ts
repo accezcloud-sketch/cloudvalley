@@ -22,7 +22,22 @@ const nextConfig: NextConfig = {
     ];
   },
   async redirects() {
+    // Overlapping articles merged into the stronger one (owner decision D10,
+    // 2026-11-18). Kept for at least a year, as Google recommends.
+    const merged: [string, string][] = [
+      [
+        "does-your-business-need-a-mobile-app",
+        "app-or-mobile-site-what-s-your-digital-edge",
+      ],
+      ["e-commerce-design", "build-an-e-commerce-store-that-sells"],
+      ["ai-your-new-content-creation-partner", "content-production"],
+    ];
     return [
+      ...merged.map(([from, to]) => ({
+        source: `/:locale(ar|en)/blog/${from}`,
+        destination: `/:locale/blog/${to}`,
+        permanent: true,
+      })),
       // Duplicate of is-your-website-outdated-10-red-flags, removed 2026-07-22.
       {
         source:
