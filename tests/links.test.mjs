@@ -52,3 +52,20 @@ test("every internal link points to a real page", () => {
     [],
   );
 });
+
+test("every article has a built cover image in both languages", () => {
+  const blogDir = path.join(process.cwd(), "src", "content", "blog");
+  const slugs = fs
+    .readdirSync(blogDir)
+    .filter((f) => f.endsWith(".md"))
+    .map((f) => f.replace(/\.md$/, ""));
+  const missing = [];
+  for (const locale of ["ar", "en"])
+    for (const slug of slugs) {
+      const body = path.join(APP, locale, "blog", slug, "cover.body");
+      // A real PNG starts with the 8-byte PNG signature.
+      if (!fs.existsSync(body) || fs.readFileSync(body).subarray(1, 4).toString() !== "PNG")
+        missing.push(`/${locale}/blog/${slug}/cover`);
+    }
+  assert.deepEqual(missing, []);
+});
