@@ -45,7 +45,7 @@ Turning those potential lost sales into completed transactions requires a strate
 
 ## The Role of Website Design
 
-Your website’s design and user experience are foundational to preventing cart abandonment. A well-designed e-commerce site is intuitive, fast, and trustworthy. It guides users seamlessly from product discovery to checkout. Cloud Valley's approach focuses on creating user journeys that are not only aesthetically pleasing but also highly functional and optimized for conversion, taking into account the specific preferences and behaviors of the Saudi and Gulf markets. This includes everything from clear calls to action to easy navigation and a mobile-first philosophy.
+Your website’s design and user experience are foundational to preventing cart abandonment. A well-designed e-commerce site is intuitive, fast, and trustworthy. It guides users step by step from product discovery to checkout. Cloud Valley's approach focuses on creating user journeys that are not only aesthetically pleasing but also highly functional and optimized for conversion, taking into account the specific preferences and behaviors of the Saudi and Gulf markets. This includes everything from clear calls to action to easy navigation and a mobile-first philosophy.
 
 ## Frequently Asked Questions
 
@@ -87,7 +87,7 @@ In Saudi Arabia, Mada is a widely used debit card network. Credit cards, bank tr
 
 ## دور تصميم الموقع
 
-يعد تصميم موقعك وتجربة المستخدم أساسيين لمنع التخلي عن سلة التسوق. موقع تجارة إلكترونية مصمم جيدًا هو بديهي وسريع وجدير بالثقة. إنه يوجه المستخدمين بسلاسة من اكتشاف المنتج إلى الدفع. يركز نهج Cloud Valley على إنشاء رحلات مستخدم ليست جذابة من الناحية الجمالية فحسب، بل أيضًا عملية للغاية ومحسّنة للتحويل، مع مراعاة التفضيلات والسلوكيات المحددة لأسواق السعودية والخليج. وهذا يشمل كل شيء من عبارات الحث على اتخاذ إجراء الواضحة إلى التنقل السهل وفلسفة "الموبايل أولاً".
+يعد تصميم موقعك وتجربة المستخدم أساسيين لمنع التخلي عن سلة التسوق. موقع تجارة إلكترونية مصمم جيدًا هو بديهي وسريع وجدير بالثقة. إنه يوجه المستخدمين خطوة بخطوة من اكتشاف المنتج إلى الدفع. يركز نهج Cloud Valley على إنشاء رحلات مستخدم ليست جذابة من الناحية الجمالية فحسب، بل أيضًا عملية للغاية ومحسّنة للتحويل، مع مراعاة التفضيلات والسلوكيات المحددة لأسواق السعودية والخليج. وهذا يشمل كل شيء من عبارات الحث على اتخاذ إجراء الواضحة إلى التنقل السهل وفلسفة "الموبايل أولاً".
 
 ## الأسئلة الشائعة
 

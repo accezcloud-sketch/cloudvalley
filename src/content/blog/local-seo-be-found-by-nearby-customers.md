@@ -3,7 +3,7 @@ title: "Local SEO: Be Found By Nearby Customers"
 titleAr: "تحسين محركات البحث المحلي: كن وجهة العملاء القريبين"
 excerpt: "Discover how local SEO can put your Saudi business on the map for customers searching in your area."
 excerptAr: "اكتشف كيف يمكن لتحسين محركات البحث المحلي (Local SEO) أن يضع عملك السعودي على الخريطة للعملاء الذين يبحثون في منطقتك."
-description: "Unlock the power of local SEO for your business in Saudi Arabia and the Gulf. Learn how to attract nearby customers searching for your products and services."
+description: "Put local SEO to work for your business in Saudi Arabia and the Gulf. Learn how to attract nearby customers searching for your products and services."
 descriptionAr: "دليل شامل لأصحاب الأعمال في السعودية والخليج حول كيفية الاستفادة من تحسين محركات البحث المحلي لجذب العملاء القريبين وزيادة المبيعات."
 num: 02
 numAr: ٠٢

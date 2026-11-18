@@ -22,7 +22,7 @@ serviceNum: 08
 > A good starting point involves tracking daily visitors from Google searches and monitoring how many leads you generate per week.
 > Aim to improve your website's engagement and ultimately, its contribution to your SAR-based revenue goals.
 
-Navigating the world of website analytics can feel like trying to read a complex map without a compass. For businesses in Saudi Arabia and the Gulf, understanding your website's performance isn't just about numbers; it's about unlocking growth opportunities and ensuring your digital presence is working hard for you. At Cloud Valley, we believe in making this process clear and actionable. Let's break down how to look at your analytics without getting lost in the data.
+Navigating the world of website analytics can feel like trying to read a complex map without a compass. For businesses in Saudi Arabia and the Gulf, understanding your website's performance isn't just about numbers; it's about finding growth opportunities and ensuring your digital presence is working hard for you. At Cloud Valley, we believe in making this process clear and actionable. Let's break down how to look at your analytics without getting lost in the data.
 
 ## Start with Your Goals
 
@@ -43,7 +43,7 @@ Don't try to track everything. Focus on a few key performance indicators (KPIs) 
 Analytics tools like Google Analytics provide valuable insights into your audience demographics and behavior. Look at:
 
 - Geographic Location: Where in Saudi Arabia or the wider Gulf region are your visitors located? This can inform your localization strategies and targeted marketing campaigns.
-- Device Usage: Are your visitors primarily using desktops, tablets, or mobile phones? With the high mobile penetration in countries like Qatar, ensuring a seamless mobile experience is non-negotiable.
+- Device Usage: Are your visitors primarily using desktops, tablets, or mobile phones? With the high mobile penetration in countries like Qatar, making sure your site works well on mobile is non-negotiable.
 - User Flow: How do visitors navigate through your website? Identifying common paths and drop-off points can highlight areas for improvement in your site structure and content.
 
 ## Making Data Actionable
@@ -76,7 +76,7 @@ For most businesses in Saudi Arabia and the Gulf, Google Analytics is the primar
 > نقطة انطلاق جيدة تتضمن تتبع الزوار اليوميين من بحث جوجل ومراقبة عدد العملاء المحتملين الذين تحققهم أسبوعيًا.
 > اهدف إلى تحسين تفاعل موقعك الإلكتروني، وفي النهاية، مساهمته في تحقيق أهداف إيراداتك بالريال السعودي.
 
-يُشبه التنقل في عالم تحليلات المواقع الإلكترونية محاولة قراءة خريطة معقدة بدون بوصلة. بالنسبة للأعمال التجارية في المملكة العربية السعودية والخليج، فإن فهم أداء موقعك الإلكتروني لا يقتصر على الأرقام فحسب؛ بل يتعلق بفتح فرص النمو وضمان أن حضورك الرقمي يعمل بفعالية لصالحك. في Cloud Valley، نؤمن بجعل هذه العملية واضحة وقابلة للتنفيذ. دعنا نوضح كيف يمكنك النظر إلى تحليلاتك دون أن تضيع في البيانات.
+يُشبه التنقل في عالم تحليلات المواقع الإلكترونية محاولة قراءة خريطة معقدة بدون بوصلة. بالنسبة للأعمال التجارية في المملكة العربية السعودية والخليج، فإن فهم أداء موقعك الإلكتروني لا يقتصر على الأرقام فحسب؛ بل يتعلق باكتشاف فرص النمو وضمان أن حضورك الرقمي يعمل بفعالية لصالحك. في Cloud Valley، نؤمن بجعل هذه العملية واضحة وقابلة للتنفيذ. دعنا نوضح كيف يمكنك النظر إلى تحليلاتك دون أن تضيع في البيانات.
 
 ## ابدأ بأهدافك
 
@@ -97,7 +97,7 @@ For most businesses in Saudi Arabia and the Gulf, Google Analytics is the primar
 توفر أدوات التحليلات مثل Google Analytics رؤى قيمة حول التركيبة السكانية لجمهورك وسلوكه. انظر إلى:
 
 - الموقع الجغرافي: أين في المملكة العربية السعودية أو منطقة الخليج الأوسع يقع زوارك؟ هذا يمكن أن يوجه استراتيجيات التوطين الخاصة بك وحملات التسويق المستهدفة.
-- استخدام الجهاز: هل يستخدم زوارك في المقام الأول أجهزة الكمبيوتر المكتبية، أو الأجهزة اللوحية، أو الهواتف المحمولة؟ مع الانتشار العالي للهواتف المحمولة في دول مثل قطر، فإن ضمان تجربة جوال سلسة أمر لا غنى عنه.
+- استخدام الجهاز: هل يستخدم زوارك في المقام الأول أجهزة الكمبيوتر المكتبية، أو الأجهزة اللوحية، أو الهواتف المحمولة؟ مع الانتشار العالي للهواتف المحمولة في دول مثل قطر، فإن ضمان عمل موقعك بشكل جيد على الجوال أمر لا غنى عنه.
 - تدفق المستخدم (User Flow): كيف يتنقل الزوار عبر موقعك الإلكتروني؟ تحديد المسارات الشائعة ونقاط الخروج يمكن أن يسلط الضوء على مجالات التحسين في بنية موقعك ومحتواه.
 
 ## جعل البيانات قابلة للتنفيذ

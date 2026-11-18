@@ -1,8 +1,8 @@
 ---
 title: "Master Your Checkout & Payments"
 titleAr: "أتقن عملية الدفع عبر الإنترنت وزد مبيعاتك"
-excerpt: "Seamless checkout and diverse payment options are crucial for boosting conversions and customer trust."
-excerptAr: "تجربة دفع سلسة وخيارات دفع متنوعة أساسية لزيادة التحويلات وثقة العملاء."
+excerpt: "A quick, simple checkout and diverse payment options are crucial for boosting conversions and customer trust."
+excerptAr: "عملية دفع سريعة وبسيطة وخيارات دفع متنوعة أساسية لزيادة التحويلات وثقة العملاء."
 description: "Learn how to set up a frictionless checkout process and integrate reliable payment gateways tailored for Saudi and Gulf businesses."
 descriptionAr: "دليل شامل لأصحاب الأعمال في السعودية والخليج لتحسين عمليات الدفع الإلكتروني، مع التركيز على طرق الدفع المحلية مثل مدى، لزيادة المبيعات وبناء ثقة العملاء."
 num: 07
@@ -89,7 +89,7 @@ While direct WhatsApp payments within your website’s checkout flow are not sta
 
 ## The Cloud Valley Advantage
 
-At Cloud Valley, we understand the nuances of the Saudi and Gulf digital landscape. We don't just build websites; we build e-commerce platforms designed for success. Our expertise extends to meticulously configuring secure, user-friendly checkout processes, integrating the most relevant local payment gateways like Mada, and ensuring a seamless, trust-building experience for your customers. Whether you're launching a new online store or optimizing an existing one, we’re here to help you get it right, from the first click to the final payment confirmation. Partner with us to turn your online presence into a revenue-generating powerhouse.
+At Cloud Valley, we understand the nuances of the Saudi and Gulf digital landscape. We don't just build websites; we build e-commerce platforms designed for success. Our expertise extends to meticulously configuring secure, user-friendly checkout processes, integrating the most relevant local payment gateways like Mada, and ensuring a smooth checkout that builds trust with your customers. Whether you're launching a new online store or optimizing an existing one, we’re here to help you get it right, from the first click to the final payment confirmation. Partner with us to turn your online presence into a revenue-generating powerhouse.
 
 <!-- AR -->
 

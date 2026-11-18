@@ -51,7 +51,7 @@ These elements reassure visitors that you are a legitimate and capable business,
 
 ## User Experience and Intuitive Navigation
 
-A beautiful homepage is useless if visitors can't find what they're looking for. Prioritize a clean, organized layout and intuitive navigation. Visitors should be able to easily find information about your services, your team, your portfolio, and how to get in touch. Mobile responsiveness is paramount, as a significant portion of traffic in the GCC comes from smartphones. Ensure your design adapts seamlessly across all devices, providing a consistent and positive experience, whether on a desktop in Riyadh or a tablet in Dubai.
+A beautiful homepage is useless if visitors can't find what they're looking for. Prioritize a clean, organized layout and intuitive navigation. Visitors should be able to easily find information about your services, your team, your portfolio, and how to get in touch. Mobile responsiveness is paramount, as a significant portion of traffic in the GCC comes from smartphones. Ensure your design adjusts to every screen size, providing a consistent and positive experience, whether on a desktop in Riyadh or a tablet in Dubai.
 
 ## Frequently Asked Questions
 
@@ -113,7 +113,7 @@ By implementing these principles, your homepage will transform from a passive on
 
 ## تجربة المستخدم والتنقل البديهي
 
-صفحة رئيسية جميلة لا قيمة لها إذا لم يتمكن الزوار من العثور على ما يبحثون عنه. أعطوا الأولوية لتصميم واضح ومنظم وتنقل بديهي. يجب أن يتمكن الزوار من العثور بسهولة على معلومات حول خدماتكم، فريقكم، معرض أعمالكم، وكيفية التواصل. استجابة الهاتف المحمول أمر بالغ الأهمية، حيث يأتي جزء كبير من الزيارات في دول مجلس التعاون الخليجي من الهواتف الذكية. تأكدوا من أن تصميمكم يتكيف بسلاسة عبر جميع الأجهزة، مما يوفر تجربة متسقة وإيجابية، سواء على جهاز كمبيوتر مكتبي في الرياض أو جهاز لوحي في دبي.
+صفحة رئيسية جميلة لا قيمة لها إذا لم يتمكن الزوار من العثور على ما يبحثون عنه. أعطوا الأولوية لتصميم واضح ومنظم وتنقل بديهي. يجب أن يتمكن الزوار من العثور بسهولة على معلومات حول خدماتكم، فريقكم، معرض أعمالكم، وكيفية التواصل. استجابة الهاتف المحمول أمر بالغ الأهمية، حيث يأتي جزء كبير من الزيارات في دول مجلس التعاون الخليجي من الهواتف الذكية. تأكدوا من أن تصميمكم يتكيف مع جميع أحجام الشاشات، مما يوفر تجربة متسقة وإيجابية، سواء على جهاز كمبيوتر مكتبي في الرياض أو جهاز لوحي في دبي.
 
 ## الأسئلة الشائعة
 

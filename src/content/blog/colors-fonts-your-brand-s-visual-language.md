@@ -59,7 +59,7 @@ Cloud Valley (wady.cloud) specializes in helping businesses in the region craft 
 
 In today's digital-first world, maintaining visual consistency is non-negotiable. Whether a customer encounters your brand on Instagram, your website, or a mobile app, the experience should feel cohesive and familiar.
 
-- Websites and Mobile Apps: Your chosen colors and fonts should be seamlessly integrated into your website design and mobile app interfaces, ensuring a consistent user experience.
+- Websites and Mobile Apps: Your chosen colors and fonts should be used throughout your website design and mobile app interfaces, ensuring a consistent user experience.
 - Social Media: Your social media graphics, profile pictures, and banners should all reflect your brand's color palette and typography. This reinforces recognition with every scroll.
 - Marketing Materials: From digital ads to brochures, consistency builds credibility. If you're running a Google Ads campaign targeting users in Jeddah, your ad's visual language should align with your website.
 
@@ -118,7 +118,7 @@ Major brand identity updates are typically done every 5-10 years to stay relevan
 
 في عالم اليوم الذي يعتمد على الرقمنة أولاً، يعد الحفاظ على الاتساق البصري أمرًا غير قابل للتفاوض. سواء واجه العميل علامتك التجارية على انستجرام، موقعك الإلكتروني، أو تطبيق جوال، يجب أن تبدو التجربة متماسكة ومألوفة.
 
-- المواقع والتطبيقات المتنقلة: يجب دمج الألوان والخطوط المختارة بسلاسة في تصميم موقعك الإلكتروني وواجهات التطبيقات المتنقلة، لضمان تجربة مستخدم متسقة.
+- المواقع والتطبيقات المتنقلة: يجب استخدام الألوان والخطوط المختارة في كل أجزاء تصميم موقعك الإلكتروني وواجهات التطبيقات المتنقلة، لضمان تجربة مستخدم متسقة.
 - وسائل التواصل الاجتماعي: يجب أن تعكس رسوماتك على وسائل التواصل الاجتماعي، وصور ملفك الشخصي، وصورك الرئيسية، لوحة ألوان علامتك التجارية وطباعتك. هذا يعزز التعرف عليها مع كل تمريرة.
 - المواد التسويقية: من الإعلانات الرقمية إلى الكتيبات، يبني الاتساق المصداقية. إذا كنت تدير حملة إعلانية على جوجل تستهدف المستخدمين في جدة، فيجب أن تتوافق اللغة المرئية لإعلانك مع موقعك الإلكتروني.
 

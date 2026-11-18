@@ -1,7 +1,7 @@
 ---
 title: "Your Social Media Content Plan That Works"
 titleAr: "خطة محتوى وسائل التواصل الاجتماعي الفعالة لأعمالك"
-excerpt: "Unlock social media success with a content plan tailored for impact."
+excerpt: "Get better social media results with a content plan tailored for impact."
 excerptAr: "اكتشف قوة خطة محتوى مصممة خصيصاً لتحقيق نتائج ملموسة على منصات التواصل الاجتماعي."
 description: "Learn how to build a robust social media content plan that drives engagement and achieves your business goals in Saudi Arabia and the Gulf."
 descriptionAr: "دليلك الشامل لوضع استراتيجية محتوى مؤثرة لعملك في السعودية والخليج، مع التركيز على تحقيق أهداف النمو وبناء ولاء العملاء."

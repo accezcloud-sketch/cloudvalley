@@ -31,7 +31,7 @@ For a more robust online presence, including custom design elements, advanced fu
 
 If your business requires an e-commerce store or a dedicated mobile application, the investment significantly increases. Saudi consumers are increasingly comfortable with online shopping and app-based services, making these essential for many sectors.
 
-A fully functional e-commerce website in 2026, equipped with secure payment gateways (like Mada, Apple Pay, and local bank options), inventory management, customer accounts, and a user-friendly checkout process, could range from SAR 30,000 to SAR 70,000+. This price point reflects the intricate development needed for a seamless transactional experience.
+A fully functional e-commerce website in 2026, equipped with secure payment gateways (like Mada, Apple Pay, and local bank options), inventory management, customer accounts, and a user-friendly checkout process, could range from SAR 30,000 to SAR 70,000+. This price point reflects the intricate development needed for orders and payments to run smoothly from start to finish.
 
 Developing a custom mobile app for iOS and Android, integrated with your website and backend systems, is a substantial undertaking. Costs for a feature-rich app can easily range from SAR 50,000 to SAR 150,000+, depending on the complexity of features, user interface design, and platform requirements.
 
@@ -69,7 +69,7 @@ When evaluating quotes, focus on the value and expertise offered. A good agency 
 
 إذا كان عملك يتطلب متجراً إلكترونياً أو تطبيق جوال مخصصاً، فإن الاستثمار يزداد بشكل كبير. يزداد ارتياح المستهلكين السعوديين للتسوق عبر الإنترنت والخدمات المعتمدة على التطبيقات، مما يجعل هذه العناصر ضرورية للعديد من القطاعات.
 
-يمكن أن يتراوح موقع إلكتروني تجاري يعمل بكامل طاقته في عام 2026، مجهز ببوابات دفع آمنة (مثل مدى، Apple Pay، وخيارات البنوك المحلية)، وإدارة المخزون، وحسابات العملاء، وعملية دفع سهلة الاستخدام، من 30,000 إلى 70,000 ريال سعودي أو أكثر. تعكس هذه الأسعار التطوير المعقد المطلوب لتجربة معاملات سلسة.
+يمكن أن يتراوح موقع إلكتروني تجاري يعمل بكامل طاقته في عام 2026، مجهز ببوابات دفع آمنة (مثل مدى، Apple Pay، وخيارات البنوك المحلية)، وإدارة المخزون، وحسابات العملاء، وعملية دفع سهلة الاستخدام، من 30,000 إلى 70,000 ريال سعودي أو أكثر. تعكس هذه الأسعار التطوير المعقد المطلوب لتسير الطلبات والمدفوعات بسلاسة من البداية إلى النهاية.
 
 يعد تطوير تطبيق جوال مخصص لنظامي iOS و Android، والمتكامل مع موقعك وأنظمة الواجهة الخلفية، مهمة كبيرة. يمكن أن تتراوح تكاليف التطبيق الغني بالميزات بسهولة من 50,000 إلى 150,000 ريال سعودي أو أكثر، اعتماداً على مدى تعقيد الميزات، وتصميم واجهة المستخدم، ومتطلبات المنصة.
 

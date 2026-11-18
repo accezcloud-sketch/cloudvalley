@@ -30,7 +30,7 @@ Every interaction a customer has with your brand shapes their perception. For bu
 
 ## Delivering Exceptional Post-Purchase Experiences
 
-The moment a customer completes a purchase is not an ending, but a beginning. This is your prime opportunity to impress. This means ensuring seamless delivery, providing clear instructions or support, and following up to confirm satisfaction. For example, a simple thank-you message via WhatsApp, or a quick survey to gauge their experience, can go a long way. In an Arabic-speaking market, personalized greetings and culturally relevant communication are highly valued.
+The moment a customer completes a purchase is not an ending, but a beginning. This is your prime opportunity to impress. This means ensuring the order arrives on time and in good condition, providing clear instructions or support, and following up to confirm satisfaction. For example, a simple thank-you message via WhatsApp, or a quick survey to gauge their experience, can go a long way. In an Arabic-speaking market, personalized greetings and culturally relevant communication are highly valued.
 
 ## Personalization is Key
 
@@ -74,7 +74,7 @@ A typical budget for customer retention marketing can range from 15% to 25% of y
 
 ## تقديم تجارب ما بعد شراء استثنائية
 
-لحظة إتمام العميل لعملية شراء ليست نهاية، بل بداية. هذه هي فرصتك الذهبية للإبهار. هذا يعني ضمان تسليم سلس، وتوفير تعليمات أو دعم واضح، والمتابعة للتأكد من الرضا. على سبيل المثال، رسالة شكر بسيطة عبر واتساب، أو استبيان سريع لقياس تجربتهم، يمكن أن تحدث فرقًا كبيرًا. في السوق الناطق بالعربية، يتم تقدير التحيات الشخصية والتواصل ذي الصلة ثقافيًا بشكل كبير.
+لحظة إتمام العميل لعملية شراء ليست نهاية، بل بداية. هذه هي فرصتك الذهبية للإبهار. هذا يعني ضمان وصول الطلب في موعده وبحالة جيدة، وتوفير تعليمات أو دعم واضح، والمتابعة للتأكد من الرضا. على سبيل المثال، رسالة شكر بسيطة عبر واتساب، أو استبيان سريع لقياس تجربتهم، يمكن أن تحدث فرقًا كبيرًا. في السوق الناطق بالعربية، يتم تقدير التحيات الشخصية والتواصل ذي الصلة ثقافيًا بشكل كبير.
 
 ## التخصيص هو المفتاح
 
