@@ -83,3 +83,15 @@ test("an 'updated' date, when present, is a real date on or after publishing", (
   }
   assert.deepEqual(bad, []);
 });
+
+test("no broken automation output: '>>' lines, '===' separators, duplicate FAQ headings", () => {
+  const bad = [];
+  for (const p of posts) {
+    if (/^>>/m.test(p.body)) bad.push(`${p.file}: line starting with >>`);
+    if (/^={3,}\s*$/m.test(p.body)) bad.push(`${p.file}: === separator (article pasted twice?)`);
+    const [en, ar = ""] = p.body.split("<!-- AR -->");
+    if ((en.match(/^## Frequently Asked Questions\s*$/gm) ?? []).length > 1) bad.push(`${p.file}: two English FAQ headings`);
+    if ((ar.match(/^## الأسئلة الشائعة\s*$/gm) ?? []).length > 1) bad.push(`${p.file}: two Arabic FAQ headings`);
+  }
+  assert.deepEqual(bad, []);
+});
