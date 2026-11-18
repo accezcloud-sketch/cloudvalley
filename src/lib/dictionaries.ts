@@ -255,7 +255,7 @@ const ar: Dict = {
         cta: "ابدأ الآن",
       },
       professional: {
-        badge: "🔥 ٤ خدمات في باقة واحدة",
+        badge: "٤ خدمات في باقة واحدة",
         name: "الاحترافية",
         price: "٣٬٠٠٠",
         per: "ريال / شهريًا",
@@ -890,7 +890,7 @@ const en: Dict = {
         cta: "Get started",
       },
       professional: {
-        badge: "🔥 4 services in one package",
+        badge: "4 services in one package",
         name: "Professional",
         price: "3,000",
         per: "SAR / month",
