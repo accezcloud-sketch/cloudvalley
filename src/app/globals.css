@@ -162,9 +162,12 @@ html[dir="rtl"] .link-sweep::after {
   from { transform: translate3d(0, 0, 0); }
   to { transform: translate3d(-50%, 0, 0); }
 }
+/* In right-to-left pages the track starts at the right edge and runs off to
+   the left, so it must move right (0 to +50%) to stay in view. Moving it
+   left emptied the Arabic band. */
 @keyframes marquee-rtl {
-  from { transform: translate3d(-50%, 0, 0); }
-  to { transform: translate3d(0, 0, 0); }
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(50%, 0, 0); }
 }
 /* The scrolling services banner stays still for visitors who ask their
    device to reduce motion. */
