@@ -101,6 +101,39 @@ function parseBody(md: string): BlogSection[] {
   return sections;
 }
 
+// Reading time is calculated from the words actually shown in that language.
+// It used to be typed by hand in the frontmatter ("7 min" on almost every
+// article whatever its length). About 200 words a minute, rounded up.
+const WORDS_PER_MINUTE = 200;
+
+function countWords(sections: BlogSection[]): number {
+  const text = sections
+    .map((s) =>
+      s.type === "list"
+        ? s.items.join(" ")
+        : s.type === "quote"
+          ? `${s.text} ${s.cite ?? ""}`
+          : s.text,
+    )
+    .join(" ");
+  return text.split(/\s+/).filter(Boolean).length;
+}
+
+const AR_DIGITS = "٠١٢٣٤٥٦٧٨٩";
+function toArabicDigits(n: number): string {
+  return String(n).replace(/\d/g, (d) => AR_DIGITS[Number(d)]);
+}
+
+export function readingTime(sections: BlogSection[], locale: Locale): string {
+  const minutes = Math.max(1, Math.ceil(countWords(sections) / WORDS_PER_MINUTE));
+  if (locale === "en") return `${minutes} min`;
+  // Arabic counting: 1 دقيقة واحدة, 2 دقيقتان, 3-10 دقائق, 11+ دقيقة.
+  if (minutes === 1) return "دقيقة واحدة";
+  if (minutes === 2) return "دقيقتان";
+  const n = toArabicDigits(minutes);
+  return minutes <= 10 ? `${n} دقائق` : `${n} دقيقة`;
+}
+
 // Splits a bilingual file body on the <!-- AR --> marker.
 // Returns [englishBody, arabicBody]. Falls back to full content for both if no marker.
 function splitBilingualBody(body: string): [string, string] {
@@ -133,11 +166,12 @@ function loadAll(): Record<Locale, Record<string, BlogPostData>> {
       excerpt: meta.excerpt ?? "",
       date: meta.date ?? "",
       isoDate: meta.isoDate ?? "",
-      readTime: meta.readTime ?? "",
+      readTime: "",
       description: meta.description ?? "",
       serviceNum: meta.serviceNum ?? "",
       body: parseBody(enBody),
     };
+    result.en[slug].readTime = readingTime(result.en[slug].body, "en");
 
     result.ar[slug] = {
       slug,
@@ -147,11 +181,12 @@ function loadAll(): Record<Locale, Record<string, BlogPostData>> {
       excerpt: meta.excerptAr ?? meta.excerpt ?? "",
       date: meta.dateAr ?? meta.date ?? "",
       isoDate: meta.isoDate ?? "",
-      readTime: meta.readTimeAr ?? meta.readTime ?? "",
+      readTime: "",
       description: meta.descriptionAr ?? meta.description ?? "",
       serviceNum: meta.serviceNum ?? "",
       body: parseBody(arBody),
     };
+    result.ar[slug].readTime = readingTime(result.ar[slug].body, "ar");
   }
 
   return result;
@@ -194,3 +229,4 @@ export function getBlogListing(locale: Locale): BlogListing[] {
     readTime: p.readTime,
   }));
 }
+
