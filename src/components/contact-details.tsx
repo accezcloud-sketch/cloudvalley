@@ -29,8 +29,12 @@ export function ContactDetails({ locale, dict, className = "" }: Props) {
         <span className="block text-[0.8rem] text-ink-mute">
           {dict.footer.email}
         </span>
-        <a href={`mailto:${CONTACT_EMAIL}`} className={`${link} break-all`}>
-          <span dir="ltr">{CONTACT_EMAIL}</span>
+        <a href={`mailto:${CONTACT_EMAIL}`} className={link}>
+          {/* Break only after "@" in narrow columns, never mid-word. */}
+          <span dir="ltr">
+            {CONTACT_EMAIL.split("@")[0]}@<wbr />
+            {CONTACT_EMAIL.split("@")[1]}
+          </span>
         </a>
       </li>
       <li className="text-[0.95rem] text-ink-mute">{dict.footer.hours}</li>
