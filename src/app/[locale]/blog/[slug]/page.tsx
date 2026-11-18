@@ -10,6 +10,7 @@ import {
   type BlogSection,
 } from "@/lib/blog-data";
 import { ArticleList } from "@/components/article-list";
+import { ShareLinks } from "@/components/share-links";
 import { serviceSlugForNum } from "@/lib/service-map";
 import { coverAlt, COVER_WIDTH, COVER_HEIGHT } from "@/lib/cover-art";
 import { Rise } from "@/components/rise";
@@ -211,6 +212,11 @@ export default async function BlogPostPage(props: {
                   )}
                 </Rise>
               ))}
+            </div>
+
+            {/* Share: WhatsApp, LinkedIn, X, copy link. */}
+            <div className="max-w-3xl pb-12">
+              <ShareLinks locale={locale} url={url} title={post.title} />
             </div>
 
             {/* Related articles: same service only, newest first. */}
