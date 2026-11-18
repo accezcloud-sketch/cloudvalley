@@ -1,5 +1,10 @@
 import type { Metadata } from "next";
-import { Amiri, Fraunces, JetBrains_Mono, IBM_Plex_Sans_Arabic } from "next/font/google";
+import {
+  Amiri,
+  Fraunces,
+  JetBrains_Mono,
+  IBM_Plex_Sans_Arabic,
+} from "next/font/google";
 import { notFound } from "next/navigation";
 import "../globals.css";
 import { locales, isLocale, dirOf, SITE_URL, type Locale } from "@/lib/i18n";
@@ -14,6 +19,7 @@ import {
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { WhatsAppDock } from "@/components/whatsapp-dock";
+import { Analytics } from "@/components/analytics";
 
 const fraunces = Fraunces({
   subsets: ["latin"],
@@ -58,6 +64,13 @@ export async function generateMetadata(
     // Lets every page below use relative URLs in metadata and stops Next
     // resolving og:image against localhost at build time.
     metadataBase: new URL(SITE_URL),
+    // Google Search Console ownership tag (owner decision D3). Set
+    // NEXT_PUBLIC_GSC_VERIFICATION in the hosting environment to the code
+    // Search Console gives for the "HTML tag" method; nothing is output
+    // without it.
+    ...(process.env.NEXT_PUBLIC_GSC_VERIFICATION
+      ? { verification: { google: process.env.NEXT_PUBLIC_GSC_VERIFICATION } }
+      : {}),
     title: { default: dict.meta.title, template: `%s — ${dict.brand.name}` },
     description: dict.meta.description,
     // NOTE: no `alternates` here on purpose. Next inherits layout metadata into
@@ -110,6 +123,7 @@ export default async function LocaleLayout(props: LayoutProps<"/[locale]">) {
           <SiteFooter locale={locale} dict={dict} />
         </div>
         <WhatsAppDock locale={locale} dict={dict} />
+        <Analytics locale={locale} />
       </body>
     </html>
   );
