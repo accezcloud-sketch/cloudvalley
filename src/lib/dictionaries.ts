@@ -48,8 +48,6 @@ export type Dict = {
     manifestoNum: string;
     manifestoTitle: string;
     manifestoBody: string[];
-    statsTitle: string;
-    stats: { value: string; label: string; caption: string }[];
     servicesNum: string;
     servicesTitle: string;
     servicesLede: string;
@@ -128,7 +126,6 @@ export type Dict = {
       title: string;
       body: string;
     };
-    testimonials: { quote: string; author: string; role: string }[];
   };
   contact: {
     eyebrow: string;
@@ -227,7 +224,7 @@ const ar: Dict = {
     displayB: "ليس شخصًا.",
     displayC: "بل نظام.",
     lede:
-      "وادي السحاب وكالةُ أتمتة تبني أنظمةً لتستغني عن بناء فِرَق. نُصمّم أنظمة ذكاء اصطناعي تُنجز ما يفعله فريقٌ كامل، بسرعةٍ أعلى وبتكلفةٍ أقل بستينَ بالمائة.",
+      "وادي السحاب وكالةُ أتمتة تبني أنظمةً لتستغني عن بناء فِرَق. نُصمّم أنظمة ذكاء اصطناعي تُنجز ما يفعله فريقٌ كامل، بسرعةٍ أعلى.",
     primaryCta: "ابدأ على واتساب",
     secondaryCta: "شاهد الخدمات",
     marquee: [
@@ -246,32 +243,14 @@ const ar: Dict = {
       "في كل شركةٍ عربيةٍ اليوم، يقضي موظفون ساعاتٍ طويلةً في مهامٍ متكررة: ردٌّ على الرسائل، جدولة المواعيد، كتابة المنشورات، مراجعة التقارير. هذه أعمالٌ يستطيع الذكاء الاصطناعي إنجازها الآن، وبدقةٍ أعلى.",
       "مهمّتنا ليست بيع أدواتٍ لامعة، بل أن نتركك مع أنظمةٍ تعمل بصمتٍ ودون أن تحتاج إليها. نُسلّم العمل جاهزًا، موثّقًا، ومربوطًا بأعمالك اليومية.",
     ],
-    statsTitle: "٠٢ · الأرقام",
-    stats: [
-      {
-        value: "٦٠٪",
-        label: "خفضٌ في التكلفة",
-        caption: "متوسط الوفر مقارنةً بتوظيف فريقٍ داخلي للمهام نفسها.",
-      },
-      {
-        value: "٢٤/٧",
-        label: "استجابةٌ دائمة",
-        caption: "لا إجازات، ولا تأخير، ولا غيابٌ عن العمل.",
-      },
-      {
-        value: "١٤ يومًا",
-        label: "إلى الإطلاق",
-        caption: "متوسط الوقت من التوقيع إلى تشغيل أول نظامٍ حيّ.",
-      },
-    ],
-    servicesNum: "٠٣ · الخدمات",
+    servicesNum: "٠٢ · الخدمات",
     servicesTitle: "ثمانِ خدمات، نظامٌ واحد.",
     servicesLede:
       "كلُّ خدمةٍ مصمَّمةٌ لتعمل وحدها أو ضمن منظومةٍ كاملة. نُوصي بالبدء بواحدةٍ ثم التوسّع.",
-    pricingNum: "٠٤ · الباقات",
-    pricingTitle: "سيو، محتوى، وسوشيال ميديا: الثلاثية التي لا يحجزها عملاؤنا منفردة.",
+    pricingNum: "الباقات",
+    pricingTitle: "سيو، محتوى، وسوشيال ميديا: ثلاث خدماتٍ تعمل أفضل معًا.",
     pricingLede:
-      "جمعنا الخدمات التي يختارها عملاؤنا دائمًا في باقاتٍ جاهزة بسعرٍ أفضل. بلا عقودٍ طويلة. ألغِ متى شئت.",
+      "جمعنا الخدمات التي تعمل معًا في باقاتٍ جاهزة بسعرٍ أفضل. بلا عقودٍ طويلة. ألغِ متى شئت.",
     pricing: {
       basic: {
         badge: "محتوى + سوشيال",
@@ -308,12 +287,11 @@ const ar: Dict = {
           "كلُّ ما في الاحترافية + أنظمةٌ متعدّدة متصلة",
           "تكاملٌ مع أنظمتك الداخلية (CRM، ERP، إلخ)",
           "مديرُ حسابٍ مخصّص",
-          "اتفاقيةُ مستوى خدمةٍ بالدقيقة",
         ],
         cta: "تحدّث معنا",
       },
     },
-    ctaNum: "٠٥ · التواصل",
+    ctaNum: "٠٣ · التواصل",
     ctaTitle: "لنتحدّث",
     ctaBody:
       "أرسل لنا تفاصيل مشروعك ونعود إليك خلال ٢٤ ساعة.",
@@ -459,7 +437,7 @@ const ar: Dict = {
         num: "٠١",
         heading: "البداية",
         body:
-          "في ٢٠٢٤ كنّا نعمل معًا في شركةِ تقنيةٍ كبرى. كنّا نرى شركاتٍ عائليةً عربيةً تدفعُ رواتبَ مرتفعةً لمهامٍ أصبحتْ أرخصَ بعشرين مرةً عبر الأتمتة. فأنشأنا وادي السحاب.",
+          "في ٢٠٢٤ كنّا نعمل معًا في شركةِ تقنيةٍ كبرى. كنّا نرى شركاتٍ عائليةً عربيةً تدفعُ رواتبَ مرتفعةً لمهامٍ تستطيع الأتمتة إنجازها بتكلفةٍ أقل بكثير. فأنشأنا وادي السحاب.",
       },
       {
         num: "٠٢",
@@ -473,17 +451,11 @@ const ar: Dict = {
         body:
           "لا نبيعُ خطةً لم نجرّبها. كلُّ نظامٍ نُسلِّمه، مُستخدمٌ أولاً داخل وادي السحاب نفسها. لا تجاربَ على عملائنا.",
       },
-      {
-        num: "٠٤",
-        heading: "الحدود",
-        body:
-          "نقبلُ عميلاً واحدًا جديدًا في الأسبوع. ليس لأنَّنا لا نستطيع أكثر، بل لأن التسرّع يُفسِدُ العمل الجيد.",
-      },
     ],
     team: {
       title: "الفريق",
       body:
-        "أربعةُ مهندسين، كاتبتان، ومصمِّمةٌ واحدة. نلتقي مرةً في الشهر وجهًا لوجه.",
+        "مهندسون وكُتّاب ومصمّمون يعملون معًا على كل مشروع، من الفكرة حتى التسليم.",
     },
   },
   trust: {
@@ -506,15 +478,15 @@ const ar: Dict = {
       },
       {
         num: "٠٣",
-        title: "تقاريرٌ أسبوعية",
+        title: "تقاريرٌ شهرية",
         body:
-          "كلَّ اثنين، تصلُك وثيقةٌ واحدةٌ مختصرة: ما أُنجزَ، ما الخطوةُ التالية، أين المشكلات.",
+          "كلَّ شهر، يصلُك تقريرٌ واحدٌ واضح: ما أُنجزَ، ما الخطوةُ التالية، أين المشكلات.",
       },
       {
         num: "٠٤",
-        title: "ضمانُ الرد في ٤ ساعات",
+        title: "ردٌّ من إنسانٍ حقيقي",
         body:
-          "خلال ساعات العمل، تصلك إجابةٌ من إنسانٍ حقيقيٍّ خلال أربع ساعات. مكتوبةٌ في العقد.",
+          "من الاثنين إلى السبت، يردُّ عليك شخصٌ من الفريق يعرف مشروعك، لا ردٌّ آلي.",
       },
     ],
     guarantee: {
@@ -522,26 +494,6 @@ const ar: Dict = {
       body:
         "لا نُسلّم عملًا لا نفخر به. كلُّ تفصيلةٍ تُبنى بمعيارٍ نضع اسمنا عليه، لأنّنا فعلًا نفعل. إذا أقلقك شيء، فهو يُقلقنا أيضًا، ونعالجه حتى يصبح صحيحًا.",
     },
-    testimonials: [
-      {
-        quote:
-          "خلال شهرين، استبدلنا ثلاثةَ موظفين للدعم الفنيّ بنظامٍ واحد. الزبائنُ لم يلاحظوا الفرق. التكلفةُ انخفضتْ ٧٠٪.",
-        author: "ليلى عبد الرحمن",
-        role: "مديرة العمليات، متجر «نوى»",
-      },
-      {
-        quote:
-          "أوَّلُ وكالةٍ تشرحُ لي ما تفعلُهُ بكلماتٍ أفهمها. التقاريرُ الأسبوعيةُ وحدها تستحقُّ الاشتراك.",
-        author: "كريم حداد",
-        role: "مؤسِّس، شركة «حَدَث»",
-      },
-      {
-        quote:
-          "اشتركنا في الخطة الأساسية، وخرجتُ بنتائج واضحةٍ من الشهر الأول.",
-        author: "ريم الزهراني",
-        role: "مديرة تسويق",
-      },
-    ],
   },
   contact: {
     eyebrow: "٠٥ · التواصل",
@@ -881,7 +833,7 @@ const en: Dict = {
     displayB: "isn't a person.",
     displayC: "It's a system.",
     lede:
-      "Cloud Valley is an automation agency that builds systems so you don't need to build teams. We design AI systems that do what a full team does, faster and at sixty percent less cost.",
+      "Cloud Valley is an automation agency that builds systems so you don't need to build teams. We design AI systems that do what a full team does, only faster.",
     primaryCta: "Start on WhatsApp",
     secondaryCta: "See services",
     marquee: [
@@ -900,33 +852,14 @@ const en: Dict = {
       "In every Arab company today, employees spend long hours on repetitive tasks: answering messages, scheduling, drafting posts, reviewing reports. Work that AI can now do, and often do better.",
       "Our job is not to sell shiny tools. Our job is to leave you with systems that run quietly, without needing you. We deliver finished work: documented, handed over, wired into your business.",
     ],
-    statsTitle: "02 · Numbers",
-    stats: [
-      {
-        value: "60%",
-        label: "Cost reduction",
-        caption:
-          "Average savings vs. hiring an internal team for the same scope.",
-      },
-      {
-        value: "24/7",
-        label: "Always-on",
-        caption: "No holidays, no delays, no one out sick.",
-      },
-      {
-        value: "14 days",
-        label: "To launch",
-        caption: "Average time from contract to the first live system.",
-      },
-    ],
-    servicesNum: "03 · Services",
+    servicesNum: "02 · Services",
     servicesTitle: "Eight services. One system.",
     servicesLede:
       "Each service works alone, or as part of a full stack. We usually recommend starting with one and expanding.",
-    pricingNum: "04 · Packages",
-    pricingTitle: "SEO, content, and social media: the combo our clients never book apart.",
+    pricingNum: "Packages",
+    pricingTitle: "SEO, content, and social media: three services that work best together.",
     pricingLede:
-      "We bundled the services our clients always choose together into ready-made packages at a better price. No long contracts. Cancel anytime.",
+      "We bundled the services that work together into ready-made packages at a better price. No long contracts. Cancel anytime.",
     pricing: {
       basic: {
         badge: "Content + Social",
@@ -963,12 +896,11 @@ const en: Dict = {
           "Everything in Professional + multiple connected systems",
           "Integration with your internal tools (CRM, ERP, etc.)",
           "Dedicated account manager",
-          "SLA with per-minute response",
         ],
         cta: "Talk to us",
       },
     },
-    ctaNum: "05 · Contact",
+    ctaNum: "03 · Contact",
     ctaTitle: "Let's talk",
     ctaBody:
       "Send us your project details and we'll get back to you within 24 hours.",
@@ -1114,7 +1046,7 @@ const en: Dict = {
         num: "01",
         heading: "Beginning",
         body:
-          "In 2024 we worked together at a large tech company. We watched Arab family businesses pay high salaries for work that had become twenty times cheaper through automation. So we started Cloud Valley.",
+          "In 2024 we worked together at a large tech company. We watched Arab family businesses pay high salaries for work that automation could now do for far less. So we started Cloud Valley.",
       },
       {
         num: "02",
@@ -1128,17 +1060,11 @@ const en: Dict = {
         body:
           "We don't sell a plan we haven't tried. Every system we ship runs inside Cloud Valley first. No experiments on our clients.",
       },
-      {
-        num: "04",
-        heading: "Limits",
-        body:
-          "We take on one new client per week. Not because we couldn't do more, but because rushing ruins good work.",
-      },
     ],
     team: {
       title: "The team",
       body:
-        "Four engineers, two writers, one designer. We meet in person once a month.",
+        "Engineers, writers and designers working together on every project, from the first idea to handover.",
     },
   },
   trust: {
@@ -1160,15 +1086,15 @@ const en: Dict = {
       },
       {
         num: "03",
-        title: "Weekly reports",
+        title: "Monthly reports",
         body:
-          "Every Monday, one short document arrives: what shipped, what's next, where the problems are.",
+          "Every month, one clear report arrives: what shipped, what's next, where the problems are.",
       },
       {
         num: "04",
-        title: "A four-hour reply guarantee",
+        title: "A reply from a real person",
         body:
-          "During business hours, a human reply arrives within four hours. It's written into the contract.",
+          "Monday to Saturday, someone from the team who knows your project replies. Not a bot.",
       },
     ],
     guarantee: {
@@ -1176,26 +1102,6 @@ const en: Dict = {
       body:
         "We don't ship work we're not proud of. Every detail is crafted to a standard we'd put our name on, because we do. If something concerns you, it concerns us, and we address it until it's right.",
     },
-    testimonials: [
-      {
-        quote:
-          "In two months we replaced three support agents with one system. Our customers didn't notice the difference. Costs dropped by 70%.",
-        author: "Layla Abdul-Rahman",
-        role: "Head of Operations, Nawa Perfumery",
-      },
-      {
-        quote:
-          "The first agency that explained what they do in words I understood. The weekly reports alone are worth the subscription.",
-        author: "Karim Haddad",
-        role: "Founder, Hadath",
-      },
-      {
-        quote:
-          "We subscribed to the basic plan and saw clear results from the first month.",
-        author: "Reem Al-Zahrani",
-        role: "Marketing Director",
-      },
-    ],
   },
   contact: {
     eyebrow: "05 · Contact",

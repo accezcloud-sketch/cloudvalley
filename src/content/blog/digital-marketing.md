@@ -44,7 +44,7 @@ We do not recommend running ads on every platform. We recommend running ads on t
 
 ## Email is not dead; it is underused
 
-In the rush to social media, most Arab businesses abandoned email marketing. That is a mistake. Email remains the highest-ROI digital marketing channel, returning an average of thirty-six riyals for every riyal spent. The key is using email to build relationships, not to blast promotions.
+In the rush to social media, most Arab businesses abandoned email marketing. That is a mistake. Email is still one of the cheapest channels to run, and the list you build belongs to you. The key is using email to build relationships, not to blast promotions.
 
 - Welcome sequences that introduce new subscribers to your brand story.
 - Educational content that positions you as an expert before you ask for the sale.
@@ -95,7 +95,7 @@ The businesses that win at digital marketing are not the ones with the biggest b
 
 ## البريد الإلكتروني لم يمت، بل غير مستغل
 
-في اندفاعهم نحو السوشيال ميديا، تخلّت أغلب الشركات العربية عن التسويق بالبريد الإلكتروني. هذا خطأ. البريد الإلكتروني يظل أعلى قناة تسويق رقمي من حيث العائد على الاستثمار، إذ يعيد في المتوسط ستة وثلاثين ريالاً لكل ريال يُنفق. المفتاح هو استخدام البريد لبناء علاقات، لا لإرسال عروض ترويجية.
+في اندفاعهم نحو السوشيال ميديا، تخلّت أغلب الشركات العربية عن التسويق بالبريد الإلكتروني. هذا خطأ. البريد الإلكتروني يظل من أقل القنوات تكلفةً في التشغيل، والقائمة التي تبنيها ملكٌ لك. المفتاح هو استخدام البريد لبناء علاقات، لا لإرسال عروض ترويجية.
 
 - سلاسل ترحيب تعرّف المشتركين الجدد على قصة علامتك.
 - محتوى تعليمي يضعك كخبير قبل أن تطلب البيع.

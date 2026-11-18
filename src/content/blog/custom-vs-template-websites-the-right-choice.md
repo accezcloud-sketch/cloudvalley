@@ -21,7 +21,7 @@ Choosing the right foundation for your online presence is a critical decision fo
 
 ## Understanding Your Options
 
-At Cloud Valley, we've helped countless businesses in Riyadh, Jeddah, and across the GCC establish their digital footprint. We see firsthand the impact that a well-chosen website strategy can have. Let's break down what each option entails. A template website is a pre-designed framework that can be customized with your branding, content, and colours. Think of it like buying a ready-made suit that you can alter slightly to fit. On the other hand, a custom website is built from the ground up, tailored precisely to your unique business needs, goals, and brand identity. This is akin to having a bespoke suit crafted specifically for you.
+At Cloud Valley, we build websites for businesses in Riyadh, Jeddah, and across the GCC, and we see firsthand the impact that a well-chosen website strategy can have. Let's break down what each option entails. A template website is a pre-designed framework that can be customized with your branding, content, and colours. Think of it like buying a ready-made suit that you can alter slightly to fit. On the other hand, a custom website is built from the ground up, tailored precisely to your unique business needs, goals, and brand identity. This is akin to having a bespoke suit crafted specifically for you.
 
 ## The Case for Template Websites
 
@@ -53,7 +53,7 @@ The choice between a custom website and a template depends entirely on your busi
 
 ## فهم خياراتكم
 
-في Cloud Valley، ساعدنا عددًا لا يحصى من الشركات في الرياض وجدة وجميع أنحاء دول مجلس التعاون الخليجي على ترسيخ بصمتها الرقمية. نشهد بشكل مباشر تأثير استراتيجية الموقع المختارة جيدًا. دعونا نوضح ما يتضمنه كل خيار. الموقع بالقالب الجاهز هو إطار مصمم مسبقًا يمكن تخصيصه بعلامتكم التجارية والمحتوى والألوان. تخيلوا الأمر كشراء بدلة جاهزة يمكن تعديلها قليلاً لتناسبكم. من ناحية أخرى، يتم بناء الموقع المخصص من الصفر، ليتم تصميمه بدقة لتلبية احتياجات عملكم وأهدافكم وهويتكم التجارية الفريدة. هذا أشبه بخياطة بدلة مصممة خصيصًا لكم.
+في Cloud Valley، نبني مواقع لشركاتٍ في الرياض وجدة وجميع أنحاء دول مجلس التعاون الخليجي، ونشهد بشكل مباشر تأثير استراتيجية الموقع المختارة جيدًا. دعونا نوضح ما يتضمنه كل خيار. الموقع بالقالب الجاهز هو إطار مصمم مسبقًا يمكن تخصيصه بعلامتكم التجارية والمحتوى والألوان. تخيلوا الأمر كشراء بدلة جاهزة يمكن تعديلها قليلاً لتناسبكم. من ناحية أخرى، يتم بناء الموقع المخصص من الصفر، ليتم تصميمه بدقة لتلبية احتياجات عملكم وأهدافكم وهويتكم التجارية الفريدة. هذا أشبه بخياطة بدلة مصممة خصيصًا لكم.
 
 ## لماذا تختار المواقع الجاهزة؟
 

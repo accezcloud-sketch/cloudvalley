@@ -59,7 +59,7 @@ export default async function AboutPage(props: PageProps<"/[locale]/about">) {
         </div>
       </section>
 
-      {/* Story sections — asymmetric editorial */}
+      {/* Story sections: asymmetric editorial */}
       <section className="border-t border-rule">
         <div className="mx-auto w-full max-w-[1440px] px-6 md:px-10">
           {dict.about.sections.map((sec, i) => {
@@ -117,7 +117,7 @@ export default async function AboutPage(props: PageProps<"/[locale]/about">) {
               className="text-[0.72rem] uppercase tracking-[0.2em] text-paper/60"
               style={{ fontFamily: "var(--font-mono)" }}
             >
-              {isAr ? "الفريق · ٠٥" : "The team · 05"}
+              {isAr ? "الفريق · ٠٤" : "The team · 04"}
             </div>
             <h3
               className="mt-6 text-[clamp(2rem,5vw,4rem)] leading-[1.05]"
@@ -155,8 +155,8 @@ export default async function AboutPage(props: PageProps<"/[locale]/about">) {
               }}
             >
               {isAr
-                ? "ما زلنا نقبل عميلاً واحدًا أسبوعيًا. لو وجدتَ نفسك هنا، فالغالب أنك التالي."
-                : "We still take one new client a week. If you've read this far, odds are you're next."}
+                ? "لو وصلتَ إلى هنا، فلنتحدّث عن مشروعك."
+                : "If you've read this far, let's talk about your project."}
             </p>
           </div>
           <div className="md:col-span-4 flex flex-col justify-end gap-4">

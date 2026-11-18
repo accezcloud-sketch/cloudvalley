@@ -34,7 +34,7 @@ const ar: Record<string, ServicePageData> = {
       "تصميم واجهات مخصّصة من الصفر: لا قوالب ولا سحب وإفلات.",
       "بناء تخطيط عربي صحيح من اليمين لليسار مع خطوط مصمّمة للحروف العربية.",
       "تهيئة بنية الموقع لمحركات البحث من أول سطر كود.",
-      "تحسين سرعة التحميل لتقل عن ثانيتين على شبكات الجوال.",
+      "تحسين سرعة التحميل لتكون سريعة على شبكات الجوال.",
       "تدريب فريقك على تحديث المحتوى وإدارة الموقع ذاتيًا.",
     ],
     differentiators: [
@@ -48,7 +48,7 @@ const ar: Record<string, ServicePageData> = {
       },
       {
         label: "أداء يُقاس لا يُدّعى",
-        body: "نُسلّم تقرير Core Web Vitals مع كل مشروع. إذا لم يحقّق الموقع درجة أداء أعلى من تسعين على PageSpeed، نُصلح قبل التسليم.",
+        body: "نُسلّم تقرير Core Web Vitals مع كل مشروع. نقيس الأداء على PageSpeed ونُصلح ما يُبطئ الموقع قبل التسليم.",
       },
     ],
     outcome: "موقعٌ يصل للزائر قبل أن يضغط.",
@@ -59,7 +59,7 @@ const ar: Record<string, ServicePageData> = {
       },
       {
         question: "هل يمكنني إدارة الموقع وتحديث المحتوى بنفسي بعد التسليم؟",
-        answer: "نعم. نبني الموقع على نظام إدارة محتوى تستطيع استخدامه بدون معرفة تقنية. نُجري جلستين تدريبيتين لفريقك، ونُسلّم دليلاً مكتوبًا بالعربية يشرح كل خطوة.",
+        answer: "نعم. نبني الموقع على نظام إدارة محتوى تستطيع استخدامه بدون معرفة تقنية. نُدرّب فريقك على استخدامه، ونُسلّم دليلاً مكتوبًا بالعربية يشرح كل خطوة.",
       },
       {
         question: "ماذا يحدث إذا لم يعجبني التصميم؟",
@@ -314,7 +314,7 @@ const ar: Record<string, ServicePageData> = {
       },
       {
         label: "استرداد السلة المهجورة مدمج",
-        body: "نُعدّ رسائل استرداد تلقائية عبر البريد والواتساب. هذا وحده يسترد عادةً بين عشرة وعشرين بالمئة من المبيعات الضائعة.",
+        body: "نُعدّ رسائل استرداد تلقائية عبر البريد والواتساب. هكذا تعود إليك مبيعاتٌ كانت ستضيع.",
       },
     ],
     outcome: "متجرٌ يبيع وأنت مشغولٌ بشيءٍ آخر.",
@@ -396,7 +396,7 @@ const en: Record<string, ServicePageData> = {
       "Design custom interfaces from scratch: no templates, no drag-and-drop.",
       "Build a proper Arabic right-to-left layout with typefaces designed for Arabic letterforms.",
       "Structure the site for search engines from the first line of code.",
-      "Optimize loading speed to under two seconds on mobile networks.",
+      "Optimize loading speed so pages open fast on mobile networks.",
       "Train your team to update content and manage the site independently.",
     ],
     differentiators: [
@@ -410,7 +410,7 @@ const en: Record<string, ServicePageData> = {
       },
       {
         label: "Performance measured, not claimed",
-        body: "We deliver a Core Web Vitals report with every project. If the site scores below ninety on PageSpeed, we fix it before handover.",
+        body: "We deliver a Core Web Vitals report with every project. We measure performance on PageSpeed and fix what slows the site down before handover.",
       },
     ],
     outcome: "A site that arrives before the visitor clicks.",
@@ -421,7 +421,7 @@ const en: Record<string, ServicePageData> = {
       },
       {
         question: "Can I manage the site and update content myself after handover?",
-        answer: "Yes. We build on a CMS you can use without technical knowledge. We run two training sessions for your team and deliver a written guide in Arabic covering every step.",
+        answer: "Yes. We build on a CMS you can use without technical knowledge. We train your team to use it and deliver a written guide in Arabic covering every step.",
       },
       {
         question: "What if I don't like the design?",
@@ -676,7 +676,7 @@ const en: Record<string, ServicePageData> = {
       },
       {
         label: "Abandoned cart recovery built in",
-        body: "We set up automatic recovery messages via email and WhatsApp. This alone typically recovers ten to twenty percent of lost sales.",
+        body: "We set up automatic recovery messages via email and WhatsApp. This brings back sales that would otherwise be lost.",
       },
     ],
     outcome: "A store that sells while you are busy with something else.",

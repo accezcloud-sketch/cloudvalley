@@ -195,50 +195,6 @@ export default async function HomePage(props: PageProps<"/[locale]">) {
         </div>
       </section>
 
-      {/* STATS */}
-      <section className="border-y border-rule bg-paper-2/40">
-        <div className="mx-auto w-full max-w-[1440px] px-6 py-20 md:px-10 md:py-28">
-          <SectionRule label={dict.home.statsTitle} />
-          <div className="mt-10 grid grid-cols-1 divide-y divide-rule md:grid-cols-3 md:divide-y-0 md:divide-x">
-            {dict.home.stats.map((s, i) => (
-              <Rise
-                key={i}
-                delay={i * 120}
-                className="px-0 py-10 md:px-10 md:py-4"
-              >
-                <div
-                  className="text-[0.7rem] uppercase tracking-[0.2em] text-ink-mute"
-                  style={{ fontFamily: "var(--font-mono)" }}
-                >
-                  {String(i + 1).padStart(2, "0")}
-                </div>
-                <div
-                  className="mt-4 text-[clamp(3.5rem,9vw,7rem)] leading-none tracking-tight text-ink"
-                  style={{ fontFamily: serifDisplay }}
-                >
-                  {s.value}
-                </div>
-                <div
-                  className="mt-4 text-lg text-ink"
-                  style={{ fontFamily: serifDisplay }}
-                >
-                  {s.label}
-                </div>
-                <p
-                  className="mt-3 max-w-xs text-[0.95rem] leading-[1.55] text-ink-mute"
-                  style={{
-                    fontFamily: isAr
-                      ? "var(--font-sans-ar)"
-                      : "var(--font-serif-latin)",
-                  }}
-                >
-                  {s.caption}
-                </p>
-              </Rise>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* SERVICES PREVIEW */}
       <section className="mx-auto w-full max-w-[1440px] px-6 py-24 md:px-10 md:py-36">

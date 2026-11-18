@@ -131,68 +131,11 @@ export default async function TrustPage(props: PageProps<"/[locale]/trust">) {
               >
                 {dict.trust.guarantee.body}
               </p>
-              <div
-                className="text-[0.72rem] uppercase tracking-[0.2em] text-paper/80"
-                style={{ fontFamily: "var(--font-mono)" }}
-              >
-                {isAr ? "موقّع ومضمون" : "Signed & guaranteed"}
-              </div>
             </Rise>
           </div>
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section className="mx-auto w-full max-w-[1440px] px-6 py-24 md:px-10 md:py-32">
-        <SectionRule
-          label={isAr ? "٠٣ · شهادات" : "03 · Testimonials"}
-        />
-        <div className="mt-12 grid grid-cols-1 gap-12 md:grid-cols-3 md:gap-10">
-          {dict.trust.testimonials.map((t, i) => (
-            <Rise
-              as="figure"
-              key={i}
-              delay={i * 120}
-              className="flex flex-col gap-6"
-            >
-              <span
-                className="text-[4rem] leading-none text-accent"
-                aria-hidden
-                style={{ fontFamily: serifDisplay }}
-              >
-                “
-              </span>
-              <blockquote
-                className="text-[1.2rem] leading-[1.45] text-ink"
-                style={{
-                  fontFamily: serifDisplay,
-                  letterSpacing: isAr ? "0" : "-0.01em",
-                }}
-              >
-                {t.quote}
-              </blockquote>
-              <figcaption className="mt-auto">
-                <div
-                  className="text-sm text-ink"
-                  style={{
-                    fontFamily: isAr
-                      ? "var(--font-sans-ar)"
-                      : "var(--font-serif-latin)",
-                  }}
-                >
-                  {t.author}
-                </div>
-                <div
-                  className="mt-1 text-[0.72rem] uppercase tracking-[0.18em] text-ink-mute"
-                  style={{ fontFamily: "var(--font-mono)" }}
-                >
-                  {t.role}
-                </div>
-              </figcaption>
-            </Rise>
-          ))}
-        </div>
-      </section>
 
       {/* CTA */}
       <section className="border-t border-rule">
