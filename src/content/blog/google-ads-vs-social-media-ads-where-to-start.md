@@ -21,7 +21,7 @@ serviceNum: 08
 >
 > A typical starting budget for either platform could range from 2,000 to 5,000 SAR per month, with flexibility for scaling.
 
-For businesses launching or scaling in Saudi Arabia and the Gulf, the digital advertising landscape can seem vast and complex. Two giants dominate: Google Ads and social media advertising. Both offer powerful ways to reach your target audience, but they serve different purposes and require different strategies. The crucial question for any founder isn't *if* you should advertise, but *where* you should focus your initial efforts and budget.
+For businesses launching or scaling in Saudi Arabia and the Gulf, the digital advertising landscape can seem vast and complex. Two giants dominate: Google Ads and social media advertising. Both offer powerful ways to reach your target audience, but they serve different purposes and require different strategies. The crucial question for any founder isn't if you should advertise, but where you should focus your initial efforts and budget.
 
 ## Capturing Intent: The Power of Google Ads
 
@@ -75,7 +75,7 @@ Track your key performance indicators (KPIs) diligently. For Google Ads, this mi
 >
 > يمكن أن تتراوح الميزانية المبدئية النموذجية لأي من المنصتين من 2,000 إلى 5,000 ريال سعودي شهرياً، مع مرونة في التوسع.
 
-بالنسبة للشركات التي تنطلق أو تتوسع في السعودية والخليج، قد تبدو ساحة الإعلانات الرقمية واسعة ومعقدة. عملاقان يهيمنان: إعلانات جوجل وإعلانات وسائل التواصل الاجتماعي. كلاهما يقدم طرقًا قوية للوصول إلى جمهورك المستهدف، لكنهما يخدمان أغراضًا مختلفة ويتطلبان استراتيجيات مختلفة. السؤال الحاسم لأي مؤسس ليس *ما إذا كان* يجب عليك الإعلان، بل *أين* يجب أن تركز جهودك وميزانيتك الأولية.
+بالنسبة للشركات التي تنطلق أو تتوسع في السعودية والخليج، قد تبدو ساحة الإعلانات الرقمية واسعة ومعقدة. عملاقان يهيمنان: إعلانات جوجل وإعلانات وسائل التواصل الاجتماعي. كلاهما يقدم طرقًا قوية للوصول إلى جمهورك المستهدف، لكنهما يخدمان أغراضًا مختلفة ويتطلبان استراتيجيات مختلفة. السؤال الحاسم لأي مؤسس ليس ما إذا كان يجب عليك الإعلان، بل أين يجب أن تركز جهودك وميزانيتك الأولية.
 
 ## التقاط النية: قوة إعلانات جوجل
 

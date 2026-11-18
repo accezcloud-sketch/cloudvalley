@@ -25,7 +25,7 @@ Google's algorithm is complex and constantly evolving, but at its core, it aims 
 
 ## On-Page SEO: The Foundation of Your Ranking
 
-This is where you have the most direct control. On-page SEO involves optimizing elements *on* your website to improve its ranking and relevance for specific keywords.
+This is where you have the most direct control. On-page SEO involves optimizing elements on your website to improve its ranking and relevance for specific keywords.
 
 - Keyword Research: Understand what terms your target audience in Saudi Arabia is actually searching for. Are they looking for "best digital marketing agency Riyadh" or "social media management services UAE"? Using tools to identify these high-intent keywords is crucial. Don't forget the power of Arabic keywords and phrases for your local audience.
 - Content Quality and Relevance: Create comprehensive, informative, and engaging content that directly addresses user search intent. This could be blog posts, product descriptions, or service pages. Ensure your content is well-written and provides real value, ideally in both Arabic and English to capture a wider audience.
@@ -72,7 +72,7 @@ Mastering Google rankings is an ongoing process, not a one-time task. By focusin
 
 ## تحسين محركات البحث على الصفحة (On-Page SEO): أساس ترتيبك
 
-هنا تمتلك أكبر قدر من التحكم المباشر. يتضمن تحسين محركات البحث على الصفحة تحسين العناصر الموجودة *على* موقعك الإلكتروني لرفع ترتيبه وملاءمته لكلمات مفتاحية محددة.
+هنا تمتلك أكبر قدر من التحكم المباشر. يتضمن تحسين محركات البحث على الصفحة تحسين العناصر الموجودة على موقعك الإلكتروني لرفع ترتيبه وملاءمته لكلمات مفتاحية محددة.
 
 - بحث الكلمات المفتاحية: افهم المصطلحات التي يبحث عنها جمهورك المستهدف في السعودية فعليًا. هل يبحثون عن "أفضل شركة تسويق رقمي الرياض" أم "خدمات إدارة وسائل التواصل الاجتماعي الإمارات"؟ يعد استخدام الأدوات لتحديد هذه الكلمات المفتاحية ذات النية العالية أمرًا بالغ الأهمية. لا تنس قوة الكلمات والعبارات العربية لجمهورك المحلي.
 - جودة المحتوى وملاءمته: أنشئ محتوى شاملاً وغنيًا بالمعلومات وجذابًا يلبي نية بحث المستخدم بشكل مباشر. يمكن أن يكون هذا عبارة عن منشورات مدونة، أو أوصاف منتجات، أو صفحات خدمات. تأكد من أن محتواك مكتوب بشكل جيد ويقدم قيمة حقيقية، ويفضل أن يكون باللغتين العربية والإنجليزية لالتقاط جمهور أوسع.

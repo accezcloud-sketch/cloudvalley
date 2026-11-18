@@ -30,7 +30,7 @@ Before you even think about hitting record, clarify what you want your video to 
 
 ## Hook Them in Seconds
 
-The first 3-5 seconds of your video are crucial. This is your window to grab attention and prevent viewers from scrolling past. Start with a strong visual, a captivating question, or a surprising statement. Avoid slow introductions or lengthy explanations. Think about what would make *you* stop and watch. For instance, if you're a fashion brand, start with a quick shot of a stunning outfit being modeled. If you're a tech company, begin with a demonstration of a product's most impressive feature. High energy and immediate intrigue are key.
+The first 3-5 seconds of your video are crucial. This is your window to grab attention and prevent viewers from scrolling past. Start with a strong visual, a captivating question, or a surprising statement. Avoid slow introductions or lengthy explanations. Think about what would make you stop and watch. For instance, if you're a fashion brand, start with a quick shot of a stunning outfit being modeled. If you're a tech company, begin with a demonstration of a product's most impressive feature. High energy and immediate intrigue are key.
 
 ## Keep It Concise and Valuable
 
@@ -74,7 +74,7 @@ A typical monthly budget for promoting short-form videos could range from 500 SA
 
 ## اجذبهم في ثوانٍ
 
-الثواني 3-5 الأولى من الفيديو الخاص بك حاسمة. هذه هي فرصتك لخطف الانتباه ومنع المشاهدين من التمرير. ابدأ بصورة قوية، سؤال آسر، أو عبارة مفاجئة. تجنب المقدمات البطيئة أو الشروحات المطولة. فكر فيما قد يجعلك *أنت* تتوقف وتشاهد. على سبيل المثال، إذا كنت علامة تجارية للأزياء، فابدأ بلقطة سريعة لزي مذهل يتم عرضه. إذا كنت شركة تقنية، فابدأ بعرض الميزة الأكثر إثارة للإعجاب للمنتج. الطاقة العالية والتشويق الفوري هما المفتاح.
+الثواني 3-5 الأولى من الفيديو الخاص بك حاسمة. هذه هي فرصتك لخطف الانتباه ومنع المشاهدين من التمرير. ابدأ بصورة قوية، سؤال آسر، أو عبارة مفاجئة. تجنب المقدمات البطيئة أو الشروحات المطولة. فكر فيما قد يجعلك أنت تتوقف وتشاهد. على سبيل المثال، إذا كنت علامة تجارية للأزياء، فابدأ بلقطة سريعة لزي مذهل يتم عرضه. إذا كنت شركة تقنية، فابدأ بعرض الميزة الأكثر إثارة للإعجاب للمنتج. الطاقة العالية والتشويق الفوري هما المفتاح.
 
 ## حافظ على الإيجاز والقيمة
 

@@ -52,7 +52,7 @@ For example, if you're offering e-commerce development, mention your experience 
 
 ## Focus on Benefits, Not Just Features
 
-It’s easy to list what your service or product *does*. It’s far more effective to explain what it *does for the customer*.
+It’s easy to list what your service or product does. It’s far more effective to explain what it does for the customer.
 
 Instead of: "Our website design includes responsive layouts and custom graphics."
 

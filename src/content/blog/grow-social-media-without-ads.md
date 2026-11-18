@@ -30,7 +30,7 @@ Before posting anything, you need to know who you're talking to. What are their 
 
 ## Create High-Quality, Shareable Content
 
-Organic growth hinges on content that people *want* to share. This means focusing on value. Think about:
+Organic growth hinges on content that people want to share. This means focusing on value. Think about:
 - Educational posts: Tips, how-tos, industry insights relevant to the Saudi market.
 - Entertaining content: Humour, behind-the-scenes looks, relatable stories.
 - Inspirational content: Success stories, motivational quotes, aspirational lifestyle content.
