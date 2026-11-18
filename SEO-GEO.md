@@ -58,4 +58,4 @@ The Arabic prompt pins the FAQ heading to `## الأسئلة الشائعة` ver
 - A purpose-built 1200×630 OG image (currently reuses `wady-logo1.png`).
 - Only `addressCountry: "SA"` is asserted. A real registered address would unlock `LocalBusiness`.
 - **Apex → www is a 307 (temporary); it should be 308.** That's Vercel domain config, not code.
-- `x-default` points at `/ar` because `/` only redirects. Flip `defaultLocale` if English should be the fallback.
+- English is the default (`defaultLocale = "en"`): `/` and any address without a language redirect permanently (308) to `/en…`, never by guessed browser language, and `x-default` points at `/en`.

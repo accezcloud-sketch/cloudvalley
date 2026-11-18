@@ -1,6 +1,9 @@
 export const locales = ["ar", "en"] as const;
 export type Locale = (typeof locales)[number];
-export const defaultLocale: Locale = "ar";
+// English is the default (owner decision D7): addresses without a language go
+// to /en permanently, and x-default points at English. Arabic is one click
+// away on the visible language switch.
+export const defaultLocale: Locale = "en";
 
 export function isLocale(value: string): value is Locale {
   return (locales as readonly string[]).includes(value);

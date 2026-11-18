@@ -21,7 +21,7 @@ export function urlFor(locale: Locale, path = ""): string {
  *
  * Google throws away an hreflang set unless every URL in it is reciprocal AND
  * self-referencing, so the current locale is listed alongside the others.
- * `x-default` points at the default locale (ar) because that is a real 200 URL
+ * `x-default` points at the default locale (en) because that is a real 200 URL
  * that is also in the sitemap — the bare "/" only 307-redirects.
  */
 export function alternatesFor(locale: Locale, path = ""): Alternates {
