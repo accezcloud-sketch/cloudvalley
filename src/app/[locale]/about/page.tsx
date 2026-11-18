@@ -171,7 +171,7 @@ export default async function AboutPage(props: PageProps<"/[locale]/about">) {
               className="inline-flex items-center justify-between gap-4 border border-ink px-5 py-4 text-base transition-colors hover:bg-ink hover:text-paper"
             >
               <span>{isAr ? "تحدّث معنا" : "Get in touch"}</span>
-              <span aria-hidden className={isAr ? "rotate-180" : ""}>→</span>
+              <span aria-hidden className={`inline-block ${isAr ? "rotate-180" : ""}`}>→</span>
             </a>
           </div>
         </div>

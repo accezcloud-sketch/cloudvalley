@@ -61,7 +61,7 @@ export default async function ThankYouPage(
           href={`/${locale}`}
           className="mt-10 inline-flex items-center gap-4 border border-ink px-6 py-4 text-base transition-colors hover:bg-ink hover:text-paper"
         >
-          <span aria-hidden className={isAr ? "" : "rotate-180"}>
+          <span aria-hidden className={`inline-block ${isAr ? "" : "rotate-180"}`}>
             →
           </span>
           <span>{dict.thankYou.cta}</span>

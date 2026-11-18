@@ -130,7 +130,7 @@ export default async function TermsPage(props: PageProps<"/[locale]/terms">) {
             className="md:col-span-4 inline-flex items-center justify-between gap-4 self-end border border-ink px-5 py-4 text-base transition-colors hover:bg-ink hover:text-paper"
           >
             <span>{isAr ? "تواصل على واتساب" : "Start on WhatsApp"}</span>
-            <span aria-hidden className={isAr ? "rotate-180" : ""}>→</span>
+            <span aria-hidden className={`inline-block ${isAr ? "rotate-180" : ""}`}>→</span>
           </a>
         </div>
       </section>

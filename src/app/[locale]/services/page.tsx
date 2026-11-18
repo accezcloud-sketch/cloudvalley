@@ -168,7 +168,7 @@ export default async function ServicesPage(
                     <span>
                       {isAr ? "تحدّث معنا" : "Discuss this service"}
                     </span>
-                    <span aria-hidden className={isAr ? "rotate-180" : ""}>→</span>
+                    <span aria-hidden className={`inline-block ${isAr ? "rotate-180" : ""}`}>→</span>
                   </a>
                   <Link
                     href={`/${locale}/services/${s.slug}`}
@@ -176,7 +176,7 @@ export default async function ServicesPage(
                     style={{ fontFamily: "var(--font-mono)" }}
                   >
                     <span>{dict.services.detailLabel}</span>
-                    <span aria-hidden className={isAr ? "rotate-180" : ""}>→</span>
+                    <span aria-hidden className={`inline-block ${isAr ? "rotate-180" : ""}`}>→</span>
                   </Link>
                 </div>
               </Rise>
@@ -204,7 +204,7 @@ export default async function ServicesPage(
             className="md:col-span-4 inline-flex items-center justify-between gap-2 border border-ink px-5 py-4 text-base hover:bg-ink hover:text-paper transition-colors"
           >
             <span>{isAr ? "شاهد الاشتراكات" : "See the plans"}</span>
-            <span aria-hidden className={isAr ? "rotate-180" : ""}>→</span>
+            <span aria-hidden className={`inline-block ${isAr ? "rotate-180" : ""}`}>→</span>
           </Link>
         </div>
       </section>

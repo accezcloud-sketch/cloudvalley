@@ -107,7 +107,7 @@ export default async function HomePage(props: PageProps<"/[locale]">) {
                   className="inline-flex items-center gap-2 border-b border-ink pb-0.5 text-sm text-ink link-sweep underline-offset-heavy"
                 >
                   {dict.home.secondaryCta}
-                  <span aria-hidden className={isAr ? "rotate-180" : ""}>
+                  <span aria-hidden className={`inline-block ${isAr ? "rotate-180" : ""}`}>
                     →
                   </span>
                 </Link>
@@ -256,7 +256,7 @@ export default async function HomePage(props: PageProps<"/[locale]">) {
               className="mt-8 inline-flex items-center gap-2 border-b border-ink pb-0.5 text-sm link-sweep underline-offset-heavy"
             >
               {isAr ? "اقرأ التفاصيل" : "Read the details"}
-              <span aria-hidden className={isAr ? "rotate-180" : ""}>→</span>
+              <span aria-hidden className={`inline-block ${isAr ? "rotate-180" : ""}`}>→</span>
             </Link>
           </div>
           <ul className="md:col-span-7 divide-y divide-rule border-y border-rule">
@@ -421,7 +421,7 @@ export default async function HomePage(props: PageProps<"/[locale]">) {
                     }`}
                   >
                     {p.cta}
-                    <span aria-hidden className={isAr ? "rotate-180" : ""}>→</span>
+                    <span aria-hidden className={`inline-block ${isAr ? "rotate-180" : ""}`}>→</span>
                   </a>
                 </Rise>
               );

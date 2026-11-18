@@ -179,7 +179,7 @@ export function ContactForm({ locale, labels }: Props) {
           className="inline-flex items-center justify-between gap-4 border border-ink px-6 py-4 text-base transition-colors hover:bg-ink hover:text-paper"
         >
           <span>{labels.submit}</span>
-          <span aria-hidden className={isAr ? "rotate-180" : ""}>
+          <span aria-hidden className={`inline-block ${isAr ? "rotate-180" : ""}`}>
             →
           </span>
         </button>

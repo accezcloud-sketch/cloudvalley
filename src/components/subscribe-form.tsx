@@ -54,7 +54,7 @@ export function SubscribeForm({ locale, placeholder, cta }: Props) {
             className="inline-flex items-center justify-center gap-2 bg-ink px-6 py-3 text-sm text-paper transition-colors hover:bg-accent"
           >
             {cta}
-            <span aria-hidden className={isAr ? "rotate-180" : ""}>→</span>
+            <span aria-hidden className={`inline-block ${isAr ? "rotate-180" : ""}`}>→</span>
           </button>
         </>
       )}
