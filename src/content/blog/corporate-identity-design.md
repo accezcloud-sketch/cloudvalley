@@ -19,13 +19,13 @@ serviceNum: 06
 
 ## A brand is recognized before it is read
 
-Think of the brands you trust most. You recognize them from a color, a shape, a feeling, before you read the name. That instant recognition is not an accident. It is the result of a carefully designed corporate identity: a system of visual elements that work together to tell your story without words.
+Think of the brands you trust most. You recognize them from a color, a shape, a feeling, before you read the name. That instant recognition is not an accident. It is the result of a carefully designed [corporate identity](/en/services/brand-identity): a system of visual elements that work together to tell your story without words.
 
 For Arab businesses, this matters even more. In a market where trust is built through relationships and reputation, your visual identity is often the first handshake. A polished, consistent brand signals professionalism. An inconsistent one signals the opposite, whether or not it reflects the quality of your actual work.
 
 ## What a corporate identity actually includes
 
-A logo is where most businesses start and stop. But a logo alone is like a name without a face. A complete corporate identity includes:
+A logo is where most businesses start and stop. But [a logo alone](/en/blog/logo-vs-brand-identity-what-your-business-needs) is like a name without a face. A complete corporate identity includes:
 
 - Logo system: primary mark, secondary versions, icon, and clear-space rules so the logo works on everything from a business card to a billboard.
 - Color palette: primary and secondary colors with exact codes for print, screen, and digital. Not just 'blue', but which blue, at which contrast ratio, on which backgrounds.
@@ -45,7 +45,7 @@ We design both directions simultaneously. The Arabic and English versions are si
 
 Three moments when corporate identity investment has the highest return:
 
-- At launch: get it right from the start and avoid the expensive rebrand later. First impressions compound.
+- At launch: get it right from the start and avoid [the expensive rebrand](/en/blog/rebranding-know-when-to-refresh-your-brand) later. First impressions compound.
 - Before a growth phase: if you are about to hire, expand, or enter a new market, your brand needs to scale with you. A DIY logo will not survive a billboard.
 - When inconsistency is costing you: if your social media, website, packaging, and business cards all look like they belong to different companies, you are losing trust with every touchpoint.
 
@@ -59,13 +59,13 @@ Your brand should be recognized before it is read. If it is not, the identity is
 
 ## العلامة تُعرَف قبل أن تُقرأ
 
-فكّر في العلامات التي تثق بها أكثر. تعرفها من لون، من شكل، من إحساس، قبل أن تقرأ الاسم. هذا التعرّف الفوري ليس صدفة. هو نتيجة هوية تجارية مصمّمة بعناية: منظومة عناصر بصرية تعمل معًا لتروي قصتك بلا كلمات.
+فكّر في العلامات التي تثق بها أكثر. تعرفها من لون، من شكل، من إحساس، قبل أن تقرأ الاسم. هذا التعرّف الفوري ليس صدفة. هو نتيجة [هوية تجارية](/ar/services/brand-identity) مصمّمة بعناية: منظومة عناصر بصرية تعمل معًا لتروي قصتك بلا كلمات.
 
 للشركات العربية، هذا يهم أكثر. في سوق تُبنى فيه الثقة عبر العلاقات والسمعة، هويتك البصرية غالبًا هي المصافحة الأولى. علامة مصقولة ومتّسقة تُشير للاحترافية. وعلامة غير متّسقة تُشير للعكس، سواء عكست جودة عملك الفعلي أم لا.
 
 ## ما تتضمّنه الهوية التجارية فعلاً
 
-الشعار هو حيث تبدأ أغلب الشركات وتتوقف. لكن الشعار وحده كاسم بلا وجه. الهوية التجارية المتكاملة تشمل:
+الشعار هو حيث تبدأ أغلب الشركات وتتوقف. لكن [الشعار وحده](/ar/blog/logo-vs-brand-identity-what-your-business-needs) كاسم بلا وجه. الهوية التجارية المتكاملة تشمل:
 
 - منظومة شعار: العلامة الأساسية، النسخ الثانوية، الأيقونة، وقواعد المسافات حتى يعمل الشعار على كل شيء من بطاقة أعمال إلى لوحة إعلانية.
 - لوحة ألوان: ألوان أساسية وثانوية بأكواد دقيقة للطباعة والشاشة والرقمي. ليس فقط 'أزرق'، بل أي أزرق، بأي نسبة تباين، على أي خلفيات.
@@ -85,7 +85,7 @@ Your brand should be recognized before it is read. If it is not, the identity is
 
 ثلاث لحظات يكون فيها الاستثمار في الهوية التجارية أعلى عائدًا:
 
-- عند الإطلاق: اضبطها من البداية وتجنّب إعادة البناء المكلفة لاحقًا. الانطباعات الأولى تتراكم.
+- عند الإطلاق: اضبطها من البداية وتجنّب [إعادة البناء المكلفة](/ar/blog/rebranding-know-when-to-refresh-your-brand) لاحقًا. الانطباعات الأولى تتراكم.
 - قبل مرحلة نمو: إذا كنت على وشك التوظيف أو التوسّع أو دخول سوق جديد، علامتك تحتاج أن تكبر معك. شعار صنعته بنفسك لن ينجو على لوحة إعلانية.
 - عندما يكلّفك عدم الاتساق: إذا كانت حساباتك وموقعك وتغليفك وبطاقات أعمالك تبدو وكأنها لشركات مختلفة، فأنت تخسر ثقة مع كل نقطة تواصل.
 

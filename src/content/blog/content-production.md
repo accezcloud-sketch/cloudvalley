@@ -27,7 +27,7 @@ A small business in Riyadh does not have a content team. The founder writes a fe
 
 Content fails for three reasons, and none of them have to do with quality:
 
-- Inconsistency: publishing three articles one week and nothing for two months destroys audience trust and search rankings.
+- Inconsistency: publishing three articles one week and nothing for two months destroys audience trust and [search rankings](/en/services/search-engine-optimization).
 - No strategy: writing about whatever comes to mind instead of mapping content to the buyer journey.
 - Wrong voice: content that reads like a press release or a translated English blog does not connect with Arab audiences.
 
@@ -51,7 +51,7 @@ Most AI-generated Arabic content is terrible. It reads like a machine translatio
 
 Good Arabic content writing requires understanding register: when to use Modern Standard Arabic, when to lean colloquial, when to mix. It requires knowing that a Saudi audience responds differently than an Egyptian one. It requires caring about typography, about the way a paragraph breaks on a mobile screen, about the spacing between Arabic characters.
 
-This is why the human editor in our workflow is not optional. AI gives us speed. The editor gives us quality. Together, they deliver what neither could alone: consistent, high-volume content that actually reads well.
+This is why the human editor in our workflow is not optional. AI gives us speed. The editor gives us quality. Together, they deliver what neither could alone: [consistent, high-volume content](/en/services/content-production) that actually reads well.
 
 ## Content as a lead engine
 
@@ -61,7 +61,7 @@ We measure content success by the leads it generates, not by the likes it collec
 
 ## Start with a system, not a sprint
 
-The businesses that win at content are not the ones that produce the most; they are the ones that never stop. A single well-written article per week, published consistently for a year, will outperform a burst of twenty articles followed by silence.
+The businesses that win at content are not the ones that produce the most; they are the ones that never stop. [A single well-written article per week](/en/blog/blogging-in-2026-a-smart-business-move), published consistently for a year, will outperform a burst of twenty articles followed by silence.
 
 Build the system first. The results follow.
 
@@ -77,7 +77,7 @@ Build the system first. The results follow.
 
 المحتوى يفشل لثلاثة أسباب، ولا علاقة لأيٍّ منها بالجودة:
 
-- عدم الاتساق: نشر ثلاثة مقالات في أسبوع ثم لا شيء لشهرين يُدمّر ثقة الجمهور وترتيب البحث.
+- عدم الاتساق: نشر ثلاثة مقالات في أسبوع ثم لا شيء لشهرين يُدمّر ثقة الجمهور [وترتيب البحث](/ar/services/search-engine-optimization).
 - غياب الاستراتيجية: الكتابة عن أي موضوع يخطر ببالك بدلاً من ربط المحتوى برحلة المشتري.
 - الصوت الخاطئ: محتوى يقرأ كبيان صحفي أو مدوّنة إنجليزية مترجمة لا يتّصل بالجمهور العربي.
 
@@ -101,7 +101,7 @@ Build the system first. The results follow.
 
 كتابة المحتوى العربي الجيد تتطلّب فهم المستوى اللغوي: متى تستخدم الفصحى، ومتى تميل للعامّية، ومتى تمزج. تتطلّب معرفة أن الجمهور السعودي يستجيب بشكل مختلف عن المصري. تتطلّب الاهتمام بالطباعة، بالطريقة التي تنكسر بها الفقرة على شاشة الجوال، بالمسافات بين الحروف العربية.
 
-لهذا السبب المحرّر البشري في سير عملنا ليس اختياريًا. الذكاء الاصطناعي يمنحنا السرعة. المحرّر يمنحنا الجودة. معًا، يُقدّمان ما لا يستطيع أيٌّ منهما وحده: محتوى مستمر بحجم كبير يُقرأ فعلاً بشكل جيد.
+لهذا السبب المحرّر البشري في سير عملنا ليس اختياريًا. الذكاء الاصطناعي يمنحنا السرعة. المحرّر يمنحنا الجودة. معًا، يُقدّمان ما لا يستطيع أيٌّ منهما وحده: [محتوى مستمر بحجم كبير](/ar/services/content-production) يُقرأ فعلاً بشكل جيد.
 
 ## المحتوى كمحرّك عملاء
 
@@ -111,6 +111,6 @@ Build the system first. The results follow.
 
 ## ابدأ بنظام، لا بموجة حماس
 
-الشركات التي تفوز بالمحتوى ليست تلك التي تنتج الأكثر، بل تلك التي لا تتوقف أبدًا. مقال واحد مكتوب جيدًا أسبوعيًا، يُنشر باستمرار لمدة سنة، سيتفوّق على موجة عشرين مقالاً يتبعها صمت.
+الشركات التي تفوز بالمحتوى ليست تلك التي تنتج الأكثر، بل تلك التي لا تتوقف أبدًا. [مقال واحد مكتوب جيدًا أسبوعيًا](/ar/blog/blogging-in-2026-a-smart-business-move)، يُنشر باستمرار لمدة سنة، سيتفوّق على موجة عشرين مقالاً يتبعها صمت.
 
 ابنِ النظام أولاً. النتائج تتبع.

@@ -19,7 +19,7 @@ serviceNum: 08
 
 ## The problem with most digital marketing
 
-Most businesses in the Arab world approach digital marketing the same way: run some Google Ads, boost a few Instagram posts, and hope for the best. When results are disappointing, they increase the budget. When results are still disappointing, they blame the platform.
+Most businesses in the Arab world approach [digital marketing](/en/services/digital-marketing) the same way: run some Google Ads, boost a few Instagram posts, and hope for the best. When results are disappointing, they increase the budget. When results are still disappointing, they blame the platform.
 
 The platform is rarely the problem. The problem is strategy, or more precisely, the absence of one. Spending money on ads without a clear funnel, without proper tracking, and without a plan for what happens after the click is not marketing. It is gambling with a screen.
 
@@ -36,7 +36,7 @@ Most businesses pour money into Stage 1 and ignore the rest. That is why their c
 
 ## Paid ads: Google vs. Meta vs. TikTok
 
-Each platform serves a different intent. Google Ads capture demand: people searching for what you sell right now. Meta (Facebook and Instagram) creates demand, showing your brand to people who match your ideal customer profile. TikTok builds awareness, reaching younger audiences with short-form content that feels native, not promotional.
+Each platform serves a different intent. [Google Ads](/en/blog/google-ads-vs-social-media-ads-where-to-start) capture demand: people searching for what you sell right now. Meta (Facebook and Instagram) creates demand, showing your brand to people who match your ideal customer profile. TikTok builds awareness, reaching younger audiences with short-form content that feels native, not promotional.
 
 > The right platform is the one where your customer is already looking. Not the one with the biggest audience, but the one with the most relevant audience.
 
@@ -44,7 +44,7 @@ We do not recommend running ads on every platform. We recommend running ads on t
 
 ## Email is not dead; it is underused
 
-In the rush to social media, most Arab businesses abandoned email marketing. That is a mistake. Email is still one of the cheapest channels to run, and the list you build belongs to you. The key is using email to build relationships, not to blast promotions.
+In the rush to social media, most Arab businesses abandoned [email marketing](/en/blog/build-a-newsletter-that-converts). That is a mistake. Email is still one of the cheapest channels to run, and the list you build belongs to you. The key is using email to build relationships, not to blast promotions.
 
 - Welcome sequences that introduce new subscribers to your brand story.
 - Educational content that positions you as an expert before you ask for the sale.
@@ -70,7 +70,7 @@ The businesses that win at digital marketing are not the ones with the biggest b
 
 ## المشكلة مع أغلب التسويق الإلكتروني
 
-أغلب الشركات في العالم العربي تتعامل مع التسويق الإلكتروني بنفس الطريقة: تشغّل بعض إعلانات Google، تموّل بعض منشورات Instagram، وتأمل الأفضل. عندما تخيّب النتائج، تزيد الميزانية. وعندما تخيّب النتائج مرة أخرى، تلوم المنصة.
+أغلب الشركات في العالم العربي تتعامل مع [التسويق الإلكتروني](/ar/services/digital-marketing) بنفس الطريقة: تشغّل بعض إعلانات Google، تموّل بعض منشورات Instagram، وتأمل الأفضل. عندما تخيّب النتائج، تزيد الميزانية. وعندما تخيّب النتائج مرة أخرى، تلوم المنصة.
 
 المنصة نادرًا ما تكون المشكلة. المشكلة هي الاستراتيجية، أو بدقة أكثر، غيابها. إنفاق المال على إعلانات بدون قمع واضح، بدون تتبّع سليم، وبدون خطة لما يحدث بعد النقرة ليس تسويقًا. بل مقامرة بشاشة.
 
@@ -87,7 +87,7 @@ The businesses that win at digital marketing are not the ones with the biggest b
 
 ## الإعلانات المدفوعة: Google مقابل Meta مقابل TikTok
 
-كل منصة تخدم نية مختلفة. إعلانات Google تلتقط الطلب: أشخاص يبحثون عما تبيعه الآن. Meta (فيسبوك وإنستجرام) تخلق الطلب: تعرض علامتك لأشخاص يطابقون ملف عميلك المثالي. TikTok تبني الوعي: تصل لجماهير أصغر سنًا بمحتوى قصير يبدو طبيعيًا لا ترويجيًا.
+كل منصة تخدم نية مختلفة. [إعلانات Google](/ar/blog/google-ads-vs-social-media-ads-where-to-start) تلتقط الطلب: أشخاص يبحثون عما تبيعه الآن. Meta (فيسبوك وإنستجرام) تخلق الطلب: تعرض علامتك لأشخاص يطابقون ملف عميلك المثالي. TikTok تبني الوعي: تصل لجماهير أصغر سنًا بمحتوى قصير يبدو طبيعيًا لا ترويجيًا.
 
 > المنصة الصحيحة هي التي يتواجد فيها عميلك بالفعل. ليست التي فيها أكبر جمهور، بل التي فيها أكثر جمهور ملائم.
 
@@ -95,7 +95,7 @@ The businesses that win at digital marketing are not the ones with the biggest b
 
 ## البريد الإلكتروني لم يمت، بل غير مستغل
 
-في اندفاعهم نحو السوشيال ميديا، تخلّت أغلب الشركات العربية عن التسويق بالبريد الإلكتروني. هذا خطأ. البريد الإلكتروني يظل من أقل القنوات تكلفةً في التشغيل، والقائمة التي تبنيها ملكٌ لك. المفتاح هو استخدام البريد لبناء علاقات، لا لإرسال عروض ترويجية.
+في اندفاعهم نحو السوشيال ميديا، تخلّت أغلب الشركات العربية عن [التسويق بالبريد الإلكتروني](/ar/blog/build-a-newsletter-that-converts). هذا خطأ. البريد الإلكتروني يظل من أقل القنوات تكلفةً في التشغيل، والقائمة التي تبنيها ملكٌ لك. المفتاح هو استخدام البريد لبناء علاقات، لا لإرسال عروض ترويجية.
 
 - سلاسل ترحيب تعرّف المشتركين الجدد على قصة علامتك.
 - محتوى تعليمي يضعك كخبير قبل أن تطلب البيع.
