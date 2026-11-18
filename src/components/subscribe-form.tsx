@@ -18,7 +18,7 @@ export function SubscribeForm({ locale, placeholder, cta }: Props) {
         e.preventDefault();
         setSubmitted(true);
       }}
-      className="flex flex-col gap-3 md:flex-row md:items-end"
+      className="flex flex-col gap-3 lg:flex-row lg:items-end"
     >
       {submitted ? (
         <p

@@ -84,7 +84,7 @@ export function SiteHeader({ locale, dict }: Props) {
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-8 md:flex">
+        <nav className="hidden items-center gap-8 lg:flex">
           {nav.map((item) => {
             const active =
               item.href === `/${locale}`
@@ -120,7 +120,7 @@ export function SiteHeader({ locale, dict }: Props) {
             )}
             target="_blank"
             rel="noreferrer"
-            className="hidden items-center gap-2 rounded-full bg-ink px-4 py-2 text-[0.85rem] text-paper transition-colors hover:bg-accent md:inline-flex"
+            className="hidden items-center gap-2 rounded-full bg-ink px-4 py-2 text-[0.85rem] text-paper transition-colors hover:bg-accent lg:inline-flex"
           >
             <span
               className="h-1.5 w-1.5 rounded-full bg-whatsapp pulse-dot"
@@ -131,7 +131,7 @@ export function SiteHeader({ locale, dict }: Props) {
           <button
             type="button"
             onClick={() => setOpen((v) => !v)}
-            className="relative h-10 w-10 md:hidden"
+            className="relative h-10 w-10 lg:hidden"
             aria-label="Menu"
             aria-expanded={open}
           >
@@ -150,7 +150,7 @@ export function SiteHeader({ locale, dict }: Props) {
       </div>
 
       {open && (
-        <div className="border-t border-rule bg-paper md:hidden">
+        <div className="border-t border-rule bg-paper lg:hidden">
           <nav className="flex flex-col divide-y divide-rule">
             {nav.map((item) => (
               <Link

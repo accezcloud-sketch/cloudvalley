@@ -345,7 +345,7 @@ export default async function HomePage(props: PageProps<"/[locale]">) {
             </p>
           </div>
 
-          <div className="mt-16 grid grid-cols-1 gap-px border border-paper/20 bg-paper/20 md:grid-cols-3">
+          <div className="mt-16 grid grid-cols-1 gap-px border border-paper/20 bg-paper/20 lg:grid-cols-3">
             {[
               dict.home.pricing.basic,
               dict.home.pricing.professional,
@@ -356,7 +356,7 @@ export default async function HomePage(props: PageProps<"/[locale]">) {
                 <Rise
                   key={p.name}
                   delay={i * 100}
-                  className={`relative flex flex-col p-8 md:p-10 ${
+                  className={`relative flex flex-col p-8 xl:p-10 ${
                     featured ? "bg-accent text-paper" : "bg-ink"
                   }`}
                 >
@@ -375,7 +375,7 @@ export default async function HomePage(props: PageProps<"/[locale]">) {
                     </span>
                   </div>
                   <h3
-                    className="mt-10 text-4xl md:text-5xl"
+                    className="mt-10 text-4xl xl:text-5xl"
                     style={{
                       fontFamily: serifDisplay,
                       letterSpacing: isAr ? "0" : "-0.02em",
@@ -383,9 +383,9 @@ export default async function HomePage(props: PageProps<"/[locale]">) {
                   >
                     {p.name}
                   </h3>
-                  <div className="mt-6 flex items-baseline gap-2">
+                  <div className="mt-6 flex flex-wrap items-baseline gap-x-2 gap-y-1">
                     <span
-                      className="text-5xl md:text-6xl leading-none"
+                      className="text-5xl xl:text-6xl leading-none"
                       style={{ fontFamily: serifDisplay }}
                     >
                       {p.price}

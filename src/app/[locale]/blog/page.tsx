@@ -130,8 +130,8 @@ export default async function BlogPage(props: PageProps<"/[locale]/blog">) {
 
       {/* Subscribe */}
       <section className="mx-auto w-full max-w-[1440px] px-6 py-24 md:px-10 md:py-32">
-        <div className="grid grid-cols-1 gap-10 border border-ink bg-paper-2/40 p-8 md:grid-cols-12 md:gap-16 md:p-14">
-          <div className="md:col-span-6">
+        <div className="grid grid-cols-1 gap-10 border border-ink bg-paper-2/40 p-8 md:p-14 lg:grid-cols-12 lg:gap-16">
+          <div className="lg:col-span-6">
             <h3
               className="text-[clamp(1.8rem,4vw,3rem)] leading-[1.05]"
               style={{
@@ -152,7 +152,7 @@ export default async function BlogPage(props: PageProps<"/[locale]/blog">) {
               {dict.blog.subscribe.body}
             </p>
           </div>
-          <div className="md:col-span-6 md:self-end">
+          <div className="lg:col-span-6 lg:self-end">
             <SubscribeForm
               locale={locale}
               placeholder={dict.blog.subscribe.placeholder}
