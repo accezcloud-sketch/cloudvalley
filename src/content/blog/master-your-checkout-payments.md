@@ -87,7 +87,7 @@ Costs vary, but expect setup fees ranging from 200 SAR to 1,000 SAR for basic in
 > Can I offer WhatsApp payments directly on my website?
 While direct WhatsApp payments within your website’s checkout flow are not standard, you can integrate systems that generate payment links sent via WhatsApp or allow customers to initiate payment conversations through a WhatsApp button on your site.
 
-## The Cloud Valley Advantage
+## Getting Help Setting Up Your Checkout
 
 At Cloud Valley, we understand the nuances of the Saudi and Gulf digital landscape. We don't just build websites; we build e-commerce platforms designed for success. Our expertise extends to meticulously configuring secure, user-friendly checkout processes, integrating the most relevant local payment gateways like Mada, and ensuring a smooth checkout that builds trust with your customers. Whether you're launching a new online store or optimizing an existing one, we’re here to help you get it right, from the first click to the final payment confirmation. Partner with us to turn your online presence into a revenue-generating powerhouse.
 
@@ -160,6 +160,6 @@ At Cloud Valley, we understand the nuances of the Saudi and Gulf digital landsca
 > هل يمكنني تقديم مدفوعات WhatsApp مباشرة على موقعي؟
 في حين أن مدفوعات WhatsApp المباشرة ضمن تدفق الدفع على موقعك ليست قياسية، يمكنك دمج أنظمة تقوم بإنشاء روابط دفع يتم إرسالها عبر WhatsApp أو تسمح للعملاء ببدء محادثات الدفع عبر زر WhatsApp على موقعك.
 
-## ميزة Cloud Valley
+## الحصول على مساعدة في إعداد عملية الدفع
 
 في Cloud Valley، نفهم الفروق الدقيقة للمشهد الرقمي في السعودية والخليج. نحن لا نبني مواقع إلكترونية فحسب؛ بل نبني منصات تجارة إلكترونية مصممة للنجاح. تمتد خبرتنا إلى التكوين الدقيق لعمليات دفع آمنة وسهلة الاستخدام، ودمج بوابات الدفع المحلية الأكثر صلة مثل مدى، وضمان تجربة سلسة تبني الثقة لعملائك. سواء كنت تطلق متجراً إلكترونياً جديداً أو تحسّن متجراً قائماً، فنحن هنا لمساعدتك على القيام بذلك بشكل صحيح، من النقرة الأولى إلى تأكيد الدفع النهائي. كن شريكاً معنا لتحويل وجودك عبر الإنترنت إلى قوة مدرة للأرباح.
