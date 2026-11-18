@@ -63,11 +63,11 @@ const ar: Record<string, ServicePageData> = {
       },
       {
         question: "ماذا يحدث إذا لم يعجبني التصميم؟",
-        answer: "نقدّم جولتين من المراجعات مشمولتين في السعر. إذا لم نتفق بعد الجولتين، نعود لنقطة الاتفاق الأخيرة ونعمل من هناك. لم يحدث هذا بعد، لأننا نبدأ بالمحتوى والهيكل قبل البكسلات.",
+        answer: "نقدّم جولتين من المراجعات مشمولتين في السعر. إذا لم نتفق بعد الجولتين، نعود لنقطة الاتفاق الأخيرة ونعمل من هناك. ولهذا نبدأ بالمحتوى والهيكل قبل التصميم.",
       },
       {
         question: "هل يشمل السعر الاستضافة والدومين؟",
-        answer: "الدومين والاستضافة يُسجّلان باسمك وتدفعهما مباشرةً، عادةً بين ثلاثمئة وخمسمئة ريال سنويًا. هذا يضمن ملكيتك الكاملة. نساعد في الإعداد لكن الحساب لك.",
+        answer: "الدومين والاستضافة يُسجّلان باسمك وتدفعهما مباشرةً لمزوّد الخدمة. هذا يضمن ملكيتك الكاملة. نساعد في الإعداد لكن الحساب لك.",
       },
     ],
   },
@@ -200,7 +200,7 @@ const ar: Record<string, ServicePageData> = {
       },
       {
         question: "ماذا لو تلقّيت تعليقًا سلبيًا أو أزمة؟",
-        answer: "لدينا بروتوكول تصعيد: التعليقات السلبية العادية نردّ عليها خلال ساعة بأسلوب متّفق عليه مسبقًا. الأزمات الحقيقية نُبلّغك فورًا ونعمل معك على الرد قبل النشر.",
+        answer: "لدينا بروتوكول تصعيد: التعليقات السلبية العادية نردّ عليها بسرعة بأسلوب متّفق عليه مسبقًا. الأزمات الحقيقية نُبلّغك فورًا ونعمل معك على الرد قبل النشر.",
       },
     ],
   },
@@ -425,11 +425,11 @@ const en: Record<string, ServicePageData> = {
       },
       {
         question: "What if I don't like the design?",
-        answer: "Two rounds of revisions are included in the price. If we still disagree after two rounds, we return to the last agreed point and work from there. This hasn't happened yet, because we start with content and structure before pixels.",
+        answer: "Two rounds of revisions are included in the price. If we still disagree after two rounds, we return to the last agreed point and work from there. That is why we start with content and structure before pixels.",
       },
       {
         question: "Does the price include hosting and domain?",
-        answer: "Domain and hosting are registered in your name and paid by you directly, typically three hundred to five hundred riyals per year. This ensures full ownership. We help with setup but the account is yours.",
+        answer: "Domain and hosting are registered in your name and paid by you directly to the provider. This ensures full ownership. We help with setup but the account is yours.",
       },
     ],
   },
@@ -562,7 +562,7 @@ const en: Record<string, ServicePageData> = {
       },
       {
         question: "What if I receive a negative comment or a crisis?",
-        answer: "We have an escalation protocol: standard negative comments get a reply within one hour using a pre-agreed tone. In real crises, we notify you immediately and draft the response together before publishing.",
+        answer: "We have an escalation protocol: standard negative comments get a prompt reply using a pre-agreed tone. In real crises, we notify you immediately and draft the response together before publishing.",
       },
     ],
   },
