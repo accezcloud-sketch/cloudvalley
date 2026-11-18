@@ -6,6 +6,9 @@ import { getServicePage, getAllServiceSlugs } from "@/lib/service-data";
 import { Rise } from "@/components/rise";
 import { SectionRule } from "@/components/section-rule";
 import { JsonLd } from "@/components/json-ld";
+import { ArticleList } from "@/components/article-list";
+import { getPostsForService } from "@/lib/blog-data";
+import { serviceNumForSlug } from "@/lib/service-map";
 import {
   pageMetadata,
   urlFor,
@@ -278,6 +281,19 @@ export default async function ServiceDetailPage(
               </dl>
             </section>
           </Rise>
+        </div>
+
+        {/* Articles about this service, newest first. */}
+        <div className="max-w-3xl pb-12">
+          <ArticleList
+            locale={locale}
+            heading={isAr ? "مقالات عن هذه الخدمة" : "Articles on this service"}
+            posts={getPostsForService(locale, serviceNumForSlug(slug) ?? "")}
+            more={{
+              label: isAr ? "كل المقالات" : "All articles",
+              href: `/${locale}/blog`,
+            }}
+          />
         </div>
 
         {/* Section 7 — CTA */}

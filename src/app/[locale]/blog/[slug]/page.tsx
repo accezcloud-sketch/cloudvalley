@@ -2,7 +2,13 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { locales, isLocale, waLink } from "@/lib/i18n";
 import { getDict } from "@/lib/dictionaries";
-import { getBlogPost, getAllSlugs, type BlogSection } from "@/lib/blog-data";
+import {
+  getBlogPost,
+  getAllSlugs,
+  getRelatedPosts,
+  type BlogSection,
+} from "@/lib/blog-data";
+import { ArticleList } from "@/components/article-list";
 import { serviceSlugForNum } from "@/lib/service-map";
 import { Rise } from "@/components/rise";
 import { SectionRule } from "@/components/section-rule";
@@ -154,6 +160,15 @@ export default async function BlogPostPage(
               {renderSection(section, serifDisplay, bodyFont, isAr)}
             </Rise>
           ))}
+        </div>
+
+        {/* Related articles: same service only, newest first. */}
+        <div className="max-w-3xl pb-12">
+          <ArticleList
+            locale={locale}
+            heading={isAr ? "مقالات ذات صلة" : "Related articles"}
+            posts={getRelatedPosts(locale, slug)}
+          />
         </div>
 
         {/* CTA */}

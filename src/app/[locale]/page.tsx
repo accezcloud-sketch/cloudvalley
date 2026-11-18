@@ -2,6 +2,8 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { isLocale, waLink } from "@/lib/i18n";
 import { ContactForm } from "@/components/contact-form";
+import { ArticleList } from "@/components/article-list";
+import { getBlogListing } from "@/lib/blog-data";
 import { getDict } from "@/lib/dictionaries";
 import { Rise } from "@/components/rise";
 import { SectionRule } from "@/components/section-rule";
@@ -429,6 +431,22 @@ export default async function HomePage(props: PageProps<"/[locale]">) {
           </div>
         </div>
       </section>
+
+      {/* FROM THE BLOG: the three newest articles, so new posts are linked
+          from the home page and found quickly by readers and crawlers. */}
+      <div className="mx-auto w-full max-w-[1440px] px-6 pt-24 md:px-10 md:pt-32">
+        <div className="max-w-3xl">
+          <ArticleList
+            locale={locale}
+            heading={isAr ? "من المدوّنة" : "From the blog"}
+            posts={getBlogListing(locale).slice(0, 3)}
+            more={{
+              label: isAr ? "كل المقالات" : "All articles",
+              href: `/${locale}/blog`,
+            }}
+          />
+        </div>
+      </div>
 
       {/* CONTACT FORM */}
       <section id="contact" className="mx-auto w-full max-w-[1440px] px-6 py-28 md:px-10 md:py-40">

@@ -12,3 +12,8 @@ export function serviceSlugForNum(num: string): string | undefined {
   const n = num.trim().padStart(2, "0");
   return getDict("en").services.list.find((s) => s.num === n)?.slug;
 }
+
+/** The reverse: "website-design" -> "01". */
+export function serviceNumForSlug(slug: string): string | undefined {
+  return getDict("en").services.list.find((s) => s.slug === slug)?.num;
+}

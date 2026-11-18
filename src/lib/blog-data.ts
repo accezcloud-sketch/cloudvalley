@@ -230,3 +230,29 @@ export function getBlogListing(locale: Locale): BlogListing[] {
   }));
 }
 
+/**
+ * Articles about the same service, newest first, excluding the current one.
+ * Picked by topic only: never random and never "latest from anywhere".
+ */
+export function getRelatedPosts(
+  locale: Locale,
+  slug: string,
+  limit = 3,
+): BlogListing[] {
+  const current = getBlogPost(locale, slug);
+  if (!current) return [];
+  return getBlogListing(locale)
+    .filter((p) => p.slug !== slug && getBlogPost(locale, p.slug)?.serviceNum === current.serviceNum)
+    .slice(0, limit);
+}
+
+/** Newest articles for one service number ("01".."08"). */
+export function getPostsForService(
+  locale: Locale,
+  serviceNum: string,
+  limit = 3,
+): BlogListing[] {
+  return getBlogListing(locale)
+    .filter((p) => getBlogPost(locale, p.slug)?.serviceNum === serviceNum)
+    .slice(0, limit);
+}
