@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import {
   Amiri,
   Fraunces,
@@ -48,6 +48,14 @@ const ibmAr = IBM_Plex_Sans_Arabic({
   weight: ["300", "400", "500", "600"],
   display: "swap",
 });
+
+// Browser bar colour for each scheme (dark mode follows the device).
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f2ede3" },
+    { media: "(prefers-color-scheme: dark)", color: "#161513" },
+  ],
+};
 
 export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }));

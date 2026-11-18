@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
-@theme inline {
+/* Colours are CSS variables (not inlined), so dark mode below can switch
+   every utility at once. */
+@theme {
   --color-paper: #f2ede3;
   --color-paper-2: #e8e1d1;
   --color-ink: #141210;
@@ -10,7 +12,52 @@
   --color-accent: #c14a28;
   --color-accent-deep: #8a3118;
   --color-whatsapp: #128c3f;
+}
 
+/* Dark mode follows the visitor's device setting (owner decision D15).
+   Same paper-and-ink world, warm night tones. Contrast on the dark page:
+   ink 15:1, ink-soft 10.9:1, ink-mute 5.9:1, accent 6.2:1 (and dark text
+   on the accent 6.2:1), so small text stays above the 4.5:1 standard. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-paper: #161513;
+    --color-paper-2: #1f1c19;
+    --color-ink: #efe9de;
+    --color-ink-soft: #cfc7ba;
+    --color-ink-mute: #9a9285;
+    --color-rule: #3a352f;
+    --color-accent: #e07a5a;
+    --color-accent-deep: #f0a184;
+    --color-whatsapp: #25b35a;
+  }
+  /* The logo's dark wave line would vanish on a dark page: invert it and
+     turn the hue back so the cloud stays terracotta. */
+  img[src*="wady-logo"] {
+    filter: invert(1) hue-rotate(180deg);
+  }
+  /* Cover illustrations are drawn on light paper; soften them a little. */
+  img[src*="%2Fcover"] {
+    filter: brightness(0.9);
+  }
+  /* Sections drawn as a dark ink block in light mode (pricing, the services
+     band) stay dark in dark mode instead of flipping to a light slab: a
+     raised dark surface with light text; the accent keeps its light-mode
+     shade so light text on it stays readable. */
+  .keep-dark {
+    --color-ink: #24211d;
+    --color-paper: #efe9de;
+    --color-accent: #c14a28;
+  }
+  .paper-grain::before {
+    mix-blend-mode: screen;
+    opacity: 0.05;
+    background-image:
+      radial-gradient(rgba(255, 255, 255, 0.6) 1px, transparent 1px),
+      radial-gradient(rgba(255, 255, 255, 0.4) 1px, transparent 1px);
+  }
+}
+
+@theme inline {
   --font-serif-latin: var(--font-fraunces);
   --font-serif-ar: var(--font-amiri);
   --font-mono: var(--font-jetbrains);
@@ -20,6 +67,10 @@
 :root {
   --background: var(--color-paper);
   --foreground: var(--color-ink);
+}
+
+html {
+  color-scheme: light dark;
 }
 
 html,

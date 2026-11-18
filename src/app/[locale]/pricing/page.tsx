@@ -31,7 +31,7 @@ export default async function PricingPage(
 
   return (
     <>
-      <section className="border-t border-rule bg-ink text-paper">
+      <section className="keep-dark border-t border-rule bg-ink text-paper">
         <div className="mx-auto w-full max-w-[1440px] px-6 py-24 md:px-10 md:py-36">
           <div
             className="flex items-center gap-4 py-3 text-[0.7rem] uppercase tracking-[0.2em] text-paper/60"
