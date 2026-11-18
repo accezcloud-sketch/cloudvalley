@@ -1,15 +1,17 @@
 @import "tailwindcss";
 
 /* Colours are CSS variables (not inlined), so dark mode below can switch
-   every utility at once. */
+   every utility at once. Light mode contrast for small text (owner decision
+   D19): ink-mute 5.0:1 on paper and 4.5:1 on paper-2; the accent 5.0:1 as
+   text on paper, and cream text on the accent 5.0:1. */
 @theme {
   --color-paper: #f2ede3;
   --color-paper-2: #e8e1d1;
   --color-ink: #141210;
   --color-ink-soft: #3b332c;
-  --color-ink-mute: #7a6e60;
+  --color-ink-mute: #6e6355;
   --color-rule: #d6ccb8;
-  --color-accent: #c14a28;
+  --color-accent: #ad4222;
   --color-accent-deep: #8a3118;
   --color-whatsapp: #128c3f;
 }
@@ -46,7 +48,7 @@
   .keep-dark {
     --color-ink: #24211d;
     --color-paper: #efe9de;
-    --color-accent: #c14a28;
+    --color-accent: #ad4222;
   }
   .paper-grain::before {
     mix-blend-mode: screen;
