@@ -157,9 +157,15 @@ export default async function BlogPostPage(props: {
 
           <Rise eager delay={80}>
             <div
-              className="mt-6 flex items-center gap-4 text-[0.72rem] uppercase tracking-[0.18em] text-ink-mute"
+              className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 text-[0.72rem] uppercase tracking-[0.18em] text-ink-mute"
               style={{ fontFamily: "var(--font-mono)" }}
             >
+              <span>
+                {isAr
+                  ? `بقلم فريق ${dict.brand.name}`
+                  : `By the ${dict.brand.name} team`}
+              </span>
+              <span className="h-px w-6 bg-rule" />
               <span>{post.date}</span>
               {updatedLabel && (
                 <>
