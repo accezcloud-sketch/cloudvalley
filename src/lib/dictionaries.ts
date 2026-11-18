@@ -157,6 +157,8 @@ export type Dict = {
     contact: string;
     whatsapp: string;
     email: string;
+    /** Working days shown with the contact details (owner decision D4). */
+    hours: string;
     copyright: string;
     colophonLeft: string;
     colophonRight: string;
@@ -782,6 +784,7 @@ const ar: Dict = {
     contact: "تواصل",
     whatsapp: "واتساب الأعمال",
     email: "البريد الإلكتروني",
+    hours: "أيام العمل: من الاثنين إلى السبت",
     copyright: "© ٢٠٢٦ وادي السحاب. جميع الحقوق محفوظة.",
     colophonLeft: "",
     colophonRight: "",
@@ -1407,6 +1410,7 @@ const en: Dict = {
     contact: "Contact",
     whatsapp: "Business WhatsApp",
     email: "Email",
+    hours: "Working days: Monday to Saturday",
     copyright: "© 2026 Cloud Valley. All rights reserved.",
     colophonLeft: "",
     colophonRight: "",

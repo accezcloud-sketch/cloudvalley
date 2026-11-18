@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Locale } from "@/lib/i18n";
 import type { Dict } from "@/lib/dictionaries";
-import { waLink } from "@/lib/i18n";
+import { ContactDetails } from "./contact-details";
 
 type Props = { locale: Locale; dict: Dict };
 
@@ -81,18 +81,7 @@ export function SiteFooter({ locale, dict }: Props) {
             >
               {dict.footer.contact}
             </h4>
-            <ul className="mt-4 space-y-2">
-              <li>
-                <a
-                  href={waLink()}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="link-sweep text-[0.95rem] text-ink-soft hover:text-ink"
-                >
-                  {dict.footer.whatsapp}
-                </a>
-              </li>
-            </ul>
+            <ContactDetails locale={locale} dict={dict} className="mt-4" />
           </div>
         </div>
 

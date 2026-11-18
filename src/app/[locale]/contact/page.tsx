@@ -4,6 +4,7 @@ import { getDict } from "@/lib/dictionaries";
 import { Rise } from "@/components/rise";
 import { SectionRule } from "@/components/section-rule";
 import { ContactForm } from "@/components/contact-form";
+import { ContactDetails } from "@/components/contact-details";
 import { pageMetadata } from "@/lib/seo";
 
 export async function generateMetadata(props: PageProps<"/[locale]/contact">) {
@@ -56,6 +57,9 @@ export default async function ContactPage(
             >
               {dict.contact.lede}
             </p>
+          </Rise>
+          <Rise eager delay={140}>
+            <ContactDetails locale={locale} dict={dict} className="mt-8" />
           </Rise>
         </div>
 
