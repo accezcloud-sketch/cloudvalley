@@ -117,6 +117,10 @@ function parseFrontmatter(raw: string): {
 function parseBody(md: string): BlogSection[] {
   const sections: BlogSection[] = [];
   const blocks = md
+    // A heading is always its own block, even when the automation puts the
+    // next paragraph straight under it with no blank line.
+    .replace(/^(## [^\r\n]*)\r?\n(?=\S)/gm, "$1\n\n")
+    .replace(/(\S[^\r\n]*)\r?\n(?=## )/g, "$1\n\n")
     .split(/\r?\n\r?\n+/)
     .map((b) => b.trim())
     .filter(Boolean);
