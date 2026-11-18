@@ -3,6 +3,7 @@ import Image from "next/image";
 import type { Locale } from "@/lib/i18n";
 import type { Dict } from "@/lib/dictionaries";
 import { ContactDetails } from "./contact-details";
+import { CookieSettingsLink } from "./analytics";
 
 type Props = { locale: Locale; dict: Dict };
 
@@ -92,6 +93,12 @@ export function SiteFooter({ locale, dict }: Props) {
           <span>{dict.footer.copyright}</span>
           <span className="mx-2">·</span>
           <span>{locale === "ar" ? "س.ت: ١٠١٠٦٣٧٨٤٥" : "CR: 1010637845"}</span>
+          <CookieSettingsLink
+            label={
+              locale === "ar" ? "إعدادات ملفات الارتباط" : "Cookie settings"
+            }
+            className="ms-2"
+          />
         </div>
       </div>
     </footer>

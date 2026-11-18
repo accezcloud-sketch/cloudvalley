@@ -3,6 +3,7 @@ import Link from "next/link";
 import { isLocale } from "@/lib/i18n";
 import { getDict } from "@/lib/dictionaries";
 import { Rise } from "@/components/rise";
+import { TrackLead } from "@/components/analytics";
 
 export async function generateMetadata(
   props: PageProps<"/[locale]/thank-you">,
@@ -33,6 +34,8 @@ export default async function ThankYouPage(
 
   return (
     <section className="mx-auto flex w-full max-w-[1440px] flex-col items-center justify-center px-6 py-32 text-center md:px-10 md:py-48">
+      {/* Counts the lead in Google Analytics (only after cookie consent). */}
+      <TrackLead />
       <Rise
         eager
         as="h1"
@@ -61,7 +64,10 @@ export default async function ThankYouPage(
           href={`/${locale}`}
           className="mt-10 inline-flex items-center gap-4 border border-ink px-6 py-4 text-base transition-colors hover:bg-ink hover:text-paper"
         >
-          <span aria-hidden className={`inline-block ${isAr ? "" : "rotate-180"}`}>
+          <span
+            aria-hidden
+            className={`inline-block ${isAr ? "" : "rotate-180"}`}
+          >
             →
           </span>
           <span>{dict.thankYou.cta}</span>

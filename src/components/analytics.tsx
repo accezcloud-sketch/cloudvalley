@@ -175,13 +175,19 @@ export function Analytics({ locale }: { locale: Locale }) {
 }
 
 /** Footer link that reopens the banner. Renders nothing if analytics is off. */
-export function CookieSettingsLink({ label }: { label: string }) {
+export function CookieSettingsLink({
+  label,
+  className = "",
+}: {
+  label: string;
+  className?: string;
+}) {
   if (!GA_ID) return null;
   return (
     <button
       type="button"
       onClick={() => window.dispatchEvent(new Event("cv:cookie-settings"))}
-      className="underline underline-offset-4"
+      className={`underline underline-offset-4 ${className}`}
     >
       {label}
     </button>
