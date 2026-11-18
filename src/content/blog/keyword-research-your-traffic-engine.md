@@ -45,7 +45,7 @@ The first step is to brainstorm. Put yourself in your customer's shoes. What wou
 
 ## Tools to Help You Discover Keywords
 
-While brainstorming is crucial, specialized tools can provide data to refine your list. Google Search itself is a powerful tool. Start typing a relevant term into the search bar and see the auto-complete suggestions – these are based on real searches. Also, check the "People also ask" section and "Related searches" at the bottom of the SERP.
+While brainstorming is crucial, specialized tools can provide data to refine your list. Google Search itself is a powerful tool. Start typing a relevant term into the search bar and see the auto-complete suggestions. These are based on real searches. Also, check the "People also ask" section and "Related searches" at the bottom of the SERP.
 
 For more in-depth analysis, consider tools like:
 
@@ -96,7 +96,7 @@ Remember, the goal is to create valuable content that genuinely helps your audie
 
 ## أدوات لمساعدتكم في اكتشاف الكلمات المفتاحية
 
-بينما العصف الذهني ضروري، يمكن للأدوات المتخصصة تقديم بيانات لصقل قائمتكم. جوجل سيرش نفسه أداة قوية. ابدأوا بكتابة مصطلح ذي صلة في شريط البحث ورؤية الاقتراحات التلقائية — هذه مبنية على عمليات بحث حقيقية. أيضًا، تحققوا من قسم "أسئلة أخرى طرحها الناس" و"عمليات البحث ذات الصلة" في أسفل صفحة النتائج.
+بينما العصف الذهني ضروري، يمكن للأدوات المتخصصة تقديم بيانات لصقل قائمتكم. جوجل سيرش نفسه أداة قوية. ابدأوا بكتابة مصطلح ذي صلة في شريط البحث ورؤية الاقتراحات التلقائية. هذه مبنية على عمليات بحث حقيقية. أيضًا، تحققوا من قسم "أسئلة أخرى طرحها الناس" و"عمليات البحث ذات الصلة" في أسفل صفحة النتائج.
 
 لتحليل أعمق، فكروا في أدوات مثل:
 

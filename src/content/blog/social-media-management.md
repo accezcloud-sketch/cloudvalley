@@ -3,8 +3,8 @@ title: "Social media management as a system, not a daily hustle."
 titleAr: "إدارة السوشيال ميديا كنظام، لا كمهمةٍ يومية."
 excerpt: "How to turn chaos into a calm, repeatable process that runs your accounts professionally without consuming your time."
 excerptAr: "كيف تُحوِّل الفوضى إلى عمليةٍ هادئةٍ قابلةٍ للتكرار تُدير حساباتك باحترافية دون استهلاك وقتك."
-description: "Social media management is not about posting daily — it is a system that runs your accounts professionally without taking your time. Here is how it works."
-descriptionAr: "إدارة السوشيال ميديا ليست عن النشر اليومي — بل عن بناء نظام يُدير حساباتك باحترافية دون استهلاك وقتك. إليك كيف نحوّل الفوضى إلى عملية هادئة قابلة للتكرار."
+description: "Social media management is not about posting daily; it is a system that runs your accounts professionally without taking your time. Here is how it works."
+descriptionAr: "إدارة السوشيال ميديا ليست عن النشر اليومي، بل عن بناء نظام يُدير حساباتك باحترافية دون استهلاك وقتك. إليك كيف نحوّل الفوضى إلى عملية هادئة قابلة للتكرار."
 num: 04
 numAr: ٠٤
 kicker: Social media
@@ -25,25 +25,25 @@ Social media management is a full-time discipline. Treating it as something the 
 
 ## What professional management looks like
 
-The difference between an amateur social media presence and a professional one is not creativity — it is consistency and systems. Professional management means:
+The difference between an amateur social media presence and a professional one is not creativity; it is consistency and systems. Professional management means:
 
 - A visual content calendar published every week, reviewed and approved before anything goes live.
-- Content designed specifically for each platform — not the same image resized four times.
+- Content designed specifically for each platform, not the same image resized four times.
 - Auto-replies for common questions so customers are never left waiting.
 - Monthly performance analysis with clear metrics: reach, engagement, click-throughs, and actual leads generated.
 - Bi-weekly working sessions with you to align content with upcoming promotions, events, or product launches.
 
 ## The hidden cost of doing it yourself
 
-Business owners often think managing social media saves money. Let us run the numbers. If you spend eight hours per week on content creation, scheduling, replying, and analytics — and your time is worth two hundred riyals per hour — you are spending sixty-four hundred riyals per month on social media. You could hire a professional system for less and get better results.
+Business owners often think managing social media saves money. Let us run the numbers. If you spend eight hours per week on content creation, scheduling, replying, and analytics, and your time is worth two hundred riyals per hour, you are spending sixty-four hundred riyals per month on social media. You could hire a professional system for less and get better results.
 
-> The most expensive social media manager is the business owner who does it themselves — because their time has the highest opportunity cost.
+> The most expensive social media manager is the business owner who does it themselves, because their time has the highest opportunity cost.
 
 ## Automation without losing the human touch
 
 People worry that automation means robotic replies and soulless content. It does not have to. The parts we automate are the parts that should be automated: scheduling, recurring replies to FAQs, performance tracking, and report generation.
 
-The parts that stay human are the parts that matter: brand voice, creative direction, community engagement, and crisis response. A customer who sends a genuine complaint needs a human reply. A customer who asks about your working hours can get an instant, accurate auto-reply — and they prefer it that way.
+The parts that stay human are the parts that matter: brand voice, creative direction, community engagement, and crisis response. A customer who sends a genuine complaint needs a human reply. A customer who asks about your working hours can get an instant, accurate auto-reply, and they prefer it that way.
 
 ## Measuring what matters
 
@@ -60,7 +60,7 @@ Every metric ties back to a business outcome. If a metric does not affect revenu
 
 Most businesses cobble together a mix of scheduling tools, analytics dashboards, and spreadsheets. They end up spending more time managing the tools than managing the content. We replace that patchwork with a single, unified system: one calendar, one approval flow, one analytics report, one point of contact.
 
-The result is an account that looks like a team of ten stands behind it — even when it is just us and a well-built system.
+The result is an account that looks like a team of ten stands behind it, even when it is just us and a well-built system.
 
 <!-- AR -->
 
@@ -72,25 +72,25 @@ The result is an account that looks like a team of ten stands behind it — even
 
 ## كيف تبدو الإدارة الاحترافية
 
-الفرق بين حضور سوشيال ميديا هاوٍ وآخر احترافي ليس الإبداع — بل الاتساق والأنظمة. الإدارة الاحترافية تعني:
+الفرق بين حضور سوشيال ميديا هاوٍ وآخر احترافي ليس الإبداع، بل الاتساق والأنظمة. الإدارة الاحترافية تعني:
 
 - تقويم محتوى مرئي يُنشر كل أسبوع، يُراجَع ويُعتمَد قبل أن يظهر أي شيء.
-- محتوى مصمَّم خصيصًا لكل منصة — لا نفس الصورة مُعاد تحجيمها أربع مرات.
+- محتوى مصمَّم خصيصًا لكل منصة، لا نفس الصورة مُعاد تحجيمها أربع مرات.
 - ردود تلقائية على الأسئلة المتكرّرة حتى لا ينتظر العملاء أبدًا.
 - تحليل أداء شهري بمقاييس واضحة: الوصول، التفاعل، النقرات، والعملاء الفعليين المُولَّدين.
 - جلسات عمل نصف شهرية معك لمواءمة المحتوى مع العروض والفعاليات وإطلاقات المنتجات القادمة.
 
 ## التكلفة الخفية لفعلها بنفسك
 
-أصحاب الأعمال غالبًا يظنّون أن إدارة السوشيال ميديا بأنفسهم توفّر المال. لنحسب. إذا كنت تقضي ثماني ساعات أسبوعيًا في إنشاء المحتوى والجدولة والردود والتحليل — وقيمة وقتك مئتا ريال في الساعة — فأنت تنفق ستة آلاف وأربعمئة ريال شهريًا على السوشيال ميديا. يمكنك توظيف نظام احترافي بأقل وتحصل على نتائج أفضل.
+أصحاب الأعمال غالبًا يظنّون أن إدارة السوشيال ميديا بأنفسهم توفّر المال. لنحسب. إذا كنت تقضي ثماني ساعات أسبوعيًا في إنشاء المحتوى والجدولة والردود والتحليل، وقيمة وقتك مئتا ريال في الساعة، فأنت تنفق ستة آلاف وأربعمئة ريال شهريًا على السوشيال ميديا. يمكنك توظيف نظام احترافي بأقل وتحصل على نتائج أفضل.
 
-> أغلى مدير سوشيال ميديا هو صاحب العمل الذي يديرها بنفسه — لأن تكلفة فرصة وقته هي الأعلى.
+> أغلى مدير سوشيال ميديا هو صاحب العمل الذي يديرها بنفسه، لأن تكلفة فرصة وقته هي الأعلى.
 
 ## الأتمتة دون فقدان اللمسة البشرية
 
 الناس يقلقون أن الأتمتة تعني ردودًا آلية ومحتوى بلا روح. ليست كذلك بالضرورة. الأجزاء التي نؤتمتها هي التي يجب أن تُؤتمت: الجدولة، الردود المتكرّرة على الأسئلة الشائعة، تتبّع الأداء، وإنشاء التقارير.
 
-الأجزاء التي تبقى بشرية هي التي تهم: صوت العلامة، التوجيه الإبداعي، التفاعل مع المجتمع، والتعامل مع الأزمات. العميل الذي يُرسل شكوى حقيقية يحتاج ردًا بشريًا. العميل الذي يسأل عن ساعات العمل يمكنه الحصول على رد تلقائي فوري ودقيق — ويُفضّله.
+الأجزاء التي تبقى بشرية هي التي تهم: صوت العلامة، التوجيه الإبداعي، التفاعل مع المجتمع، والتعامل مع الأزمات. العميل الذي يُرسل شكوى حقيقية يحتاج ردًا بشريًا. العميل الذي يسأل عن ساعات العمل يمكنه الحصول على رد تلقائي فوري ودقيق، ويُفضّله.
 
 ## قياس ما يهم
 
@@ -107,4 +107,4 @@ The result is an account that looks like a team of ten stands behind it — even
 
 أغلب الشركات تجمع خليطًا من أدوات الجدولة ولوحات التحليل وجداول البيانات. ينتهي بها الأمر بقضاء وقت أطول في إدارة الأدوات من إدارة المحتوى. نستبدل هذه الرقع بنظام واحد موحَّد: تقويم واحد، ومسار اعتماد واحد، وتقرير تحليلات واحد، ونقطة تواصل واحدة.
 
-النتيجة حساب يبدو وكأن فريقًا من عشرة يقف خلفه — حتى لو كنّا نحن ونظام مبني بعناية.
+النتيجة حساب يبدو وكأن فريقًا من عشرة يقف خلفه، حتى لو كنّا نحن ونظام مبني بعناية.

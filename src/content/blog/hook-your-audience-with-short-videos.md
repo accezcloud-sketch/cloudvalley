@@ -42,7 +42,7 @@ Staying relevant means tapping into current trends, but always with your brand's
 
 ## Optimize for Each Platform
 
-While short-form video is versatile, different platforms have their own nuances. TikTok thrives on fast-paced, entertaining content, often with a humor-driven approach. Instagram Reels can be a mix of entertainment, education, and inspiration. If you're considering WhatsApp status updates, keep them short, engaging, and directly relevant to your immediate network. Always consider the aspect ratio – vertical format (9:16) is standard for mobile viewing. Think about using platform-specific features like stickers, polls, and captions to enhance engagement.
+While short-form video is versatile, different platforms have their own nuances. TikTok thrives on fast-paced, entertaining content, often with a humor-driven approach. Instagram Reels can be a mix of entertainment, education, and inspiration. If you're considering WhatsApp status updates, keep them short, engaging, and directly relevant to your immediate network. Always consider the aspect ratio: vertical format (9:16) is standard for mobile viewing. Think about using platform-specific features like stickers, polls, and captions to enhance engagement.
 
 ## Post Consistently and Analyze
 

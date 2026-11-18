@@ -21,7 +21,7 @@ In today's fast-paced digital world, every second counts. For businesses in Saud
 
 ## The High Cost of Slow Websites
 
-Think about your own online behavior. Do you patiently wait for a page to load if it's taking longer than a few seconds? Probably not. Your customers are no different. Research consistently shows that page load speed is a critical factor in user engagement and conversion rates. Every additional second a page takes to load can significantly increase your bounce rate – meaning visitors leave before they even see what you offer. This is especially true for mobile users, who make up a large percentage of internet traffic in the GCC, often browsing on the go with varying network speeds. A slow site means lost leads, fewer sales, and a damaged brand reputation. Google also prioritizes faster websites in its search rankings, so a slow site directly hurts your visibility.
+Think about your own online behavior. Do you patiently wait for a page to load if it's taking longer than a few seconds? Probably not. Your customers are no different. Research consistently shows that page load speed is a critical factor in user engagement and conversion rates. Every additional second a page takes to load can significantly increase your bounce rate, meaning visitors leave before they even see what you offer. This is especially true for mobile users, who make up a large percentage of internet traffic in the GCC, often browsing on the go with varying network speeds. A slow site means lost leads, fewer sales, and a damaged brand reputation. Google also prioritizes faster websites in its search rankings, so a slow site directly hurts your visibility.
 
 ## Optimizing Your Images: A Quick Win
 

@@ -36,7 +36,7 @@ Recognizing the right moment is crucial for a successful rebranding effort. Here
 - Your target audience has evolved, and your current brand messaging no longer resonates with their current needs, values, or preferences.
 - Competitors have launched innovative branding that overshadows yours, or the visual landscape of your industry has dramatically changed.
 - Negative perceptions or outdated associations with your brand are impacting your reputation.
-- Your brand identity elements – logo, colours, typography – feel outdated and no longer align with modern design trends or your business's ambition.
+- Your brand identity elements (logo, colours, typography) feel outdated and no longer align with modern design trends or your business's ambition.
 - You’re struggling to differentiate yourself in a crowded marketplace.
 
 ## Rebranding: Not Just a Facelift, but a Strategy
@@ -92,7 +92,7 @@ Your brand is a living entity, and like any living thing, it needs nourishment a
 - تطور جمهورك المستهدف، ورسائلك التجارية الحالية لم تعد تلقى صدى لدى احتياجاتهم وقيمهم أو تفضيلاتهم الحالية.
 - أطلق المنافسون علامات تجارية مبتكرة تطغى على علامتك، أو تغير المشهد البصري لصناعتك بشكل كبير.
 - التصورات السلبية أو الارتباطات القديمة بعلامتك التجارية تؤثر على سمعتك.
-- عناصر هويتك التجارية – الشعار، الألوان، الخطوط – تبدو قديمة ولم تعد تتماشى مع اتجاهات التصميم الحديثة أو طموح عملك.
+- عناصر هويتك التجارية (الشعار، الألوان، الخطوط) تبدو قديمة ولم تعد تتماشى مع اتجاهات التصميم الحديثة أو طموح عملك.
 - أنت تكافح للتمييز بينك وبين الآخرين في سوق مزدحم.
 
 ## إعادة هيكلة العلامة التجارية: ليس مجرد تغيير شكلي، بل استراتيجية

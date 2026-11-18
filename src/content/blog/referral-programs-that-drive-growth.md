@@ -22,7 +22,7 @@ serviceNum: 08
 > Make the sharing process effortless, perhaps via WhatsApp or a dedicated portal, and promote your program regularly.
 > Aim for a program that feels rewarding and simple to participate in, boosting customer loyalty and acquisition.
 
-Want to tap into your most valuable marketing asset – your happy customers? A well-designed referral program can bring real growth for businesses across Saudi Arabia and the Gulf. It transforms satisfied clients into enthusiastic advocates, driving genuine interest and qualified leads. Let's explore how to build one that truly works for your brand.
+Want to tap into your most valuable marketing asset: your happy customers? A well-designed referral program can bring real growth for businesses across Saudi Arabia and the Gulf. It transforms satisfied clients into enthusiastic advocates, driving genuine interest and qualified leads. Let's explore how to build one that truly works for your brand.
 
 ## Why Start a Referral Program?
 

@@ -1,8 +1,8 @@
 ---
 title: "SEO for Arabic websites: what actually moves the needle."
 titleAr: "تحسين محركات البحث للمواقع العربية: ما يُحرّك النتائج فعلاً."
-excerpt: From keyword research in local dialects to technical performance — a guide for anyone who wants real results in Arabic Google.
-excerptAr: "من البحث عن الكلمات المفتاحية باللهجات المحلية إلى الأداء التقني — دليلٌ لمن يريد نتائج حقيقية في Google العربية."
+excerpt: "From keyword research in local dialects to technical performance: a guide for anyone who wants real results in Arabic Google."
+excerptAr: "من البحث عن الكلمات المفتاحية باللهجات المحلية إلى الأداء التقني: دليلٌ لمن يريد نتائج حقيقية في Google العربية."
 description: "SEO for Arabic websites differs from English SEO. From keyword research in local dialects to technical performance, here is what really improves results."
 descriptionAr: "تحسين محركات البحث للمواقع العربية يختلف عنه في المواقع الإنجليزية. من الكلمات المفتاحية باللهجات المحلية إلى الأداء التقني، إليك ما يرفع نتائجك فعلًا."
 num: 02
@@ -26,7 +26,7 @@ Arabic search is structurally different. A single root word can generate dozens 
 ## The six mistakes we see most often
 
 - Translating English keywords into formal Arabic instead of researching what people actually type.
-- Ignoring dialect variations — a term that ranks in UAE Arabic may be invisible in Egyptian Arabic.
+- Ignoring dialect variations: a term that ranks in UAE Arabic may be invisible in Egyptian Arabic.
 - Neglecting technical SEO: slow pages, missing structured data, broken mobile layouts.
 - Publishing thin content to hit a keyword count instead of writing something genuinely useful.
 - Skipping internal linking because the site only has five pages.
@@ -34,11 +34,11 @@ Arabic search is structurally different. A single root word can generate dozens 
 
 ## Keyword research in Arabic: how to do it right
 
-The starting point is not a keyword tool — it is a conversation. What does your customer say when they describe their problem? How do they search for a solution? The answer is almost never the formal Arabic term. It is a colloquial phrase, sometimes mixed with English, sometimes misspelled.
+The starting point is not a keyword tool; it is a conversation. What does your customer say when they describe their problem? How do they search for a solution? The answer is almost never the formal Arabic term. It is a colloquial phrase, sometimes mixed with English, sometimes misspelled.
 
 > The best Arabic keywords are the ones your customer service team hears on WhatsApp every day. Start there.
 
-We start every SEO engagement by auditing the client's WhatsApp conversations, support tickets, and social media comments. These real-world phrases become the foundation of the keyword strategy — not a translated glossary from an English competitor.
+We start every SEO engagement by auditing the client's WhatsApp conversations, support tickets, and social media comments. These real-world phrases become the foundation of the keyword strategy, not a translated glossary from an English competitor.
 
 ## Technical performance is not optional
 
@@ -53,7 +53,7 @@ Fixing these technical issues often delivers more ranking improvement in the fir
 
 ## Content that ranks and converts
 
-The goal of SEO content is not to rank — it is to rank and then persuade the visitor to take action. A blog post that gets a thousand visitors and zero inquiries is a cost center, not an asset.
+The goal of SEO content is not to rank; it is to rank and then persuade the visitor to take action. A blog post that gets a thousand visitors and zero inquiries is a cost center, not an asset.
 
 Every piece of content we produce targets a specific search intent, answers the question better than the current top result, and ends with a clear next step. We measure success by leads generated, not by rankings achieved.
 
@@ -61,7 +61,7 @@ Every piece of content we produce targets a specific search intent, answers the 
 
 SEO is the only marketing channel that gets cheaper over time. A well-written article published today can generate leads for years without additional spend. Paid ads stop the moment you stop paying. SEO compounds.
 
-For Arab businesses competing in markets where most competitors have not invested in proper Arabic SEO, the opportunity window is wide open. The question is not whether to start — it is how much ground you are willing to lose by waiting.
+For Arab businesses competing in markets where most competitors have not invested in proper Arabic SEO, the opportunity window is wide open. The question is not whether to start; it is how much ground you are willing to lose by waiting.
 
 <!-- AR -->
 
@@ -74,7 +74,7 @@ For Arab businesses competing in markets where most competitors have not investe
 ## الأخطاء الستة التي نراها أكثر من غيرها
 
 - ترجمة الكلمات المفتاحية الإنجليزية إلى عربية فصحى بدلاً من البحث عمّا يكتبه الناس فعلاً.
-- تجاهل تنوّع اللهجات — مصطلح يتصدّر في عربية الإمارات قد يكون غير مرئي في العربية المصرية.
+- تجاهل تنوّع اللهجات: مصطلح يتصدّر في عربية الإمارات قد يكون غير مرئي في العربية المصرية.
 - إهمال السيو التقني: صفحات بطيئة، بيانات منظمة مفقودة، تخطيط جوال معطّل.
 - نشر محتوى سطحي لاستهداف عدد كلمات بدلاً من كتابة شيء مفيد حقًا.
 - تجاهل الروابط الداخلية لأن الموقع لا يحتوي سوى خمس صفحات.
@@ -82,11 +82,11 @@ For Arab businesses competing in markets where most competitors have not investe
 
 ## البحث عن الكلمات المفتاحية بالعربية: كيف تفعلها صح
 
-نقطة البداية ليست أداة كلمات مفتاحية — بل محادثة. ماذا يقول عميلك عندما يصف مشكلته؟ كيف يبحث عن حل؟ الجواب لن يكون المصطلح العربي الفصيح أبدًا تقريبًا. بل عبارة عامّية، أحيانًا مخلوطة بإنجليزية، وأحيانًا بأخطاء إملائية.
+نقطة البداية ليست أداة كلمات مفتاحية، بل محادثة. ماذا يقول عميلك عندما يصف مشكلته؟ كيف يبحث عن حل؟ الجواب لن يكون المصطلح العربي الفصيح أبدًا تقريبًا. بل عبارة عامّية، أحيانًا مخلوطة بإنجليزية، وأحيانًا بأخطاء إملائية.
 
 > أفضل الكلمات المفتاحية العربية هي تلك التي يسمعها فريق خدمة العملاء على واتساب كل يوم. ابدأ من هناك.
 
-نبدأ كل مشروع سيو بتدقيق محادثات واتساب العميل، وتذاكر الدعم، وتعليقات السوشيال ميديا. هذه العبارات الواقعية تصبح أساس استراتيجية الكلمات المفتاحية — لا قاموسًا مترجمًا من منافس إنجليزي.
+نبدأ كل مشروع سيو بتدقيق محادثات واتساب العميل، وتذاكر الدعم، وتعليقات السوشيال ميديا. هذه العبارات الواقعية تصبح أساس استراتيجية الكلمات المفتاحية، لا قاموسًا مترجمًا من منافس إنجليزي.
 
 ## الأداء التقني ليس اختياريًا
 
@@ -101,7 +101,7 @@ For Arab businesses competing in markets where most competitors have not investe
 
 ## محتوى يتصدّر ويُحوِّل
 
-هدف محتوى السيو ليس التصدّر — بل التصدّر ثم إقناع الزائر باتخاذ إجراء. مقال يحصل على ألف زائر وصفر استفسارات هو مركز تكلفة، لا أصل.
+هدف محتوى السيو ليس التصدّر، بل التصدّر ثم إقناع الزائر باتخاذ إجراء. مقال يحصل على ألف زائر وصفر استفسارات هو مركز تكلفة، لا أصل.
 
 كل قطعة محتوى ننتجها تستهدف نية بحث محدّدة، وتجيب على السؤال أفضل من النتيجة الأولى الحالية، وتنتهي بخطوة تالية واضحة. نقيس النجاح بالعملاء المحتملين المُولَّدين، لا بالترتيبات المُحقَّقة.
 
@@ -109,4 +109,4 @@ For Arab businesses competing in markets where most competitors have not investe
 
 السيو هو القناة التسويقية الوحيدة التي تصبح أرخص مع الوقت. مقال مكتوب جيدًا اليوم يمكن أن يُولّد عملاء محتملين لسنوات دون إنفاق إضافي. الإعلانات المدفوعة تتوقف لحظة توقفك عن الدفع. السيو يتراكم.
 
-للشركات العربية التي تتنافس في أسواق لم يستثمر فيها أغلب المنافسين في سيو عربي سليم، نافذة الفرصة مفتوحة على مصراعيها. السؤال ليس هل تبدأ — بل كم أرضًا مستعدّ أن تخسر بانتظارك.
+للشركات العربية التي تتنافس في أسواق لم يستثمر فيها أغلب المنافسين في سيو عربي سليم، نافذة الفرصة مفتوحة على مصراعيها. السؤال ليس هل تبدأ، بل كم أرضًا مستعدّ أن تخسر بانتظارك.

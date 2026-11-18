@@ -25,7 +25,7 @@ Think of your brand voice as the personality of your business. It's how you comm
 
 ## Defining Your Core Brand Voice
 
-Before you can be consistent, you need to know what your brand sounds like. This begins with a clear understanding of your brand's core values, mission, and the personality you want to project. Are you sophisticated and authoritative, friendly and approachable, innovative and energetic, or perhaps down-to-earth and practical? Consider your ideal customer in Saudi Arabia – what kind of language do they use? What resonates with them culturally? Your brand voice should be a natural extension of your business's DNA. Documenting these elements in a brand style guide is an essential first step. This guide should outline your brand's key traits, preferred terminology, and any words or phrases to avoid.
+Before you can be consistent, you need to know what your brand sounds like. This begins with a clear understanding of your brand's core values, mission, and the personality you want to project. Are you sophisticated and authoritative, friendly and approachable, innovative and energetic, or perhaps down-to-earth and practical? Consider your ideal customer in Saudi Arabia: what kind of language do they use? What resonates with them culturally? Your brand voice should be a natural extension of your business's DNA. Documenting these elements in a brand style guide is an essential first step. This guide should outline your brand's key traits, preferred terminology, and any words or phrases to avoid.
 
 ## Translating Voice to Different Platforms
 
@@ -67,7 +67,7 @@ Building a strong, consistent brand voice is a continuous journey, especially in
 
 ## تحديد الصوت الأساسي لعلامتك التجارية
 
-قبل أن تتمكن من تحقيق التناغم، تحتاج إلى معرفة كيف يبدو صوت علامتك التجارية. يبدأ هذا بفهم واضح لقيم علامتك التجارية الأساسية، ورسالتها، والشخصية التي ترغب في إبرازها. هل أنت متطور وذو سلطة، أم ودود وسهل المنال، أم مبتكر ونشيط، أم ربما عملي وواقعي؟ فكر في عميلك المثالي في السعودية – ما نوع اللغة التي يستخدمها؟ ما الذي يلقى صدى لديه ثقافيًا؟ يجب أن يكون صوت علامتك التجارية امتدادًا طبيعيًا لدي إن إيه عملك. توثيق هذه العناصر في دليل أسلوب العلامة التجارية هو خطوة أولى ضرورية. يجب أن يوضح هذا الدليل السمات الرئيسية لعلامتك التجارية، والمصطلحات المفضلة، وأي كلمات أو عبارات يجب تجنبها.
+قبل أن تتمكن من تحقيق التناغم، تحتاج إلى معرفة كيف يبدو صوت علامتك التجارية. يبدأ هذا بفهم واضح لقيم علامتك التجارية الأساسية، ورسالتها، والشخصية التي ترغب في إبرازها. هل أنت متطور وذو سلطة، أم ودود وسهل المنال، أم مبتكر ونشيط، أم ربما عملي وواقعي؟ فكر في عميلك المثالي في السعودية: ما نوع اللغة التي يستخدمها؟ ما الذي يلقى صدى لديه ثقافيًا؟ يجب أن يكون صوت علامتك التجارية امتدادًا طبيعيًا لدي إن إيه عملك. توثيق هذه العناصر في دليل أسلوب العلامة التجارية هو خطوة أولى ضرورية. يجب أن يوضح هذا الدليل السمات الرئيسية لعلامتك التجارية، والمصطلحات المفضلة، وأي كلمات أو عبارات يجب تجنبها.
 
 ## ترجمة الصوت إلى منصات مختلفة
 

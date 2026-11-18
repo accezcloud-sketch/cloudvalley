@@ -38,7 +38,7 @@ When responding to negative comments, always maintain a professional and empathe
 
 ## Turning Complaints into Opportunities
 
-Consider each negative comment as an opportunity to demonstrate your commitment to customer satisfaction. Sometimes, a well-handled complaint can result in a more loyal customer than one who never had an issue. Think about the platforms most relevant to your business in the region – perhaps a complaint on WhatsApp Business or a review on a popular local directory. Personalizing your response, using the customer's name if appropriate, and addressing the core issue directly will make your brand stand out. Aim to resolve the issue publicly where possible, or at least acknowledge the public concern before taking the conversation private if sensitive details are involved.
+Consider each negative comment as an opportunity to demonstrate your commitment to customer satisfaction. Sometimes, a well-handled complaint can result in a more loyal customer than one who never had an issue. Think about the platforms most relevant to your business in the region, perhaps a complaint on WhatsApp Business or a review on a popular local directory. Personalizing your response, using the customer's name if appropriate, and addressing the core issue directly will make your brand stand out. Aim to resolve the issue publicly where possible, or at least acknowledge the public concern before taking the conversation private if sensitive details are involved.
 
 ## Setting Up a System for Monitoring
 
@@ -78,7 +78,7 @@ If a review contains factual inaccuracies, respond politely and professionally t
 
 ## تحويل الشكاوى إلى فرص
 
-اعتبر كل تعليق سلبي فرصة لإظهار التزامك برضا العملاء. في بعض الأحيان، قد تؤدي شكوى تم التعامل معها بشكل جيد إلى عميل أكثر ولاءً من عميل لم يواجه مشكلة قط. فكر في المنصات الأكثر صلة بعملك في المنطقة – ربما شكوى على واتساب للأعمال أو مراجعة على دليل محلي شهير. إن تخصيص ردك، واستخدام اسم العميل إذا كان مناسبًا، ومعالجة المشكلة الأساسية مباشرة سيجعل علامتك التجارية تبرز. استهدف حل المشكلة علنًا حيثما أمكن، أو على الأقل الاعتراف بالاهتمام العام قبل أخذ المحادثة إلى الخاص إذا كانت تتضمن تفاصيل حساسة.
+اعتبر كل تعليق سلبي فرصة لإظهار التزامك برضا العملاء. في بعض الأحيان، قد تؤدي شكوى تم التعامل معها بشكل جيد إلى عميل أكثر ولاءً من عميل لم يواجه مشكلة قط. فكر في المنصات الأكثر صلة بعملك في المنطقة، ربما شكوى على واتساب للأعمال أو مراجعة على دليل محلي شهير. إن تخصيص ردك، واستخدام اسم العميل إذا كان مناسبًا، ومعالجة المشكلة الأساسية مباشرة سيجعل علامتك التجارية تبرز. استهدف حل المشكلة علنًا حيثما أمكن، أو على الأقل الاعتراف بالاهتمام العام قبل أخذ المحادثة إلى الخاص إذا كانت تتضمن تفاصيل حساسة.
 
 ## إعداد نظام للمراقبة
 

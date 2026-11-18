@@ -34,7 +34,7 @@ You don't need to be a cybersecurity expert to implement foundational security. 
 
 - Strong, Unique Passwords: This might seem basic, but it's the first line of defense. Use a combination of uppercase and lowercase letters, numbers, and symbols for all your website and hosting accounts. Avoid using easily guessable information like birthdates or company names. Consider using a password manager to generate and store complex passwords.
 
-- Regular Software Updates: Keep your website's content management system (CMS) – like WordPress, Joomla, or custom platforms – and all its plugins and themes up to date. Developers regularly release patches to fix security vulnerabilities. Outdated software is like leaving your digital doors wide open. This applies to your mobile apps as well, ensuring they are patched against the latest threats.
+- Regular Software Updates: Keep your website's content management system (CMS), like WordPress, Joomla, or custom platforms, and all its plugins and themes up to date. Developers regularly release patches to fix security vulnerabilities. Outdated software is like leaving your digital doors wide open. This applies to your mobile apps as well, ensuring they are patched against the latest threats.
 
 - Secure Hosting: Choose a reputable web hosting provider that offers robust security features. Look for providers that offer features like SSL certificates (which encrypt data transmitted between your website and visitors), regular backups, and firewalls. For businesses in Saudi Arabia, consider providers with local data centers for faster speeds and compliance with local data regulations.
 
