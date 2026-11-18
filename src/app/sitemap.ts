@@ -27,7 +27,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const locale of locales) {
     const posts = getAllBlogPosts(locale);
     const newestPost = posts
-      .map((p) => p.isoDate)
+      .map((p) => p.isoUpdated || p.isoDate)
       .filter((d) => !Number.isNaN(new Date(d).getTime()))
       .sort()
       .at(-1);
@@ -51,7 +51,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
 
     for (const post of posts) {
-      const published = new Date(post.isoDate);
+      // lastmod is the real "updated" date when an article was revised,
+      // otherwise its publish date.
+      const published = new Date(post.isoUpdated || post.isoDate);
       entries.push({
         url: urlFor(locale, `/blog/${post.slug}`),
         ...(Number.isNaN(published.getTime())

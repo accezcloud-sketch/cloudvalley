@@ -72,3 +72,14 @@ test("every article names one of the 8 services", () => {
     .map((p) => `${p.file}: serviceNum=${p.meta.serviceNum}`);
   assert.deepEqual(bad, []);
 });
+
+test("an 'updated' date, when present, is a real date on or after publishing", () => {
+  const bad = [];
+  for (const p of posts) {
+    if (!p.meta.updated) continue;
+    const u = new Date(p.meta.updated), d = new Date(p.meta.isoDate);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(p.meta.updated) || Number.isNaN(u.getTime()) || u < d)
+      bad.push(`${p.file}: updated=${p.meta.updated} isoDate=${p.meta.isoDate}`);
+  }
+  assert.deepEqual(bad, []);
+});

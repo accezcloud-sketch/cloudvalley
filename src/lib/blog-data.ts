@@ -25,6 +25,12 @@ export type BlogPostData = BlogListing & {
   body: BlogSection[];
   serviceNum: string;
   isoDate: string;
+  /**
+   * Optional `updated: YYYY-MM-DD` in the frontmatter. Set it only when an
+   * article's substance really changes (not for typo fixes); it is shown as
+   * "Updated …" and sent to Google as dateModified and sitemap lastmod.
+   */
+  isoUpdated: string;
 };
 
 const CONTENT_ROOT = path.join(process.cwd(), "src", "content", "blog");
@@ -171,6 +177,7 @@ function loadAll(): Record<Locale, Record<string, BlogPostData>> {
       excerpt: meta.excerpt ?? "",
       date: meta.date ?? "",
       isoDate: meta.isoDate ?? "",
+      isoUpdated: meta.updated ?? "",
       readTime: "",
       description: meta.description ?? "",
       serviceNum: meta.serviceNum ?? "",
@@ -186,6 +193,7 @@ function loadAll(): Record<Locale, Record<string, BlogPostData>> {
       excerpt: meta.excerptAr ?? meta.excerpt ?? "",
       date: meta.dateAr ?? meta.date ?? "",
       isoDate: meta.isoDate ?? "",
+      isoUpdated: meta.updated ?? "",
       readTime: "",
       description: meta.descriptionAr ?? meta.description ?? "",
       serviceNum: meta.serviceNum ?? "",

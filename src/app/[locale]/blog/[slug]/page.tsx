@@ -44,7 +44,10 @@ export async function generateMetadata(props: {
     path: `/blog/${slug}`,
     title: post.title,
     description: post.description,
-    article: { publishedTime: post.isoDate },
+    article: {
+      publishedTime: post.isoDate,
+      modifiedTime: post.isoUpdated || undefined,
+    },
     image: {
       url: coverUrl(locale, slug),
       alt: coverAlt(post.serviceNum, locale),
@@ -76,6 +79,16 @@ export default async function BlogPostPage(props: {
 
   const url = urlFor(locale, `/blog/${slug}`);
 
+  // "Updated" date, shown only when the frontmatter has a real one.
+  const updated = post.isoUpdated ? new Date(post.isoUpdated) : null;
+  const updatedLabel =
+    updated && !Number.isNaN(updated.getTime())
+      ? `${isAr ? "آخر تحديث" : "Updated"} ${new Intl.DateTimeFormat(
+          isAr ? "ar-SA-u-ca-gregory-nu-arab" : "en-US",
+          { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" },
+        ).format(updated)}`
+      : null;
+
   // Section headings, for the "On this page" list in the side panel. Ids are
   // positional so they work for Arabic and English alike.
   const headings = post.body.flatMap((s, i) =>
@@ -94,7 +107,7 @@ export default async function BlogPostPage(props: {
       headline: post.title,
       description: post.description,
       datePublished: post.isoDate,
-      dateModified: post.isoDate,
+      dateModified: post.isoUpdated || post.isoDate,
       image: coverUrl(locale, slug),
       author: { "@id": ORG_ID },
       publisher: { "@id": ORG_ID },
@@ -149,6 +162,12 @@ export default async function BlogPostPage(props: {
               style={{ fontFamily: "var(--font-mono)" }}
             >
               <span>{post.date}</span>
+              {updatedLabel && (
+                <>
+                  <span className="h-px w-6 bg-rule" />
+                  <span>{updatedLabel}</span>
+                </>
+              )}
               <span className="h-px w-6 bg-rule" />
               <span>{post.readTime}</span>
             </div>

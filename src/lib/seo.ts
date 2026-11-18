@@ -133,7 +133,7 @@ type PageMetaInput = {
   title?: string;
   description?: string;
   /** Blog posts pass "article" plus the publish date. */
-  article?: { publishedTime: string };
+  article?: { publishedTime: string; modifiedTime?: string };
   /** Page-specific share image; defaults to the site share image. */
   image?: { url: string; alt: string };
 };
@@ -171,7 +171,13 @@ export function pageMetadata({
     },
     openGraph: {
       ...(article
-        ? { type: "article" as const, publishedTime: article.publishedTime }
+        ? {
+            type: "article" as const,
+            publishedTime: article.publishedTime,
+            ...(article.modifiedTime
+              ? { modifiedTime: article.modifiedTime }
+              : {}),
+          }
         : { type: "website" as const }),
       siteName: dict.brand.name,
       url: urlFor(locale, path),
