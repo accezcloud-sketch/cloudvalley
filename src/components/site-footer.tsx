@@ -9,7 +9,7 @@ type Props = { locale: Locale; dict: Dict };
 export function SiteFooter({ locale, dict }: Props) {
   const isAr = locale === "ar";
   return (
-    <footer className="mt-32 border-t border-rule bg-paper">
+    <footer className="mt-16 border-t border-rule bg-paper">
       <div className="mx-auto w-full max-w-[1440px] px-6 py-16 md:px-10">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-12">
           <div className="md:col-span-5">
