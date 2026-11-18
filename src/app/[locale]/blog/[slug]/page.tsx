@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
+import type { ReactNode } from "react";
 import { locales, isLocale, waLink } from "@/lib/i18n";
 import { getDict } from "@/lib/dictionaries";
 import {
@@ -10,6 +11,7 @@ import {
   formatDate,
   type BlogSection,
 } from "@/lib/blog-data";
+import { parseInline } from "@/lib/article-markdown";
 import { ArticleList } from "@/components/article-list";
 import { ShareLinks } from "@/components/share-links";
 import { serviceSlugForNum } from "@/lib/service-map";
@@ -395,7 +397,7 @@ function renderSection(
           className="mt-5 text-[1.02rem] leading-[1.7] text-ink-soft"
           style={{ fontFamily: bodyFont }}
         >
-          {section.text}
+          {inline(section.text, isAr)}
         </p>
       );
     case "list":
@@ -411,7 +413,7 @@ function renderSection(
                 aria-hidden
                 className="mt-[0.8em] h-px w-3 shrink-0 bg-current text-accent"
               />
-              <span>{item}</span>
+              <span>{inline(item, isAr)}</span>
             </li>
           ))}
         </ul>
@@ -429,7 +431,7 @@ function renderSection(
             className="mt-2 text-[1.02rem] leading-[1.7] text-ink-soft"
             style={{ fontFamily: bodyFont }}
           >
-            {section.answer}
+            {inline(section.answer, isAr)}
           </p>
         </div>
       );
@@ -442,7 +444,7 @@ function renderSection(
             className="text-[1.08rem] leading-[1.65] italic text-ink"
             style={{ fontFamily: serifDisplay }}
           >
-            {section.text}
+            {inline(section.text, isAr)}
           </p>
           {section.cite && (
             <cite
@@ -454,5 +456,65 @@ function renderSection(
           )}
         </blockquote>
       );
+    case "image":
+      // Lazy loaded (next/image default) and sized from the file, so the
+      // text does not jump when it arrives. The alt text doubles as the
+      // caption; the caption is hidden from screen readers, which already
+      // read the alt text.
+      return (
+        <figure className="mt-10 mb-10">
+          <Image
+            src={section.src}
+            alt={section.alt}
+            width={section.width}
+            height={section.height}
+            sizes="(min-width: 1440px) 768px, (min-width: 1024px) 55vw, 100vw"
+            className="h-auto w-full border border-rule"
+          />
+          <figcaption
+            aria-hidden="true"
+            className="mt-3 text-[0.85rem] leading-[1.5] text-ink-mute"
+            style={{ fontFamily: bodyFont }}
+          >
+            {section.alt}
+          </figcaption>
+        </figure>
+      );
   }
+}
+
+// Links in article text: underlined in the accent colour so they read as
+// links without relying on colour alone (the colours are CSS variables, so
+// dark mode follows). Internal addresses use next/link; other sites open in
+// a new tab.
+const ARTICLE_LINK =
+  "text-ink underline decoration-accent decoration-1 underline-offset-4 transition-colors hover:text-accent focus-visible:text-accent";
+
+function inline(text: string, isAr: boolean): ReactNode {
+  const parts = parseInline(text);
+  if (parts.length === 1 && parts[0].type === "text") return parts[0].text;
+  return parts.map((p, i) => {
+    if (p.type === "text") return p.text;
+    if (!p.external) {
+      return (
+        <Link key={i} href={p.href} className={ARTICLE_LINK}>
+          {p.text}
+        </Link>
+      );
+    }
+    return (
+      <a
+        key={i}
+        href={p.href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={ARTICLE_LINK}
+      >
+        {p.text}
+        <span className="sr-only">
+          {isAr ? " (يفتح في نافذة جديدة)" : " (opens in a new tab)"}
+        </span>
+      </a>
+    );
+  });
 }

@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import type { Locale } from "./i18n";
+import { IMAGE_LINE_RE, plainText } from "./article-markdown";
 
 export type BlogSection =
   | { type: "paragraph"; text: string }
@@ -8,7 +9,13 @@ export type BlogSection =
   | { type: "list"; items: string[] }
   | { type: "quote"; text: string; cite?: string }
   /** FAQ item: a "> question" line followed by plain answer lines. */
-  | { type: "qa"; question: string; answer: string };
+  | { type: "qa"; question: string; answer: string }
+  /** A picture on its own line: ![alt](/file-in-public.png). */
+  | { type: "image"; src: string; alt: string; width: number; height: number };
+
+// Paragraph, list item, quote and FAQ answer text may contain inline links
+// ([text](/en/...)); see article-markdown.ts. Headings and FAQ questions are
+// stored as plain text.
 
 export type BlogListing = {
   num: string;
@@ -36,6 +43,54 @@ export type BlogPostData = BlogListing & {
 };
 
 const CONTENT_ROOT = path.join(process.cwd(), "src", "content", "blog");
+const PUBLIC_ROOT = path.join(process.cwd(), "public");
+
+/**
+ * Width and height of a PNG, JPEG or WebP in public/, read from the file
+ * header, so next/image can reserve the space and the page does not jump.
+ * Returns null for a missing file or another format (the image is then left
+ * out; tests/content.test.mjs fails on both).
+ */
+function imageSize(src: string): { width: number; height: number } | null {
+  const file = path.join(PUBLIC_ROOT, src);
+  if (!file.startsWith(PUBLIC_ROOT + path.sep) || !fs.existsSync(file)) {
+    return null;
+  }
+  const b = fs.readFileSync(file);
+  // PNG: IHDR width and height right after the signature.
+  if (b.length > 24 && b.toString("latin1", 1, 4) === "PNG") {
+    return { width: b.readUInt32BE(16), height: b.readUInt32BE(20) };
+  }
+  // WebP: lossy (VP8), lossless (VP8L) or extended (VP8X).
+  if (b.length > 30 && b.toString("latin1", 0, 4) === "RIFF" && b.toString("latin1", 8, 12) === "WEBP") {
+    const kind = b.toString("latin1", 12, 16);
+    if (kind === "VP8 ") {
+      return { width: b.readUInt16LE(26) & 0x3fff, height: b.readUInt16LE(28) & 0x3fff };
+    }
+    if (kind === "VP8L") {
+      const bits = b.readUInt32LE(21);
+      return { width: (bits & 0x3fff) + 1, height: ((bits >> 14) & 0x3fff) + 1 };
+    }
+    if (kind === "VP8X") {
+      return { width: b.readUIntLE(24, 3) + 1, height: b.readUIntLE(27, 3) + 1 };
+    }
+    return null;
+  }
+  // JPEG: walk the segments to the first start-of-frame marker.
+  if (b[0] === 0xff && b[1] === 0xd8) {
+    let i = 2;
+    while (i + 9 < b.length) {
+      if (b[i] !== 0xff) return null;
+      const marker = b[i + 1];
+      const len = b.readUInt16BE(i + 2);
+      if (marker >= 0xc0 && marker <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(marker)) {
+        return { width: b.readUInt16BE(i + 7), height: b.readUInt16BE(i + 5) };
+      }
+      i += 2 + len;
+    }
+  }
+  return null;
+}
 
 function parseFrontmatter(raw: string): {
   meta: Record<string, string>;
@@ -70,8 +125,17 @@ function parseBody(md: string): BlogSection[] {
     if (block.startsWith("## ")) {
       sections.push({
         type: "heading",
-        text: block.slice(3).trim(),
+        text: plainText(block.slice(3).trim()),
       });
+      continue;
+    }
+
+    const image = block.match(IMAGE_LINE_RE);
+    if (image) {
+      const size = imageSize(image[2]);
+      if (size) {
+        sections.push({ type: "image", src: image[2], alt: image[1].trim(), ...size });
+      }
       continue;
     }
 
@@ -84,10 +148,12 @@ function parseBody(md: string): BlogSection[] {
       if (qEnd > 0) {
         sections.push({
           type: "qa",
-          question: raw
-            .slice(0, qEnd)
-            .map((l) => l.replace(/^\s*>\s?/, "").trim())
-            .join(" "),
+          question: plainText(
+            raw
+              .slice(0, qEnd)
+              .map((l) => l.replace(/^\s*>\s?/, "").trim())
+              .join(" "),
+          ),
           answer: raw.slice(qEnd).join(" ").replace(/\s+/g, " ").trim(),
         });
         continue;
@@ -99,7 +165,7 @@ function parseBody(md: string): BlogSection[] {
         sections.push({
           type: "quote",
           text: lines.slice(0, -1).join(" "),
-          cite: last.replace(/^[\u2014\u2013\-]\s*/, ""),
+          cite: plainText(last.replace(/^[\u2014\u2013\-]\s*/, "")),
         });
       } else {
         sections.push({ type: "quote", text: lines.join(" ") });
@@ -130,6 +196,8 @@ function parseBody(md: string): BlogSection[] {
 // article whatever its length). About 200 words a minute, rounded up.
 const WORDS_PER_MINUTE = 200;
 
+// Links count as their anchor text only, never the address; images add no
+// words.
 function countWords(sections: BlogSection[]): number {
   const text = sections
     .map((s) =>
@@ -139,8 +207,11 @@ function countWords(sections: BlogSection[]): number {
           ? `${s.text} ${s.cite ?? ""}`
           : s.type === "qa"
             ? `${s.question} ${s.answer}`
-            : s.text,
+            : s.type === "image"
+              ? ""
+              : s.text,
     )
+    .map(plainText)
     .join(" ");
   return text.split(/\s+/).filter(Boolean).length;
 }
@@ -202,14 +273,14 @@ function loadAll(): Record<Locale, Record<string, BlogPostData>> {
     result.en[slug] = {
       slug,
       num: meta.num ?? "",
-      kicker: meta.kicker ?? "",
-      title: meta.title ?? "",
-      excerpt: meta.excerpt ?? "",
+      kicker: plainText(meta.kicker ?? ""),
+      title: plainText(meta.title ?? ""),
+      excerpt: plainText(meta.excerpt ?? ""),
       date: formatDate(meta.isoDate ?? "", "en") || (meta.date ?? ""),
       isoDate: meta.isoDate ?? "",
       isoUpdated: meta.updated ?? "",
       readTime: "",
-      description: meta.description ?? "",
+      description: plainText(meta.description ?? ""),
       serviceNum: meta.serviceNum ?? "",
       body: parseBody(enBody),
     };
@@ -218,16 +289,16 @@ function loadAll(): Record<Locale, Record<string, BlogPostData>> {
     result.ar[slug] = {
       slug,
       num: meta.numAr ?? meta.num ?? "",
-      kicker: meta.kickerAr ?? meta.kicker ?? "",
-      title: meta.titleAr ?? meta.title ?? "",
-      excerpt: meta.excerptAr ?? meta.excerpt ?? "",
+      kicker: plainText(meta.kickerAr ?? meta.kicker ?? ""),
+      title: plainText(meta.titleAr ?? meta.title ?? ""),
+      excerpt: plainText(meta.excerptAr ?? meta.excerpt ?? ""),
       date:
         formatDate(meta.isoDate ?? "", "ar") ||
         (meta.dateAr ?? meta.date ?? ""),
       isoDate: meta.isoDate ?? "",
       isoUpdated: meta.updated ?? "",
       readTime: "",
-      description: meta.descriptionAr ?? meta.description ?? "",
+      description: plainText(meta.descriptionAr ?? meta.description ?? ""),
       serviceNum: meta.serviceNum ?? "",
       body: parseBody(arBody),
     };

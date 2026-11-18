@@ -73,3 +73,54 @@ test("every article has a built cover image in both languages", () => {
     }
   assert.deepEqual(missing, []);
 });
+
+test("links and images in article text are rendered, and no link markdown reaches pages or feeds", () => {
+  const blogDir = path.join(process.cwd(), "src", "content", "blog");
+  const LINK_RE = /(?<!!)\[([^[\]\n]+)\]\(([^()\s]+)\)/g;
+  const IMAGE_LINE_RE = /^!\[([^[\]\n]+)\]\((\/[^()\s]+)\)$/gm;
+  // Raw markdown that slipped through would show as "](/" or "](https:".
+  const RAW = /\]\((\/|https:)/;
+  const bad = [];
+  let checked = 0;
+  for (const file of fs.readdirSync(blogDir).filter((f) => f.endsWith(".md"))) {
+    const slug = file.replace(/\.md$/, "");
+    const raw = fs.readFileSync(path.join(blogDir, file), "utf8");
+    const [en, ar = ""] = raw.split("<!-- AR -->");
+    for (const [locale, part] of [["en", en], ["ar", ar]]) {
+      const htmlFile = path.join(APP, locale, "blog", `${slug}.html`);
+      if (!fs.existsSync(htmlFile)) {
+        bad.push(`/${locale}/blog/${slug}: not built`);
+        continue;
+      }
+      const html = fs.readFileSync(htmlFile, "utf8");
+      // Only the visible page; the RSC payload in <script> tags repeats the text.
+      const visible = html.replace(/<script[\s\S]*?<\/script>/g, "");
+      if (RAW.test(visible)) bad.push(`/${locale}/blog/${slug}: raw link markdown in the page`);
+      for (const [, alt, src] of part.matchAll(IMAGE_LINE_RE)) {
+        checked++;
+        const esc = alt.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/'/g, "&#x27;");
+        const img = visible.match(new RegExp(`<img[^>]*alt="${esc.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}"[^>]*>`))?.[0] ?? "";
+        if (!img.includes(encodeURIComponent(src)) || !/loading="lazy"/.test(img) || !/width="\d+"/.test(img))
+          bad.push(`/${locale}/blog/${slug}: image ${src} not rendered as a lazy, sized <img>`);
+      }
+      for (const [, , href] of part.matchAll(LINK_RE)) {
+        checked++;
+        if (!visible.includes(`href="${href}"`)) bad.push(`/${locale}/blog/${slug}: link to ${href} not rendered`);
+        if (href.startsWith("https://")) {
+          const tag = visible.match(new RegExp(`<a[^>]*href="${href.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}"[^>]*>`))?.[0] ?? "";
+          if (!/target="_blank"/.test(tag) || !/rel="noopener noreferrer"/.test(tag))
+            bad.push(`/${locale}/blog/${slug}: external link ${href} must open in a new tab with rel="noopener noreferrer"`);
+        }
+      }
+    }
+  }
+  for (const locale of ["ar", "en"]) {
+    const feed = [`${locale}/feed.xml.body`, `${locale}/feed.xml`]
+      .map((f) => path.join(APP, f))
+      .find((f) => fs.existsSync(f) && fs.statSync(f).isFile());
+    if (!feed) bad.push(`/${locale}/feed.xml: not built`);
+    else if (RAW.test(fs.readFileSync(feed, "utf8"))) bad.push(`/${locale}/feed.xml: raw link markdown`);
+  }
+  assert.deepEqual(bad, []);
+  assert.ok(checked > 0, "no article links or images found to check");
+});
