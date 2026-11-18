@@ -18,6 +18,12 @@ Notes for anyone changing metadata, routing or blog content. Written 10 Aug 2026
 - `src/components/json-ld.tsx` — the only correct way to emit structured data here.
 - `src/app/robots.ts` — splits AI crawlers deliberately: **retrieval** bots (OAI-SearchBot, ChatGPT-User, PerplexityBot, Claude-SearchBot, Applebot) are allowed because a citation can send a real visitor; **training-only** bots (GPTBot, CCBot, Google-Extended, Applebot-Extended, Bytespider) are blocked because they never send traffic back. Note each crawler obeys only its own most-specific group — a named bot inherits nothing from `*`.
 - Organization + WebSite schema live on the home page only. Other pages reference them by `@id` instead of repeating the node.
+- `src/lib/blog-data.ts` — besides parsing, it works out **reading time** from the words of the language shown (the frontmatter `readTime` fields are no longer used) and picks **related articles** from the same service. `src/components/article-list.tsx` renders them under each article, on the home page and on each service page.
+- `src/lib/service-map.ts` — maps an article's `serviceNum` ("01"–"08") to its service slug. Never match on the displayed number: Arabic uses Arabic-Indic digits.
+- `src/app/[locale]/feed.xml/route.ts` — RSS feed per language, advertised on every page via `alternates.types`.
+- `src/app/[locale]/[...rest]/page.tsx` — unknown addresses under `/ar` and `/en` get the branded, translated 404.
+- `next.config.ts` — permanent redirects for changed article addresses, and the security headers.
+- `tests/` — `npm test` after a build. Add a test whenever a rule here can silently break.
 
 ## The renderer constraint — read this before touching content
 
@@ -32,6 +38,8 @@ It does **not** support bold, italics, links, tables, images or code. Anything e
 ## GEO (generative engine optimization)
 
 Posts open with a **summary block**: 2–4 lines beginning with `> `, 60–90 words, answering the article's core question on its own. The point is that an AI assistant quoting one passage still gets a correct, useful answer. Each post also carries a 3-question FAQ section.
+
+This only holds for posts written after the prompt gained these rules: as of 18 Nov 2026, 43 of 71 posts open with the summary and 44 carry the FAQ (in both languages). The older posts have neither; add them when those posts are next edited.
 
 This is produced by the n8n workflow, not by hand — see below. There is no separate "AI optimization" beyond this: Google states plainly that AI Overviews and AI Mode use the same index and ranking systems as normal Search, and that `llms.txt` neither helps nor harms.
 
