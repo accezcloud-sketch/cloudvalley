@@ -19,7 +19,11 @@ test("build output exists and is complete", () => {
   assert.ok(fs.existsSync(APP), "run `next build` first");
   // A failed or partial build leaves a few files behind; make sure the real
   // pages are there so the link check below cannot pass on an empty build.
-  for (const page of ["ar.html", "en.html", "ar/blog.html", "en/blog.html"]) {
+  for (const page of [
+    "ar.html", "en.html", "ar/blog.html", "en/blog.html",
+    "ar/faq.html", "en/faq.html",
+    "ar/blog/topic/website-design.html", "en/blog/topic/website-design.html",
+  ]) {
     assert.ok(fs.existsSync(path.join(APP, page)), `missing ${page}: build incomplete`);
   }
 });

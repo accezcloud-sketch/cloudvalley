@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { isLocale } from "@/lib/i18n";
 import { getDict } from "@/lib/dictionaries";
@@ -60,6 +61,27 @@ export default async function ContactPage(
           </Rise>
           <Rise eager delay={140}>
             <ContactDetails locale={locale} dict={dict} className="mt-8" />
+          </Rise>
+          <Rise eager delay={160}>
+            <p
+              className="mt-8 text-[0.95rem] leading-[1.6] text-ink-soft"
+              style={{
+                fontFamily: isAr
+                  ? "var(--font-sans-ar)"
+                  : "var(--font-serif-latin)",
+              }}
+            >
+              {isAr
+                ? "قد تجد إجابة سؤالك في "
+                : "Your question may already be answered in our "}
+              <Link
+                href={`/${locale}/faq`}
+                className="border-b border-ink pb-0.5 text-ink link-sweep"
+              >
+                {isAr ? "الأسئلة الشائعة" : "frequently asked questions"}
+              </Link>
+              .
+            </p>
           </Rise>
         </div>
 

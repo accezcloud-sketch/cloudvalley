@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { locales } from "@/lib/i18n";
 import { getAllBlogPosts } from "@/lib/blog-data";
 import { getAllServiceSlugs } from "@/lib/service-data";
+import { getTopics, topicPath } from "@/lib/blog-topics";
 import { urlFor, sitemapLanguagesFor } from "@/lib/seo";
 
 // /thank-you is deliberately absent: it is noindex and only reachable after a
@@ -15,6 +16,7 @@ const staticPages = [
   "/about",
   "/trust",
   "/contact",
+  "/faq",
   "/privacy",
   "/terms",
 ];
@@ -48,6 +50,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
       entries.push({
         url: urlFor(locale, `/services/${slug}`),
         alternates: { languages: sitemapLanguagesFor(`/services/${slug}`) },
+      });
+    }
+
+    // Blog topic pages (D21): lastmod is the newest article in the topic.
+    for (const topic of getTopics(locale)) {
+      const newest = topic.posts
+        .map((p) => {
+          const full = posts.find((x) => x.slug === p.slug);
+          return full ? full.isoUpdated || full.isoDate : "";
+        })
+        .filter((d) => !Number.isNaN(new Date(d).getTime()))
+        .sort()
+        .at(-1);
+      entries.push({
+        url: urlFor(locale, topicPath(topic.slug)),
+        ...(newest ? { lastModified: new Date(newest) } : {}),
+        alternates: { languages: sitemapLanguagesFor(topicPath(topic.slug)) },
       });
     }
 
