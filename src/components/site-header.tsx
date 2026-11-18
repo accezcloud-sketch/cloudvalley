@@ -108,7 +108,9 @@ export function SiteHeader({ locale, dict }: Props) {
             href={otherHref}
             className="rounded-full border border-ink/70 px-3 py-1.5 text-[0.72rem] uppercase tracking-[0.18em] text-ink transition-colors hover:bg-ink hover:text-paper"
             style={{ fontFamily: "var(--font-mono)" }}
-            aria-label={dict.nav.switchLang}
+            // The visible text is just "EN" / "ع"; say the language in full.
+            aria-label={isAr ? "English" : "العربية"}
+            lang={isAr ? "en" : "ar"}
           >
             {dict.nav.switchLang}
           </Link>
@@ -132,7 +134,7 @@ export function SiteHeader({ locale, dict }: Props) {
             type="button"
             onClick={() => setOpen((v) => !v)}
             className="relative h-10 w-10 lg:hidden"
-            aria-label="Menu"
+            aria-label={isAr ? "القائمة" : "Menu"}
             aria-expanded={open}
           >
             <span
