@@ -120,7 +120,7 @@ export default async function HomePage(props: PageProps<"/[locale]">) {
         </div>
 
         {/* marquee */}
-        <div className="relative overflow-hidden border-t border-rule bg-ink text-paper">
+        <div className="keep-dark relative overflow-hidden border-t border-rule bg-ink text-paper">
           <div className="flex whitespace-nowrap py-5">
             <div className="marquee-track flex shrink-0 items-center gap-10 pr-10">
               {[...dict.home.marquee, ...dict.home.marquee].map((w, i) => (
