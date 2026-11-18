@@ -414,6 +414,23 @@ function renderSection(
           ))}
         </ul>
       );
+    case "qa":
+      return (
+        <div className="mt-6">
+          <h3
+            className="text-[1.08rem] font-semibold leading-[1.4] text-ink"
+            style={{ fontFamily: bodyFont }}
+          >
+            {section.question}
+          </h3>
+          <p
+            className="mt-2 text-[1.02rem] leading-[1.7] text-ink-soft"
+            style={{ fontFamily: bodyFont }}
+          >
+            {section.answer}
+          </p>
+        </div>
+      );
     case "quote":
       return (
         <blockquote

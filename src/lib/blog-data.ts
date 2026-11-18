@@ -6,7 +6,9 @@ export type BlogSection =
   | { type: "paragraph"; text: string }
   | { type: "heading"; text: string }
   | { type: "list"; items: string[] }
-  | { type: "quote"; text: string; cite?: string };
+  | { type: "quote"; text: string; cite?: string }
+  /** FAQ item: a "> question" line followed by plain answer lines. */
+  | { type: "qa"; question: string; answer: string };
 
 export type BlogListing = {
   num: string;
@@ -74,9 +76,23 @@ function parseBody(md: string): BlogSection[] {
     }
 
     if (block.startsWith(">")) {
-      const lines = block
-        .split(/\r?\n/)
-        .map((l) => l.replace(/^>\s?/, "").trim());
+      // FAQ items are written as "> question" with the answer on the next
+      // line(s) without ">". Rendered as one quote, the question and answer
+      // ran together in italics; split them instead.
+      const raw = block.split(/\r?\n/);
+      const qEnd = raw.findIndex((l) => !l.trimStart().startsWith(">"));
+      if (qEnd > 0) {
+        sections.push({
+          type: "qa",
+          question: raw
+            .slice(0, qEnd)
+            .map((l) => l.replace(/^\s*>\s?/, "").trim())
+            .join(" "),
+          answer: raw.slice(qEnd).join(" ").replace(/\s+/g, " ").trim(),
+        });
+        continue;
+      }
+      const lines = raw.map((l) => l.replace(/^>\s?/, "").trim());
       const last = lines[lines.length - 1] ?? "";
       const isCite = lines.length > 1 && /^[—–\-]\s*/.test(last);
       if (isCite) {
@@ -121,7 +137,9 @@ function countWords(sections: BlogSection[]): number {
         ? s.items.join(" ")
         : s.type === "quote"
           ? `${s.text} ${s.cite ?? ""}`
-          : s.text,
+          : s.type === "qa"
+            ? `${s.question} ${s.answer}`
+            : s.text,
     )
     .join(" ");
   return text.split(/\s+/).filter(Boolean).length;
