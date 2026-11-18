@@ -200,7 +200,7 @@ export default async function ServicesPage(
               : "See our plans and choose what fits."}
           </h3>
           <Link
-            href={`/${locale}#pricing`}
+            href={`/${locale}/pricing`}
             className="md:col-span-4 inline-flex items-center justify-between gap-2 border border-ink px-5 py-4 text-base hover:bg-ink hover:text-paper transition-colors"
           >
             <span>{isAr ? "شاهد الاشتراكات" : "See the plans"}</span>

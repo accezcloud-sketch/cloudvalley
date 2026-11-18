@@ -388,7 +388,7 @@ export default async function ServiceDetailPage(props: {
                   </Link>
                 </div>
                 <Link
-                  href={`/${locale}#pricing`}
+                  href={`/${locale}/pricing`}
                   className="mt-5 inline-block border-b border-ink pb-0.5 text-[0.95rem] link-sweep"
                   style={{ fontFamily: bodyFont }}
                 >

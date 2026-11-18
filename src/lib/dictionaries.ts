@@ -17,6 +17,9 @@ export type Dict = {
     about: string;
     trust: string;
     contact: string;
+    pricing: string;
+    /** Search title of the pricing page. */
+    pricingTitle: string;
     switchLang: string;
     cta: string;
   };
@@ -183,6 +186,8 @@ const ar: Dict = {
     about: "من نحن",
     trust: "لماذا نحن",
     contact: "تواصل",
+    pricing: "الأسعار",
+    pricingTitle: "الباقات والأسعار",
     switchLang: "EN",
     cta: "تواصل على واتساب",
   },
@@ -759,6 +764,7 @@ const ar: Dict = {
         links: [
           { label: "الرئيسية", href: "/" },
           { label: "الخدمات", href: "/services" },
+          { label: "الأسعار", href: "/pricing" },
           { label: "المدوّنة", href: "/blog" },
           { label: "من نحن", href: "/about" },
           { label: "لماذا نحن", href: "/trust" },
@@ -809,6 +815,8 @@ const en: Dict = {
     about: "About",
     trust: "Why us",
     contact: "Contact",
+    pricing: "Pricing",
+    pricingTitle: "Packages and prices",
     switchLang: "ع",
     cta: "Start on WhatsApp",
   },
@@ -1385,6 +1393,7 @@ const en: Dict = {
         links: [
           { label: "Home", href: "/" },
           { label: "Services", href: "/services" },
+          { label: "Pricing", href: "/pricing" },
           { label: "Blog", href: "/blog" },
           { label: "About", href: "/about" },
           { label: "Why us", href: "/trust" },

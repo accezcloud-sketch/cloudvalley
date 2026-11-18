@@ -44,6 +44,7 @@ export function SiteHeader({ locale, dict }: Props) {
   const nav = [
     { label: dict.nav.home, href: `/${locale}` },
     { label: dict.nav.services, href: `/${locale}/services` },
+    { label: dict.nav.pricing, href: `/${locale}/pricing` },
     { label: dict.nav.blog, href: `/${locale}/blog` },
     { label: dict.nav.about, href: `/${locale}/about` },
     { label: dict.nav.trust, href: `/${locale}/trust` },

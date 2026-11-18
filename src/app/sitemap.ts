@@ -10,6 +10,7 @@ import { urlFor, sitemapLanguagesFor } from "@/lib/seo";
 const staticPages = [
   "",
   "/services",
+  "/pricing",
   "/blog",
   "/about",
   "/trust",
