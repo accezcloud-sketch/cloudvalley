@@ -7,7 +7,13 @@ import type { Locale } from "@/lib/i18n";
 import type { Dict } from "@/lib/dictionaries";
 import { waLink } from "@/lib/i18n";
 
-type Props = { locale: Locale; dict: Dict };
+// Only the strings the header shows: passing the whole dictionary to this
+// client component serialised every page's full text (legal pages, prices…)
+// into each page's HTML.
+type Props = {
+  locale: Locale;
+  dict: { nav: Dict["nav"]; brand: Pick<Dict["brand"], "name"> };
+};
 
 function stripLocale(pathname: string, locale: Locale): string {
   const prefix = `/${locale}`;

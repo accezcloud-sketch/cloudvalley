@@ -4,7 +4,7 @@ import type { Locale } from "@/lib/i18n";
 import type { Dict } from "@/lib/dictionaries";
 import { waLink } from "@/lib/i18n";
 
-type Props = { locale: Locale; dict: Dict };
+type Props = { locale: Locale; dict: { nav: Pick<Dict["nav"], "cta"> } };
 
 export function WhatsAppDock({ locale, dict }: Props) {
   const isAr = locale === "ar";

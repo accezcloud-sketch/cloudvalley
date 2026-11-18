@@ -126,11 +126,14 @@ export default async function LocaleLayout(props: LayoutProps<"/[locale]">) {
     >
       <body className="min-h-screen bg-paper text-ink paper-grain">
         <div className="relative z-10 flex min-h-screen flex-col">
-          <SiteHeader locale={locale} dict={dict} />
+          <SiteHeader
+            locale={locale}
+            dict={{ nav: dict.nav, brand: { name: dict.brand.name } }}
+          />
           <main className="flex-1">{props.children}</main>
           <SiteFooter locale={locale} dict={dict} />
         </div>
-        <WhatsAppDock locale={locale} dict={dict} />
+        <WhatsAppDock locale={locale} dict={{ nav: { cta: dict.nav.cta } }} />
         <Analytics locale={locale} />
       </body>
     </html>
