@@ -21,7 +21,7 @@ serviceNum: 03
 >
 > Your website copy should reflect a deep understanding of local culture, using language that feels natural and relatable, rather than a direct translation of Western marketing principles.
 >
-> Aim to build trust by addressing customer pain points directly and offering clear, actionable solutions. For instance, highlighting competitive pricing within the SAR 10,000 to SAR 50,000 range for a new e-commerce store setup can resonate strongly.
+> Aim to build trust by addressing customer pain points directly and offering clear, actionable solutions. For instance, being clear about what your pricing includes, such as what a new e-commerce store setup covers, can resonate strongly.
 >
 > By focusing on customer needs and speaking their language, your website copy will naturally drive engagement and conversions.
 
@@ -88,7 +88,7 @@ By applying these principles, you can transform your website from a digital broc
 >
 > يجب أن يعكس محتوى موقعك فهماً عميقاً للثقافة المحلية، مستخدماً لغة تبدو طبيعية وقريبة منهم، بدلاً من مجرد ترجمة لمبادئ التسويق الغربية.
 >
-> اسعَ لبناء الثقة عبر معالجة نقاط الألم التي يواجهها العملاء وتقديم حلول واضحة وقابلة للتنفيذ. على سبيل المثال، إبراز التسعير التنافسي ضمن نطاق 10,000 إلى 50,000 ريال سعودي لإعداد متجر إلكتروني جديد يمكن أن يحقق تفاعلاً قوياً.
+> اسعَ لبناء الثقة عبر معالجة نقاط الألم التي يواجهها العملاء وتقديم حلول واضحة وقابلة للتنفيذ. على سبيل المثال، توضيح ما يشمله تسعيرك، مثل ما يتضمنه إعداد متجر إلكتروني جديد، يمكن أن يحقق تفاعلاً قوياً.
 >
 > من خلال التركيز على احتياجات العميل والتحدث بلغتهم، سيحفز محتوى موقعك التفاعل والمبيعات بشكل طبيعي.
 

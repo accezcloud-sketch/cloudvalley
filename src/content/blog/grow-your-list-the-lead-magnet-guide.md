@@ -12,6 +12,7 @@ kickerAr: "تسويق إلكتروني"
 date: "November 13, 2026"
 dateAr: "١٣ تشرين الثاني ٢٠٢٦"
 isoDate: 2026-11-13
+updated: 2026-11-18
 readTime: "7 min"
 readTimeAr: "٧ دقائق"
 serviceNum: 08
@@ -73,7 +74,7 @@ Once you have their email addresses, the real work begins. Nurture these leads w
 Your lead magnet should be delivered almost instantly, ideally within minutes of the sign-up. Automated email systems can facilitate this, ensuring a smooth and positive user experience right from the start.
 
 > What is a reasonable budget for creating a lead magnet for a Saudi business?
-The cost can vary, but many effective lead magnets can be created with minimal outlay, potentially under 500 SAR, especially if you leverage existing content or internal expertise for simple PDFs or checklists.
+The cost depends on the format and on who creates it. Many effective lead magnets need little outlay, especially if you leverage existing content or internal expertise for simple PDFs or checklists. If you would like one designed for you, [ask us for a quote](/en/contact).
 
 > Should my lead magnet be in Arabic or English for the Saudi market?
 While English is widely understood in business circles, offering your lead magnet in Arabic will significantly broaden your reach and engagement with a larger segment of the Saudi population and target audience.
@@ -134,7 +135,7 @@ While English is widely understood in business circles, offering your lead magne
 يجب تسليم "مغناطيس جذب العملاء" الخاص بك على الفور تقريبًا، ويفضل في غضون دقائق من التسجيل. يمكن لأنظمة البريد الإلكتروني الآلية تسهيل ذلك، مما يضمن تجربة مستخدم سلسة وإيجابية منذ البداية.
 
 > ما هي الميزانية المعقولة لإنشاء مغناطيس جذب عملاء لعمل تجاري سعودي؟
-يمكن أن تختلف التكلفة، ولكن يمكن إنشاء العديد من "مغناطيسات جذب العملاء" الفعالة بأقل تكلفة، ربما أقل من 500 ريال سعودي، خاصة إذا استغلت المحتوى الحالي أو الخبرة الداخلية لإنشاء ملفات PDF أو قوائم مرجعية بسيطة.
+تعتمد التكلفة على نوع المحتوى ومن يتولى إعداده. ويمكن إنشاء العديد من "مغناطيسات جذب العملاء" الفعالة بتكلفة قليلة، خاصة إذا استغلت المحتوى الحالي أو الخبرة الداخلية لإنشاء ملفات PDF أو قوائم مرجعية بسيطة. إذا أردت أن نصمم لك واحدًا، [اطلب عرض سعر](/ar/contact).
 
 > هل يجب أن يكون مغناطيس جذب العملاء الخاص بي باللغة العربية أم الإنجليزية للسوق السعودي؟
 في حين أن اللغة الإنجليزية مفهومة على نطاق واسع في دوائر الأعمال، فإن تقديم "مغناطيس جذب العملاء" الخاص بك باللغة العربية سيزيد بشكل كبير من مدى وصولك وتفاعلك مع شريحة أكبر من السكان والجمهور المستهدف في المملكة العربية السعودية.

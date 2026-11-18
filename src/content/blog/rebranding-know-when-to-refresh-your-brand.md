@@ -12,6 +12,7 @@ kickerAr: "هوية تجارية"
 date: "October 12, 2026"
 dateAr: "١٢ تشرين الأول ٢٠٢٦"
 isoDate: 2026-10-12
+updated: 2026-11-18
 readTime: "7 min"
 readTimeAr: "٧ دقائق"
 serviceNum: 06
@@ -20,7 +21,7 @@ serviceNum: 06
 > A strong brand is your business's most valuable asset.
 > When market shifts occur or your business evolves, a strategic rebrand can re-energize your identity and reconnect you with your audience.
 > Look for signs like declining customer engagement, outdated visuals, or a mismatch with your current offerings to signal it's time for a change.
-> Consider a rebranding budget that aligns with your goals, typically starting from SAR 5,000 for core elements.
+> Consider a rebranding budget that aligns with your goals; the cost depends on the scope of work and the provider you choose.
 
 Your brand is more than just a logo or a name; it's the essence of your business, the promise you make to your customers, and how you're perceived in the bustling markets of Saudi Arabia and the wider Gulf. Over time, businesses grow, markets shift, and customer expectations evolve. When your brand starts to feel a little… off, it might be time for a strategic refresh. But how do you know when it’s time to rebrand, and more importantly, how do you do it right?
 
@@ -64,7 +65,7 @@ A successful rebrand requires careful planning and execution. Communicate your n
 A refresh might suffice if your core business offering and values remain the same but your visuals need modernizing. A full rebrand is necessary when your business direction has fundamentally changed, or your current brand identity is actively hindering growth and perception.
 
 > What is a realistic budget for rebranding in Saudi Arabia?
-Budgets vary widely, but a comprehensive rebranding effort, including logo design, colour palettes, messaging, and initial collateral, can range from SAR 5,000 to upwards of SAR 50,000, depending on the agency's expertise and the scope of work.
+Budgets vary widely. The cost of a comprehensive rebranding effort, including logo design, colour palettes, messaging, and initial collateral, depends on the scope of work and the provider. For a figure based on your needs, [ask us for a quote](/en/contact).
 
 > How long does a rebrand typically take to complete?
 A complete rebrand project can take anywhere from 8 weeks to 6 months or more. This timeline depends on the complexity of the project, the responsiveness of stakeholders, and the thoroughness of the research and creative development phases.
@@ -76,7 +77,7 @@ Your brand is a living entity, and like any living thing, it needs nourishment a
 > علامتك التجارية القوية هي أثمن أصول عملك.
 > عندما تحدث تغيرات في السوق أو يتطور عملك، يمكن لإعادة الهيكلة الاستراتيجية أن تنشط هويتك وتعيد ربطك بجمهورك.
 > ابحث عن علامات مثل تراجع تفاعل العملاء، أو صور قديمة، أو عدم تطابق مع عروضك الحالية للإشارة إلى أن الوقت قد حان للتغيير.
-> ضع في اعتبارك ميزانية لإعادة الهيكلة تتوافق مع أهدافك، تبدأ عادةً من 5,000 ريال سعودي للعناصر الأساسية.
+> ضع في اعتبارك ميزانية لإعادة الهيكلة تتوافق مع أهدافك، فالتكلفة تعتمد على نطاق العمل والجهة التي تختارها.
 
 علامتك التجارية أعمق من مجرد شعار أو اسم؛ إنها جوهر عملك، الوعد الذي تقدمه لعملائك، وكيف يُنظر إليك في الأسواق النشطة في المملكة العربية السعودية والخليج الأوسع. مع مرور الوقت، تنمو الأعمال، وتتغير الأسواق، وتتطور توقعات العملاء. عندما تبدأ علامتك التجارية بالشعور بأنها… غير مناسبة، قد يكون الوقت قد حان لتجديد استراتيجي. ولكن، كيف تعرف متى حان الوقت لإعادة الهيكلة، والأهم من ذلك، كيف تفعل ذلك بشكل صحيح؟
 
@@ -120,7 +121,7 @@ Your brand is a living entity, and like any living thing, it needs nourishment a
 قد يكون التجديد كافيًا إذا ظل عرض عملك الأساسي وقيمك كما هي ولكن بصرياتك تحتاج إلى تحديث. تعد إعادة الهيكلة الكاملة ضرورية عندما يتغير اتجاه عملك بشكل جذري، أو تعيق هويتك التجارية الحالية النمو والتصور بشكل فعال.
 
 > ما هي الميزانية الواقعية لإعادة هيكلة العلامة التجارية في المملكة العربية السعودية؟
-تختلف الميزانيات على نطاق واسع، ولكن جهود إعادة هيكلة شاملة، بما في ذلك تصميم الشعار، لوحات الألوان، الرسائل، والمواد الأولية، يمكن أن تتراوح من 5,000 ريال سعودي إلى أكثر من 50,000 ريال سعودي، اعتمادًا على خبرة الوكالة ونطاق العمل.
+تختلف الميزانيات على نطاق واسع، إذ تعتمد تكلفة إعادة الهيكلة الشاملة، بما في ذلك تصميم الشعار، لوحات الألوان، الرسائل، والمواد الأولية، على نطاق العمل والجهة المنفذة. للحصول على تقدير يناسب احتياجاتك، [اطلب عرض سعر](/ar/contact).
 
 > كم يستغرق إكمال عملية إعادة هيكلة العلامة التجارية عادةً؟
 يمكن أن تستغرق مشروع إعادة هيكلة كاملة ما بين 8 أسابيع إلى 6 أشهر أو أكثر. يعتمد هذا الجدول الزمني على مدى تعقيد المشروع، واستجابة أصحاب المصلحة، وشمولية مراحل البحث والتطوير الإبداعي.

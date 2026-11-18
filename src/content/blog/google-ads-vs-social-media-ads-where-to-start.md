@@ -51,7 +51,7 @@ The nuances of the Saudi and Gulf markets are critical. For instance, many consu
 
 ## Budget Considerations and ROI
 
-When allocating your initial SAR budget, be realistic. Both Google Ads and social media ads require ongoing optimization and testing to achieve the best results. A common starting point for many businesses in Saudi Arabia is a monthly budget ranging from 2,000 to 5,000 SAR, but this can scale significantly based on ambition and performance.
+When allocating your initial SAR budget, be realistic. Both Google Ads and social media ads require ongoing optimization and testing to achieve the best results. A sensible starting point could be a monthly budget of 2,000 to 5,000 SAR, which you can scale based on your ambition and performance.
 
 Track your [key performance indicators (KPIs)](/en/blog/maximize-ad-spend-get-real-roi) diligently. For Google Ads, this might be conversion rates and cost per acquisition (CPA). For social media, it could be engagement rates, reach, and website traffic. Understanding which platform delivers a better return on your specific business objectives will guide future spending decisions.
 
@@ -105,7 +105,7 @@ Track your [key performance indicators (KPIs)](/en/blog/maximize-ad-spend-get-re
 
 ## اعتبارات الميزانية وعائد الاستثمار
 
-عند تخصيص ميزانيتك الأولية بالريال السعودي، كن واقعيًا. تتطلب كل من إعلانات جوجل وإعلانات وسائل التواصل الاجتماعي تحسينًا واختبارًا مستمرين لتحقيق أفضل النتائج. نقطة انطلاق شائعة للعديد من الشركات في السعودية هي ميزانية شهرية تتراوح من 2,000 إلى 5,000 ريال سعودي، ولكن هذا يمكن أن يتوسع بشكل كبير بناءً على الطموح والأداء.
+عند تخصيص ميزانيتك الأولية بالريال السعودي، كن واقعيًا. تتطلب كل من إعلانات جوجل وإعلانات وسائل التواصل الاجتماعي تحسينًا واختبارًا مستمرين لتحقيق أفضل النتائج. قد تكون الميزانية الشهرية من 2,000 إلى 5,000 ريال سعودي نقطة انطلاق معقولة، ويمكنك توسيعها بناءً على طموحك والأداء.
 
 تتبع [مؤشرات الأداء الرئيسية (KPIs)](/ar/blog/maximize-ad-spend-get-real-roi) الخاصة بك بجدية. بالنسبة لإعلانات جوجل، قد يكون هذا معدلات التحويل وتكلفة الاستحواذ (CPA). بالنسبة لوسائل التواصل الاجتماعي، قد يكون هذا معدلات التفاعل، والوصول، وحركة مرور الموقع. فهم المنصة التي تحقق عائدًا أفضل على أهداف عملك المحددة سيوجه قرارات الإنفاق المستقبلية.
 

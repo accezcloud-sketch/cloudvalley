@@ -19,7 +19,7 @@ serviceNum: 08
 
 > A strong Call to Action (CTA) is your most direct path to conversion.
 > It should be clear, concise, and create a sense of urgency or value.
-> For businesses in Saudi Arabia, consider CTAs that prompt direct WhatsApp inquiries or lead to [specific product pages](/en/blog/design-product-pages-that-sell) on your e-commerce site, aiming for a SAR 500 - 2000 budget range for initial campaign setup.
+> For businesses in Saudi Arabia, consider CTAs that prompt direct WhatsApp inquiries or lead to [specific product pages](/en/blog/design-product-pages-that-sell) on your e-commerce site.
 > Effective CTAs guide users on what to do next, turning passive browsing into active engagement.
 
 In the competitive digital landscape of Saudi Arabia and the wider Gulf region, simply having a great product or service isn't enough. You need to guide your audience, at every step of their journey, towards the desired action. This is where the humble yet powerful Call to Action (CTA) comes into play. A well-crafted CTA is not just a button; it's a persuasive invitation, a clear directive that transforms potential interest into tangible results.
@@ -80,7 +80,7 @@ By consistently analyzing these metrics and making data-driven adjustments, you 
 
 > يعدّ النداء لاتخاذ إجراء (CTA) القوي هو أقصر طريق لك نحو التحويل.
 > يجب أن يكون واضحًا وموجزًا، ويخلق إحساسًا بالإلحاح أو القيمة.
-> بالنسبة للشركات في السعودية، ضع في اعتبارك استخدام عبارات تحفيزية تشجع على الاستفسارات المباشرة عبر واتساب أو تقود إلى [صفحات منتجات محددة](/ar/blog/design-product-pages-that-sell) على موقع التجارة الإلكترونية الخاص بك، مستهدفًا نطاق ميزانية يتراوح بين 500 - 2000 ريال سعودي لإعداد حملة مبدئية.
+> بالنسبة للشركات في السعودية، ضع في اعتبارك استخدام عبارات تحفيزية تشجع على الاستفسارات المباشرة عبر واتساب أو تقود إلى [صفحات منتجات محددة](/ar/blog/design-product-pages-that-sell) على موقع التجارة الإلكترونية الخاص بك.
 > تدعو العبارات التحفيزية الفعالة المستخدمين إلى الخطوة التالية، محولة التصفح السلبي إلى تفاعل نشط.
 
 في المشهد الرقمي التنافسي للمملكة العربية السعودية ومنطقة الخليج الأوسع، لا يكفي مجرد امتلاك منتج أو خدمة رائعة. تحتاج إلى توجيه جمهورك، في كل خطوة من رحلتهم، نحو الإجراء المطلوب. هنا يأتي دور عبارة "النداء لاتخاذ إجراء" (Call to Action - CTA)، المتواضعة والقوية في آن واحد. الـ CTA المصاغ ببراعة ليس مجرد زر؛ إنه دعوة مقنعة، توجيه واضح يحول الاهتمام المحتمل إلى نتائج ملموسة.

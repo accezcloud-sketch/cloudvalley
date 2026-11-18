@@ -12,6 +12,7 @@ kickerAr: "تجارة إلكترونية"
 date: "October 16, 2026"
 dateAr: "١٦ تشرين الأول ٢٠٢٦"
 isoDate: 2026-10-16
+updated: 2026-11-18
 readTime: "8 min"
 readTimeAr: "٧ دقائق"
 serviceNum: 07
@@ -82,7 +83,7 @@ The transaction isn't over once the payment is made. A positive post-purchase ex
 For e-commerce in Saudi Arabia, Mada, credit/debit cards (Visa, Mastercard), and increasingly, digital wallets are the most popular. Cash on Delivery also remains significant for a portion of the market.
 
 > How much does it typically cost to set up payment gateways?
-Costs vary, but expect setup fees ranging from 200 SAR to 1,000 SAR for basic integrations, plus monthly fees and per-transaction charges, often around 1.5% to 3.5% of the transaction value.
+Costs vary by provider. A gateway may charge a setup fee, monthly fees and per-transaction charges, so compare each provider's current fee schedule before you choose. If you would like us to set up payments on your store, [ask us for a quote](/en/contact).
 
 > Can I offer WhatsApp payments directly on my website?
 While direct WhatsApp payments within your website’s checkout flow are not standard, you can integrate systems that generate payment links sent via WhatsApp or allow customers to initiate payment conversations through a WhatsApp button on your site.
@@ -158,7 +159,7 @@ At Cloud Valley, we understand the nuances of the Saudi and Gulf digital landsca
 بالنسبة للتجارة الإلكترونية في السعودية، تعد مدى، وبطاقات الائتمان/الخصم (فيزا، ماستركارد)، وبشكل متزايد، المحافظ الرقمية هي الأكثر شيوعاً. لا يزال الدفع عند الاستلام مهماً أيضاً لشريحة من السوق.
 
 > كم تبلغ تكلفة إعداد بوابات الدفع عادةً؟
-تختلف التكاليف، ولكن توقع رسوم إعداد تتراوح من 200 ريال سعودي إلى 1000 ريال سعودي للتكاملات الأساسية، بالإضافة إلى رسوم شهرية ورسوم لكل معاملة، غالباً ما تكون حوالي 1.5% إلى 3.5% من قيمة المعاملة.
+تختلف التكاليف حسب مزود الخدمة. قد تفرض بوابة الدفع رسوم إعداد ورسوماً شهرية ورسوماً لكل معاملة، لذا قارن جدول الرسوم الحالي لكل مزود قبل أن تختار. إذا أردت أن نتولى إعداد الدفع في متجرك، [اطلب عرض سعر](/ar/contact).
 
 > هل يمكنني تقديم مدفوعات WhatsApp مباشرة على موقعي؟
 في حين أن مدفوعات WhatsApp المباشرة ضمن تدفق الدفع على موقعك ليست قياسية، يمكنك دمج أنظمة تقوم بإنشاء روابط دفع يتم إرسالها عبر WhatsApp أو تسمح للعملاء ببدء محادثات الدفع عبر زر WhatsApp على موقعك.

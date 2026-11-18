@@ -57,7 +57,7 @@ While there's no guaranteed formula for virality, focus on creating highly engag
 The ideal length for short-form videos is generally between 15 to 30 seconds, as this maximizes viewer retention and engagement on platforms like TikTok and Instagram Reels. Shorter is often better to deliver your message impactfully.
 
 > How much should I budget for promoting short videos in Saudi Arabia?
-A typical monthly budget for promoting short-form videos could range from 500 SAR to 1,000 SAR, depending on your goals and the platforms used. This investment can help boost visibility and reach a wider audience in the region.
+A reasonable starting budget for promoting short-form videos could be 500 SAR to 1,000 SAR per month, depending on your goals and the platforms used. This investment can help boost visibility and reach a wider audience in the region.
 
 <!-- AR -->
 
@@ -101,4 +101,4 @@ A typical monthly budget for promoting short-form videos could range from 500 SA
 الطول المثالي للفيديوهات القصيرة يتراوح عموماً بين 15 و 30 ثانية، حيث أن هذا يزيد من احتفاظ المشاهدين وتفاعلهم على منصات مثل تيك توك وإنستغرام ريلز. غالباً ما يكون الأقصر أفضل لتقديم رسالتك بفعالية.
 
 > كم يجب أن أخصص ميزانية للترويج للفيديوهات القصيرة في السعودية؟
-يمكن أن تتراوح ميزانية شهرية نموذجية للترويج للفيديوهات القصيرة من 500 ريال سعودي إلى 1000 ريال سعودي، اعتماداً على أهدافك والمنصات المستخدمة. يمكن لهذا الاستثمار المساعدة في تعزيز الرؤية والوصول إلى جمهور أوسع في المنطقة.
+يمكن أن تكون الميزانية الشهرية المعقولة للبدء في الترويج للفيديوهات القصيرة من 500 ريال سعودي إلى 1000 ريال سعودي، اعتماداً على أهدافك والمنصات المستخدمة. يمكن لهذا الاستثمار المساعدة في تعزيز الرؤية والوصول إلى جمهور أوسع في المنطقة.

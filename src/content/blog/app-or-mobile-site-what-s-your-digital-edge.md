@@ -12,6 +12,7 @@ kickerAr: "تطبيقات"
 date: "August 23, 2026"
 dateAr: "٢٣ آب ٢٠٢٦"
 isoDate: 2026-08-23
+updated: 2026-11-18
 readTime: "7 min"
 readTimeAr: "٦ دقائق"
 serviceNum: 05
@@ -82,7 +83,7 @@ Sometimes, the best approach is a hybrid one: start with a strong mobile website
 
 > How much does a mobile app cost in Saudi Arabia?
 >
-> The cost of building a mobile app in Saudi Arabia can range significantly, typically from SAR 20,000 for a simple app to upwards of SAR 150,000 or more for complex, feature-rich applications. Factors like design, functionality, and development platform heavily influence pricing.
+> The cost of building a mobile app depends on the scope: a simple app costs far less than a complex, feature-rich one. Factors like design, functionality, and development platform heavily influence pricing. For a figure based on your needs, [ask us for a quote](/en/contact).
 
 > When is a mobile website sufficient?
 >
@@ -159,7 +160,7 @@ Sometimes, the best approach is a hybrid one: start with a strong mobile website
 
 > كم تكلفة تطبيق جوال في السعودية؟
 >
-> يمكن أن تتراوح تكلفة بناء تطبيق جوال في السعودية بشكل كبير، عادةً من 20,000 ريال سعودي لتطبيق بسيط إلى ما يزيد عن 150,000 ريال سعودي أو أكثر للتطبيقات المعقدة والغنية بالميزات. تؤثر عوامل مثل التصميم، الوظائف، ومنصة التطوير بشكل كبير على التسعير.
+> تعتمد تكلفة بناء تطبيق جوال على نطاق العمل: فالتطبيق البسيط أقل تكلفة بكثير من التطبيقات المعقدة والغنية بالميزات. تؤثر عوامل مثل التصميم، الوظائف، ومنصة التطوير بشكل كبير على التسعير. للحصول على تقدير يناسب احتياجاتك، [اطلب عرض سعر](/ar/contact).
 
 > متى يكون موقع الجوال كافياً؟
 >
