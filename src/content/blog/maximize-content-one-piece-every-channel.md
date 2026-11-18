@@ -3,7 +3,7 @@ title: "Maximize Content: One Piece, Every Channel"
 titleAr: "استثمار المحتوى: قطعة واحدة، قنوات متعددة"
 excerpt: "Discover how to transform a single content piece into a multi-channel marketing powerhouse, boosting reach and engagement across all your digital platforms."
 excerptAr: "اكتشف كيف تحول قطعة محتوى واحدة إلى قوة تسويقية متعددة القنوات، تعزز الوصول والتفاعل عبر جميع منصاتك الرقمية."
-description: "Learn practical strategies to repurpose one core content asset across diverse channels like social media, email, and your website to maximize its impact and reach a wider audience in Saudi Arabia and the Gulf."
+description: "How to repurpose one core piece of content across social media, email and your website to extend its reach to more people in Saudi Arabia and the Gulf."
 descriptionAr: "تعلم كيف تستفيد من قطعة محتوى واحدة لزيادة وصولك وتفاعلك عبر قنوات التسويق الرقمي المختلفة، مما يعزز عائد الاستثمار."
 num: 03
 numAr: ٠٣

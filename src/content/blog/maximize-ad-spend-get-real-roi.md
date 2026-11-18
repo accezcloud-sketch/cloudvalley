@@ -3,7 +3,7 @@ title: "Maximize Ad Spend: Get Real ROI"
 titleAr: "مضاعفة ميزانية إعلاناتك: تحقيق عائد استثمار حقيقي"
 excerpt: "Achieve a genuine return on your advertising budget by focusing on clear goals, understanding your audience, and leveraging data-driven strategies for measurable results."
 excerptAr: "حقق عائداً حقيقياً على ميزانيتك الإعلانية بالتركيز على أهداف واضحة، وفهم جمهورك، واستغلال استراتيجيات تعتمد على البيانات لتحقيق نتائج قابلة للقياس."
-description: "Discover how to ensure your advertising budget delivers tangible results for your business. Learn to set precise objectives, target the right Saudi and Gulf audiences, and use analytics to optimize campaigns for maximum return on investment."
+description: "Get real ROI from your ad spend: set precise objectives, target the right Saudi and Gulf audiences and use analytics to improve your campaigns over time."
 descriptionAr: "دليلك الشامل لمضاعفة ميزانيتك الإعلانية في السعودية والخليج، مع التركيز على الأهداف الواضحة، وفهم الجمهور، واستخدام البيانات لتحقيق أقصى عائد استثمار."
 num: 08
 numAr: ٠٨

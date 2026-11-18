@@ -3,7 +3,7 @@ title: "Is Your Website Outdated? 10 Red Flags"
 titleAr: "هل موقعك الإلكتروني بحاجة لتحديث؟ 10 علامات تدل على ذلك"
 excerpt: "Your business website is your digital storefront; ensure it’s working hard for you."
 excerptAr: "موقع شركتك الإلكتروني هو واجهتك الرقمية، تأكد أنه يعمل بكفاءة لمصلحتك."
-description: "Discover 10 clear signs your current website is holding your business back and needs a professional redesign for better engagement and conversions in Saudi Arabia."
+description: "10 clear signs your website is holding your business back and needs a professional redesign to improve engagement and conversions in Saudi Arabia."
 descriptionAr: "تعرف على 10 علامات واضحة تدل على أن موقع شركتك الإلكتروني يحتاج إلى تحديث شامل لتعزيز حضورك الرقمي وتحقيق نمو في سوق المملكة والخليج."
 num: 01
 numAr: ٠١

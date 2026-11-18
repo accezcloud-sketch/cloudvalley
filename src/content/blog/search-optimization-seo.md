@@ -3,8 +3,8 @@ title: "SEO for Arabic websites: what actually moves the needle."
 titleAr: "تحسين محركات البحث للمواقع العربية: ما يُحرّك النتائج فعلاً."
 excerpt: From keyword research in local dialects to technical performance — a guide for anyone who wants real results in Arabic Google.
 excerptAr: "من البحث عن الكلمات المفتاحية باللهجات المحلية إلى الأداء التقني — دليلٌ لمن يريد نتائج حقيقية في Google العربية."
-description: "SEO for Arabic websites is not the same as SEO in English. From keyword research in local dialects to technical performance, here is what actually moves the needle for businesses targeting Arab audiences."
-descriptionAr: "تحسين محركات البحث للمواقع العربية ليس كالإنجليزية. من البحث عن الكلمات المفتاحية باللهجات المحلية إلى الأداء التقني، إليك ما يُحرّك النتائج فعلاً للشركات التي تستهدف الجمهور العربي."
+description: "SEO for Arabic websites differs from English SEO. From keyword research in local dialects to technical performance, here is what really improves results."
+descriptionAr: "تحسين محركات البحث للمواقع العربية يختلف عنه في المواقع الإنجليزية. من الكلمات المفتاحية باللهجات المحلية إلى الأداء التقني، إليك ما يرفع نتائجك فعلًا."
 num: 02
 numAr: ٠٢
 kicker: SEO

@@ -3,7 +3,7 @@ title: "Boost Sales with CRO Explained"
 titleAr: "ضاعف مبيعاتك: دليلك لفهم تحسين معدل التحويل (CRO)"
 excerpt: "Conversion rate optimization (CRO) is the process of improving your website to increase the percentage of visitors who take a desired action."
 excerptAr: "تحسين معدل التحويل (CRO) هو عملية استراتيجية تهدف إلى زيادة نسبة زوار موقعك الإلكتروني الذين يتخذون إجراءً مرغوبًا، مما يعزز العملاء والإيرادات."
-description: "Learn what conversion rate optimization is and why it's crucial for your Saudi or Gulf business to maximize ROI from your digital marketing efforts. Understand how CRO impacts revenue and customer acquisition."
+description: "Conversion rate optimization (CRO) explained for Saudi and Gulf businesses: what it is, how it affects revenue and new customers, and why it raises ROI."
 descriptionAr: "اكتشف كيف يمكن لتحسين معدل التحويل (CRO) أن يحدث نقلة نوعية في أداء عملك الرقمي بالمملكة والخليج، وزيادة مبيعاتك دون زيادة الإنفاق الإعلاني."
 num: 08
 numAr: ٠٨

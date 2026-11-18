@@ -3,7 +3,7 @@ title: "Build Your Digital Engine Wisely"
 titleAr: "ابنِ محركك الرقمي بحكمة"
 excerpt: "Choosing the right tech stack is crucial for achieving your business goals."
 excerptAr: "اختيار حزمة التقنية المناسبة هو مفتاح تحقيق أهداف عملك الرقمية."
-description: "Select a tech stack that aligns with your budget, team expertise, and growth objectives. Consider scalability and integration needs for a robust digital presence."
+description: "How to choose a tech stack that fits your budget, team skills and growth goals, with scalability and integration in mind, for a solid digital presence."
 descriptionAr: "دليلك لبناء أساس رقمي قوي يدعم أهداف عملك في السعودية والخليج، مع التركيز على اختيار التقنيات المناسبة والميزانية."
 num: 08
 numAr: ٠٨

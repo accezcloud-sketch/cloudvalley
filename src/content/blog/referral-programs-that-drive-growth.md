@@ -3,7 +3,7 @@ title: "Referral Programs That Drive Growth"
 titleAr: "برامج الإحالة التي تقود النمو"
 excerpt: "Create a customer referral program by clearly defining rewards, making it easy to share, and actively promoting it."
 excerptAr: "ابدأ ببرنامج إحالة للعملاء عن طريق تحديد مكافآت واضحة، وتسهيل المشاركة، والترويج المستمر له."
-description: "Learn how to build a successful customer referral program to drive business growth and acquire new customers cost-effectively. Understand key elements like rewards, promotion, and tracking."
+description: "How to build a customer referral program that drives growth and brings in new customers cost-effectively, covering rewards, promotion and tracking."
 descriptionAr: "تعلم كيف يمكن لبرامج الإحالة الفعالة أن تحول عملائك السعداء إلى سفراء لعلامتك التجارية، مما يعزز النمو المستدام والمبيعات في السوق السعودي والخليجي."
 num: 08
 numAr: ٠٨

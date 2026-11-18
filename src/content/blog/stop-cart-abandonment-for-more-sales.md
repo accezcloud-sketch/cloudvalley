@@ -3,7 +3,7 @@ title: "Stop Cart Abandonment for More Sales"
 titleAr: "تخلصوا من سلات التسوق المهجورة لزيادة المبيعات"
 excerpt: "Discover why shoppers leave their carts and learn actionable strategies to recover lost sales, from simplifying checkout to offering localized payment options."
 excerptAr: "اكتشفوا أسباب تخلي المتسوقين عن سلاتهم وتعرفوا على استراتيجيات عملية لاستعادة المبيعات المفقودة، من تبسيط عملية الدفع إلى تقديم خيارات دفع محلية."
-description: "Understand the top reasons for cart abandonment in e-commerce and implement practical solutions to improve conversion rates and boost revenue for your Saudi or Gulf business."
+description: "The main reasons shoppers abandon carts, and practical fixes that raise conversion rates and revenue for online stores in Saudi Arabia and the Gulf."
 descriptionAr: "دليل شامل لأصحاب الأعمال في السعودية والخليج للتغلب على مشكلة سلات التسوق المهجورة، مع استراتيجيات فعالة لزيادة التحويلات واستعادة المبيعات المفقودة."
 num: 07
 numAr: ٠٧

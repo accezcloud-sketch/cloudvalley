@@ -3,7 +3,7 @@ title: Your customers are on their phones — is your brand there?
 titleAr: "عملاؤك على هواتفهم — هل علامتك هناك؟"
 excerpt: "Why a mobile app is not a luxury, and how to design it right for Arab markets."
 excerptAr: "لماذا تطبيق الجوال ليس ترفًا، وكيف تصمّمه بالطريقة الصحيحة للسوق العربي."
-description: Your customers live on their phones. A well-designed mobile app is not a luxury — it is the shortest path between your brand and a paying customer. Here is how to get it right for Arab markets.
+description: "Mobile app design for Arab markets — a well-designed app is not a luxury but the shortest path from your brand to a paying customer. How to get it right."
 descriptionAr: "عملاؤك يعيشون على هواتفهم. التطبيق المصمّم بعناية ليس ترفًا — بل أقصر مسافةٍ بين علامتك والعميل الذي يدفع. إليك كيف تصمّمه للسوق العربي."
 num: 05
 numAr: ٠٥

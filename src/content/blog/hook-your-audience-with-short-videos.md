@@ -3,7 +3,7 @@ title: "Hook Your Audience with Short Videos"
 titleAr: "اجذب جمهورك بفيديوهات قصيرة ومؤثرة"
 excerpt: "Master short-form video to capture attention, drive engagement, and boost your brand presence across platforms like TikTok and Instagram."
 excerptAr: "اتقن فيديوهات المحتوى القصير لتخطف الأنظار، تزيد التفاعل، وتعزز حضور علامتك التجارية عبر منصات مثل تيك توك وإنستغرام."
-description: "Learn essential strategies for creating impactful short-form videos that resonate with audiences in Saudi Arabia and the Gulf. Boost your digital marketing efforts with practical tips for engagement and growth."
+description: "Short-form video strategies for Saudi and Gulf audiences: practical tips to create videos that resonate, increase engagement and support your marketing."
 descriptionAr: "دليلك لإنشاء فيديوهات قصيرة ناجحة في السعودية ودول الخليج. تعلّم كيف تجذب العملاء، تزيد التفاعل، وتعزز علامتك التجارية في السوق المحلي."
 num: 03
 numAr: ٠٣

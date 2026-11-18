@@ -3,8 +3,8 @@ title: Your website is not a brochure — it is your best salesperson.
 titleAr: "موقعك ليس كتيّبًا — بل أفضلُ مندوبِ مبيعاتٍ لديك."
 excerpt: "Why templates lose your customers, and how a custom-built site converts visitors into revenue around the clock."
 excerptAr: "لماذا يخسرُ القالبُ الجاهزُ عملاءَك، وكيف يُحوِّل الموقعُ المخصّصُ الزوّارَ إلى إيرادٍ على مدارِ الساعة."
-description: Your website is not a brochure — it is your best salesperson. Learn why custom web design matters for Arab businesses and how a well-built site converts visitors into leads around the clock.
-descriptionAr: "موقعك ليس كتيّبًا رقميًا — بل هو أفضل مندوب مبيعات لديك. تعرَّف على أهمية التصميم المخصّص للمواقع العربية وكيف يحوّل الموقع الجيد الزوّار إلى عملاء على مدار الساعة."
+description: "Custom web design for Arab businesses — your site is your best salesperson, not a brochure: a well-built site turns visitors into leads around the clock."
+descriptionAr: "موقعك ليس كتيّبًا رقميًا — بل أفضل مندوب مبيعات لديك. لماذا يهمّ التصميم المخصص للمواقع العربية، وكيف يحوّل الموقع الجيد زواره إلى عملاء على مدار الساعة."
 num: 01
 numAr: ٠١
 kicker: Design

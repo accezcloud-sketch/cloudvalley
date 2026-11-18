@@ -3,7 +3,7 @@ title: "Your Brand's Voice: Consistency Across All Channels"
 titleAr: "صوت علامتك التجارية: التناغم في كل قنوات التواصل"
 excerpt: "A consistent brand voice builds trust and recognition, crucial for success in the dynamic Gulf market."
 excerptAr: "بناء صوت متناسق لعلامتك التجارية يعزز الثقة والتميز، وهو أمر حيوي للنجاح في سوق الخليج الديناميكي."
-description: "Discover practical strategies to maintain a unified brand voice across all your digital platforms, from social media to your website. Learn how to connect with your Saudi and Gulf audiences authentically."
+description: "How to keep a consistent brand voice across your website, social media and other digital channels, and connect authentically with Saudi and Gulf audiences."
 descriptionAr: "اكتشف أهمية توحيد صوت علامتك التجارية عبر كافة المنصات الرقمية في السعودية والخليج، وكيف يعزز الثقة والولاء لدى العملاء."
 num: 06
 numAr: ٠٦

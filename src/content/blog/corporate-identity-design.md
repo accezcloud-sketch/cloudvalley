@@ -3,7 +3,7 @@ title: Your brand is recognized before it is read — or not at all.
 titleAr: "علامتك تُعرَف قبل أن تُقرأ — أو لا تُعرَف أبدًا."
 excerpt: "Why a logo alone is not enough, and how to build a visual identity that works equally well in Arabic and English."
 excerptAr: "لماذا الشعار وحده لا يكفي، وكيف تبني هوية بصرية تعمل بالعربية والإنجليزية بنفس القوة."
-description: A strong corporate identity is not a logo — it is the visual language that makes your brand recognizable before a single word is read. Here is why Arab businesses need more than a template.
+description: "Corporate identity is more than a logo — it is the visual language that makes your brand known before a word is read, and why Arab businesses need it."
 descriptionAr: "الهوية التجارية القوية ليست شعارًا — بل اللغة البصرية التي تجعل علامتك معروفة قبل أن تُقرأ كلمة واحدة. إليك لماذا تحتاج الشركات العربية أكثر من قالب."
 num: 06
 numAr: ٠٦

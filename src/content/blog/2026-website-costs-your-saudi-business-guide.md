@@ -3,7 +3,7 @@ title: "2026 Website Costs: Your Saudi Business Guide"
 titleAr: "تكاليف تصميم المواقع الإلكترونية في 2026: دليلك لقطاع الأعمال السعودي"
 excerpt: "Unpack the real costs of building a high-performing website for your Saudi business in 2026."
 excerptAr: "تعرّف على التكاليف الحقيقية لبناء موقع إلكتروني احترافي يلبي احتياجات أعمالك في السعودية عام 2026."
-description: "Discover the 2026 website cost breakdown for businesses in Saudi Arabia. Get practical insights on investing in a digital presence that drives growth in Riyadh and beyond."
+description: "Website costs in Saudi Arabia for 2026, broken down for business owners, with practical advice on a site that drives growth in Riyadh and beyond."
 descriptionAr: "دليلك الشامل لتكاليف تصميم وتطوير المواقع الإلكترونية في السعودية عام 2026، مع التركيز على الاستثمار في النمو وتحسين تجربة العملاء."
 num: 01
 numAr: ٠١

@@ -3,7 +3,7 @@ title: "Social Media Posting Frequency: Finding the Sweet Spot"
 titleAr: "وتيرة نشر المحتوى على وسائل التواصل الاجتماعي: إيجاد التوازن المثالي"
 excerpt: "Discover the optimal social media posting schedule for your business to maximize engagement and growth across platforms."
 excerptAr: "اكتشف الجدول الزمني الأمثل لنشر المحتوى عبر وسائل التواصل الاجتماعي لشركتك لتعزيز التفاعل والنمو عبر المنصات المختلفة."
-description: "Learn how often your business should post on social media for maximum impact. This guide helps Saudi and Gulf businesses navigate the complexities of social media frequency."
+description: "How often should your business post on social media? A guide for Saudi and Gulf businesses to find the posting frequency that brings the most impact."
 descriptionAr: "دليلك لضبط وتيرة نشر المحتوى على وسائل التواصل الاجتماعي في السوق السعودي والخليجي لزيادة التفاعل وتحقيق أهداف عملك."
 num: 04
 numAr: ٠٤

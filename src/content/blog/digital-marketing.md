@@ -3,8 +3,8 @@ title: Stop spending more — start spending smarter.
 titleAr: "توقّف عن إنفاق أكثر — وابدأ بإنفاق أذكى."
 excerpt: "How to build a digital marketing engine that delivers measured returns instead of vanity metrics that don't pay salaries."
 excerptAr: "كيف تبني محرّك تسويق رقمي يقدّم عوائد مقيسة بدلاً من مقاييس شكلية لا تدفع الرواتب."
-description: "Digital marketing is not about spending more — it is about spending smarter. From paid ads to email campaigns, here is how to build a marketing engine that delivers measurable returns for Arab businesses."
-descriptionAr: "التسويق الإلكتروني ليس عن إنفاق أكثر — بل عن إنفاق أذكى. من الإعلانات المدفوعة إلى حملات البريد الإلكتروني، إليك كيف تبني محرّك تسويق يقدّم عوائد مقيسة للشركات العربية."
+description: "Digital marketing for Arab businesses — spend smarter, not more. How to build a marketing engine, from paid ads to email, that brings measurable returns."
+descriptionAr: "التسويق الإلكتروني الناجح لا يعني إنفاقًا أكبر — بل إنفاقًا أذكى. كيف تبني منظومة تسويق، من الإعلانات المدفوعة إلى البريد الإلكتروني، تحقق عوائد تُقاس؟"
 num: 08
 numAr: ٠٨
 kicker: Digital marketing

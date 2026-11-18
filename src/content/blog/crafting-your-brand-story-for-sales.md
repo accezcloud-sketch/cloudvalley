@@ -3,7 +3,7 @@ title: "Crafting Your Brand Story for Sales"
 titleAr: "صياغة قصة علامتك التجارية لتعزيز المبيعات"
 excerpt: "A compelling brand story connects emotionally with your audience, transforming potential customers into loyal patrons. Focus on authenticity, your unique value, and how you solve customer problems to drive sales effectively."
 excerptAr: "قصة علامتك التجارية الجذابة تبني تواصلاً عاطفياً مع جمهورك، محوّلة العملاء المحتملين إلى زبائن أوفياء. ركّز على الأصالة، قيمتك الفريدة، وكيف تحل مشاكل العملاء لتحقيق مبيعات فعالة."
-description: "Learn how to tell your brand story to increase sales. Discover how to build an authentic narrative that resonates with your target audience and drives conversions in the Saudi and Gulf markets."
+description: "How to tell your brand story to increase sales: build an authentic narrative that resonates with your audience and drives conversions in the Gulf."
 descriptionAr: "دليلك لصياغة قصة علامتك التجارية التي تلامس القلب وتعزز المبيعات، مصمم خصيصاً لأصحاب الأعمال في السعودية والخليج. تعلم كيف تجعل العملاء أوفياء لعلامتك."
 num: 06
 numAr: ٠٦

@@ -3,7 +3,7 @@ title: "AI Automation: Reclaim 20 Hours Weekly"
 titleAr: "الذكاء الاصطناعي: استعد 20 ساعة أسبوعيًا لنمو أعمالك"
 excerpt: "Discover how AI automation can streamline your marketing efforts, freeing up 20 hours per week for strategic growth."
 excerptAr: "اكتشف كيف يمكن لأتمتة الذكاء الاصطناعي تبسيط جهودك التسويقية، وتوفير 20 ساعة أسبوعيًا للنمو الاستراتيجي."
-description: "Learn practical AI automation strategies for businesses in Saudi Arabia to save significant time on digital marketing tasks. Boost efficiency and focus on growth."
+description: "AI automation for Saudi businesses: practical ways to save real time on digital marketing tasks so your team works more efficiently and focuses on growth."
 descriptionAr: "تعرف على كيفية استغلال الذكاء الاصطناعي في السعودية والخليج لأتمتة المهام المتكررة، توفير 20 ساعة أسبوعيًا، والتركيز على نمو الأعمال."
 num: 08
 numAr: ٠٨

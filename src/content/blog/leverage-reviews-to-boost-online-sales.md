@@ -3,7 +3,7 @@ title: "Leverage Reviews to Boost Online Sales"
 titleAr: "عزّز مبيعاتك عبر الإنترنت بتقييمات العملاء"
 excerpt: "Discover how customer reviews can drive your e-commerce growth, turning feedback into your most powerful sales asset."
 excerptAr: "اكتشف كيف يمكن لآراء العملاء أن تدفع نمو تجارتك الإلكترونية، محوّلةً ملاحظاتهم إلى أقوى أصولك البيعية."
-description: "Learn practical strategies to harness the power of customer reviews for your Saudi Arabian or Gulf-based business, from boosting trust to increasing conversion rates on platforms like WhatsApp and Google."
+description: "Practical ways Saudi and Gulf businesses can use customer reviews to build trust and raise conversion rates, on channels such as Google and WhatsApp."
 descriptionAr: "دليلك للشركات في السعودية والخليج لاستخدام تقييمات العملاء لزيادة الثقة والمبيعات عبر الإنترنت، مع استراتيجيات فعالة لجمعها ومعالجة السلبي منها."
 num: 08
 numAr: ٠٨

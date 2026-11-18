@@ -3,7 +3,7 @@ title: "On-Page SEO Checklist for GCC Businesses"
 titleAr: "دليل محسّنات محركات البحث داخل الصفحة (On-Page SEO) لشركات الخليج"
 excerpt: "Master on-page SEO with this simple, actionable checklist tailored for businesses in Saudi Arabia and the Gulf."
 excerptAr: "أتقن تحسين محركات البحث داخل الصفحة مع هذا الدليل العملي والبسيط المصمم خصيصًا للشركات في المملكة العربية السعودية ومنطقة الخليج."
-description: "Boost your website's visibility in Saudi Arabia and the GCC. This practical on-page SEO checklist helps businesses optimize content, keywords, and technical elements for better search engine rankings."
+description: "A practical on-page SEO checklist for businesses in Saudi Arabia and the GCC: optimize content, keywords and technical elements to rank higher in search."
 descriptionAr: "دليلك الشامل لتحسين محركات البحث داخل الصفحة، المصمم لزيادة ظهور الشركات في المملكة العربية السعودية والخليج، مع التركيز على استراتيجيات فعالة وممارسات موثوقة."
 num: 02
 numAr: ٠٢

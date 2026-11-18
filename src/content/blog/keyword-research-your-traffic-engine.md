@@ -3,7 +3,7 @@ title: "Keyword Research: Your Traffic Engine"
 titleAr: "بحث الكلمات المفتاحية: محرك زياراتك الرقمي"
 excerpt: "Understand how smart keyword research can bring more customers to your business online."
 excerptAr: "اعرف كيف يمكن لبحث الكلمات المفتاحية الذكي أن يجلب المزيد من العملاء لعملك عبر الإنترنت."
-description: "Discover the secrets of keyword research for driving targeted traffic to your website. Learn how to find the right terms your Saudi and Gulf customers are searching for on Google."
+description: "Keyword research for targeted website traffic: how to find the exact terms your Saudi and Gulf customers search for on Google and bring them to your site."
 descriptionAr: "دليلك الشامل لبحث الكلمات المفتاحية لزيادة ظهور عملك في نتائج البحث وجذب العملاء في السوق السعودي والخليجي."
 num: 02
 numAr: ٠٢

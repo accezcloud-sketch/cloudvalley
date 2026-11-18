@@ -3,7 +3,7 @@ title: "Grow Your List: The Lead Magnet Guide"
 titleAr: "دليلك الشامل لتصميم ’مغناطيس جذب العملاء’ لنمو أعمالك"
 excerpt: "Build an effective lead magnet to capture valuable contacts and grow your business email list."
 excerptAr: "صمم ’مغناطيس جذب العملاء’ الفعّال لجمع بيانات الاتصال القيّمة وتنمية قائمة بريدك الإلكتروني."
-description: "Learn how to create irresistible lead magnets that attract your ideal Saudi Arabian audience and expand your email subscriber base for better customer engagement."
+description: "How to create lead magnets that attract your ideal Saudi audience, grow your email subscriber list and improve engagement with your potential customers."
 descriptionAr: "اكتشف كيف يمكن لـ ’مغناطيس جذب العملاء’ أن يعزز قاعدة عملائك ويشكل خط اتصال مباشر لنمو أعمالك في السوق السعودي والخليجي."
 num: 08
 numAr: ٠٨

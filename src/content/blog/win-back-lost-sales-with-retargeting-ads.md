@@ -3,7 +3,7 @@ title: "Win Back Lost Sales with Retargeting Ads"
 titleAr: "استرجع مبيعاتك الضائعة بإعلانات إعادة الاستهداف"
 excerpt: "Learn how to bring back potential customers who left your site without buying using targeted ads."
 excerptAr: "تعرّف على كيفية إعادة جذب العملاء المحتملين الذين غادروا موقعك دون شراء باستخدام الإعلانات الموجهة."
-description: "Discover the power of retargeting ads to recover lost sales and boost your ROI. This guide offers practical strategies for businesses in Saudi Arabia to re-engage website visitors."
+description: "Retargeting ads help you recover lost sales and improve ROI. Practical strategies for businesses in Saudi Arabia to re-engage visitors who left your site."
 descriptionAr: "اكتشف قوة إعلانات إعادة الاستهداف لاستعادة العملاء الذين زاروا موقعك ولم يشتروا، وكيف تزيد هذه الاستراتيجية من أرباحك في السوق السعودي."
 num: 08
 numAr: ٠٨

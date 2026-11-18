@@ -3,7 +3,7 @@ title: Content that sells without selling — AI-assisted content production.
 titleAr: "محتوى يبيع دون أن يبيع — صناعةُ المحتوى بمساعدةِ الذكاء الاصطناعي."
 excerpt: "How to produce consistent, high-quality Arabic content that builds trust and drives leads without burning out your team."
 excerptAr: "كيف تُنتج محتوًى عربيًا عالي الجودة باستمرار يبني الثقة ويجلب العملاء دون إرهاق فريقك."
-description: "Content that sells without selling — how AI-assisted content production delivers consistent, high-quality Arabic content that builds trust and drives leads without burning out your team."
+description: "AI-assisted content production for consistent, high-quality Arabic content — content that builds trust and brings in leads without burning out your team."
 descriptionAr: "محتوى يبيع دون أن يبيع — كيف تُنتج صناعة المحتوى بمساعدة الذكاء الاصطناعي محتوى عربيًا عالي الجودة باستمرار، يبني الثقة ويجلب العملاء دون إرهاق فريقك."
 num: 03
 numAr: ٠٣

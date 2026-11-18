@@ -3,7 +3,7 @@ title: "Grow Your Brand on a Tight Budget"
 titleAr: "نمّي علامتك التجارية بميزانية محدودة"
 excerpt: "Building brand recognition doesn't require a huge budget, focusing on smart digital strategies can yield significant results."
 excerptAr: "بناء الوعي بعلامتك التجارية لا يتطلب ميزانية ضخمة؛ التركيز على استراتيجيات رقمية ذكية يمكن أن يحقق نتائج ملموسة."
-description: "Discover effective low-cost strategies to build strong brand recognition for your business in Saudi Arabia and the Gulf, even with a small budget. Learn how to leverage digital channels for maximum impact."
+description: "Low-cost ways to build strong brand recognition in Saudi Arabia and the Gulf on a small budget, and how to use digital channels to get the most out of it."
 descriptionAr: "دليلك لتعزيز حضور علامتك التجارية في السوق السعودي والخليجي بميزانية محدودة، مع التركيز على الاستراتيجيات الرقمية الفعالة."
 num: 06
 numAr: ٠٦

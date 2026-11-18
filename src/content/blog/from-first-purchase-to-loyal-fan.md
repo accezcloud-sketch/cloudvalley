@@ -3,7 +3,7 @@ title: "From First Purchase to Loyal Fan"
 titleAr: "من أول عملية شراء إلى عميل وفيّ: بناء ولاء دائم"
 excerpt: "Turn one-time buyers into repeat customers by focusing on exceptional service, personalized communication, and valuable loyalty programs."
 excerptAr: "حوّل المشترين لمرة واحدة إلى عملاء دائمين بالتركيز على خدمة استثنائية، تواصل شخصي، وبرامج ولاء قيّمة."
-description: "Discover actionable strategies to transform first-time buyers into loyal patrons who repeatedly choose your business. Learn how personalized marketing and excellent customer service drive long-term customer retention."
+description: "Turn first-time buyers into loyal repeat customers. Practical ways personalized marketing and excellent customer service build long-term retention."
 descriptionAr: "دليلك لتعزيز ولاء العملاء في السوق السعودي والخليجي، من خلال فهم رحلة العميل، تقديم تجارب ما بعد الشراء، وبرامج ولاء فعالة."
 num: 08
 numAr: ٠٨

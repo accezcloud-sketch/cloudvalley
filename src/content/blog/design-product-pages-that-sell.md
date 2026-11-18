@@ -3,7 +3,7 @@ title: "Design Product Pages That Sell"
 titleAr: "تصميم صفحات منتجات تحفز على البيع"
 excerpt: "Learn how to craft high-converting product pages that turn visitors into loyal customers."
 excerptAr: "تعلم كيف تصمم صفحات منتجات ذات معدل تحويل عالٍ تحوّل الزوار إلى عملاء أوفياء."
-description: "Discover essential elements for designing product pages that boost sales, including compelling visuals, clear descriptions, and trust signals, optimized for the Saudi market."
+description: "Product page design that boosts sales: the essential elements, from strong visuals and clear descriptions to trust signals, adapted for the Saudi market."
 descriptionAr: "دليلك لتصميم صفحات منتجات احترافية في السعودية والخليج تزيد مبيعاتك، مع التركيز على الصور الجذابة، الوصف المقنع، دعوات الإجراء الواضحة، وبناء الثقة."
 num: 07
 numAr: ٠٧

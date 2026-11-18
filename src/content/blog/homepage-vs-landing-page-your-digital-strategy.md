@@ -3,8 +3,8 @@ title: "Homepage vs. Landing Page: Your Digital Strategy"
 titleAr: "الصفحة الرئيسية أم صفحة الهبوط: استراتيجيتك الرقمية"
 excerpt: "Understand when to use a homepage versus a landing page to maximize conversions and achieve your business goals in the Gulf market."
 excerptAr: "تعرّف على متى تستخدم الصفحة الرئيسية ومتى تستخدم صفحة الهبوط لزيادة التحويلات وتحقيق أهداف عملك في سوق الخليج."
-description: "Learn the key differences between homepages and landing pages, and discover how to strategically deploy each for optimal digital marketing results in Saudi Arabia."
-descriptionAr: "دليلك الشامل لأصحاب الأعمال في السعودية والخليج لفهم الفرق بين الصفحة الرئيسية وصفحة الهبوط، وكيفية استخدامهما بفعالية لتحقيق أقصى استفادة من جهود التسويق الرقمي."
+description: "Homepage vs landing page: the key differences, and how to use each one to get better digital marketing results for your business in Saudi Arabia."
+descriptionAr: "دليل لأصحاب الأعمال في السعودية والخليج يوضح الفرق بين الصفحة الرئيسية وصفحة الهبوط، ومتى تستخدم كلًّا منهما لتحقيق أفضل نتائج من التسويق الرقمي."
 num: 01
 numAr: ٠١
 kicker: "Design"

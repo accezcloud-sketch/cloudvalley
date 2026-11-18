@@ -3,7 +3,7 @@ title: Your online store is a selling machine — or a catalog no one reads.
 titleAr: "متجرك الإلكتروني آلة بيع — أو كتالوج لا يُقرأ."
 excerpt: "From product pages to checkout, how to design a store that converts visitors into buyers in the Arab market."
 excerptAr: "من صفحات المنتجات إلى الدفع، كيف تصمّم متجرًا يُحوِّل الزوار إلى مشترين في السوق العربي."
-description: "An e-commerce store is not a catalog — it is a selling machine. From product pages to checkout, every pixel should move the visitor closer to a purchase. Here is how to design a store that actually converts."
+description: "E-commerce design that converts — a store is a selling machine, not a catalog. How to design every step, from product pages to checkout, so visitors buy."
 descriptionAr: "المتجر الإلكتروني ليس كتالوجًا — بل آلة بيع. من صفحات المنتجات إلى الدفع، كل بكسل يجب أن يقرّب الزائر من الشراء. إليك كيف تصمّم متجرًا يُحوِّل فعلاً."
 num: 07
 numAr: ٠٧

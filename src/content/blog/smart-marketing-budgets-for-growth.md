@@ -3,7 +3,7 @@ title: "Smart Marketing Budgets for Growth"
 titleAr: "ميزانيات تسويقية ذكية للنمو"
 excerpt: "Setting a marketing budget involves understanding your goals, audience, and available resources, and allocating funds strategically across channels like social media, SEO, and content creation."
 excerptAr: "تحديد ميزانية التسويق هو استثمار استراتيجي يتطلب فهم الأهداف والجمهور والموارد، وتخصيص الأموال بذكاء عبر قنوات مثل وسائل التواصل الاجتماعي، تحسين محركات البحث، وإنشاء المحتوى."
-description: "Learn how to craft a marketing budget tailored to your business needs in Saudi Arabia and the Gulf. Discover strategies for allocating funds across digital channels like SEO, social media, and content to maximize ROI."
+description: "How to set a marketing budget for your business in Saudi Arabia and the Gulf, and how to split it across SEO, social media and content to maximize ROI."
 descriptionAr: "دليلك لتحديد ميزانية تسويقية فعالة في السعودية والخليج، مع التركيز على تحقيق أهداف عملك وتنمية إيراداتك بذكاء."
 num: 08
 numAr: ٠٨

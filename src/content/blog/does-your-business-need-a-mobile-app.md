@@ -3,7 +3,7 @@ title: "Does Your Business Need a Mobile App?"
 titleAr: "هل يحتاج مشروعك إلى تطبيق جوال؟"
 excerpt: "A mobile app isn't always essential, but it can be a powerful tool for customer loyalty and engagement when designed with clear business goals in mind."
 excerptAr: "التطبيق ليس ضرورة قصوى دائماً، لكنه أداة قوية لبناء ولاء العملاء وتعزيز تفاعلهم عندما يُصمم بأهداف تجارية واضحة."
-description: "Explore if a mobile app is the right investment for your Saudi or Gulf business. We cover key considerations for enhancing customer experience and driving growth."
+description: "Is a mobile app the right investment for your Saudi or Gulf business? The key points to weigh for a better customer experience and business growth."
 descriptionAr: "دليلك لاتخاذ قرار مستنير بشأن تطوير تطبيق جوال لعملك في السعودية والخليج، مع التركيز على الأهداف، الجمهور، وقيمة التطبيق الاستراتيجية."
 num: 05
 numAr: ٠٥

@@ -3,7 +3,7 @@ title: "Boost Sales: Add Online Booking to Your Site"
 titleAr: "عزز مبيعاتك: أضف الحجز عبر الإنترنت لموقعك"
 excerpt: "Integrate online booking to streamline appointments, improve customer experience, and increase revenue for your Saudi business."
 excerptAr: "قدم نظام حجز إلكتروني لتبسيط المواعيد، تعزيز تجربة العميل، وزيادة إيرادات أعمالك في السعودية."
-description: "Learn how to add online booking to your website to capture more leads and simplify scheduling. Discover essential features and implementation steps for businesses in Saudi Arabia and the Gulf."
+description: "How to add online booking to your website to capture more leads and simplify scheduling, with key features and steps for Saudi and Gulf businesses."
 descriptionAr: "اكتشف كيف يمكن لنظام الحجز عبر الإنترنت تحسين كفاءة أعمالك، جذب المزيد من العملاء، وزيادة أرباحك في السوق السعودي والخليجي."
 num: 01
 numAr: ٠١

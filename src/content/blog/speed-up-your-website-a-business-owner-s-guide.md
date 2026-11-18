@@ -3,7 +3,7 @@ title: "Speed Up Your Website: A Business Owner's Guide"
 titleAr: "سرّع موقعك الإلكتروني: دليل أصحاب الأعمال في السعودية والخليج"
 excerpt: "A slow website costs you customers and ranking. Learn practical ways to fix it."
 excerptAr: "موقعك البطيء يخسرك عملاءً ويؤثر على ترتيبك، اكتشف كيف تصلحه بسرعة."
-description: "Discover how website speed impacts your business in Saudi Arabia and the Gulf, and get actionable tips to make your site faster for better user experience and SEO."
+description: "How website speed affects your business in Saudi Arabia and the Gulf, with practical tips to make your site faster for a better user experience and SEO."
 descriptionAr: "تعرف على الطرق العملية لتسريع موقعك الإلكتروني في السعودية والخليج، لتحسين تجربة المستخدم وزيادة المبيعات."
 num: 02
 numAr: ٠٢

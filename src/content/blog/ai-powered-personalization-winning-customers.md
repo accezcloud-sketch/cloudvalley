@@ -3,7 +3,7 @@ title: "AI-Powered Personalization: Winning Customers"
 titleAr: "الذكاء الاصطناعي لتخصيص تجربة العملاء: مفتاح التفوق في الأسواق الخليجية"
 excerpt: "AI transforms customer experience by enabling hyper-personalization, boosting engagement, and driving loyalty."
 excerptAr: "يغير الذكاء الاصطناعي تجربة العملاء من خلال التخصيص الفائق، مما يعزز التفاعل وولاء العملاء."
-description: "Discover how Artificial Intelligence can revolutionize your customer interactions, from tailored content to predictive recommendations, significantly enhancing engagement and boosting sales for businesses in Saudi Arabia."
+description: "How AI personalization improves customer interactions in Saudi Arabia, from tailored content to predictive recommendations that lift engagement and sales."
 descriptionAr: "تعرّف كيف يمكن للذكاء الاصطناعي مساعدتك في تقديم تجارب مخصصة لعملائك في السعودية والخليج، مما يزيد من المبيعات والولاء."
 num: 08
 numAr: ٠٨

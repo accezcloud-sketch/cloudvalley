@@ -3,7 +3,7 @@ title: "Logo vs Brand Identity: What Your Business Needs"
 titleAr: "الشعار والهوية التجارية: ما يحتاجه عملك؟"
 excerpt: "A logo is just one part of your brand identity, which encompasses all customer touchpoints and is crucial for long-term business success."
 excerptAr: "الشعار هو مجرد جزء من هويتك التجارية الشاملة، والتي تشمل جميع نقاط تواصل العميل وهي ضرورية لنجاح عملك على المدى الطويل."
-description: "Understand the critical difference between a logo and a full brand identity. Learn why a comprehensive brand strategy, costing SAR 5,000-15,000+, is essential for building trust and recognition in the Saudi market."
+description: "Logo vs brand identity: the real difference, and why a full brand strategy, costing SAR 5,000-15,000+, builds trust and recognition in the Saudi market."
 descriptionAr: "تعرف على الفرق الجوهري بين الشعار والهوية التجارية، وكيفية بناء هوية قوية تميز عملك في سوق المملكة والخليج."
 num: 06
 numAr: ٠٦

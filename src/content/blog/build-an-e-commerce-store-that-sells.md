@@ -3,7 +3,7 @@ title: "Build an E-commerce Store That Sells"
 titleAr: "متجر إلكتروني ناجح: كيف تحوّل الزوار إلى عملاء أوفياء"
 excerpt: "Focus on user experience, clear product presentation, and trust-building to create an online store that converts visitors into loyal customers."
 excerptAr: "التركيز على تجربة مستخدم سلسة، عرض جذاب للمنتجات، وبناء الثقة لإنشاء متجر إلكتروني يحوّل الزوار إلى عملاء أوفياء."
-description: "Learn how to build a successful e-commerce store in Saudi Arabia by prioritizing user-friendly design, compelling product displays, and secure payment options. Understand key elements that drive sales and customer loyalty in the GCC market."
+description: "Build an e-commerce store in Saudi Arabia that sells: easy-to-use design, clear product displays and secure payments that drive sales and loyalty."
 descriptionAr: "دليلك لبناء متجر إلكتروني ناجح في السعودية والخليج، مع التركيز على تجربة المستخدم، عروض المنتجات، وبناء الثقة، وتحسينات التسويق."
 num: 07
 numAr: ٠٧

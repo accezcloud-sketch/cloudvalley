@@ -3,7 +3,7 @@ title: "Social media management as a system, not a daily hustle."
 titleAr: "إدارة السوشيال ميديا كنظام، لا كمهمةٍ يومية."
 excerpt: "How to turn chaos into a calm, repeatable process that runs your accounts professionally without consuming your time."
 excerptAr: "كيف تُحوِّل الفوضى إلى عمليةٍ هادئةٍ قابلةٍ للتكرار تُدير حساباتك باحترافية دون استهلاك وقتك."
-description: "Social media management is not about posting every day — it is about building a system that runs your accounts professionally without consuming your time. Here is how we turn chaos into a calm, repeatable process."
+description: "Social media management is not about posting daily — it is a system that runs your accounts professionally without taking your time. Here is how it works."
 descriptionAr: "إدارة السوشيال ميديا ليست عن النشر اليومي — بل عن بناء نظام يُدير حساباتك باحترافية دون استهلاك وقتك. إليك كيف نحوّل الفوضى إلى عملية هادئة قابلة للتكرار."
 num: 04
 numAr: ٠٤

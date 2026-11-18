@@ -3,7 +3,7 @@ title: "Build Trust: Crafting a Brand Identity"
 titleAr: "بناء الثقة: كيف تصوغ هوية علامة تجارية لا تُنسى"
 excerpt: "In today's competitive market, a strong brand identity is your most valuable asset for building customer trust."
 excerptAr: "في سوق اليوم شديد التنافسية، هويتك التجارية القوية هي أثمن ما لديك لبناء ثقة العملاء."
-description: "Learn how to build a brand identity that fosters trust and loyalty with your customers in Saudi Arabia and the Gulf region. Discover key strategies for authentic branding."
+description: "How to build a brand identity that earns the trust and loyalty of customers in Saudi Arabia and the Gulf, with key strategies for authentic branding."
 descriptionAr: "دليل شامل لأصحاب الأعمال في السعودية والخليج حول كيفية بناء هوية علامة تجارية قوية وموثوقة تعزز ولاء العملاء."
 num: 06
 numAr: ٠٦

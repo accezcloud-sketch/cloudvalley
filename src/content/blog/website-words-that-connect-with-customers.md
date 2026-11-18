@@ -3,7 +3,7 @@ title: "Website Words That Connect With Customers"
 titleAr: "كلمات الموقع التي تربطك بالعملاء"
 excerpt: "Crafting website copy that resonates with your Saudi or Gulf customers involves understanding their language, values, and digital habits, moving beyond generic marketing speak to build genuine connection and trust."
 excerptAr: "صياغة محتوى موقعك الإلكتروني ليتواصل مع عملائك في السعودية والخليج تتطلب فهماً عميقاً للغتهم وقيمهم وعاداتهم الرقمية، والانتقال من الخطاب التسويقي العام إلى بناء تواصل ثقة حقيقي."
-description: "Learn how to write compelling website copy tailored for the Saudi and Gulf markets. Discover strategies to connect with your audience, understand their needs, and drive conversions through targeted language and cultural relevance."
+description: "How to write website copy for Saudi and Gulf customers: understand their needs, use the right language and cultural cues, and turn visitors into buyers."
 descriptionAr: "دليلك لصياغة محتوى موقع إلكتروني احترافي يجذب العملاء في السوق السعودي والخليجي، مع التركيز على فهم الجمهور، بناء الثقة، وتقديم حلول فعالة."
 num: 03
 numAr: ٠٣

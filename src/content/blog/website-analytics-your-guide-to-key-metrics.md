@@ -3,7 +3,7 @@ title: "Website Analytics: Your Guide to Key Metrics"
 titleAr: "تحليلات موقعك الإلكتروني: دليلك للمقاييس الأساسية"
 excerpt: "Understand your website's performance by focusing on essential metrics that drive business growth in the Gulf region."
 excerptAr: "افهم أداء موقعك الإلكتروني بالتركيز على المقاييس الجوهرية التي تدفع نمو الأعمال في منطقة الخليج."
-description: "Learn to interpret website analytics effectively to make data-driven decisions for your Saudi or Gulf-based business. This guide focuses on actionable insights without overwhelming you with jargon."
+description: "Website analytics for Saudi and Gulf businesses: how to read the key metrics and make data-driven decisions, with practical insights and no heavy jargon."
 descriptionAr: "دليلك لفهم تحليلات موقعك الإلكتروني لتحقيق نمو أعمال مستدام في السعودية والخليج. ركز على المقاييس الرئيسية التي تهم أصحاب الأعمال."
 num: 08
 numAr: ٠٨

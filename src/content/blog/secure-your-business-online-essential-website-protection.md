@@ -3,7 +3,7 @@ title: "Secure Your Business Online: Essential Website Protection"
 titleAr: "حماية أعمالك الرقمية: تأمين موقعك الإلكتروني ضرورة ملحة"
 excerpt: "Understanding basic website security measures is crucial for protecting your business, customer data, and reputation in the Saudi and Gulf markets."
 excerptAr: "تأمين موقعك الإلكتروني أمر أساسي لحماية بيانات عملائك وسمعتك التجارية في أسواق المملكة والخليج."
-description: "Protecting your online presence is vital for businesses in Saudi Arabia and the Gulf. Learn essential website security basics to safeguard your data, maintain customer trust, and ensure uninterrupted operations."
+description: "Website security basics for businesses in Saudi Arabia and the Gulf: how to protect your data, keep customer trust and keep your operations running."
 descriptionAr: "دليل شامل لأصحاب الأعمال في السعودية والخليج حول أهمية تأمين مواقعهم الإلكترونية، وخطوات عملية لحمايتها من التهديدات الرقمية."
 num: 08
 numAr: ٠٨
