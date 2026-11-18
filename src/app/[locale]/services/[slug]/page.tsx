@@ -23,9 +23,9 @@ export async function generateStaticParams() {
   );
 }
 
-export async function generateMetadata(
-  props: { params: Promise<{ locale: string; slug: string }> },
-) {
+export async function generateMetadata(props: {
+  params: Promise<{ locale: string; slug: string }>;
+}) {
   const { locale, slug } = await props.params;
   if (!isLocale(locale)) return {};
   const service = getServicePage(locale, slug);
@@ -42,9 +42,9 @@ export async function generateMetadata(
   });
 }
 
-export default async function ServiceDetailPage(
-  props: { params: Promise<{ locale: string; slug: string }> },
-) {
+export default async function ServiceDetailPage(props: {
+  params: Promise<{ locale: string; slug: string }>;
+}) {
   const { locale, slug } = await props.params;
   if (!isLocale(locale)) notFound();
 
@@ -134,209 +134,296 @@ export default async function ServiceDetailPage(
               {service.tagline}
             </p>
           </Rise>
-
         </header>
 
-        <div className="max-w-3xl">
-          {/* Section 2 — The problem */}
-          <Rise>
-            <section className="border-t border-rule pt-10 pb-12">
-              <h2
-                className="text-[clamp(1.3rem,2.5vw,1.75rem)] leading-[1.15]"
-                style={{
-                  fontFamily: serifDisplay,
-                  letterSpacing: isAr ? "0" : "-0.015em",
-                }}
-              >
-                {isAr ? "المشكلة" : "The problem"}
-              </h2>
-              <p
-                className="mt-5 text-[1.02rem] leading-[1.7] text-ink-soft"
-                style={{ fontFamily: bodyFont }}
-              >
-                {service.problem}
-              </p>
-            </section>
-          </Rise>
-
-          {/* Section 3 — What we do */}
-          <Rise>
-            <section className="border-t border-rule pt-10 pb-12">
-              <h2
-                className="text-[clamp(1.3rem,2.5vw,1.75rem)] leading-[1.15]"
-                style={{
-                  fontFamily: serifDisplay,
-                  letterSpacing: isAr ? "0" : "-0.015em",
-                }}
-              >
-                {isAr ? "ما نفعله" : "What we do"}
-              </h2>
-              <ul className="mt-6 flex flex-col gap-3">
-                {service.deliverables.map((item, j) => (
-                  <li
-                    key={j}
-                    className="flex gap-3 text-[1.02rem] leading-[1.6] text-ink-soft"
+        {/* From laptop width the reading column sits beside a side panel;
+            phones and tablets keep one column. */}
+        <div className="lg:grid lg:grid-cols-12 lg:gap-16">
+          <div className="lg:col-span-8">
+            <div className="max-w-3xl">
+              {/* Section 2 — The problem */}
+              <Rise>
+                <section className="border-t border-rule pt-10 pb-12">
+                  <h2
+                    className="text-[clamp(1.3rem,2.5vw,1.75rem)] leading-[1.15]"
+                    style={{
+                      fontFamily: serifDisplay,
+                      letterSpacing: isAr ? "0" : "-0.015em",
+                    }}
+                  >
+                    {isAr ? "المشكلة" : "The problem"}
+                  </h2>
+                  <p
+                    className="mt-5 text-[1.02rem] leading-[1.7] text-ink-soft"
                     style={{ fontFamily: bodyFont }}
                   >
-                    <span
-                      className="mt-[0.35em] shrink-0 text-[0.7rem] text-accent"
+                    {service.problem}
+                  </p>
+                </section>
+              </Rise>
+
+              {/* Section 3 — What we do */}
+              <Rise>
+                <section className="border-t border-rule pt-10 pb-12">
+                  <h2
+                    className="text-[clamp(1.3rem,2.5vw,1.75rem)] leading-[1.15]"
+                    style={{
+                      fontFamily: serifDisplay,
+                      letterSpacing: isAr ? "0" : "-0.015em",
+                    }}
+                  >
+                    {isAr ? "ما نفعله" : "What we do"}
+                  </h2>
+                  <ul className="mt-6 flex flex-col gap-3">
+                    {service.deliverables.map((item, j) => (
+                      <li
+                        key={j}
+                        className="flex gap-3 text-[1.02rem] leading-[1.6] text-ink-soft"
+                        style={{ fontFamily: bodyFont }}
+                      >
+                        <span
+                          className="mt-[0.35em] shrink-0 text-[0.7rem] text-accent"
+                          style={{ fontFamily: "var(--font-mono)" }}
+                        >
+                          &mdash;
+                        </span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              </Rise>
+
+              {/* Section 4 — Why us */}
+              <Rise>
+                <section className="border-t border-rule pt-10 pb-12">
+                  <h2
+                    className="text-[clamp(1.3rem,2.5vw,1.75rem)] leading-[1.15]"
+                    style={{
+                      fontFamily: serifDisplay,
+                      letterSpacing: isAr ? "0" : "-0.015em",
+                    }}
+                  >
+                    {isAr ? "لماذا وادي السحاب" : "Why Cloud Valley"}
+                  </h2>
+                  <div className="mt-8 flex flex-col gap-8">
+                    {service.differentiators.map((d, j) => (
+                      <div key={j}>
+                        <h3
+                          className="text-[1.05rem] font-semibold leading-[1.3] text-ink"
+                          style={{ fontFamily: bodyFont }}
+                        >
+                          {d.label}
+                        </h3>
+                        <p
+                          className="mt-2 text-[1.02rem] leading-[1.7] text-ink-soft"
+                          style={{ fontFamily: bodyFont }}
+                        >
+                          {d.body}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+              </Rise>
+
+              {/* Section 5 — Outcome */}
+              <Rise>
+                <section className="border-t border-rule pt-10 pb-12">
+                  <div
+                    className={`border-accent py-2 ${isAr ? "border-r-2 pr-6" : "border-l-2 pl-6"}`}
+                  >
+                    <div
+                      className="text-[0.72rem] uppercase tracking-[0.2em] text-ink-mute"
                       style={{ fontFamily: "var(--font-mono)" }}
                     >
-                      &mdash;
-                    </span>
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </section>
-          </Rise>
-
-          {/* Section 4 — Why us */}
-          <Rise>
-            <section className="border-t border-rule pt-10 pb-12">
-              <h2
-                className="text-[clamp(1.3rem,2.5vw,1.75rem)] leading-[1.15]"
-                style={{
-                  fontFamily: serifDisplay,
-                  letterSpacing: isAr ? "0" : "-0.015em",
-                }}
-              >
-                {isAr ? "لماذا وادي السحاب" : "Why Cloud Valley"}
-              </h2>
-              <div className="mt-8 flex flex-col gap-8">
-                {service.differentiators.map((d, j) => (
-                  <div key={j}>
-                    <h3
-                      className="text-[1.05rem] font-semibold leading-[1.3] text-ink"
-                      style={{ fontFamily: bodyFont }}
-                    >
-                      {d.label}
-                    </h3>
+                      {isAr ? "النتيجة" : "Outcome"}
+                    </div>
                     <p
-                      className="mt-2 text-[1.02rem] leading-[1.7] text-ink-soft"
-                      style={{ fontFamily: bodyFont }}
+                      className="mt-3 text-[clamp(1.2rem,2.5vw,1.6rem)] leading-[1.35] text-accent"
+                      style={{
+                        fontFamily: serifDisplay,
+                        letterSpacing: isAr ? "0" : "-0.01em",
+                      }}
                     >
-                      {d.body}
+                      {service.outcome}
                     </p>
                   </div>
-                ))}
-              </div>
-            </section>
-          </Rise>
+                </section>
+              </Rise>
 
-          {/* Section 5 — Outcome */}
-          <Rise>
-            <section className="border-t border-rule pt-10 pb-12">
-              <div
-                className={`border-accent py-2 ${isAr ? "border-r-2 pr-6" : "border-l-2 pl-6"}`}
-              >
-                <div
-                  className="text-[0.72rem] uppercase tracking-[0.2em] text-ink-mute"
-                  style={{ fontFamily: "var(--font-mono)" }}
-                >
-                  {isAr ? "النتيجة" : "Outcome"}
-                </div>
-                <p
-                  className="mt-3 text-[clamp(1.2rem,2.5vw,1.6rem)] leading-[1.35] text-accent"
+              {/* Section 6 — FAQ */}
+              <Rise>
+                <section className="border-t border-rule pt-10 pb-12">
+                  <h2
+                    className="text-[clamp(1.3rem,2.5vw,1.75rem)] leading-[1.15]"
+                    style={{
+                      fontFamily: serifDisplay,
+                      letterSpacing: isAr ? "0" : "-0.015em",
+                    }}
+                  >
+                    {isAr ? "أسئلة شائعة" : "Frequently asked questions"}
+                  </h2>
+                  <dl className="mt-8 flex flex-col gap-8">
+                    {service.faq.map((item, j) => (
+                      <div key={j}>
+                        <dt
+                          className="text-[1.05rem] font-semibold leading-[1.3] text-ink"
+                          style={{ fontFamily: bodyFont }}
+                        >
+                          {item.question}
+                        </dt>
+                        <dd
+                          className="mt-2 text-[1.02rem] leading-[1.7] text-ink-soft"
+                          style={{ fontFamily: bodyFont }}
+                        >
+                          {item.answer}
+                        </dd>
+                      </div>
+                    ))}
+                  </dl>
+                </section>
+              </Rise>
+            </div>
+
+            {/* Articles about this service, newest first. */}
+            <div className="max-w-3xl pb-12">
+              <ArticleList
+                locale={locale}
+                heading={
+                  isAr ? "مقالات عن هذه الخدمة" : "Articles on this service"
+                }
+                posts={getPostsForService(
+                  locale,
+                  serviceNumForSlug(slug) ?? "",
+                )}
+                more={{
+                  label: isAr ? "كل المقالات" : "All articles",
+                  href: `/${locale}/blog`,
+                }}
+              />
+            </div>
+
+            {/* Section 7 — CTA */}
+            <section className="max-w-3xl border-t border-rule pb-20 pt-12 md:pb-28">
+              <Rise>
+                <h3
+                  className="text-[clamp(1.4rem,3vw,2rem)] leading-[1.1]"
                   style={{
                     fontFamily: serifDisplay,
-                    letterSpacing: isAr ? "0" : "-0.01em",
+                    letterSpacing: isAr ? "0" : "-0.015em",
                   }}
                 >
-                  {service.outcome}
+                  {isAr ? "مستعد للبدء؟" : "Ready to start?"}
+                </h3>
+              </Rise>
+              <Rise delay={60}>
+                <div className="mt-6 flex flex-wrap gap-4">
+                  <a
+                    href={waLink(
+                      isAr
+                        ? `أود الاستفسار عن خدمة «${listing.name}».`
+                        : `I'd like to ask about your "${listing.name}" service.`,
+                    )}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 border border-ink bg-ink px-6 py-3 text-[0.9rem] text-paper transition-colors hover:bg-accent hover:border-accent"
+                    style={{ fontFamily: "var(--font-mono)" }}
+                  >
+                    <span className="relative flex h-2 w-2">
+                      <span className="relative inline-flex h-2 w-2 rounded-full bg-[var(--color-whatsapp)]" />
+                    </span>
+                    {isAr ? "واتساب" : "WhatsApp"}
+                  </a>
+                  <Link
+                    href={`/${locale}/services`}
+                    className="inline-flex items-center gap-2 border border-ink px-6 py-3 text-[0.9rem] text-ink transition-colors hover:bg-ink hover:text-paper"
+                    style={{ fontFamily: "var(--font-mono)" }}
+                  >
+                    {dict.services.backLabel}
+                  </Link>
+                </div>
+              </Rise>
+            </section>
+          </div>
+
+          {/* Side panel (laptop and wider): the next step for a buyer, and the
+            other services. */}
+          <aside className="hidden lg:col-span-4 lg:block">
+            <div className="sticky top-28 space-y-10 border-t border-rule pt-10 pb-10">
+              <div>
+                <div
+                  className="text-[0.85rem] text-ink-mute"
+                  style={{ fontFamily: bodyFont }}
+                >
+                  {isAr ? "ناقش هذه الخدمة" : "Discuss this service"}
+                </div>
+                <p
+                  className="mt-3 text-[1.4rem] leading-[1.2] text-ink"
+                  style={{ fontFamily: serifDisplay }}
+                >
+                  {listing.name}
                 </p>
+                <div className="mt-5 flex flex-wrap gap-3">
+                  <a
+                    href={waLink(
+                      isAr
+                        ? `أود الاستفسار عن خدمة «${listing.name}».`
+                        : `I'd like to ask about your "${listing.name}" service.`,
+                    )}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 border border-ink bg-ink px-4 py-2.5 text-[0.85rem] text-paper transition-colors hover:border-accent hover:bg-accent"
+                    style={{ fontFamily: "var(--font-mono)" }}
+                  >
+                    <span className="inline-flex h-2 w-2 rounded-full bg-[var(--color-whatsapp)]" />
+                    {isAr ? "واتساب" : "WhatsApp"}
+                  </a>
+                  <Link
+                    href={`/${locale}/contact`}
+                    className="inline-flex items-center gap-2 border border-ink px-4 py-2.5 text-[0.85rem] text-ink transition-colors hover:bg-ink hover:text-paper"
+                    style={{ fontFamily: "var(--font-mono)" }}
+                  >
+                    {isAr ? "نموذج التواصل" : "Contact form"}
+                  </Link>
+                </div>
+                <Link
+                  href={`/${locale}#pricing`}
+                  className="mt-5 inline-block border-b border-ink pb-0.5 text-[0.95rem] link-sweep"
+                  style={{ fontFamily: bodyFont }}
+                >
+                  {isAr ? "الباقات والأسعار" : "Packages and prices"}
+                </Link>
               </div>
-            </section>
-          </Rise>
-
-          {/* Section 6 — FAQ */}
-          <Rise>
-            <section className="border-t border-rule pt-10 pb-12">
-              <h2
-                className="text-[clamp(1.3rem,2.5vw,1.75rem)] leading-[1.15]"
-                style={{
-                  fontFamily: serifDisplay,
-                  letterSpacing: isAr ? "0" : "-0.015em",
-                }}
+              <nav
+                aria-label={isAr ? "خدمات أخرى" : "Other services"}
+                className="border-t border-rule pt-8"
               >
-                {isAr ? "أسئلة شائعة" : "Frequently asked questions"}
-              </h2>
-              <dl className="mt-8 flex flex-col gap-8">
-                {service.faq.map((item, j) => (
-                  <div key={j}>
-                    <dt
-                      className="text-[1.05rem] font-semibold leading-[1.3] text-ink"
-                      style={{ fontFamily: bodyFont }}
-                    >
-                      {item.question}
-                    </dt>
-                    <dd
-                      className="mt-2 text-[1.02rem] leading-[1.7] text-ink-soft"
-                      style={{ fontFamily: bodyFont }}
-                    >
-                      {item.answer}
-                    </dd>
-                  </div>
-                ))}
-              </dl>
-            </section>
-          </Rise>
-        </div>
-
-        {/* Articles about this service, newest first. */}
-        <div className="max-w-3xl pb-12">
-          <ArticleList
-            locale={locale}
-            heading={isAr ? "مقالات عن هذه الخدمة" : "Articles on this service"}
-            posts={getPostsForService(locale, serviceNumForSlug(slug) ?? "")}
-            more={{
-              label: isAr ? "كل المقالات" : "All articles",
-              href: `/${locale}/blog`,
-            }}
-          />
-        </div>
-
-        {/* Section 7 — CTA */}
-        <section className="max-w-3xl border-t border-rule pb-20 pt-12 md:pb-28">
-          <Rise>
-            <h3
-              className="text-[clamp(1.4rem,3vw,2rem)] leading-[1.1]"
-              style={{
-                fontFamily: serifDisplay,
-                letterSpacing: isAr ? "0" : "-0.015em",
-              }}
-            >
-              {isAr ? "مستعد للبدء؟" : "Ready to start?"}
-            </h3>
-          </Rise>
-          <Rise delay={60}>
-            <div className="mt-6 flex flex-wrap gap-4">
-              <a
-                href={waLink(
-                  isAr
-                    ? `أود الاستفسار عن خدمة «${listing.name}».`
-                    : `I'd like to ask about your "${listing.name}" service.`,
-                )}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 border border-ink bg-ink px-6 py-3 text-[0.9rem] text-paper transition-colors hover:bg-accent hover:border-accent"
-                style={{ fontFamily: "var(--font-mono)" }}
-              >
-                <span className="relative flex h-2 w-2">
-                  <span className="relative inline-flex h-2 w-2 rounded-full bg-[var(--color-whatsapp)]" />
-                </span>
-                {isAr ? "واتساب" : "WhatsApp"}
-              </a>
-              <Link
-                href={`/${locale}/services`}
-                className="inline-flex items-center gap-2 border border-ink px-6 py-3 text-[0.9rem] text-ink transition-colors hover:bg-ink hover:text-paper"
-                style={{ fontFamily: "var(--font-mono)" }}
-              >
-                {dict.services.backLabel}
-              </Link>
+                <div
+                  className="text-[0.85rem] text-ink-mute"
+                  style={{ fontFamily: bodyFont }}
+                >
+                  {isAr ? "خدمات أخرى" : "Other services"}
+                </div>
+                <ul className="mt-4 space-y-3">
+                  {dict.services.list
+                    .filter((s) => s.slug !== slug)
+                    .map((s) => (
+                      <li key={s.slug}>
+                        <Link
+                          href={`/${locale}/services/${s.slug}`}
+                          className="text-[0.95rem] text-ink-soft transition-colors hover:text-accent"
+                          style={{ fontFamily: bodyFont }}
+                        >
+                          {s.name}
+                        </Link>
+                      </li>
+                    ))}
+                </ul>
+              </nav>
             </div>
-          </Rise>
-        </section>
+          </aside>
+        </div>
       </article>
     </>
   );

@@ -312,8 +312,8 @@ export default async function HomePage(props: PageProps<"/[locale]">) {
         </div>
       </section>
 
-      {/* PRICING */}
-      <section className="border-t border-rule bg-ink text-paper">
+      {/* PRICING (id is the target of "Packages and prices" links) */}
+      <section id="pricing" className="scroll-mt-20 border-t border-rule bg-ink text-paper">
         <div className="mx-auto w-full max-w-[1440px] px-6 py-24 md:px-10 md:py-36">
           <div
             className="flex items-center gap-4 py-3 text-[0.7rem] uppercase tracking-[0.2em] text-paper/60"
