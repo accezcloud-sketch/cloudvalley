@@ -1,7 +1,6 @@
 "use client";
 
-import Script from "next/script";
-import type { Locale } from "@/lib/i18n";
+import { SITE_URL, type Locale } from "@/lib/i18n";
 
 type Props = {
   locale: Locale;
@@ -26,11 +25,6 @@ export function ContactForm({ locale, labels }: Props) {
 
   return (
     <>
-      <Script
-        src="https://www.google.com/recaptcha/api.js"
-        strategy="lazyOnload"
-      />
-
       <form
         action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D41000002kA0p"
         method="POST"
@@ -41,7 +35,9 @@ export function ContactForm({ locale, labels }: Props) {
         <input
           type="hidden"
           name="retURL"
-          value={`${typeof window !== "undefined" ? window.location.origin : ""}/${locale}/thank-you`}
+          // Absolute and fixed: built from window.location it was a relative
+          // "/en/thank-you" in the delivered HTML until the script ran.
+          value={`${SITE_URL}/${locale}/thank-you`}
         />
         <input
           type="hidden"
