@@ -92,12 +92,6 @@ export type Dict = {
     title: string;
     lede: string;
     backLabel: string;
-    subscribe: {
-      title: string;
-      body: string;
-      placeholder: string;
-      cta: string;
-    };
   };
   about: {
     eyebrow: string;
@@ -417,13 +411,6 @@ const ar: Dict = {
     lede:
       "نكتبُ لمن يديرُ أعمالاً حقيقية، لا لمن يلاحقُ الضجيج. مقالاتٌ قصيرة، عملية، ومبنيةٌ على تجارب.",
     backLabel: "← العودة للمدوّنة",
-    subscribe: {
-      title: "اشترك في الرسالة الشهرية.",
-      body:
-        "مقالٌ مُطوَّلٌ واحدٌ في الشهر، يصلك يوم الأحد الأول. لا إعلانات، ولا رسائل ترويج.",
-      placeholder: "بريدك الإلكتروني",
-      cta: "اشترك",
-    },
   },
   about: {
     eyebrow: "٠٤ — من نحن",
@@ -554,7 +541,6 @@ const ar: Dict = {
         heading: "المعلومات التي نجمعها",
         body: [
           "المعلومات التي تقدّمها عبر نموذج التواصل: الاسم الأول، اسم العائلة، البريد الإلكتروني، رقم الجوال، اسم الشركة، المدينة، وتفاصيل مشروعك.",
-          "بريدك الإلكتروني عند اشتراكك في رسالتنا الشهرية.",
           "بيانات تُجمع تلقائيًا عند تصفّحك للموقع: عنوان IP، نوع المتصفّح والجهاز، والصفحات التي تزورها — عبر ملفّات تعريف الارتباط وأدوات التحليل.",
         ],
       },
@@ -564,7 +550,6 @@ const ar: Dict = {
         body: [
           "للردّ على استفساراتك وإعداد عروض الأسعار وتقديم الخدمات التي تطلبها.",
           "للتواصل معك بشأن مشروعك عبر البريد الإلكتروني أو واتساب الأعمال.",
-          "لإرسال رسالتنا الشهرية إن اشتركتَ فيها — ويمكنك إلغاء الاشتراك في أي وقت.",
           "لتحسين موقعنا وفهم كيفية استخدام الزوّار له.",
         ],
       },
@@ -1052,13 +1037,6 @@ const en: Dict = {
     lede:
       "We write for people running real businesses — not people chasing noise. Short, practical, built on what we saw in the field.",
     backLabel: "\u2190 Back to blog",
-    subscribe: {
-      title: "Subscribe to the monthly letter.",
-      body:
-        "One long essay, first Sunday of every month. No ads. No promotions. You can unsubscribe any time.",
-      placeholder: "Your email address",
-      cta: "Subscribe",
-    },
   },
   about: {
     eyebrow: "04 — About",
@@ -1188,7 +1166,6 @@ const en: Dict = {
         heading: "Information we collect",
         body: [
           "Information you provide through our contact form: first name, last name, email, mobile number, company name, city, and your project details.",
-          "Your email address when you subscribe to our monthly letter.",
           "Information collected automatically as you browse: IP address, browser and device type, and pages visited — gathered through cookies and analytics tools.",
         ],
       },
@@ -1198,7 +1175,6 @@ const en: Dict = {
         body: [
           "To respond to your inquiries, prepare quotes, and deliver the services you request.",
           "To communicate with you about your project via email or Business WhatsApp.",
-          "To send our monthly letter if you subscribed — you can unsubscribe at any time.",
           "To improve our website and understand how visitors use it.",
         ],
       },

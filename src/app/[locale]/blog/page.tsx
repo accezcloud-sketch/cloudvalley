@@ -6,7 +6,6 @@ import { getDict } from "@/lib/dictionaries";
 import { getBlogListing } from "@/lib/blog-data";
 import { Rise } from "@/components/rise";
 import { SectionRule } from "@/components/section-rule";
-import { SubscribeForm } from "@/components/subscribe-form";
 import { pageMetadata } from "@/lib/seo";
 
 export async function generateMetadata(props: PageProps<"/[locale]/blog">) {
@@ -130,40 +129,6 @@ export default async function BlogPage(props: PageProps<"/[locale]/blog">) {
             </Rise>
           ))}
         </ol>
-      </section>
-
-      {/* Subscribe */}
-      <section className="mx-auto w-full max-w-[1440px] px-6 py-24 md:px-10 md:py-32">
-        <div className="grid grid-cols-1 gap-10 border border-ink bg-paper-2/40 p-8 md:p-14 lg:grid-cols-12 lg:gap-16">
-          <div className="lg:col-span-6">
-            <h3
-              className="text-[clamp(1.8rem,4vw,3rem)] leading-[1.05]"
-              style={{
-                fontFamily: serifDisplay,
-                letterSpacing: isAr ? "0" : "-0.02em",
-              }}
-            >
-              {dict.blog.subscribe.title}
-            </h3>
-            <p
-              className="mt-5 max-w-md text-[1rem] leading-[1.6] text-ink-soft"
-              style={{
-                fontFamily: isAr
-                  ? "var(--font-sans-ar)"
-                  : "var(--font-serif-latin)",
-              }}
-            >
-              {dict.blog.subscribe.body}
-            </p>
-          </div>
-          <div className="lg:col-span-6 lg:self-end">
-            <SubscribeForm
-              locale={locale}
-              placeholder={dict.blog.subscribe.placeholder}
-              cta={dict.blog.subscribe.cta}
-            />
-          </div>
-        </div>
       </section>
     </>
   );
