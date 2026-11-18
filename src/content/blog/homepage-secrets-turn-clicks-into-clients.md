@@ -64,8 +64,6 @@ The most critical element is a clear, compelling value proposition that immediat
 > How can I make my homepage more trustworthy?
 You can build trust by featuring client testimonials, logos of reputable partners, case studies, and clear, professional contact information.
 
-## Frequently Asked Questions
-
 > How do I make my website's homepage convert visitors?
 To make your homepage convert, clearly articulate your value, use strong calls to action, build trust with testimonials and credentials, and ensure an intuitive user experience.
 
@@ -125,8 +123,6 @@ By implementing these principles, your homepage will transform from a passive on
 
 > كيف يمكنني جعل صفحتي الرئيسية أكثر موثوقية؟
 يمكنكم بناء الثقة من خلال عرض شهادات العملاء، وشعارات الشركاء المرموقين، ودراسات الحالة، ومعلومات اتصال واضحة واحترافية.
-
-## الأسئلة الشائعة
 
 > كيف أجعل صفحتي الرئيسية تحول الزوار؟
 لجعل صفحتكم الرئيسية تحقق التحويل، وضحوا عرض قيمتكم بوضوح، استخدموا دعوات قوية للإجراء، ابني الثقة بشهادات وبيانات اعتماد، وتأكدوا من تجربة مستخدم بديهية.
