@@ -15,7 +15,7 @@ import { parseInline } from "@/lib/article-markdown";
 import { ArticleList } from "@/components/article-list";
 import { ShareLinks } from "@/components/share-links";
 import { serviceSlugForNum } from "@/lib/service-map";
-import { coverAlt, COVER_WIDTH, COVER_HEIGHT } from "@/lib/cover-art";
+import { coverAlt, COVER_PNG_WIDTH, COVER_PNG_HEIGHT } from "@/lib/cover-art";
 import { Rise } from "@/components/rise";
 import { SectionRule } from "@/components/section-rule";
 import { JsonLd } from "@/components/json-ld";
@@ -26,6 +26,8 @@ import {
   breadcrumbSchema,
   ORG_ID,
   coverUrl,
+  COVER_IMAGE_WIDTH,
+  COVER_IMAGE_HEIGHT,
 } from "@/lib/seo";
 
 export async function generateStaticParams() {
@@ -54,7 +56,9 @@ export async function generateMetadata(props: {
     },
     image: {
       url: coverUrl(locale, slug),
-      alt: coverAlt(post.serviceNum, locale),
+      alt: coverAlt(post.cover, locale),
+      width: COVER_IMAGE_WIDTH,
+      height: COVER_IMAGE_HEIGHT,
     },
   });
 }
@@ -188,9 +192,9 @@ export default async function BlogPostPage(props: {
             {/* Cover: topic illustration drawn in code, also the share image. */}
             <Image
               src={`/${locale}/blog/${slug}/cover`}
-              alt={coverAlt(post.serviceNum, locale)}
-              width={COVER_WIDTH}
-              height={COVER_HEIGHT}
+              alt={coverAlt(post.cover, locale)}
+              width={COVER_PNG_WIDTH}
+              height={COVER_PNG_HEIGHT}
               preload
               sizes="(min-width: 1440px) 860px, (min-width: 1024px) 60vw, 100vw"
               className="mb-10 h-auto w-full border border-rule"

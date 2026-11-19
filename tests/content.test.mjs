@@ -246,3 +246,66 @@ test("no broken automation output: '>>' lines, '===' separators, duplicate FAQ h
   }
   assert.deepEqual(bad, []);
 });
+
+// ---------------------------------------------------------------------------
+// Cover pictures (src/lib/cover-art.ts). Node runs the TypeScript file
+// directly (type stripping, Node 22.18 or later). The site's cover route
+// picks the picture with the same coverSubject() from the English title.
+const art = await import(path.join(process.cwd(), "src", "lib", "cover-art.ts"));
+
+test("every article gets a cover picture that has a drawing and alt text", () => {
+  const bad = [];
+  for (const p of posts) {
+    const s = art.coverSubject(p.meta.serviceNum, p.meta.title, p.meta.excerpt);
+    if (!(s in art.SUBJECTS) || !art.ALT[s]) bad.push(`${p.file}: ${s}`);
+  }
+  assert.deepEqual(bad, []);
+});
+
+test("the cover keyword table only names pictures that exist, and every picture has alt text in both languages", () => {
+  const bad = [];
+  for (const [s, keys] of art.COVER_KEYWORDS) {
+    if (!(s in art.SUBJECTS)) bad.push(`keyword row for missing drawing: ${s}`);
+    if (!keys.length) bad.push(`no keywords: ${s}`);
+  }
+  for (const s of Object.values(art.SERVICE_SUBJECTS))
+    if (!(s in art.SUBJECTS)) bad.push(`service picture missing: ${s}`);
+  for (const s of Object.keys(art.SUBJECTS)) {
+    const a = art.ALT[s];
+    if (!a?.en || !a?.ar) bad.push(`alt text missing: ${s}`);
+    else if (/[\u2013\u2014]/.test(a.en + a.ar)) bad.push(`long dash in alt text: ${s}`);
+    else if (!/[؀-ۿ]/.test(a.ar)) bad.push(`Arabic alt text is not Arabic: ${s}`);
+  }
+  for (const s of Object.keys(art.ALT)) if (!(s in art.SUBJECTS)) bad.push(`alt text for missing drawing: ${s}`);
+  assert.deepEqual(bad, []);
+});
+
+test("cover pictures are matched from the title, then the excerpt, then the service", () => {
+  const cases = [
+    ["08", "Build a newsletter that converts", "", "email"],
+    ["08", "Win Back Lost Sales with Retargeting Ads", "", "target"],
+    ["02", "Local SEO: Be Found By Nearby Customers", "", "local"],
+    ["04", "Grow Social Media Without Ads", "", "social"],
+    ["03", "E-COMMERCE checkout tips", "", "checkout"],
+    ["04", "Turning Frowns Upside Down Online", "Respond to negative feedback.", "reviews"],
+    // whole words only: "adds" and "loads" are not "ads" or "load"
+    ["01", "Something that adds nothing and loads of it", "", "browser"],
+    ["07", "An unknown title", "Nothing to match here either.", "shop"],
+    ["08", "An unknown title", "", "growth"],
+    ["99", "An unknown title", "", "valley"],
+  ];
+  for (const [num, title, excerpt, want] of cases)
+    assert.equal(art.coverSubject(num, title, excerpt), want, `${num} "${title}"`);
+});
+
+test("every cover picture draws a well-formed SVG", () => {
+  const bad = [];
+  for (const s of Object.keys(art.SUBJECTS))
+    for (const seed of ["a", "b", "c", "d", "e", "f"]) {
+      const svg = art.coverSvg(s, seed);
+      if (/NaN|undefined|Infinity/.test(svg)) bad.push(`${s}/${seed}: bad number`);
+      if (!svg.startsWith("<svg") || !svg.endsWith("</svg>")) bad.push(`${s}/${seed}: not an svg`);
+      if (/<(text|image|filter|mask|clipPath|linearGradient|radialGradient|style)\b/.test(svg)) bad.push(`${s}/${seed}: element resvg may not draw`);
+    }
+  assert.deepEqual(bad, []);
+});

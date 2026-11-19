@@ -8,6 +8,7 @@ import {
   type Locale,
 } from "./i18n";
 import { getDict } from "./dictionaries";
+import { COVER_PNG_WIDTH, COVER_PNG_HEIGHT } from "./cover-art";
 
 type Alternates = NonNullable<Metadata["alternates"]>;
 
@@ -55,7 +56,9 @@ export const SHARE_IMAGE = `${SITE_URL}/og-default.png`;
 export const SHARE_IMAGE_WIDTH = 1200;
 export const SHARE_IMAGE_HEIGHT = 630;
 
-/** An article's cover / share image (src/app/[locale]/blog/[slug]/cover). */
+/** An article's cover / share image (src/app/[locale]/blog/[slug]/cover), a 2x PNG. */
+export const COVER_IMAGE_WIDTH = COVER_PNG_WIDTH;
+export const COVER_IMAGE_HEIGHT = COVER_PNG_HEIGHT;
 export const coverUrl = (locale: Locale, slug: string) =>
   urlFor(locale, `/blog/${slug}/cover`);
 
@@ -149,8 +152,8 @@ type PageMetaInput = {
   description?: string;
   /** Blog posts pass "article" plus the publish date. */
   article?: { publishedTime: string; modifiedTime?: string };
-  /** Page-specific share image; defaults to the site share image. */
-  image?: { url: string; alt: string };
+  /** Page-specific share image; defaults to the site share image (1200x630). */
+  image?: { url: string; alt: string; width?: number; height?: number };
 };
 
 /**
@@ -201,8 +204,8 @@ export function pageMetadata({
       images: [
         {
           url: shareImage.url,
-          width: SHARE_IMAGE_WIDTH,
-          height: SHARE_IMAGE_HEIGHT,
+          width: shareImage.width ?? SHARE_IMAGE_WIDTH,
+          height: shareImage.height ?? SHARE_IMAGE_HEIGHT,
           alt: shareImage.alt,
         },
       ],

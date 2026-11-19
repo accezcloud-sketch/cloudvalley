@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { coverAlt, COVER_WIDTH, COVER_HEIGHT } from "@/lib/cover-art";
+import { coverAlt, COVER_PNG_WIDTH, COVER_PNG_HEIGHT } from "@/lib/cover-art";
 import type { Locale } from "@/lib/i18n";
 import type { BlogListing } from "@/lib/blog-data";
 
@@ -40,9 +40,9 @@ export function ArticleList({ locale, heading, posts, more }: Props) {
             >
               <Image
                 src={`/${locale}/blog/${p.slug}/cover`}
-                alt={coverAlt(p.serviceNum, locale)}
-                width={COVER_WIDTH}
-                height={COVER_HEIGHT}
+                alt={coverAlt(p.cover, locale)}
+                width={COVER_PNG_WIDTH}
+                height={COVER_PNG_HEIGHT}
                 sizes="(min-width: 640px) 160px, 112px"
                 className="h-auto w-28 shrink-0 border border-rule sm:w-40"
               />

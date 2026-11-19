@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import type { Locale } from "./i18n";
 import { IMAGE_LINE_RE, plainText } from "./article-markdown";
+import { coverSubject, type CoverSubject } from "./cover-art";
 
 export type BlogSection =
   | { type: "paragraph"; text: string }
@@ -25,8 +26,13 @@ export type BlogListing = {
   excerpt: string;
   date: string;
   readTime: string;
-  /** Service "01".."08"; picks the cover illustration. */
+  /** Service "01".."08". */
   serviceNum: string;
+  /**
+   * Cover picture, matched from the English title and excerpt (falling back
+   * to the service picture), so both languages share one cover.
+   */
+  cover: CoverSubject;
 };
 
 export type BlogPostData = BlogListing & {
@@ -273,6 +279,11 @@ function loadAll(): Record<Locale, Record<string, BlogPostData>> {
     const raw = fs.readFileSync(path.join(CONTENT_ROOT, file), "utf-8");
     const { meta, body } = parseFrontmatter(raw);
     const [enBody, arBody] = splitBilingualBody(body);
+    const cover = coverSubject(
+      meta.serviceNum ?? "",
+      plainText(meta.title ?? ""),
+      plainText(meta.excerpt ?? ""),
+    );
 
     result.en[slug] = {
       slug,
@@ -286,6 +297,7 @@ function loadAll(): Record<Locale, Record<string, BlogPostData>> {
       readTime: "",
       description: plainText(meta.description ?? ""),
       serviceNum: meta.serviceNum ?? "",
+      cover,
       body: parseBody(enBody),
     };
     result.en[slug].readTime = readingTime(result.en[slug].body, "en");
@@ -304,6 +316,7 @@ function loadAll(): Record<Locale, Record<string, BlogPostData>> {
       readTime: "",
       description: plainText(meta.descriptionAr ?? meta.description ?? ""),
       serviceNum: meta.serviceNum ?? "",
+      cover,
       body: parseBody(arBody),
     };
     result.ar[slug].readTime = readingTime(result.ar[slug].body, "ar");
@@ -348,6 +361,7 @@ export function getBlogListing(locale: Locale): BlogListing[] {
     date: p.date,
     readTime: p.readTime,
     serviceNum: p.serviceNum,
+    cover: p.cover,
   }));
 }
 

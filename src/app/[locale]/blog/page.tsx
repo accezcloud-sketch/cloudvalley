@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
-import { coverAlt, COVER_WIDTH, COVER_HEIGHT } from "@/lib/cover-art";
+import { coverAlt, COVER_PNG_WIDTH, COVER_PNG_HEIGHT } from "@/lib/cover-art";
 import { isLocale } from "@/lib/i18n";
 import { getDict } from "@/lib/dictionaries";
 import { getBlogListing } from "@/lib/blog-data";
@@ -85,9 +85,9 @@ export default async function BlogPage(props: PageProps<"/[locale]/blog">) {
                 {/* Cover thumbnail: the article's topic illustration. */}
                 <Image
                   src={`/${locale}/blog/${post.slug}/cover`}
-                  alt={coverAlt(post.serviceNum, locale)}
-                  width={COVER_WIDTH}
-                  height={COVER_HEIGHT}
+                  alt={coverAlt(post.cover, locale)}
+                  width={COVER_PNG_WIDTH}
+                  height={COVER_PNG_HEIGHT}
                   sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw"
                   className="h-auto w-full border border-rule md:col-span-4 lg:col-span-3"
                 />
