@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import type { Locale } from "@/lib/i18n";
 import type { Dict } from "@/lib/dictionaries";
 import { waLink } from "@/lib/i18n";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 // Only the strings the header shows: passing the whole dictionary to this
 // client component serialised every page's full text (legal pages, prices…)
@@ -67,10 +68,10 @@ export function SiteHeader({ locale, dict }: Props) {
           : "border-transparent bg-paper/60 backdrop-blur-sm"
       }`}
     >
-      <div className="mx-auto flex w-full max-w-[1440px] items-center justify-between px-6 py-4 md:px-10 md:py-5">
+      <div className="mx-auto flex w-full max-w-[1440px] items-center justify-between gap-3 px-4 py-4 min-[380px]:px-6 md:px-10 md:py-5">
         <Link
           href={`/${locale}`}
-          className="group flex items-center gap-2.5 text-ink transition-opacity hover:opacity-80"
+          className="group flex shrink-0 items-center gap-2 text-ink transition-opacity hover:opacity-80 md:gap-2.5"
           aria-label={dict.brand.name}
         >
           <Image
@@ -82,7 +83,7 @@ export function SiteHeader({ locale, dict }: Props) {
             className="h-6 w-auto md:h-7"
           />
           <span
-            className={`text-lg leading-none tracking-tight md:text-xl ${
+            className={`whitespace-nowrap text-base leading-none tracking-tight min-[380px]:text-lg md:text-xl ${
               isAr ? "font-normal" : "italic"
             }`}
             style={{ fontFamily: "var(--font-serif-latin)" }}
@@ -91,7 +92,7 @@ export function SiteHeader({ locale, dict }: Props) {
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-8 lg:flex">
+        <nav className="hidden items-center gap-5 lg:flex xl:gap-8">
           {nav.map((item) => {
             const active =
               item.href === `/${locale}`
@@ -101,7 +102,7 @@ export function SiteHeader({ locale, dict }: Props) {
               <Link
                 key={item.href}
                 href={item.href}
-                className="link-sweep text-[0.95rem] text-ink-soft hover:text-ink"
+                className="link-sweep whitespace-nowrap text-[0.95rem] text-ink-soft hover:text-ink"
                 data-active={active}
               >
                 {item.label}
@@ -111,6 +112,7 @@ export function SiteHeader({ locale, dict }: Props) {
         </nav>
 
         <div className="flex items-center gap-2 md:gap-4">
+          <ThemeToggle locale={locale} />
           <Link
             href={otherHref}
             className="rounded-full border border-ink/70 px-3 py-1.5 text-[0.72rem] uppercase tracking-[0.18em] text-ink transition-colors hover:bg-ink hover:text-paper"
@@ -129,7 +131,7 @@ export function SiteHeader({ locale, dict }: Props) {
             )}
             target="_blank"
             rel="noreferrer"
-            className="hidden items-center gap-2 rounded-full bg-ink px-4 py-2 text-[0.85rem] text-paper transition-colors hover:bg-accent lg:inline-flex"
+            className="hidden items-center gap-2 whitespace-nowrap rounded-full bg-ink px-4 py-2 text-[0.85rem] text-paper transition-colors hover:bg-accent lg:inline-flex"
           >
             <span
               className="h-1.5 w-1.5 rounded-full bg-whatsapp"

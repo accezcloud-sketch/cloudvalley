@@ -16,6 +16,7 @@ import {
   SHARE_IMAGE_HEIGHT,
   urlFor,
 } from "@/lib/seo";
+import { THEME_SCRIPT } from "@/lib/theme";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { WhatsAppDock } from "@/components/whatsapp-dock";
@@ -49,7 +50,8 @@ const ibmAr = IBM_Plex_Sans_Arabic({
   display: "swap",
 });
 
-// Browser bar colour for each scheme (dark mode follows the device).
+// Browser bar colour for each scheme (dark mode follows the device unless
+// the visitor chose a theme with the header button).
 export const viewport: Viewport = {
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "#f2ede3" },
@@ -123,7 +125,12 @@ export default async function LocaleLayout(props: LayoutProps<"/[locale]">) {
       lang={locale}
       dir={dir}
       className={`${fraunces.variable} ${amiri.variable} ${jetbrains.variable} ${ibmAr.variable}`}
+      // The theme script below may add data-theme before React hydrates.
+      suppressHydrationWarning
     >
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
+      </head>
       <body className="min-h-screen bg-paper text-ink paper-grain">
         <div className="relative z-10 flex min-h-screen flex-col">
           <SiteHeader
