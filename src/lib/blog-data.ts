@@ -46,6 +46,12 @@ export type BlogPostData = BlogListing & {
    * "Updated …" and sent to Google as dateModified and sitemap lastmod.
    */
   isoUpdated: string;
+  /**
+   * Place among the articles with the same cover picture, oldest first
+   * (0, 1, 2...). Steps the picture's layout so they do not look alike, and
+   * stays put when newer articles are added.
+   */
+  coverVariant: number;
 };
 
 const CONTENT_ROOT = path.join(process.cwd(), "src", "content", "blog");
@@ -298,6 +304,7 @@ function loadAll(): Record<Locale, Record<string, BlogPostData>> {
       description: plainText(meta.description ?? ""),
       serviceNum: meta.serviceNum ?? "",
       cover,
+      coverVariant: 0,
       body: parseBody(enBody),
     };
     result.en[slug].readTime = readingTime(result.en[slug].body, "en");
@@ -317,9 +324,22 @@ function loadAll(): Record<Locale, Record<string, BlogPostData>> {
       description: plainText(meta.descriptionAr ?? meta.description ?? ""),
       serviceNum: meta.serviceNum ?? "",
       cover,
+      coverVariant: 0,
       body: parseBody(arBody),
     };
     result.ar[slug].readTime = readingTime(result.ar[slug].body, "ar");
+  }
+
+  // Number the articles that share a picture, oldest first.
+  const seen = new Map<string, number>();
+  const byAge = Object.values(result.en).sort(
+    (a, b) => a.isoDate.localeCompare(b.isoDate) || a.slug.localeCompare(b.slug),
+  );
+  for (const p of byAge) {
+    const n = seen.get(p.cover) ?? 0;
+    seen.set(p.cover, n + 1);
+    p.coverVariant = n;
+    if (result.ar[p.slug]) result.ar[p.slug].coverVariant = n;
   }
 
   return result;

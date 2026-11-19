@@ -60,13 +60,31 @@ function rng(seed: number): () => number {
   };
 }
 
-type Rand = { int: (min: number, max: number) => number; bool: () => boolean };
+type Rand = {
+  int: (min: number, max: number) => number;
+  bool: () => boolean;
+  /**
+   * A subject's main layout choice. Without a variant number it keeps the
+   * seeded value; with one it alternates, so articles that share a picture
+   * (variant 0, 1, 2...) do not look alike.
+   */
+  first: (seeded: boolean) => boolean;
+  /** A second choice that changes every two variants. */
+  second: (seeded: boolean) => boolean;
+  /** One of k options, stepping through them variant by variant. */
+  cycle: (k: number, seeded: number) => number;
+};
 
-function rand(seed: string): Rand {
+function rand(seed: string, variant?: number): Rand {
   const r = rng(hash(seed));
+  const has = variant !== undefined && Number.isInteger(variant) && variant >= 0;
+  const n = has ? (variant as number) : 0;
   return {
     int: (min, max) => min + Math.floor(r() * (max - min + 1)),
     bool: () => r() < 0.5,
+    first: (seeded) => (has ? n % 2 === 1 : seeded),
+    second: (seeded) => (has ? Math.floor(n / 2) % 2 === 1 : seeded),
+    cycle: (k, seeded) => (has ? n % k : seeded),
   };
 }
 
@@ -176,8 +194,8 @@ type Subject = (v: Rand) => string;
 
 /** 01 Website design: browser window, nav, hero, columns, one CTA. */
 const browser: Subject = (v) => {
-  const ctaInNav = v.int(0, 3) === 0;
-  const imgLeft = v.bool();
+  const ctaInNav = v.second(v.int(0, 3) === 0);
+  const imgLeft = v.first(v.bool());
   const cols = v.int(2, 4);
   let s = rect(0, 0, 560, 410, 16, PAPER, INK, 4);
   s += line(0, 56, 560, 56, INK, 4);
@@ -214,8 +232,8 @@ const browser: Subject = (v) => {
 /** 02 SEO: search box, results list, first result highlighted. */
 const search: Subject = (v) => {
   const rows = v.int(2, 3);
-  const accentTitle = v.int(0, 2) === 0;
-  const lens = v.bool();
+  const accentTitle = v.second(v.int(0, 2) === 0);
+  const lens = v.first(v.bool());
   let s = rect(0, 0, 560, 64, 32, PAPER, INK, 4);
   s += circle(42, 30, 13, NONE, INK, 4) + line(52, 40, 62, 50, INK, 5);
   s += line(86, 32, 270, 32, SOFT, 10);
@@ -245,9 +263,9 @@ const search: Subject = (v) => {
 
 /** 03 Content production: stacked sheets with heading and lines, a fountain pen. */
 const sheets: Subject = (v) => {
-  const accentPen = v.int(0, 2) !== 0;
+  const accentPen = !v.second(v.int(0, 2) === 0);
   const hl = v.int(0, 4);
-  const withImg = v.bool();
+  const withImg = v.first(v.bool());
   const tilt = v.int(4, 9);
   const angle = v.int(22, 40);
   let s = g(`rotate(-${tilt} 230 220)`, rect(70, 16, 320, 396, 10, PAPER2, MUTE, 3));
@@ -278,8 +296,8 @@ const sheets: Subject = (v) => {
 
 /** 04 Social media: phone with a 3x3 grid of posts, speech bubbles, a heart. */
 const social: Subject = (v) => {
-  const phoneRight = v.bool();
-  const twoBubbles = v.int(0, 2) !== 0;
+  const phoneRight = v.first(v.bool());
+  const twoBubbles = !v.second(v.int(0, 2) === 0);
   const accentTile = v.int(0, 3) === 0 ? v.int(0, 8) : -1;
   const px = phoneRight ? 310 : 0;
   const bx = phoneRight ? 0 : 300;
@@ -310,8 +328,8 @@ const social: Subject = (v) => {
 
 /** 05 Mobile app: two phones with app screens (cards, toggles, tab bar). */
 const apps: Subject = (v) => {
-  const leftUp = v.bool();
-  const accentToggle = v.int(0, 2) !== 0;
+  const leftUp = v.first(v.bool());
+  const accentToggle = !v.second(v.int(0, 2) === 0);
   const cards = v.int(2, 3);
   const onRow = v.int(0, 2);
   const ay = leftUp ? 0 : 20;
@@ -351,8 +369,8 @@ const apps: Subject = (v) => {
 
 /** 06 Brand identity: a mark built on guide circles, plus colour swatches. */
 const brand: Subject = (v) => {
-  const column = v.bool();
-  const mark = v.int(0, 2);
+  const column = v.first(v.bool());
+  const mark = v.cycle(3, v.int(0, 2));
   const n = v.int(4, 5);
   const accentAt = v.int(0, n - 1);
   const cx = column ? 190 : 280;
@@ -391,8 +409,8 @@ const brand: Subject = (v) => {
 
 /** 07 E-commerce: product card with image, price and add-to-cart button, a basket. */
 const shop: Subject = (v) => {
-  const stack = v.bool();
-  const product = v.int(0, 2);
+  const stack = v.first(v.bool());
+  const product = v.cycle(3, v.int(0, 2));
   const cardRight = v.int(0, 3) === 0;
   const cx = cardRight ? 260 : 0;
   const bx = cardRight ? 30 : 360;
@@ -427,9 +445,9 @@ const shop: Subject = (v) => {
 
 /** 08 Digital marketing: rising chart on axes, a megaphone. */
 const growth: Subject = (v) => {
-  const bars = v.bool();
+  const bars = v.first(v.bool());
   const n = v.int(5, 6);
-  const megaUp = v.bool();
+  const megaUp = v.second(v.bool());
   let s = "";
   for (const y of [100, 180, 260]) s += line(44, y, 390, y, HAIR, 3);
   const step = 330 / n;
@@ -462,9 +480,9 @@ const growth: Subject = (v) => {
 
 /** Email, newsletters: an open envelope with a letter rising out, a paper plane on a dotted trail. */
 const email: Subject = (v) => {
-  const right = v.bool();
+  const right = v.first(v.bool());
   const accentPlane = v.int(0, 2) === 0;
-  const img = v.bool();
+  const img = v.second(v.bool());
   const ex = right ? 184 : 16;
   const B = 410;
   const T = 196;
@@ -500,7 +518,7 @@ const email: Subject = (v) => {
 /** Ads, campaigns: a large megaphone with sound waves, sponsored post cards. */
 const ads: Subject = (v) => {
   const tilt = v.int(14, 24);
-  const accentCard = v.int(0, 3) === 0;
+  const accentCard = v.first(v.int(0, 3) === 0);
   let m = rect(-92, -36, 60, 72, 14, PAPER2, INK, 4);
   m += path("M-34-36L118-104V104L-34 36Z", PAPER, INK, 4);
   m += path("M28-64L56-77V77L28 64Z", PAPER2, INK, 3);
@@ -525,8 +543,8 @@ const ads: Subject = (v) => {
 
 /** Analytics, metrics: a dashboard with KPI tiles, a chart and a donut. */
 const analytics: Subject = (v) => {
-  const bars = v.bool();
-  const donutAccent = v.bool();
+  const bars = v.first(v.bool());
+  const donutAccent = v.second(v.bool());
   const hiTile = v.int(0, 2);
   let s = rect(0, 0, 560, 410, 16, PAPER, INK, 4) + chrome(0, 0, 560);
   // KPI tiles
@@ -571,9 +589,9 @@ const analytics: Subject = (v) => {
 
 /** Budgets, costs, spending: stacks of coins growing in height and a price tag on a string. */
 const budget: Subject = (v) => {
-  const accentTag = v.bool();
+  const accentTag = v.first(v.bool());
   const heights = v.bool() ? [3, 5, 7] : [2, 4, 6];
-  const pie = v.bool();
+  const pie = v.second(v.bool());
   let s = line(0, 404, 420, 404, HAIR, 3);
   const coin = (cx: number, top: number, hot: boolean) => {
     let c = path(`M${cx - 60} ${top}V${top + 22}A60 17 0 0 0 ${cx + 60} ${top + 22}V${top}Z`, hot ? ACCENT : PAPER2, INK, 4);
@@ -604,9 +622,9 @@ const budget: Subject = (v) => {
 
 /** Chatbots, customer replies: a friendly bot beside a chat window, a clock for round-the-clock answers. */
 const chat: Subject = (v) => {
-  const botRight = v.bool();
+  const botRight = v.first(v.bool());
   const accentSend = v.int(0, 2) === 0;
-  const clock = v.bool();
+  const clock = v.second(v.bool());
   const wx = botRight ? 0 : 196;
   const bx = botRight ? 464 : 96;
   const W = 364;
@@ -651,8 +669,8 @@ const chat: Subject = (v) => {
 /** Reviews, ratings, case studies: review cards with a row of stars, one big star. */
 const reviews: Subject = (v) => {
   const filled = v.int(4, 5);
-  const starRight = v.bool();
-  const quote = v.bool();
+  const starRight = v.first(v.bool());
+  const quote = v.second(v.bool());
   const ox = starRight ? 0 : 140;
   // the card behind
   let s = g(`rotate(-6 ${ox + 200} 150)`, rect(ox + 20, 40, 380, 190, 16, PAPER2, MUTE, 3) + line(ox + 140, 84, ox + 300, 84, HAIR, 8));
@@ -678,7 +696,7 @@ const reviews: Subject = (v) => {
 
 /** Website security: a two-tone shield with a padlock in front of a browser window. */
 const security: Subject = (v) => {
-  const shieldRight = v.bool();
+  const shieldRight = v.first(v.bool());
   const checks = v.int(2, 3);
   const wx = shieldRight ? 0 : 196;
   let s = rect(wx, 24, 364, 320, 16, PAPER, INK, 4) + chrome(wx, 24, 364);
@@ -705,8 +723,8 @@ const security: Subject = (v) => {
 
 /** Local SEO, Google Business Profile: a folded map with roads and a big location pin. */
 const local: Subject = (v) => {
-  const pinAt = v.int(1, 2);
-  const river = v.bool();
+  const pinAt = v.second(v.int(1, 2) === 2) ? 2 : 1;
+  const river = v.first(v.bool());
   const xs = [16, 148, 280, 412, 544];
   const tops = [166, 140, 166, 140, 166];
   const bots = [404, 384, 404, 384, 404];
@@ -736,7 +754,7 @@ const local: Subject = (v) => {
 
 /** Video, short videos: a player with a big play button and a phone playing a short. */
 const video: Subject = (v) => {
-  const phoneLeft = v.bool();
+  const phoneLeft = v.first(v.bool());
   const progress = v.int(36, 62) / 100;
   const px = phoneLeft ? 160 : 0;
   const fx = phoneLeft ? 0 : 368;
@@ -763,7 +781,7 @@ const video: Subject = (v) => {
 
 /** Checkout, payments, carts: an order summary with a pay button and a bank card. */
 const checkout: Subject = (v) => {
-  const cardLeft = v.int(0, 3) === 0;
+  const cardLeft = v.first(v.int(0, 3) === 0);
   const items = v.int(2, 3);
   const tilt = v.int(8, 16);
   const ox = cardLeft ? 230 : 0;
@@ -798,7 +816,7 @@ const checkout: Subject = (v) => {
 
 /** Loyalty, referrals: a gift box with a ribbon and a stamp card. */
 const loyalty: Subject = (v) => {
-  const giftRight = v.bool();
+  const giftRight = v.first(v.bool());
   const stamped = v.int(4, 6);
   const gx = giftRight ? 300 : 20;
   const cx = giftRight ? 16 : 300;
@@ -832,12 +850,12 @@ const loyalty: Subject = (v) => {
 
 /** Retargeting, conversion: a target with an arrow in the bullseye and a dotted path looping back to it. */
 const target: Subject = (v) => {
-  const loop = v.int(0, 2) !== 0;
+  const loop = !v.second(v.int(0, 2) === 0);
   const ang = v.int(28, 40);
+  const mirror = v.first(v.bool());
   const tx = loop ? 224 : 270;
   const ty = 222;
-  let s = circle(tx + 14, ty + 14, 180, HAIR);
-  s += circle(tx, ty, 180, PAPER, INK, 4);
+  let s = circle(tx, ty, 180, PAPER, INK, 4);
   s += circle(tx, ty, 135, PAPER2, INK, 3);
   s += circle(tx, ty, 90, PAPER, INK, 3);
   s += circle(tx, ty, 45, ACCENT);
@@ -854,18 +872,20 @@ const target: Subject = (v) => {
     s += dashed(`M${sx} ${sy}C${sx + 120} ${sy - 60} ${sx + 150} ${ty - 120} ${tx + 214} ${ty - 196}`, MUTE, 5, "2 14");
     s += path(`M${sx + 26} ${sy - 8}L${sx} ${sy}L${sx + 10} ${sy - 26}`, NONE, MUTE, 5);
   }
-  return s;
+  // the shadow always falls down and to the right, mirrored or not
+  const shadow = circle((mirror ? 560 - tx : tx) + 14, ty + 14, 180, HAIR);
+  return shadow + (mirror ? g("translate(560 0) scale(-1 1)", s) : s);
 };
 
-/** Copywriting, headlines, words: a page with a big headline, a text caret and an editing toolbar. */
+/** Copywriting, headlines, words: a page with a big headline, a text caret, and a toolbar, quote marks or a highlighter. */
 const copy: Subject = (v) => {
-  const quote = v.bool();
+  const kind = v.cycle(3, v.int(0, 2)); // 0 toolbar, 1 quote marks, 2 highlighter
   const line2 = v.int(180, 250);
   const lx = 40;
   let s = rect(lx + 18, 74, 470, 330, 16, PAPER2);
   s += rect(lx, 56, 470, 330, 16, PAPER, INK, 4);
   s += line(lx + 40, 124, lx + 400, 124, INK, 24);
-  s += rect(lx + 28, 152, line2 + 24, 44, 6, PAPER2);
+  s += rect(lx + 28, 152, line2 + 24, 44, 6, kind === 2 ? HAIR : PAPER2);
   s += line(lx + 40, 174, lx + 40 + line2, 174, INK, 24);
   const cx = lx + 58 + line2;
   s += line(cx, 146, cx, 202, ACCENT, 6) + line(cx - 10, 146, cx + 10, 146, ACCENT, 5) + line(cx - 10, 202, cx + 10, 202, ACCENT, 5);
@@ -873,7 +893,13 @@ const copy: Subject = (v) => {
     const end = [380, 410, 350, 220][i];
     s += line(lx + 40, 238 + i * 34, lx + end, 238 + i * 34, i === 3 ? HAIR : MUTE, 9);
   }
-  if (quote) {
+  if (kind === 2) {
+    // a highlighter lying across the top corner
+    let m = rect(-17, -96, 34, 126, 10, SOFT, INK, 4) + rect(-17, -96, 34, 30, 8, INK);
+    m += line(-6, -50, -6, 10, MUTE, 4);
+    m += path("M-12 30H12L8 54L-8 46Z", PAPER2, INK, 4);
+    s += g(`translate(${lx + 446} 64) rotate(38)`, m);
+  } else if (kind === 1) {
     // big closing quote marks over the top corner
     for (const dx of [0, 46]) s += circle(lx + 400 + dx, 40, 17, INK) + path(`M${lx + 417 + dx} 38C${lx + 418 + dx} 66 ${lx + 402 + dx} 80 ${lx + 384 + dx} 86`, NONE, INK, 8);
   } else {
@@ -890,7 +916,7 @@ const copy: Subject = (v) => {
 /** Content plans, posting schedules, bookings: a calendar page with planned days and a clock. */
 const calendar: Subject = (v) => {
   const hot = v.int(8, 26);
-  const clockTop = v.bool();
+  const clockTop = v.first(v.bool());
   const seedDays = [v.int(1, 6), v.int(9, 13), v.int(15, 20), v.int(22, 24), v.int(28, 33)];
   let s = rect(12, 56, 400, 354, 18, PAPER2);
   s += rect(0, 40, 400, 360, 18, PAPER, INK, 4);
@@ -927,7 +953,8 @@ const calendar: Subject = (v) => {
 
 /** Lead magnets, list growth, more customers: a horseshoe magnet pulling in people and mail. */
 const magnet: Subject = (v) => {
-  const down = v.bool();
+  const down = v.second(v.bool());
+  const mirror = v.first(v.bool());
   const rot = down ? 14 : -14;
   const U = "M64-74H-10A74 74 0 0 0-10 74H64";
   let m = `<path d="${U}" fill="none" stroke="${INK}" stroke-width="66" stroke-linecap="butt" stroke-linejoin="round"/>`;
@@ -959,12 +986,12 @@ const magnet: Subject = (v) => {
     s += dashed(`M${f(x + ux * (r + 14))} ${f(y + uy * (r + 14))}L${f(x + ux * (r + 70))} ${f(y + uy * (r + 70))}`, MUTE, 4, "10 12");
   }
   for (const [x, y, r, k] of items) s += badge(x, y, r, k);
-  return s;
+  return mirror ? g("translate(560 0) scale(-1 1)", s) : s;
 };
 
 /** Backlinks: two pages joined by a chain, the middle link highlighted. */
 const links: Subject = (v) => {
-  const up = v.bool();
+  const up = v.first(v.bool());
   const ay = up ? 150 : 20;
   const by = up ? 20 : 150;
   const page = (x: number, y: number, src: boolean) => {
@@ -995,7 +1022,8 @@ const links: Subject = (v) => {
 /** Site speed, technical SEO: a speedometer with the needle near the top, a finished load bar. */
 const speed: Subject = (v) => {
   const val = v.int(74, 88) / 100;
-  const marks = v.bool();
+  // the accent goes either on the needle or on the fast end of the scale
+  const hotBand = v.first(v.bool());
   const cx = 280;
   const cy = 300;
   const R = 230;
@@ -1004,20 +1032,20 @@ const speed: Subject = (v) => {
   // scale bands, slow to fast
   s += path(arc(cx, cy, 180, 180, 72), NONE, HAIR, 28);
   s += path(arc(cx, cy, 180, 72, 32), NONE, MUTE, 28);
-  s += path(arc(cx, cy, 180, 32, 0), NONE, SOFT, 28);
+  s += path(arc(cx, cy, 180, 32, 0), NONE, hotBand ? ACCENT : SOFT, 28);
   for (let i = 0; i <= 10; i++) {
     const a = 180 - i * 18;
     const [x1, y1] = polar(cx, cy, 212, a);
     const [x2, y2] = polar(cx, cy, i % 5 ? 204 : 196, a);
     s += line(x1, y1, x2, y2, INK, i % 5 ? 3 : 5);
   }
-  if (marks) for (const a of [150, 120, 60, 30]) s += circle(...polar(cx, cy, 128, a), 4, HAIR);
+  for (const a of [150, 120, 90, 60, 30]) s += circle(...polar(cx, cy, 132, a), 4, HAIR);
   // needle
   const a = 180 - val * 180;
   const [tx, ty] = polar(cx, cy, 168, a);
   const [lx, ly] = polar(cx, cy, 15, a + 90);
   const [rx, ry] = polar(cx, cy, 15, a - 90);
-  s += path(`M${f(lx)} ${f(ly)}L${f(tx)} ${f(ty)}L${f(rx)} ${f(ry)}Z`, ACCENT, ACCENT, 4);
+  s += path(`M${f(lx)} ${f(ly)}L${f(tx)} ${f(ty)}L${f(rx)} ${f(ry)}Z`, hotBand ? INK : ACCENT, hotBand ? INK : ACCENT, 4);
   s += circle(cx, cy, 26, INK) + circle(cx, cy, 9, PAPER);
   s += line(cx - R - 14, cy, cx + R + 14, cy, INK, 4);
   // page load bar, done
@@ -1029,8 +1057,8 @@ const speed: Subject = (v) => {
 
 /** Calls to action, homepages, landing pages: a page with one big button and a cursor clicking it. */
 const cta: Subject = (v) => {
-  const right = v.bool();
-  const form = v.bool();
+  const right = v.first(v.bool());
+  const form = v.second(v.bool());
   const ox = right ? 90 : 0;
   let s = rect(ox, 10, 470, 350, 16, PAPER, INK, 4) + chrome(ox, 10, 470);
   if (form) {
@@ -1062,8 +1090,8 @@ const cta: Subject = (v) => {
 
 /** AI, automation, tech stack: meshing gears driven by a small workflow. */
 const automation: Subject = (v) => {
-  const accentSmall = v.bool();
-  const sparkle = v.bool();
+  const accentSmall = v.first(v.bool());
+  const sparkle = !v.second(!v.bool());
   const bx = 330;
   const by = 238;
   let s = "";
@@ -1094,7 +1122,7 @@ const automation: Subject = (v) => {
 
 /** One piece on every channel: a central piece of content wired to channel icons. */
 const channels: Subject = (v) => {
-  const n = v.int(4, 5);
+  const n = v.first(v.int(4, 5) === 5) ? 5 : 4;
   const shift = v.int(0, 4);
   const cx = 280;
   const cy = 210;
@@ -1265,11 +1293,16 @@ function isSubject(s: string): s is CoverSubject {
   return Object.prototype.hasOwnProperty.call(SUBJECTS, s);
 }
 
-/** Complete standalone SVG cover: a subject name (see coverSubject), varied by the seed (the slug). */
-export function coverSvg(subject: string, seed: string): string {
+/**
+ * Complete standalone SVG cover: a subject name (see coverSubject), varied
+ * by the seed (the slug). `variant` is the article's place among articles
+ * with the same picture (0, 1, 2... oldest first); it steps the main layout
+ * choices so those articles do not look alike.
+ */
+export function coverSvg(subject: string, seed: string, variant?: number): string {
   const name: CoverSubject = isSubject(subject) ? subject : "valley";
   const draw = SUBJECTS[name];
-  const v = rand(`${name}:${seed}`);
+  const v = rand(`${name}:${seed}`, variant);
   const left = v.bool();
   const k = 1.12; // subjects are drawn in a 560 x 420 box, shown at 627 x 470
   const x0 = left ? 120 : 453;

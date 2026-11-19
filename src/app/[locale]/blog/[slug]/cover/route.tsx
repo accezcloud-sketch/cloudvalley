@@ -26,7 +26,7 @@ export async function GET(
   const post = isLocale(locale) ? getBlogPost(locale, slug) : undefined;
   if (!post) return new Response("Not found", { status: 404 });
 
-  const svg = coverSvg(post.cover, slug);
+  const svg = coverSvg(post.cover, slug, post.coverVariant);
   const src = `data:image/svg+xml;base64,${Buffer.from(svg).toString("base64")}`;
 
   return new ImageResponse(

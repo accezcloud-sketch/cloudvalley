@@ -309,3 +309,10 @@ test("every cover picture draws a well-formed SVG", () => {
     }
   assert.deepEqual(bad, []);
 });
+
+test("articles that share a cover picture get different layouts (variant 0 and 1 differ)", () => {
+  const same = Object.keys(art.SUBJECTS).filter(
+    (s) => s !== "valley" && art.coverSvg(s, "x", 0) === art.coverSvg(s, "x", 1),
+  );
+  assert.deepEqual(same, []);
+});
